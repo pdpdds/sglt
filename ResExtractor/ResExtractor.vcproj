@@ -61,7 +61,6 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="freetype.lib"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../lib/debug"
 				GenerateDebugInformation="true"
