@@ -589,7 +589,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 	
 	  int sheetCount = sheets.get_Count();
 
-	  for(int i = 1; i < sheetCount; i++)
+	  for(int i = 2; i < sheetCount; i++)
 	  {
 		  lpDisp = sheets.get_Item( COleVariant((short)(1+i)) );
 		  ASSERT(lpDisp);
@@ -604,6 +604,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 		  if(iter == m_mapTextResPair.end())
 		  {
 			  ASSERT(0);
+			  app.Quit();
 			  return FALSE;
 		  }
 
@@ -630,6 +631,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			  if(FALSE == pResource->ReadText(j, szText))
 			  {
 				  ASSERT(0);
+				  app.Quit();
 				  return FALSE;
 			  }
 
@@ -653,8 +655,20 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			  if(szFirstText.IsEmpty() == TRUE)	  
 			  {
 				  ASSERT(0);
+				  app.Quit();
 				  return FALSE;
 			  }
+
+			  index[0]=j+1;
+			  index[1]=6;		   
+			  saRet.GetElement(index,vData);
+			  CString szOriginalText(vData);
+
+			  if(szOriginalText.IsEmpty() == TRUE)	  
+			  {
+				  continue;
+			  }
+
 
 			  index[0]=j+1;
 			  index[1]=7;		   
@@ -678,10 +692,15 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 	  }
 
 
-	  app.ReleaseDispatch();
-	 
-	  ::MessageBox(NULL, "Import Success", "AmonRa",
-                           MB_SETFOREGROUND | MB_OK);
+	 // app.ReleaseDispatch();
+	 // app.DetachDispatch();
+	  
+	  CString szTextDataInfo;
+	  szTextDataInfo.Format("TotalMessage Count : %d, TranstlatedMessagCount : %d", TotalTextCount, TranslateTextCount);
+
+	  ::MessageBox(NULL, szTextDataInfo.GetBuffer(), "AmonRa", MB_SETFOREGROUND | MB_OK);
+
+	  app.Quit();
 
 	}
 	catch(...)

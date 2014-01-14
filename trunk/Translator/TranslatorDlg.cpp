@@ -116,6 +116,7 @@ BOOL CTranslatorDlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
 	m_MsgController = new MsgController(this);
+//20131222
 	m_MsgController->Load("amonra");
 
 	m_MsgController->GetText(m_OriginalText, m_TranslatedText);
