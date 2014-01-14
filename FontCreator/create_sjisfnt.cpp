@@ -31,6 +31,8 @@
 #include <assert.h>
 #include <errno.h>
 
+#define  ASCII_SIZE 16
+#define  UNICODE_SIZE 32
 
 int main(int argc, char *argv[]) {
 	if (argc < 2 || argc > 3) {
@@ -59,7 +61,7 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 
-	if (!ttf->setSize(16)) {
+	if (!ttf->setSize(ASCII_SIZE )) {
 		delete ttf;
 		error("Could not setup font '%s' to size 16", font);
 		return -1;
@@ -70,14 +72,15 @@ int main(int argc, char *argv[]) {
 	int chars16x16 = 0;
 
 	ttf->renderASCIIGlyphs(glyphs, chars8x16);
-	//ttf->renderKANJIGlyphs(glyphs, chars16x16);
-	ttf->renderHangulGlyphs(glyphs, chars16x16);
-
-	if (!ttf->setSize(8)) {
+	
+	if (!ttf->setSize(UNICODE_SIZE / 2)) {
 		delete ttf;
 		error("Could not setup font '%s' to size 12", font);
 		return -1;
 	}
+
+	//ttf->renderKANJIGlyphs(glyphs, chars16x16);
+	ttf->renderHangulGlyphs(glyphs, chars16x16);
 
 	GlyphList glyphs2;
 	int chars8x8_uni = 0;
@@ -133,7 +136,7 @@ int main(int argc, char *argv[]) {
 
 			continue;
 		}
-		if (!isASCII(i->fB) && !i->checkSize(8, 8)) {
+		if (!isASCII(i->fB) && !i->checkSize(16, 16)) {
 
 				continue;
 				error("Could not fit glyph for %.2X %.2X top: %d bottom: %d, left: %d right: %d, xOffset: %d, yOffset: %d, width: %d, height: %d",
@@ -142,13 +145,13 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	const int sjis8x16DataSize = chars8x16 * 16;
+	const int sjis8x16DataSize = chars8x16 * UNICODE_SIZE;
 	uint8 *sjis8x16FontData = new uint8[sjis8x16DataSize];
 
 	if (!sjis8x16FontData)
 		error("Out of memory");
 
-	const int sjis16x16DataSize = chars16x16 * 32;
+	const int sjis16x16DataSize = chars16x16 * UNICODE_SIZE;
 	uint8 *sjis16x16FontData = new uint8[sjis16x16DataSize];
 
 	if (!sjis16x16FontData) {
@@ -174,12 +177,12 @@ int main(int argc, char *argv[]) {
 			int chunk = mapASCIItoChunk(i->fB);
 
 			if (chunk != -1)
-				i->convertChar8x16(sjis8x16FontData + chunk * 16);
+				i->convertChar16x16(sjis8x16FontData + chunk * UNICODE_SIZE);
 		} else {
 			int chunk = mapunicodetoChunk(i->doublebyte);
 
 			if (chunk != -1)
-				i->convertChar16x16(sjis16x16FontData + chunk * 32);
+				i->convertChar16x16(sjis16x16FontData + chunk * UNICODE_SIZE);
 		}
 	}
 

@@ -12,8 +12,11 @@ ResourceAmonRa::~ResourceAmonRa(void)
 
 void ResourceAmonRa::Init()
 {
-	_headerSize = 8;
-	_recordSize = 10;
+	//_headerSize = 8;
+	//_recordSize = 10;
+	//_textOffset = 5;
+	_headerSize = 10;
+	_recordSize = 11;
 	_textOffset = 5;
 }
 

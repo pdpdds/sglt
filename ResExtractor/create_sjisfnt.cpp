@@ -258,7 +258,7 @@ int ExtractText(char* filename)
 
 int AnalyzeMap(Common::String& str)
 {
-	int _mapVersion = kResVersionSci1Late;
+	int _mapVersion = kResVersionSci11;
 	Common::SeekableReadStream *fileStream = 0;
 
 	if (!Common::File::exists(str))
@@ -371,7 +371,7 @@ int count = 0;
 		//outFile->write(_header, _headerSize);
 
 		fileStream->seek(Desc.fileoffset, SEEK_SET);
-		int error = decompress(kResVersionSci1Late, fileStream, outFile, Desc.number, Desc.type);
+		int error = decompress(kResVersionSci11, fileStream, outFile, Desc.number, Desc.type);
 
 		outFile->finalize();
 		outFile->close();
@@ -519,7 +519,8 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 		number = file->readUint16LE();
 		szPacked = file->readUint16LE() - 4;
 		szUnpacked = file->readUint16LE();
-		wCompression = file->readUint16LE();
+		//wCompression = file->readUint16LE();
+		wCompression = szUnpacked;
 		break;
 	case kResVersionSci11:
 		type = convertResType(file->readByte());
