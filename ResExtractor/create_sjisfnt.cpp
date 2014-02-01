@@ -173,6 +173,7 @@ int AnalyzeMap(Common::String& str);
 int ExtractText(char* filename);
 bool ExtractSpaceQuestRes();
 
+int _mapVersion = kResVersionSci2;
 int main(int argc, char *argv[])
 {
 	g_system = new OSystem();
@@ -204,8 +205,7 @@ int main(int argc, char *argv[])
 }
 
 int ExtractText(char* filename)
-{
-	int _mapVersion = kResVersionSci1Late;
+{	
 	Common::SeekableReadStream *fileStream = 0;
 	Common::String str = filename;
 
@@ -257,8 +257,7 @@ int ExtractText(char* filename)
 }
 
 int AnalyzeMap(Common::String& str)
-{
-	int _mapVersion = kResVersionSci11;
+{	
 	Common::SeekableReadStream *fileStream = 0;
 
 	if (!Common::File::exists(str))
@@ -371,7 +370,12 @@ int count = 0;
 		//outFile->write(_header, _headerSize);
 
 		fileStream->seek(Desc.fileoffset, SEEK_SET);
-		int error = decompress(kResVersionSci11, fileStream, outFile, Desc.number, Desc.type);
+
+		if(strcmpi(outFileName, "text.000") == 0)
+		{
+			int i =1;
+		}
+		int error = decompress((ResVersion)kResVersionSci2, fileStream, outFile, Desc.number, Desc.type);
 
 		outFile->finalize();
 		outFile->close();
@@ -519,8 +523,8 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 		number = file->readUint16LE();
 		szPacked = file->readUint16LE() - 4;
 		szUnpacked = file->readUint16LE();
-		//wCompression = file->readUint16LE();
-		wCompression = szUnpacked;
+		wCompression = file->readUint16LE();
+		//wCompression = szUnpacked;
 		break;
 	case kResVersionSci11:
 		type = convertResType(file->readByte());
