@@ -18,7 +18,7 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="../Bin32"
+			OutputDirectory="../Bin32/GabrielKnight"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
 			UseOfMFC="2"
@@ -323,6 +323,14 @@
 			</File>
 			<File
 				RelativePath=".\ResourceGabriel.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ResourceQFG1.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ResourceQFG1.h"
 				>
 			</File>
 			<File

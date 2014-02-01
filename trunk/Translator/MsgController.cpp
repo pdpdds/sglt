@@ -4,6 +4,7 @@
 #include "ResourceGabriel.h"
 #include "ResourceEcho1.h"
 #include "ResourceAmonRa.h"
+#include "ResourceQFG1.h"
 //#include "XLEzAutomation.h"
 //#include <afxdao.h>                     // MFC DAO database classes
  //#include <excel8.h>
@@ -123,6 +124,8 @@ SCITextResource* MsgController::CreateTextResource(int index)
 		return new ResourceEcho1(index);
 	if(m_GameName == "amonra")
 		return new ResourceAmonRa(index);
+	if(m_GameName == "qfg1")
+		return new ResourceQFG1(index);
 
 	ASSERT(0);
 	return new ResourceGabriel(index);
@@ -654,7 +657,11 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 
 			  if(szFirstText.IsEmpty() == TRUE)	  
 			  {
-				  ASSERT(0);
+				  CString szTextDataInfo;
+				  szTextDataInfo.Format("ErrorPoint. SheetNum : %d, RowCount : %d", i, j);
+
+				  ::MessageBox(NULL, szTextDataInfo.GetBuffer(), "Error!!", MB_SETFOREGROUND | MB_OK);
+				  //ASSERT(0);
 				  app.Quit();
 				  return FALSE;
 			  }
@@ -698,7 +705,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 	  CString szTextDataInfo;
 	  szTextDataInfo.Format("TotalMessage Count : %d, TranstlatedMessagCount : %d", TotalTextCount, TranslateTextCount);
 
-	  ::MessageBox(NULL, szTextDataInfo.GetBuffer(), "AmonRa", MB_SETFOREGROUND | MB_OK);
+	  ::MessageBox(NULL, szTextDataInfo.GetBuffer(), "Success!!", MB_SETFOREGROUND | MB_OK);
 
 	  app.Quit();
 
