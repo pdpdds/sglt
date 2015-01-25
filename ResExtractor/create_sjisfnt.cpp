@@ -173,7 +173,7 @@ int AnalyzeMap(Common::String& str);
 int ExtractText(char* filename);
 bool ExtractSpaceQuestRes();
 
-int _mapVersion = kResVersionSci2;
+int _mapVersion = kResVersionSci11;
 int main(int argc, char *argv[])
 {
 	g_system = new OSystem();
@@ -185,10 +185,10 @@ int main(int argc, char *argv[])
 	SearchMan.addDirectory(dir.getPath(), dir, 0, 4);
 
 	Common::String str = "resource.map";
-	//str = "MESSAGE.MAP";
+	str = "MESSAGE.MAP";
 	AnalyzeMap(str);
-	//ExtractRes();
-	ExtractSpaceQuestRes();
+	ExtractRes();
+	//ExtractSpaceQuestRes();
 
 
 	/*for(int i = 0; i <2000; i++)
@@ -375,7 +375,7 @@ int count = 0;
 		{
 			int i =1;
 		}
-		int error = decompress((ResVersion)kResVersionSci2, fileStream, outFile, Desc.number, Desc.type);
+		int error = decompress((ResVersion)kResVersionSci11, fileStream, outFile, Desc.number, Desc.type);
 
 		outFile->finalize();
 		outFile->close();
@@ -421,7 +421,7 @@ bool ExtractRes()
 		//outFile->write(_header, _headerSize);
 
 		fileStream->seek(Desc.fileoffset, SEEK_SET);
-		int error = decompress(kResVersionSci2, fileStream, outFile, Desc.number, Desc.type);
+		int error = decompress(kResVersionSci11, fileStream, outFile, Desc.number, Desc.type);
 
 		outFile->finalize();
 		outFile->close();
@@ -599,7 +599,7 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 ResourceType convertResType(byte type) {
 	type &= 0x7f;
 
-	int _mapVersion = kResVersionSci1Late;
+	int _mapVersion = kResVersionSci11;
 	if (_mapVersion < kResVersionSci2) {
 		// SCI0 - SCI2
 		//if (type < ARRAYSIZE(s_resTypeMapSci0))
