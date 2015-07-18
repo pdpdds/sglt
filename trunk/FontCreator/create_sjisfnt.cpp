@@ -24,7 +24,7 @@
 
 #include "common/endian.h"
 #include "common/file.h"
-
+#include <algorithm>	
 #include <stdio.h>
 #include <stdlib.h>
 #include "iconv.h"
