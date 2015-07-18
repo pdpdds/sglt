@@ -11,8 +11,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextTranslator", "TextTrans
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontCreator", "FontCreator\SJISFontCreator.vcproj", "{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicsGameExtractor", "DynamicsGameExtractor\DynamicsGameExtractor.vcproj", "{42067B34-6874-40C3-9234-AF368C406C95}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,10 +37,6 @@ Global
 		{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}.Debug|Win32.Build.0 = Debug|Win32
 		{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}.Release|Win32.ActiveCfg = Release|Win32
 		{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}.Release|Win32.Build.0 = Release|Win32
-		{42067B34-6874-40C3-9234-AF368C406C95}.Debug|Win32.ActiveCfg = Debug|Win32
-		{42067B34-6874-40C3-9234-AF368C406C95}.Debug|Win32.Build.0 = Debug|Win32
-		{42067B34-6874-40C3-9234-AF368C406C95}.Release|Win32.ActiveCfg = Release|Win32
-		{42067B34-6874-40C3-9234-AF368C406C95}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

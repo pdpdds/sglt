@@ -173,9 +173,18 @@ int AnalyzeMap(Common::String& str);
 int ExtractText(char* filename);
 bool ExtractSpaceQuestRes();
 
-int _mapVersion = kResVersionSci11;
 int main(int argc, char *argv[])
 {
+
+	if(argc < 2)
+		return 0;
+
+	if(strcmp(argv[1], "lb1") == 0)
+		_mapVersion = kResVersionSci0Sci1Early;
+	else	
+		_mapVersion = kResVersionSci2;
+
+
 	g_system = new OSystem();
 	g_system->initBackend();
 
@@ -185,10 +194,12 @@ int main(int argc, char *argv[])
 	SearchMan.addDirectory(dir.getPath(), dir, 0, 4);
 
 	Common::String str = "resource.map";
+
 	str = "MESSAGE.MAP";
 	AnalyzeMap(str);
+
 	ExtractRes();
-	//ExtractSpaceQuestRes();
+
 
 
 	/*for(int i = 0; i <2000; i++)
