@@ -173,6 +173,8 @@ int AnalyzeMap(Common::String& str);
 int ExtractText(char* filename);
 bool ExtractSpaceQuestRes();
 
+int _mapVersion = kResVersionSci2;
+
 int main(int argc, char *argv[])
 {
 
