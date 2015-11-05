@@ -1,0 +1,1 @@
+this project implements old sierra game's unicode langauage translation, specially korean.
