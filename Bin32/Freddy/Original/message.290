@@ -1,0 +1,92 @@
+11	0	0	1	99	There's no reason to put that in the barrel. 
+11	5	0	1	99	Alexander doesn't want to get into the ferryman's things uninvited. 
+11	1	0	1	99	There's a barrel near the door.
+11	2	0	1	99	The barrel does not reply. 
+7	0	0	1	99	There's no reason to put that on the bed.
+7	5	0	1	99	Alexander isn't in the mood for a nap.  Besides, he finds the thought of the old sea salt's bed linens rather uninviting. 
+7	1	0	1	99	The ferryman's bunk looks hard and uncomfortable.  No wonder he can be so cranky.  
+7	2	0	1	99	The bunk has nothing to say.
+6	5	12	1	2	"(POLITE, SYMPATHETIC) Well, I think I'll be going now.  Thanks for allowing me into your home."   
+6	5	12	2	23	"(SAD, RESOLVED) Posh!  Not at all.  It breaks the boredom, if ya know what I mean.  <sigh>"  
+6	5	13	1	2	"(POLITE, SYMPATHETIC) Well, thanks again for your hospitality."    
+6	5	13	2	23	"Yer always welcome, Alexander.  Come back any time."          
+6	1	0	1	99	The cabin door leads back outside to the docks. 
+15	5	0	1	99	Alexander is already sitting in a chair. 
+15	1	0	1	99	Two plain wooden chairs are arranged neatly around a small table. 
+15	2	0	1	99	The chair does not respond.
+3	0	0	1	2	"Would you be at all interested in this?" 
+3	0	0	2	23	"Nah.  What need has a poor, dry-docked ferryman for that?"  
+3	40	0	1	2	"I have this copper coin.  Would you be interested?"   
+3	40	0	2	23	"I wouldn't feel right taking yer money without a ferry ride to offer ya for it!"       
+3	5	0	1	99	The old sea salt is a little crusty around the edges.  Alexander would rather keep his hands to himself.
+3	1	0	1	99	The ferryman is a disgruntled-looking man who is probably a lot younger than he appears.  Despite his tired air, he watches Alexander patiently.    
+3	68	0	1	99	The ferryman gave Alexander the rabbit's foot.  He doesn't want it back.
+3	70	0	1	2	"Would you be interested in this ring?"
+3	70	0	2	23	"I don't need charity!  I won't take nothing from no man 'til I get back in business and can earn my own keep!"
+3	2	2	1	2	"I'm a visitor to these islands.  I'd like to learn what I can about the area."   
+3	2	2	2	23	"So ya said outside.  What is it ya want to know?"   
+3	2	2	3	2	"Well, for one thing, why has the island's only ferry been dry-docked?"  
+3	2	2	4	23	"Hmph.  It just ain't safe to sail these days, what with the islands feuding and all.  Vizier Alhazred ordered the ferry closed 'til things settle down.  Me, I don't think she'll ever see water again <sigh>."   
+3	2	2	5	2	"But why are the islands feuding?" 
+3	2	2	6	23	"Ya got me.  Something about stolen property or some such thing.  'Tis a real shame.  Things used to be so friendly."   
+3	2	2	7	2	"Then this unrest is recent." 
+3	2	2	8	23	"A few years is all, but it's been long enough."  
+3	2	2	9	2	"Perhaps if the ferry were repaired?" 
+3	2	2	10	23	"This old thing?  This ferry's been out of water so long, she's no longer even seaworthy.  Her boards have dry rot.  She'd fall apart at the first taste of seawater!" 
+3	2	2	11	2	"But there must be some way to get off this island!"  
+3	2	2	12	23	"There's only one other way to travel that I know of--a magic map.  The owner of the Pawn Shoppe can tell ya more about that than I can, Alexander."    
+3	2	5	1	2	"Tell me more about Princess Cassima."
+3	2	5	2	23	"(SMILING) Ah!  Such a beautiful child!  And so pure of heart!  Why, a contrary thought has never crossed her mind."
+3	2	5	3	23	"Her mother was the same.  The king and queen, they served the islands, not the other way around.  Always thinking 'bout the people."
+3	2	5	4	23	"<sigh> They are sorely missed."
+3	2	17	1	2	"What else can you tell me about the Land?" 
+3	2	6	1	23	"Let's see.  The Isle of Wonder's a lovely spot.  A bit crazy, mind.  Ya gotta have a good sense of humor to enjoy a tour there." 
+3	2	14	1	23	"The Isle of the Beast is pretty, but unfortunately ya can't get very far onto the island."    
+3	2	15	1	23	"The inhabitants of the Isle of the Sacred Mountain are the most gorgeous creatures ya'll ever see.  If ya ever get to see them, that is."   
+3	2	16	1	23	"The Castle of the Crown sure is a beauty.  She's the finest palace ever built, I'll warrant."     
+3	2	18	1	23	"Some say that the Land of the Green Isles is near the edge of the world, and that the deadly currents are a result of a magnetism that sucks life from this world to the next.  Of course, that's just silly talk...."                
+3	2	19	1	23	"The island's currents keep us pretty isolated.  I can only recall three visitors in my lifetime.  When I was a boy a wanderer came, Alhazred himself arrived many years ago, and now you.  We have almost no contact with the outside world, but we're content with our little kingdom.  At least, we always were in the past."
+3	2	3	1	2	"Tell me more about the ferry."
+3	2	3	2	23	"I remember when I used to ferry Queen Allaria and Princess Cassima themselves!  There was no thought of danger back then."
+3	2	3	3	23	"They used to go visiting to care for the needy and to keep up the friendly relations between the islands."   
+3	2	3	4	23	"I remember their last trip.  Things had started getting nasty by then, and when they came back aboard I gathered that the queen and the princess had been received a bit coldly."
+3	2	3	5	23	"Princess Cassima was such a pretty thing, and she was terribly upset.  'But, who could be spreading these lies?' she asked the queen.  But the queen had no answer." 
+3	2	4	1	2	"What do you do now that the ferry no longer operates?"
+3	2	4	2	23	"Me?  I'm out of a job--the job my ancestors have held for generations.  I'm the only one trained to avoid the reef and the rocks, but that knowledge does me no good now."
+3	2	4	3	2	"Is there no other boat on the island?  One that might be more seaworthy?" 
+3	2	4	4	23	"Boats don't last long on these shoals, as ya may have found out if ya got here by ship.  Ya can be quite sure that this ole ferry is, or was, the only craft on the island."     
+9	5	0	1	99	Alexander doesn't want to take the ferryman's lamps.  He obviously has little enough to offer him comfort. 
+9	1	0	1	99	Several oil lamps are strategically placed around the boat's cabin to illuminate the island's dark nights. 
+9	2	0	1	99	The lamps chose not to illuminate Alexander.
+12	5	0	1	99	The woman in the picture probably means something to the ferryman.  Alexander decides to leave the picture on the wall.     
+12	1	0	1	99	An old oil painting of a pretty girl hangs on the cabin wall. 
+12	2	0	1	99	The image in the picture does not reply. 
+10	0	0	1	99	There's no reason to throw that out of the porthole. 
+10	5	0	1	99	If Alexander wants to leave, he should just use the door. 
+10	1	0	1	99	Portholes provide fresh sea air and daylight to the boat's small cabin. 
+10	2	0	1	99	The portholes seem whole-ly unfamiliar with Alexander's vocabulary. 
+4	0	0	1	99	There's no reason to use that on the rabbit's foot.
+4	5	0	1	2	"(CURIOUS) I see you have a rabbit's foot.  Has it brought you much luck?"
+4	5	0	2	23	"(DISGUSTED) Hrmph!  As ya can see, my luck's been out for some time now, despite that old charm."
+4	5	0	3	23	"Why don't ya take it with ya?  Perhaps giving the darn thing away will bring me good fortune at last!"
+4	5	0	4	2	"(POLITE) Perhaps it will at that.  Thank you."
+4	1	0	1	99	There's a rabbit's foot on the table.  It seems the ferryman is counting on a little luck.
+4	2	0	1	99	The rabbit's foot is long past even making a squeal. 
+5	5	0	1	99	Alexander doesn't want to take anything from the cabin unless the ferryman offers it to him.
+5	1	0	1	99	Alexander is sitting inside the ferry's cabin.  The place displays the neatness of a seaman and the sparseness of a bachelor.  There are few frills and comforts in the rough wooden environment, but the sunlight shines cheerily on the oaken beams, and the portholes admit a pleasant breeze.  
+5	2	0	1	99	The ferryman seems to be the only one in the cabin to address.
+14	1	0	1	99	A cabinet with a dry sink lines one wall of the cabin. 
+1	0	9	1	23	"How goes it, Alexander?"  
+1	0	8	1	23	"What is it ya wanted to talk about, young man?"   
+8	0	0	1	99	There's no reason to use that on the stove. 
+8	5	0	1	99	The fire in the stove is out, and it is too warm a day to light it.  
+8	43	20	1	99	Why would Alexander want to make rain here?  It's such a nice, clear day. 
+8	1	0	1	99	A black, pot-bellied stove in the corner provides warmth on the cool tropical nights--and a means for cooking.
+8	2	0	1	99	The stove gives Alexander the cold shoulder. 
+18	0	0	1	99	There's no reason to use that on the makeshift table. 
+18	5	11	1	99	There's nothing on the small table.  
+18	5	21	1	99	There's nothing of interest on that particular part of the table.  
+18	1	11	1	99	There's nothing on the table. 
+18	1	21	1	99	A table is positioned in front of two plain wooden chairs.  The table consists of a board placed over a small barrel.     
+18	1	21	2	99	There's a rabbit's foot on the table.  
+18	68	0	1	99	

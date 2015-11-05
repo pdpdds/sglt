@@ -1,0 +1,99 @@
+13	0	0	1	99	The spider is not harming Alexander and deserves to be treated the same.
+13	5	0	1	99	Alexander couldn't--and wouldn't want--to reach the spider.
+13	1	0	1	99	A brown spider peers down at the man in the cell with little interest.
+13	2	0	1	99	The spider is not interested in hearing about Alexander's problems.
+7	0	0	1	99	The barred window is very sturdy and would not be affected by that.
+7	5	0	1	99	The bars are immovable.
+7	1	0	1	99	Alexander looks out the small window.  The hallway is empty.
+7	2	14	1	99	The door says nothing.
+7	2	15	1	2	"Hello!  Is anyone there?  Could someone let me out?"
+7	2	15	2	99	Either there's no one on the other side of the door or, if there is, they aren't moved by Alexander's pleas.
+8	0	0	1	99	There's no reason to do that with the bed.
+8	5	0	1	99	The cot looks uncomfortable, not to mention a little dusty.  Alexander decides against taking a nap there.
+8	1	0	1	99	A plain cot is the only furnishing in the stark dungeon cell.
+5	0	14	1	99	There's no reason to do that to the door.
+5	0	15	1	99	Using that on the door would accomplish nothing.
+5	5	14	1	97	!!!Do not print this!  Comment MSG only.
+5	5	15	1	99	The dungeon door is locked.
+5	1	0	1	99	The dungeon door is made of sturdy wood.  At eye-level is a barred window.
+5	35	14	1	99	The door is not locked.
+5	35	15	1	99	Alexander unlocks the door with his skeleton key.
+5	35	15	2	99	And quickly makes his escape!
+5	2	14	1	99	The door does not reply.
+5	2	15	1	2	"Hello!  Is anyone there?  Could someone let me out?"
+5	2	15	2	99	Either there's no one on the other side of the door or, if there IS, they aren't moved by Alexander's pleas.
+12	0	0	1	99	Alexander doesn't want to do anything with that gargoyle!
+12	5	0	1	99	There's nothing to be done with the gargoyle.  It is only an unpleasant door ornament, and one that Alexander is reluctant to touch.
+12	1	0	1	99	A gargoyle peers maliciously down on the cell's occupant.  It grins as though it were gleefully guarding the door.
+12	2	0	1	99	The gargoyle only grins maliciously at Alexander and does not respond.
+6	0	0	1	2	"Would this comfort you, sad spirit?"
+6	0	0	2	77	"Mother!  Mother come back for me!"
+6	0	0	3	99	The little boy ghost has no interest in that.
+6	50	0	1	2	"You must be the son of the spirit I met in the Realm of the Dead.  She gave me this handkerchief, and asked me to tell you that she's waiting for you there."
+6	50	0	2	77	"It's Mama's!  It even smells like her!  I can feel her now!  I know where to go!"
+6	50	0	3	2	"Wait!  Before you go, is there anything you can tell me about the castle?"
+6	50	0	4	77	"I like to play in secret places.  In the basement, behind the man of steel, is a door.  Nobody except me knows it's there anymore." 
+6	50	0	5	77	"Farewell!" 
+6	5	0	1	99	The spirit seems to need consolation, but Alexander's human hands could provide little comfort for the immaterial ghost.
+6	1	0	1	99	A spirit weeps inconsolably on the cot.  The spirit appears to be the ghost of a little boy.
+6	2	16	1	2	"What's the matter, little boy?"
+6	2	16	2	77	"I'm lost!  I can't find my mother!"
+6	2	16	3	77	"I don't know why she would just leave me here!  I've been alone ever so long!"
+6	2	16	4	77	"Mother?  Mother, where are you?" 
+6	2	17	1	2	"Is there anything I can do?"
+6	2	17	2	99	The ghost continues to weep, ignoring Alexander.
+3	5	0	1	99	Alexander sees nothing of interest in that part of the dungeon.
+3	1	0	1	99	Alexander is standing in a dim, damp dungeon cell.  The walls and floor are made of gray granite stones.  A cot in the corner is the only furniture.  A gargoyle peers down maliciously from over the dungeon door.
+3	2	0	1	99	Alexander is singularly alone in this dank cell.  Even humming doesn't seem like a good idea.
+3	2	20	1	99	There's no one here to talk to except the ghost.
+9	0	0	1	99	Using that on the shackle would serve no purpose.
+9	5	0	1	99	The heavy iron shackle is of no use to Alexander.  He'd like to avoid chains as long as possible, actually.
+9	1	0	1	99	A shackle, comprised of a thick iron chain set into a heavy stone block, protrudes from the wall.  It is perhaps used with particularly 'difficult' prisoners.
+9	2	0	1	99	The shackle does not even rattle in response.
+1	0	9	1	99	Alexander wonders how he'll get out of this one!
+1	0	9	2	5	"Psst!  Prince Alex!"
+1	0	9	3	2	"Jollo!  What are you doing here?"
+1	0	9	4	5	"Never mind!  Quick!  Before the guard dog patrol comes around again!"
+1	0	10	1	97	!!!Do not print this!  Comment MSG only.
+1	0	8	1	6	"You'll stay here until we find out what the vizier wants to do with you!"
+1	0	8	2	99	The guard dogs leave Alexander to his fate, locking the door noisily behind them.
+1	0	11	1	6	"I think someone must have let our prisoner loose, Rolf."
+1	0	11	2	7	"Who would be crazy enough to do that, Howel?"
+1	0	11	3	6	"I don't know, but if I find out, that traitor will be sorry!  Let's keep an extra sharp eye in the halls.  We'll make sure no one can get near him again!"
+1	0	11	4	7	"Right, Howel."
+1	0	11	5	99	The guard dogs slam the door and lock it.  Alexander has a feeling there will be no help from Jollo this time!
+1	0	12	1	97	!!!Do not print this!  Comment msg only.
+1	0	13	1	6	"The vizier will have our heads if he finds out that a prisoner escaped!  How do you suppose he did it, Rolf?"
+1	0	13	2	7	"Well, Howel, I figure he must have had somethin' on him that he used to open the door.  That's why I personally searched him."
+1	0	13	3	6	"You did?  What'd you find?"
+1	0	13	4	7	"ONLY this funny-looking key!  He ain't got it no more, though, now does he?"
+1	0	13	5	6	"Hah!  Good work, Rolf!"
+1	0	3	1	97	!!!Do not print this.  Comment msg only.
+1	0	6	1	97	!!!Do not print this!  Comment msg only.
+1	0	5	1	77	"MOTHER!  MOTHER!  WHERE ARE YOU?"
+1	0	5	2	99	Alexander stands by helplessly as the ghost's wails grow louder.
+1	0	5	3	2	"Psst!  Little boy!  Be quiet!"
+1	0	5	4	77	"WAA!  MOTHER, WAA!"
+1	0	5	5	99	Uh, oh!  The ghost's wailing has attracted the guards!  Alexander hears the sound of footsteps in the hall.
+1	0	5	6	7	"I tell you, I heard somethin'.  I'm checking it out."
+1	0	5	7	6	"You and your ghosts!  There's nothin' in there, I say!"
+1	0	5	8	2	"Um...hi."
+1	0	5	9	7	"I don't believe this!  It's an intruder, and he's already put himself in the dungeon!"
+1	0	5	10	6	"Bones!  Some humans can be really dumb!  Well, shut the door then.  Let's lock him in and go tell the vizier."
+1	0	5	11	7	"Right.  <titter>.  Thanks for savin' us some work, human!"
+1	0	5	12	7	"Let's post extra guards, though.  That wailin' made me nervous."
+1	0	5	13	6	"Right.  We'll get Scratch to guard the hall and watch the door.  HE's not afraid of no ghosts!"
+1	0	4	1	77	"Mother?  Mother, where ARE you?"
+1	0	7	1	99	Alexander hears the guard dog leave the basement.  It seems he's safe enough for the moment.
+1	0	1	1	6	"You'll stay here until the vizier decides what to do with you!"
+1	0	1	2	99	The sound of running footsteps echo outside Alexander's cell....
+1	0	1	3	6	"What are you doin' down here, Shrew?  We've already got him locked up.  Go back to your post upstairs!"
+1	0	1	4	7	"(BREATHING HEAVY AS THOUGH RUNNING) The vizier wanted to know what all the commotion was about, and I told him about the intruder.  He told me to post extra guards on this one!"
+1	0	1	5	6	"Extra guards, eh?  So be it."
+1	0	2	1	99	Just as Alexander realizes that he has no possible means of escape, he hears the sound of wedding music playing somewhere in the castle.
+1	0	2	2	2	"Confound this dungeon!  I'll never be able to stop the wedding now!"
+1	0	2	3	99	'Tis a noble thing to have a means of escape, and 'tis a far, far better thing to never get caught at all!
+11	0	0	1	99	There's no reason to use that on the torch.
+11	5	14	1	99	Alexander has no need for the torch.  The castle is well-lit, with the exception of these dank rooms.
+11	5	15	1	99	That torch can't help Alexander escape.  Starting a fire in the cell would only hasten Alexander's demise.
+11	1	0	1	99	A single burning torch dimly lights the dungeon.

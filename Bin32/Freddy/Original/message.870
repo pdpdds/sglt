@@ -1,0 +1,63 @@
+11	5	0	1	99	With guards around every corner, Alexander is much too tense to make use of that bench.
+11	1	0	1	99	A marble bench along the wall provides a place for quiet contemplation.
+6	0	11	1	99	Alexander would like to do something for Cassima, but there's no way to help her with that.
+6	0	10	1	99	Alexander has no reason to use that on the padlocked door.
+6	8	11	1	2	"Cassima, take this small dagger.  It's not much, but perhaps it will prove useful to you."
+6	8	11	2	28	"Oh, thank you, Alexander!  I'm sure it will help!"
+6	5	0	1	99	The door is locked with a heavy padlock.
+6	61	14	1	99	Cassima has already been upset enough by that letter.
+6	61	12	1	2	"I found this letter in the vizier's bedroom."
+6	61	12	2	2	"I...I think you should know what it says."
+6	61	12	3	28	"(HORRIFIED)<Gasp!>  I can't believe it!  I had my suspicions, but this confirms everything!"
+6	61	12	4	28	"Alexander, YOU must take the letter.  You might have a chance to show it to someone who can help you stop the vizier."
+6	1	0	1	99	On the north wall of the hallway is a thick wooden door.  The doorknob and keyhole are literally buried under a heavy padlock.
+6	1	0	2	99	It looks like someone wants to make sure the occupant of this room does not leave.
+6	64	0	1	99	The padlock on the door is too substantial to be picked with that nail.
+6	16	0	1	99	Alexander would be sure to attract unwanted attention if he started hacking at that door.
+6	2	15	1	2	"Cassima, is there anything else I can do for you before I go?"
+6	2	15	2	28	"I don't think so, Alexander.  You'd better go before the guards see you, or we'll both be lost!"
+6	2	7	1	2	"Hello?  Is there someone in there?"
+6	2	7	2	28	"Who--who's there?"
+6	2	7	3	2	"Cassima, is that you?  It's Alexander!"
+6	2	7	4	28	"Alexander?  Prince Alexander?  I...I don't believe you."
+6	2	7	5	2	"It IS Alexander, Cassima!  I sailed here to see you, and the ship sank, and....  Cassima, just tell me what to do.  How can I help you?  Do you want me to get you out of there?"
+6	2	7	6	28	"If you really are Alexander, please--you must get away from here!  There are guards everywhere, and the vizier would have you killed if he found you here!"
+6	2	7	7	2	"But, what about you?  I can't just leave you locked up like this!"
+6	2	7	8	28	"The only way out for me is to stop the vizier.  See what you can do out there.  In the meantime, I should be safe enough.  He hasn't harmed me yet."
+6	2	7	9	28	"Besides, if I can only get my hands on something to defend myself with, I'm pretty sure I'll get a chance to use it.  The vizier feels safe around me.  No one else can get that close."
+6	2	7	10	2	"You're so brave, princess.  But it's too dangerous."
+6	2	7	11	28	"Have you forgotten where we met?  What is Abdul compared to Mordack?  I'll be fine.  Now GO."
+6	2	7	12	99	Alexander hesitates....
+6	2	7	13	2	"I'll do as you say.  I WILL find some way to help you, Cassima.  I swear it."
+6	2	7	14	28	"I believe you, Alexander.  Please, be careful!"
+6	2	8	1	28	"ALEXANDER!  Is it really you?  When Sing Sing brought me your ring I could scarcely believe it!  How did you get inside the castle?"
+6	2	8	2	2	"Never mind that now, princess.  It isn't important.  What can I do to help you?  Do you want me to get you out of there?  There's a padlock on the door, but I think...."
+6	2	8	3	28	"No, please--don't even think about that!  There are guards everywhere, and the vizier would have you killed if he found you!  You shouldn't even risk being outside my door.  Please go now, Alexander."
+6	2	9	1	2	"Cassima, is there anything I can do for you before I go?"
+6	2	9	2	28	"If you have anything that might be useful to me, slip it under the door.  Otherwise, just go or the guards will catch you!"
+4	3	0	1	97	!!!Do not print this.  Comment msg only.
+12	0	0	1	99	Alexander wouldn't want to use that on a work of art!
+12	75	0	1	99	The horse is unable to carry Alexander away from these guarded halls.
+12	1	0	1	99	A galloping horse adorns the north wall.
+3	0	0	1	99	There's no reason to use that on the marble hallway.
+3	5	0	1	99	Alexander sees nothing of particular interest about that area of the marble hall.
+3	1	0	1	99	Alexander is standing in the north upstairs hallway of the Castle of the Crown.  On the north wall is a heavily-padlocked door.  To his left and right, the hallway turns into perpendicular corridors.
+3	2	0	1	99	Alexander thinks it prudent to be as quiet as possible in the castle hallways.  There might be other guards around.
+9	0	0	1	99	There's no reason to use that on the carpet runner.
+9	5	0	1	99	The rug would be a bit heavy to move around, even if it weren't tacked to the floor.
+9	1	0	1	99	A red carpet runs the length of the corridor.
+1	0	3	1	6	"Good gravy, a strange man!  And by the princess's door, yet!  JOWELS!  COME QUICK!"
+1	0	3	2	2	"I can explain...I think.  I was looking for the kitchen, you see...."
+1	0	3	3	6	"Sure, you were!  JOWELS!"
+1	0	3	4	7	"Sniffed out an intruder, did ya?  Good for you, Mite!  Let's get 'em!"
+1	0	3	5	6	"I say we take 'em to the dungeon, then go fetch Captain Saladin."
+1	0	3	6	7	"Right.  We might just get an award for this one!"
+1	0	1	1	99	The crying is louder here.
+1	0	1	2	99	It seems to be coming from the doorway on the north wall.
+1	0	5	1	97	!!!Do not print this!  Comment MSG only.
+1	0	6	1	99	The soft crying sounds are still coming from behind the door.
+1	0	2	1	99	Alexander hears the sounds of guard dogs approaching from the east.
+1	0	4	1	97	!!!Do not print this!  Comment MSG only.
+10	0	0	1	99	There's no reason to use that on the marble wall.
+10	5	0	1	99	Alexander sees nothing of particular interest about that marble wall.
+10	2	0	1	99	The walls have nothing to say.

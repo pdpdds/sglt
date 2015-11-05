@@ -1,0 +1,109 @@
+11	0	0	1	99	There's no reason to use that on the marble entrance to Chessboard Land.
+11	5	0	1	99	The marble feels just like marble.
+11	1	0	1	99	The entrance to Chessboard Land consists of a stepped marble bridge with astonished-looking pillars.
+9	0	0	1	99	There's no reason to use that on the path.
+9	5	0	1	99	The path beyond the knights is beyond Alexander's reach.
+9	1	0	1	99	A path leads from the marble steps off into the hills of Chessboard Land.
+9	2	0	1	99	The path continues on its way without comment.
+5	0	0	1	2	"Perhaps you would take this and give the lump of coal to the white queen?"
+5	0	0	2	53	"Of what value is that compared to this lovely lump of coal!  You try my patience!"
+5	46	0	1	99	The red queen already has a lump of coal and won't share it with her sister.  If Alexander gave her another, the two would NEVER stop fighting!
+5	5	0	1	53	"Hands off the royal goods, young man!"
+5	1	0	1	99	A large, red chessboard queen is standing huffily at the edge of the marble steps.
+5	2	0	1	2	"It would be noble of you to give the coal to the white queen, since she desires it so much."
+5	2	0	2	53	"Don't be silly.  She desires the moon as well.  I suppose THAT should just be given to her."
+4	0	0	1	99	Alexander wouldn't want to use that on the red queen's scarf!
+4	5	0	1	99	Alexander picks up the red queen's scarf.
+4	1	0	1	99	The red queen has dropped her scarf on the steps.
+3	0	0	1	99	Alexander can't do anything with Chessboard Land.
+3	5	0	1	99	Alexander cannot reach Chessboard Land.
+3	1	0	1	99	Alexander is standing at the edge of a strange land with rolling checkered hills.  Two chessboard knights stand before the marble entrance, guarding a path which wanders, like a ribbon, into the velvety hills.
+3	2	0	1	99	Calling out into Chessboard Land would do little good.
+3	3	5	1	75	"Check, mate!  Only chess pieces allowed in Chessboard Land!"
+3	3	5	2	76	"That's right!  Humans aren't allowed in and never will be.  Stay OUT!"
+3	3	6	1	97	!!!Do not print this!  Comment msg only!
+7	0	0	1	2	"Would you have any interest in this?"
+7	0	0	2	76	"Nope.  We knights neither carry nor own anything whatsoever."
+7	0	0	3	75	"Quite so.  It only bogs us down.  Mobility--that's the key." 
+7	0	11	1	99	The knights respectfully stand at attention in the presence of the queens and ignore Alexander.
+7	46	0	1	2	"I found this lump of coal.  Perhaps you'd be interested in it?"
+7	46	0	2	76	"Mmmm!  Coal is quite appealing, but I'm afraid we aren't allowed to hold any material possessions whatsoever."
+7	46	0	3	75	"Quite so.  Only the queens are allowed to own anything at all."
+7	5	0	1	97	!!!Do not print this!  Comment msg only.
+7	1	0	1	99	A red chess knight stands at the top of the marble steps.
+7	72	0	1	2	"I found a red scarf.  I believe the red queen dropped it."
+7	72	0	2	75	"The red queen is always dropping her scarves.  She thinks it's fashionable.  Keep it and consider yourself honored."
+7	2	8	1	97	!!!Do not print this.  Comment msg only.
+7	2	7	1	2	"Excuse me, what land lies beyond?"
+7	2	7	2	75	"What land?  Chessboard Land, ye knave!"
+7	2	7	3	2	"I see.  And is Chessboard Land part of the Land of the Green Isles?"
+7	2	7	4	76	"It is the home of the red and white queens--rulers of the Isle of Wonder, fairest of the islands that owe loyalty to the king of the Land of the Green Isles!" 
+7	2	7	5	75	"But perhaps not for long!"
+7	2	7	6	2	"What do you mean?"
+7	2	7	7	76	"What is the purpose of unity with the great king and queen dead?  The princess is worth serving, but the feud with the other isles is strong."
+7	2	9	1	2	"Can I pass into your fair land?"
+7	2	9	2	76	"Heavens, no!"
+7	2	9	3	75	"No humans allowed in Chessboard Land!  Never have been.  Never will be."
+10	0	0	1	99	Alexander can't do that to the sky.
+10	5	0	1	99	The sky is beyond Alexander's grasp.
+10	1	0	1	99	The sky of Chessboard Land is a brilliant shade of blue and has heavy, cotton-candy clouds.
+10	2	0	1	99	The cloudy sky has nothing to spill.
+1	0	2	1	53	"I must insist, Your Highness.  I SHALL send the lump of coal to the vizier and the princess as a present for their wedding, and that's the end of it!"
+1	0	2	2	52	"And, I suppose, you'll leave ME with only this stupid spoiled egg to send, Your Highness?  I want to impress the new king and queen of the realm as much as YOU do!  As queen of this island, I have every right to that lump of coal!"
+1	0	2	3	53	"Who ISN'T queen of this isle?  The lump of coal is in my possession, therefore I shall do as I please with it.  Besides, there's nothing wrong with that spoiled egg."
+1	0	2	4	52	"The egg, though delightfully spoiled, is not nearly so valuable as the lump of coal, and you know it.  Your Highness always got to carry the singing stone.  It's not fair that you get the coal too!"
+1	0	2	5	53	"That doesn't count!  The singing stone was stolen by that horrid Beast!  I should get to keep the coal just BECAUSE my stone was stolen!"
+1	0	2	6	52	"It wasn't YOUR stone, it belonged to the Isle of Wonder treasury!  Your Highness always thinks that everything is HERS."
+1	0	2	7	53	"Excuse me, my good man, but could you settle an argument for us?"
+1	0	2	8	52	"Which of us should get to carry the coal and which the egg?  Remember, WHITE is the color of deserving truth and virtue."
+1	0	2	9	53	"Be quiet, Your Highness, and let him make up his OWN mind.  I, for one, shall be more proper and not even mention the fact that RED is the color of love."
+1	0	2	10	2	"I'm sorry, Your Majesties.  I am partial to both red AND white, but I'm afraid that I don't know how to solve your problem.  One of you will just have to be gracious and allow the other the lump of coal."
+1	0	2	11	52	"(TO ALEXANDER) What a ridiculously stupid idea."
+1	0	2	12	53	"(TO ALEXANDER) Quite ludicrous."
+1	0	2	13	52	"(SARCASTIC) Well, HE was a lot of help, wasn't he?"
+1	0	2	14	53	"(SARCASTIC) Yes.  Obviously a man of high intelligence."
+1	0	2	15	53	"The lump of coal goes much better with my gown anyway.  Black and red are imperial colors."
+1	0	2	16	52	"That's the silliest thing I ever heard!  RED does not go with anything, being much too self-conscious.  WHITE is the perfect accompaniment to ANY color."
+1	0	2	17	97	!!!Do not print this.  Comment msg only.
+1	0	3	1	53	"Your Highness may as well spend her royal time contemplating something else.  The lump of coal shall be sent to the Castle of the Crown under MY name and that's all there is to it."
+1	0	3	2	52	"No, it shan't."
+1	0	3	3	53	"Yes, it shall."
+1	0	3	4	52	"If the coal is sent in YOUR name, I shall royally decree a ban on all red on the isle."
+1	0	3	5	53	"You do and I shall royally decree that white shall be henceforth used for all mopping up of cabbage stew."
+1	0	3	6	52	"You wouldn't dare!"
+1	0	3	7	53	"Oh, wouldn't I?"
+1	0	3	8	52	"Oh, it's you.  Have you thought of any more of those brilliant ideas of yours?"
+1	0	4	1	52	"Give me the lump of coal, Your Highness."
+1	0	4	2	53	"I won't, Your Highness."
+1	0	4	3	52	"You SHALL give it to me, that's my decree!"
+1	0	4	4	53	"And I decree rather not!  See there, my decree is more recent than yours!"
+1	0	4	5	52	"Than I decree again--hand it over!"
+1	0	4	6	53	"And I decree further--Your Highness shall never have it!"
+1	0	4	7	52	"Well?  What is it that YOU want, as if we weren't busy enough?"
+1	0	1	1	97	!!!Do not print this!  Comment MSG only.
+1	0	10	1	53	"Hmph!  Let's go, sister!  I must go polish MY coal!"
+1	0	10	2	52	"Polish THIS, Your Highness!"
+6	0	0	1	2	"Perhaps this would make you as happy as that lump of coal you desire."
+6	0	0	2	52	"That?  You obviously don't know the worth of a good lump of coal, young man!  Show me not your trifles!
+6	46	0	1	2	"I found the two of you another lump of coal so that you can stop fighting over the one you have."
+6	46	0	2	52	"Ooh!  Lemme see!  A lump of coal!  And what a beauty it is, too!  Marvelous!"
+6	46	0	3	52	"Now we can stop fighting, sister!  Your Highness can just keep the old lump of coal, and I'll take this new one."
+6	46	0	4	53	"Quite right!  This settles everything."
+6	46	0	5	52	"As a token of our endless esteem and royal favor, please accept this magnificent and truly incredible spoiled egg!"
+6	46	0	6	2	"Er...umm...thanks."
+6	46	0	7	53	"Let me see that lump of coal, Your Highness."
+6	46	0	8	52	"It is a beauty, isn't it?"
+6	46	0	9	53	"Why, it's bigger than MY lump of coal!  Let me have it, immediately!"
+6	46	0	10	52	"Over my dead body, Your Highness!  It's MY lump of coal, and it is indeed larger and MUCH grander.  Just look at that sheen!"
+6	46	0	11	53	"I DEMAND you exchange with me IMMEDIATELY!"
+6	5	0	1	52	"I know I'm irresistible, but keep your hands to yourself!"
+6	1	0	1	99	For a chess piece, the white queen is quite large.  With the exception of her pure, pale color, she looks identical to her equally-huge sister.
+6	2	0	1	2	"Perhaps you should allow your sister queen the coal and be content with the spoiled egg."
+6	2	0	2	52	"Oh?  Perhaps YOU should keep your opinions to YOURSELF!"
+8	0	0	1	97	!!!Do not print this!  Comment msg only!
+8	46	0	1	97	!!!Do not print this!  Comment msg only!
+8	5	0	1	97	!!!Do not print this!  Comment msg only.
+8	1	0	1	99	A noble, white chess knight stands at the top of the marble stairs.
+8	72	0	1	2	"I found a red scarf.  I believe the red queen dropped it."
+8	72	0	2	76	"I don't care for red, and I don't wear scarves."
+8	2	0	1	97	!!!Do not print this!  Comment msg only!

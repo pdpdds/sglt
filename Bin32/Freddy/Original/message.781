@@ -1,0 +1,108 @@
+21	0	0	1	99	Alexander doesn't want to leave that on the bed.
+21	5	0	1	99	There doesn't seem to be anything on the bed except for a lot of silk.
+21	1	0	1	99	A canopied bed, arranged with silk bedclothes and large pillows, stands in one corner of the room.
+21	2	0	1	99	The bed is empty of bodies and comments.
+25	0	0	1	99	There's no point in doing that to the chandelier.
+25	5	0	1	99	Alexander can't reach the chandelier.
+25	1	0	1	99	A candle-lit chandelier lends a soft light to the bedroom.
+25	2	0	1	99	The chandelier has no glowing retorts.
+24	0	0	1	99	Why would Alexander want to use that on the cushion?
+24	5	0	1	99	There's nothing under the cushion but the floor.
+24	1	0	1	99	A large, soft cushion has been strategically placed on the cold marble floor to provide a comfy seat near the fire.
+24	2	0	1	99	The cushion stays demurely silent.
+14	0	0	1	99	Alexander doesn't want to put that in the ebony box.
+14	5	0	1	99	Alexander opens the ebony box and looks inside.
+14	1	0	1	99	There's a box of ebony on the table.
+14	2	0	1	99	The box has nothing to say.
+15	0	0	1	97	!!!Do not print this!  Comment msg only!
+15	5	0	1	99	The box's owner would probably notice it was missing.  Besides, Alexander can't think of a use for a box of trinkets.
+15	1	0	1	99	The box contains various trinkets and a scrap of paper with a word written on it.
+15	2	0	1	97	!!!Do not print this!  Comment msg only!
+16	0	0	1	99	There's no reason to use that on the old brush.
+16	5	0	1	99	The brush is old and small.  Alexander isn't interested in taking it.
+16	1	0	1	99	A worn old brush is among the box's trinkets.
+16	2	0	1	99	The brush says nothing.
+17	0	0	1	99	There's no reason to use that on the dice.
+17	5	0	1	99	Finding Cassima is no game of chance!
+17	1	0	1	99	Some old ivory dice have been left in the box.
+17	2	0	1	99	CLACK!
+18	0	0	1	99	It's pointless to use that on the ink.
+18	5	0	1	99	The bottle contains only a small amount of black ink--most of it dried at the bottom.  Alexander decides to leave it there.
+18	1	0	1	99	There's an old bottle of black ink among the box's trinkets.
+18	2	0	1	99	The ink says nothing.
+19	0	0	1	99	The paper would not benefit from that.
+19	5	0	1	99	Alexander can read the piece of paper without taking it.
+19	1	0	1	99	Inside the ebony box is a piece of paper with the word "ZEBU" printed on it.
+19	1	0	2	2	"Hmmm.  Interesting."
+19	2	0	1	99	Paper is not a verbal medium.
+23	0	0	1	99	Ah, to consume all our earthly possessions in flame!
+23	5	0	1	99	What?  And burn a perfectly good hand?
+23	1	0	1	99	A fire in a small hearth warms the bedroom.
+23	2	0	1	99	SNAP!  CRACKLE!  POP!
+10	0	0	1	99	Using that on the bedroom door would serve no purpose.
+10	5	0	1	97	!!!Do not print this!  Comment MSG only.
+10	1	12	1	99	Alexander peers through the keyhole.
+10	1	11	1	99	A door leads into the hall.
+10	1	11	2	99	There's a keyhole in the door.
+10	2	0	1	99	The door does not reply.
+26	1	10	1	97	!!!Do not print this. Comment msg only.
+26	1	8	1	99	Alexander sees no one in the hallway.  The guard dogs are still gone.
+26	1	9	1	99	Two guard dogs are patrolling the hallway outside the bedroom.
+3	5	0	1	99	Alexander sees nothing of interest in that part of the bedroom.
+3	1	5	1	99	Alexander is standing in an opulent bedroom that he believes--based on the contents of the trunk--must belong to the vizier.  Knowing whose room it is makes Alexander feel even more ill-at-ease.
+3	1	4	1	99	Alexander is standing in a masculine bedroom.  Polished marble walls rise to meet a tall ceiling, and the furnishings have an opulent feeling.  He wonders whose bedroom this is.
+3	2	0	1	99	There's no one in the bedroom to talk to.
+22	5	0	1	99	The rug is too heavy to lift.
+22	1	0	1	99	A square, red patterned rug helps protect bare feet from the cold marble floor.
+1	0	1	1	97	!!!Do not print this!  Comment MSG only.
+1	0	2	1	97	!!!Do not print this!  Comment MSG only.
+1	0	3	1	99	Alexander hears the sound of boots in the hallway.  The guard dog patrol must have returned!
+1	0	3	2	6	"Wait a minute, Bay, while I check around in here like Captain...."
+1	0	3	3	6	"HEY!  There IS an intruder in the castle!  Quick, Wolf!"
+1	0	3	4	99	Uh, oh!  Caught in the act!
+20	5	0	1	99	There's nothing of interest about that part of the small table.
+20	1	0	1	99	A small wooden table graces the wall near the fireplace.  On the table is a box made of ebony.
+6	0	0	1	97	!!!Do not print this!  Comment msg only!
+6	5	0	1	99	The books look interesting, but the castle is not a good place to relax and read.
+6	61	0	1	97	!!!Do not print this.  Comment msg only.
+6	1	0	1	99	A few worn leather books occupy the trunk.  The top one is entitled "Guidebook to the Land of the Green Isles."
+6	1	0	2	99	A book like that might have been a big help when Alexander first arrived!  The trunk's owner obviously found it interesting too, for the guidebook is dog-eared and stained.
+6	2	0	1	97	!!!Do not print this!  Comment msg only!
+7	0	0	1	97	!!!Do not print this!  Comment msg only!
+7	5	0	1	99	Alexander isn't interested in the oily perfume.
+7	61	0	1	97	!!!Do not print this.  Comment msg only.
+7	1	0	1	99	A small glass bottle filled with oily-looking perfume is in one corner of the trunk.
+7	2	0	1	97	!!!Do not print this!  Comment msg only!
+5	0	0	1	99	Alexander doesn't want to leave that in the trunk.
+5	5	6	1	99	Alexander picks up the most recent letter and examines it.
+5	5	6	2	99	The letter is addressed to Abdul Alhazred from the Wizard Shadrack.  It reads:
+5	5	6	3	99	"Greetings to a brother of the Black Cloak.  I was sorry to hear of great Mordack's death, though he was a bit of a ninny at chess."
+5	5	6	4	99	"It seems the plans for that little kingdom of yours are coming along.  I must congratulate you on your handling of the king and queen.  Isolating the islands so that no protest could develop was another brilliant stroke."
+5	5	6	5	99	"It looks like there's not much left to stand in your way.  Do as I recommended with the girl, and you shall have your crown."
+5	5	6	6	2	"That fiend!"
+5	5	7	1	99	There's undoubtedly more unnerving information in those letters, but Alexander has already seen enough!
+5	61	0	1	97	!!!Do not print this.  Comment msg only.
+5	1	6	1	99	It looks like the owner of this trunk is quite the correspondent.  The stack of letters appears to be ordered by the date, because the top one is dated only a month ago.
+5	1	7	1	99	The rest of the vizier's letters, probably equally as disgusting, remain in the trunk.
+5	2	0	1	99	The trunk may speak, but only to those with eyes to see.
+27	0	0	1	97	!!!Do not print this.  Comment msg only.
+8	5	0	1	99	Alexander sees nothing to do there.
+8	1	0	1	99	The trunk contains some old leather books, a bottle of what looks like oily perfume, and a stack of correspondences.
+4	0	13	1	99	Using that on the trunk will serve no purpose.
+4	0	14	1	99	There's no reason to use that on the unlocked trunk.
+4	5	13	1	99	The trunk is locked.
+4	5	14	1	99	Alexander opens the unlocked trunk.
+4	61	0	1	99	Alexander decides not to return the vizier's letter to the trunk.  Who knows when such incriminating evidence might come in handy?
+4	1	0	1	99	A storage trunk sits at the foot of the bed.  The trunk bears a large brass lock.
+4	64	13	1	99	Alexander wiggles the nail in the trunk's lock until he hears a click.
+4	64	13	2	99	Alexander opens the trunk.
+4	64	14	1	97	!!!Do not print this.  Comment msg only.
+4	35	13	1	99	Alexander inserts the skeleton key in the trunk's lock and turns it.  He hears a click.
+4	35	13	2	99	Alexander opens the trunk.
+4	35	14	1	99	The trunk has already been unlocked.
+4	2	0	1	99	The trunk says nothing of its secrets.
+12	0	0	1	99	Why do that with the wardrobe?
+12	5	8	1	99	The wardrobe is full of black cloaks and a rather sour smell.  Alexander examines the clothes, but finds nothing of interest.
+12	5	9	1	99	Alexander crawls back through the wardrobe to reach the secret passage.
+12	1	0	1	99	A wardrobe stands against the west wall of the room.
+12	2	0	1	99	The wardrobe is cloaked in silence.

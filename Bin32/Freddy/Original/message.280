@@ -1,0 +1,390 @@
+2	14	9	1	99	Alexander suddenly gets a very sneaky idea....  
+2	14	9	2	2	"I can't go on anymore!  Without Cassima, I'd just rather not live!"   
+2	14	9	3	35	"Prince Alex!  No!" 
+2	14	9	4	2	"It's true!  The vizier has beaten me!  I give up!  Poison is my last resort!"    
+2	14	9	5	35	"I beg you, stop!"   
+2	14	9	6	2	"I am...no...more!"   
+2	14	9	7	35	"(SADLY) Oh, what a waste!  The poor, young fool!"      
+2	14	9	8	34	"He's dead!  He's dead!  Wait until Abdul hears!  He'll be SO pleased!"  
+2	14	10	1	35	"Prince Alex!  What is it?" 
+2	14	10	2	35	"(SADLY) Oh, the poor young prince!  His heart must have just given out on him!"
+2	14	10	3	35	"(AMAZED) Prince Alex!  But...but...you were....!"
+2	14	10	4	2	"(CURIOUS) Yes, strange wasn't it?  I feel fine now, though."
+2	14	10	5	35	"(CONCERNED) Perhaps you ought to spend less time adventuring, Prince Alex.  You seem to be feeling the strain."
+19	0	0	1	99	Alexander doesn't need to meddle with that suit of armor.  
+19	5	0	1	99	Perhaps it is true that our ancestors were smaller as a rule, for that suit of armor looks a pinch too tight to fit Alexander.  Besides, in this climate, it would be awfully hot.  
+19	1	0	1	99	An old suit of armor stands in the pawn shop.  It looks like a vigilant guard against thieves and carpet salesmen, even though it IS headless.    
+19	2	0	1	99	The man of steel is stumped for an answer.
+33	0	0	1	99	
+33	5	0	1	99	
+33	1	0	1	99	A slightly rusty axe is displayed in a block of wood.     
+33	2	0	1	99	Apparently, the axe has no axe to grind, for it says nothing. 
+29	5	0	1	99	Alexander isn't interested in those storage barrels. 
+29	1	0	1	99	A few well-aged barrels probably hold assorted smaller goods and perishables. 
+22	0	0	1	99	The bear, though a giant in the taxidermy field, has no pockets and thus no room for material possessions. 
+22	5	0	1	99	The stuffed bear probably has stuffed fleas.  Alexander decides to keep his distance.  
+22	1	0	1	99	Towering mightily over the other pawn shop curiosities, the stuffed bear makes an ostentatious display.       
+22	2	0	1	99	The world-famous talking bear has been sulking ever since his abduction from a small mountain community in California.  He refuses to discuss real estate. 
+13	5	38	1	2	"I'm interested in that painter's brush on the counter." 
+13	5	16	1	2	"I think I'd like the painter's brush."   
+13	5	41	1	2	"Might I trade for that painter's brush on the counter?" 
+13	5	39	1	35	"Very good, sir.  Enjoy the painter's brush.  Remember that I will always take back any of my own items in trade."     
+13	5	39	2	2	"Thank you."    
+13	5	40	1	35	"Very good, Prince Alex.  The painter's brush it is.  May your painting go well.  Feel free to bring the brush back at any time."  
+13	5	40	2	2	"Thank you."    
+13	1	42	1	35	"Ah, yes, the painter's brush.  It was well-used by one of the island's best painters.  There is a lot of creativity in that brush, and its bristles are still in good condition."   
+13	1	43	1	99	A used painter's brush is displayed on the counter.   
+27	0	0	1	99	If Alexander wants to exchange one of his possessions for an item in the pawn shop, he'll have to arrange it with the pawn shop owner first by showing him the object for trade.
+27	5	0	1	99	If Alexander wants anything from the pawn shop, he'll have to first give the pawn shop owner something in trade.
+27	1	0	1	99	Several half-burnt wax candles have been placed among the other pawn shop items.  They probably light the shop at night.
+7	5	32	1	99	The mint dish is empty.
+7	5	35	1	99	Alexander already has a mint.  He'd prefer to leave some for the other customers.
+7	5	34	1	99	Alexander takes a mint.
+7	1	32	1	99	The candy dish is empty. 
+7	1	33	1	99	An elegant little glass dish decorates the counter top.   
+7	1	33	2	99	The dish is full of green mints offered for the enjoyment of the customers.    
+35	5	0	1	99	There's nothing of interest on that part of the counter.
+35	1	0	1	99	The pawn shop's counter displays items of interest. 
+8	0	0	1	99	There's no reason to use that on the counter.
+8	5	0	1	99	The counter feels as smooth as stone. 
+8	1	0	1	99	The pawn shop's counter is made of a sturdy teak.  The wood is well-worn by eager hands, and well-oiled by the shop's faithful keeper.  
+8	2	0	1	99	The counter does not counter.
+23	0	0	1	97	!!!Do not print this.  Comment msg only.   
+23	5	0	1	99	Alexander will know his future soon enough if he just keeps on with his adventure.  It wouldn't be fair to peek!
+23	1	0	1	99	The Land of the Green Isles must have at least one inhabitant with interest in the mystical, for a crystal ball has been traded in along with the more common household goods.
+23	2	0	1	99	The crystal ball remains perfectly clear and says nothing. 
+24	0	0	1	97	!!!Do not print this.  Comment msg only.     
+24	5	0	1	99	Alexander's musical abilities have always leaned more towards wind instruments. 
+24	1	0	1	99	A small red drum beats no more on the shelves of the pawn shop. 
+24	2	0	1	99	"Rat a tat tat!"  
+16	0	0	1	97	!!!Do not print this.  Comment msg only.      
+16	5	0	1	97	!!!Do not print this.  Comment msg only.       
+16	1	49	1	99	The back wall of the shop holds various bottles and potions.  For example...
+16	1	50	1	99	...a bottle labeled "Owl Courage Potion," for spineless owls.
+16	1	51	1	99	...a small box of "Enchanted Sorcerer's Flea and Tick Collars."
+16	1	52	1	99	...a bottle of "Gnome-be-gone." 
+16	1	53	1	99	...miniature carpet cleaner.  For those castles-in-a-bottle.
+16	1	54	1	99	...bird's nest soup mix.  Treasure not included.
+16	1	55	1	99	...garlic especially grown for vampire resilience.
+16	1	56	1	99	...magic mirror glass cleaner for "when your future looks fuzzy."
+16	1	57	1	99	...shark repellant.
+11	5	38	1	2	"I'm interested in that flute on the counter."
+11	5	16	1	2	"I'll take the flute." 
+11	5	41	1	2	"Might I trade for that flute on the counter?"
+11	5	39	1	35	"Very good, sir.  Enjoy the flute.  Remember that I will always take it back in trade."     
+11	5	39	2	2	"Thank you."    
+11	5	40	1	35	"The flute?  Very good, Prince Alex.  May its music always be sweet.  Feel free to trade it back at any time." 
+11	5	40	2	2	"Thank you."    
+11	1	42	1	35	"The flute is only made of plain wood but its notes are fine and true."   
+11	1	43	1	99	A plain wooden flute is displayed on the counter. 
+5	0	0	1	2	"Would you be interested in...."
+5	0	0	2	34	"No!  Leave me alone!"
+5	13	0	1	99	Alexander decides to show the mirror to the old man in the cloak. 
+5	13	0	2	34	"YIKES!"    
+5	13	0	3	99	Zounds!  That citizen obviously didn't like what he just saw! 
+5	13	0	4	99	Too bad Alexander didn't get to see what was reflected in that mirror! 
+5	28	0	1	99	Unfortunately, there's not a single spell in that book that would be useful against the stranger in black!
+5	8	0	1	99	Alexander may not at ALL care for that man in black, but that's no excuse for getting violent!
+5	14	0	1	99	Alexander would never get the old man to agree to drink that.
+5	18	0	1	99	
+5	5	0	1	99	For no apparent reason, Alexander's flesh crawls at the mere thought of touching the old man.   
+5	43	0	1	99	Why would the old man be interested in that used hunter's lamp from the Isle of the Beast?
+5	57	0	1	99	
+5	58	0	1	99	
+5	59	0	1	99	
+5	60	0	1	99	
+5	96	0	1	99	
+5	56	0	1	99	That brand new lamp from the lampseller is unlikely to impress the man in black!
+5	1	0	1	99	A mysterious old man also patronizes the pawn shop.  He steals sidelong glances at Alexander from under his hood.  
+5	12	0	1	99	Alexander doesn't want to give his only means of travel to that old man!
+5	63	0	1	99	Alexander decides to be friendly and offer the old man a mint. 
+5	63	0	2	2	"(FRIENDLY) Would you care for a mint, sir?"     
+5	63	0	3	34	"(RUDE, MENACING) Grrr.  No, thank you!  I'll get my own mint from the dish when I want one!"   
+5	65	0	1	99	Alexander does NOT want to discuss Cassima with that old man!
+5	67	0	1	99	Alexander decides to offer the old man some peppermint leaves.  
+5	67	0	2	2	"(FRIENDLY) Can I offer you some peppermint, sir?"    
+5	67	0	3	34	"Mmmmmm!  Mint!"   
+5	67	0	4	34	"Yum!  <Hic> Tee, hee, hee."   
+5	67	0	5	99	Odd.  The old man sways momentarily but quickly recovers.  That must be some strong mint!
+5	33	0	1	99	
+5	16	0	1	99	Alexander may not at ALL care for that man in black, but that's no excuse for getting violent!
+5	2	0	1	2	"Good day, sir." 
+5	2	0	2	99	The old man just glares at Alexander and does not reply.
+5	2	1	1	2	"Haven't I seen you somewhere before, SIR?"
+5	2	1	2	34	"NO!"
+5	2	1	3	2	"But I'm quite sure...perhaps on some cliffs...."
+5	2	1	4	34	"NO!"
+5	2	1	5	2	"Isle of the Beast?"
+5	2	1	6	34	"NO!"
+5	2	1	7	2	"Dock-side?"
+5	2	1	8	34	"NO!  Leave me ALONE!"
+5	2	1	9	99	Not very friendly, is he?
+5	2	68	1	99	The old man is plainly not going to reveal anything to Alexander, and he doesn't seem receptive to any revelations that Alexander might have for him--at least not those put into words.
+5	34	0	1	99	Hurling a rotten tomato at the old man might not be a bad idea, but Rotten Tomato probably wouldn't appreciate the gesture!
+28	0	0	1	97	!!!Do not print this.  Comment msg only.     
+28	5	0	1	97	!!!Do not print this.  Comment msg only.  
+28	1	0	1	99	A lady's hand mirror has been separated from its original trousseau, and now gathers dust on the pawn shop shelves.   
+30	0	0	1	97	!!!Do not print this.  Comment msg only.     
+30	5	0	1	97	!!!Do not print this.  Comment msg only.    
+30	1	0	1	99	A small, rusty hatchet seems permanently imbedded in a log of wood.  Alexander's mind races over the possibilities.  Perhaps the bound duo is the local woodcutter's equivalent of the sword in the stone!  Perhaps someday, somehow, someone will free that hatchet and become King of the Forest!
+30	1	0	2	99	Then again, it could be just a rusty hatchet stuck in a log. 
+30	2	0	1	99	The hatchet and the log seem too preoccupied with each other to talk to Alexander. 
+36	5	0	1	99	If the pawn shop owner wants to display the head and the body of the suit of armor separately, Alexander has no wish to attempt to reunite them.
+36	1	0	1	99	A helmet, probably belonging to the headless armor also in the shop, has found its way to a separate part of the counter.
+18	0	0	1	97	!!!Do not print this.  Comment msg only.      
+18	5	0	1	97	!!!Do not print this.  Comment msg only.      
+18	1	0	1	99	A horn, probably used for drink or powder, hangs from the ceiling. 
+18	2	0	1	99	The horn has plenty of nothing to say. 
+9	5	0	1	97	!!!Do not print this.  Comment msg only. 
+9	1	0	1	99	Alexander takes a closer look at the items on the counter.   
+6	0	0	1	99	If Alexander wants to try to exchange something for the map, he'll have to show it to the pawn shop owner first.
+6	5	0	1	2	"What would you take in exchange for the magic map?"         
+6	5	0	2	35	"I would need something of great value in trade for this map."      
+6	1	0	1	99	A magic map lies on the pawn shop's counter.
+6	2	0	1	99	The map might be magic, but it does not talk.
+37	0	0	1	99	
+37	5	0	1	2	
+37	5	16	1	2	"How about that map?"
+37	5	16	2	35	"Oh, no!  A single coin would never do in exchange for the magic map!  Please choose from one of my other four counter items, sir!"
+37	5	39	1	2	"Can I get the map in exchange for the item I just traded in?"
+37	5	39	2	35	"Oh, no!  I could only exchange the map for something quite valuable!  Please choose one of the other four counter items, sir!"
+37	5	40	1	2	
+37	1	0	1	99	
+37	2	0	1	99	
+17	0	0	1	97	!!!Do not print this.  Comment msg only. 
+17	5	0	1	97	!!!Do not print this.  Comment msg only.
+17	1	58	1	99	The back wall of the shop holds various odds and ends.  For example...
+17	1	50	1	99	...a hull-hole detector for finding those hard-to-spot holes in small sailboats.
+17	1	60	1	99	...stair traction pads; "Stop slipping off those narrow staircases." 
+17	1	51	1	99	...cat-cookie mix.  "Play tricks on your friends," the box says. 
+17	1	52	1	99	...a golden bridle finder, for finding those nearly-invisible golden bridles.
+17	1	53	1	99	...self-adhesive emeralds.  "What you use when you don't have honey." 
+17	1	54	1	99	...tongue climbing gear.  "Tested on over one hundred whale tongues." 
+17	1	55	1	99	...a uvula tickler.  "Guaranteed to make large mammals sneeze." 
+17	1	56	1	99	...a cheese hook, for retrieving cheese out of small holes.
+17	1	57	1	99	...a shovel that's "Guaranteed not to break for over one-hundred grave diggings!" 
+17	1	59	1	99	...a bridge repair kit, for when you've crossed a bridge one too many times.
+17	2	0	1	97	!!!Do not print this.  Comment msg only.
+20	0	0	1	97	!!!Do not print this.  Comment msg only.   
+20	5	0	1	97	!!!Do not print this.  Comment msg only.           
+20	1	0	1	99	The man of steel wields a long iron pike. 
+20	2	0	1	99	The pike speaks not. 
+3	0	0	1	99	The pawn shop is already filled with curious things.  Alexander would prefer not to leave his possessions behind unless he can make a good trade with the pawn shop owner.     
+3	5	0	1	99	The pawn shop is too cluttered and dusty to poke around in efficiently.  
+3	1	0	1	99	The pawn shop is a dimly-lit place with a slightly musty smell.  Curiosities litter every corner and every shelf.  For sale are articles that range from the bizarre to the commonplace, from the priceless to the practical.           
+3	2	0	1	99	The dusty shop remains peacefully quiet.  
+14	0	0	1	99	There's no reason to use that on the door. 
+14	5	0	1	97	!!!Do not print this.  Comment msg only.  
+14	1	0	1	99	The plain wooden door leads back out to the village street. 
+4	0	0	1	2	"(HOPEFUL, POLITE) Would you be interested in making a trade for this, merchant?"    
+4	0	0	2	35	"(REGRETFULLY) I think not.  I do not have much call for that item these days."     
+4	13	0	1	2	"Would you be interested in this mirror, merchant?"
+4	13	0	2	35	"I am afraid I have too many mirrors unsold already.  People are not very interested in vanity during these troubled days.  Sorry."   
+4	42	0	1	2	"Would you be interested in trading for this book?" 
+4	42	0	2	35	"I am afraid not.  Books are more my neighbor's line of work.  After all, I would not want him selling curiosities."    
+4	27	0	1	97	!!!Do not print this.  Comment msg only. 
+4	28	0	1	97	!!!Do not print this.  Comment msg only.  
+4	39	0	1	2	"Would you be interested in trading for this brick?"   
+4	39	0	2	35	"Hmmm.  I am afraid I have very little call for bricks, Prince Alex." 
+4	29	24	1	97	!!!Do not print this.  Comment msg only.
+4	29	25	1	97	!!!Do not print this.  Comment msg only.
+4	45	0	1	2	"Would you be interested in trading for these women's clothes?"    
+4	45	0	2	35	"I never have carried garments, Prince Alex.  Sorry." 
+4	40	70	1	2	"I believe I will trade in this coin, merchant."   
+4	40	70	2	35	"Certainly.  It isn't valuable enough to trade for the magic map, but you may choose one of the other four items on the counter in exchange."
+4	40	69	1	2	"I believe I will trade in this coin, merchant."   
+4	40	69	2	35	"Certainly.  You may choose something from the front counter in exchange."
+4	40	23	1	2	"I have this copper coin.  Is it of any value to you at all?"
+4	40	23	2	35	"Most interesting.  I've never seen a Daventry coin before, but it is copper genuine enough.  I might even find a buyer who is interested in foreign currency."  
+4	40	23	3	35	"The items on the front counter are the only things in the store that I can let go for the price of one copper.  You may make your choice from there."   
+4	40	23	4	99	Alexander looks at the items on the counter to make his selection.   
+4	40	22	1	2	"I have this copper coin.  Will it serve in exchange for the map?"
+4	40	22	2	35	"An interesting enough piece, but it is not nearly valuable enough to trade for this map." 
+4	40	22	3	35	"In fact, I would say it is about the worth of our own copper.  The only items in the store that I could let go for the price of a single copper are the four simple items I normally display on the front counter."   
+4	40	22	4	2	"Hmmm.  Well, if I can't have the map then I suppose one of the counter items will do."     
+4	40	22	5	35	"As you wish."     
+4	40	22	6	99	Alexander looks closely at the items on the counter near the map to make his selection.   
+4	7	0	1	2	"Would you be interested in trading for these coins?"     
+4	7	0	2	35	"Hmmm.  Those coins have been around a long time.  The copper is too corroded for me, friend."   
+4	8	0	1	35	"(REGRETFULLY) I do not like to carry weapons--not even small ones."   
+4	30	0	1	35	"(REGRETFULLY) A feather?  I think not, Prince Alex, but it is a very nice feather."      
+4	47	0	1	35	"(REGRETFULLY) Phew!  No, thank you!"     
+4	31	24	1	97	!!!Do not print this.  Comment msg only.
+4	31	25	1	97	!!!Do not print this.  Comment msg only.
+4	48	0	1	35	"(REGRETFULLY) Hmmm.  I believe I have all the armor I can use right now."         
+4	49	0	1	99	The pawn shop owner is unlikely to find much substance in that ghostly item! 
+4	15	0	1	99	This is a pawn shop, not a barber shop!  The owner is unlikely to be interested in a single strand of hair. 
+4	18	0	1	97	!!!Do not print this.  Comment msg only.  
+4	50	0	1	97	!!!Do not print this.  Comment msg only. 
+4	5	0	1	99	The pawn shop owner doesn't look like a man to be tussled with.  The "curiosities" business is just dangerous enough to require one to develop one's boxing skills.  
+4	25	0	1	99	The little hole-in-the-wall might not appreciate being traded in like some ordinary old object that has lost its usefulness! 
+4	83	0	1	2	"I found this bottle in the pot outside."
+4	83	0	2	35	"That would make sense, since that is where I dumped it."
+4	92	0	1	35	"(REGRETFULLY) I have too many lamps already, thanks."        
+4	43	0	1	97	!!!Do not print this.  Comment msg only.   
+4	57	0	1	97	!!!Do not print this.  Comment msg only.    
+4	58	0	1	97	!!!Do not print this.  Comment msg only.     
+4	59	0	1	97	!!!Do not print this.  Comment msg only.     
+4	60	0	1	97	!!!Do not print this.  Comment msg only.      
+4	96	0	1	97	!!!Do not print this.  Comment msg only.      
+4	56	0	1	97	!!!Do not print this.  Comment msg only.      
+4	52	0	1	35	"(REGRETFULLY) I do not have any way to store and keep ice, Prince Alex."          
+4	53	0	1	97	!!!Do not print this.  Comment msg only.       
+4	54	0	1	99	The shop owner would probably not find green water to be a very good trade.
+4	1	0	1	99	The pawn shop owner is a mysterious fellow.  His face is old and inscrutable, and there's a glint of sheer iron in his gaze.  Still, Alexander senses this is someone he can trust.   
+4	32	0	1	35	"(REGRETFULLY) I have little call for love poems in these stressful times."              
+4	12	30	1	2	"Might I trade back in this magic map?"
+4	12	30	2	35	"If you wish, Prince Alex.  I take it you have had enough of traveling.  Of course, the only thing I have that is valuable enough to trade you for the map is your own pearl."    
+4	12	30	3	2	"That's fine.  Thank you, merchant."  
+4	12	31	1	2	"I'd like to trade this magic map back for my family ring, please." 
+4	12	31	2	35	"As you wish, Prince Alex.  I suppose you have had enough adventuring for now, eh?"  
+4	12	31	3	2	"Perhaps.  Thank you, merchant." 
+4	63	0	1	2	"I took a mint...."
+4	63	0	2	35	"Help yourself!  That is what they are there for!" 
+4	65	0	1	99	Alexander is not about to show his private message from Cassima to anyone! 
+4	94	0	1	99	The dangling participle wouldn't appreciate being traded in to a pawn shop! 
+4	66	26	1	2	"I found this large pearl.  Might it be valuable enough to ransom back my family ring?" 
+4	66	26	2	35	"<whistle> I have never seen such a perfect pearl.  Certainly, you can have your ring back." 
+4	66	26	3	2	"I'm glad you didn't sell it.  I'm a bit attached to it, I'm afraid." 
+4	66	26	4	35	"Of course, you are!  You would be cold-hearted if you felt any differently!  I am happy to see a family heirloom back with its rightful owner."    
+4	66	28	1	2	"I found this large pearl on another island.  Might it be enough to get back the magic map and keep my ring too?"
+4	66	28	2	35	"<whistle> I have never seen such a perfect pearl.  Certainly, this pearl alone is worth the price of the map."
+4	66	28	3	2	"Thank you.  I'm relieved to have a means of travel again."  
+4	66	27	1	2	"Might I trade you this pearl again, merchant?" 
+4	66	27	2	35	"Of course.  Here is your family ring."
+4	66	27	3	2	"Thank you for keeping the ring safe for me."
+4	66	29	1	2	"Can I trade you this pearl again--this time for the magic map?"   
+4	66	29	2	35	"Of course, Prince Alex."  
+4	68	0	1	35	"(REGRETFULLY) Hmmm.  A rabbit's foot?  I do not believe I could use that."              
+4	33	0	1	99	Alexander doesn't want to trade in the red ribbon!  It might be from Cassima! 
+4	38	0	1	35	"(REGRETFULLY) I do not carry garments or accessories, Prince Alex."              
+4	69	0	1	99	Somehow, Alexander just can't see the pawn shop owner and Beast being a very good match!
+4	70	18	1	2	"Can you tell me, merchant, what the value of this ring might be?"
+4	70	18	2	35	"By the sands of the sea, what a beauty!  What fine gold, and masterful artistry!"
+4	70	18	3	35	"This ring is quite valuable, sir!  I would not feel right taking it in trade.  None of the items on display in my humble store are even close to the value of this ring."
+4	70	18	4	2	"Truly?  Well, it would be hard to part with it anyway, I suppose."  
+4	70	19	1	2	"(HOPEFULLY) Would you be willing to take my family ring in exchange for the magic map?" 
+4	70	19	2	35	"Daventry...are you a king, then?"   
+4	70	19	3	2	"(BLUSHING) No, that's my father, King Graham.  I'm just Alexander." 
+4	70	19	4	35	"Well, Prince Alex, she is a beautiful ring.  Are you sure you can part with such a unique family heirloom?"  
+4	70	19	5	2	"(SAD) The ring does mean a lot to me.  I didn't always have a family, you know.  Still, it IS only gold.  There are more important things at stake now."  
+4	70	19	6	35	"Then you now own a magic map, Prince Alex.  I will keep your ring out of sight for a few days."  
+4	70	19	7	35	"If you find anything else of great value in your travels, you can return for your ring.  I would hate to see it melted down for the gold."  
+4	70	19	8	35	"And a warning about the map; it will only operate when you are out in the open and within sight of the sea.  The limitation has something to do with the teleport spell ingredients.  You might try the beach."
+4	70	19	9	2	"Thank you.  You're very kind.  And I'll remember about the map."  
+4	70	19	10	99	Suddenly, the old man in the concealing cloak sneaks past Alexander and, with a sneaky dart of his hand, steals a mint from the candy jar.     
+4	70	19	11	99	The old man stuffs the mint into his mouth and wobbles unsteadily out of the pawn shop.
+4	70	36	1	2	"Are you sure you have nothing of value for which I can trade this ring?"  
+4	70	36	2	35	"No, I cannot think of anything.  I have a few unusual treasures that are not on display, but I doubt you would have any interest in such things."       
+4	70	20	1	2	"Might I trade you this ring again, merchant?" 
+4	70	20	2	35	"I have nothing of value enough to trade for it except the pearl you gave me.  I would think you would prefer your family ring, but if you wish, I will trade it."
+4	70	20	3	2	"Thank you."
+4	70	21	1	2	"Can I trade you my ring for the magic map again, merchant?  I'm afraid I am still in need of it." 
+4	70	21	2	35	"Of course, Prince Alex." 
+4	16	0	1	35	"(REGRETFULLY) No, thank you!  Big knives always make me nervous!"              
+4	85	0	1	35	"(SURPRISED) A sentence?  I wouldn't have any idea what to do with that!"        
+4	17	0	1	97	!!!Do not print this.  Comment msg only.  
+4	35	0	1	35	"What would I do with a key of bone?"        
+4	51	0	1	35	"(DISGUSTED) Ugg!  No, thanks!  I leave the storage of bones to the graveyard!"           
+4	2	61	1	2	"Good day, merchant.  Can you tell me what land this is?"
+4	2	61	2	35	"By the moon's light, what a question!  You must have been out too long in the sun--or perhaps knocked your head upon a rock!"
+4	2	61	3	2	"Er, no.  Well, perhaps.  I was in a shipwreck, you see.  My crew and I were trying to reach the Land of the Green Isles.  I think...I hope...my men got away safely in the life boats.  But I myself appear to be rather stuck here."
+4	2	61	4	35	"Ah!  I see!  You must pardon my incredulity, but it has been so long since we have had a foreign visitor.  You wrecked your ship, young traveler, due to the currents and reefs around the islands.  If your crew was wise enough to steer clear of the isles and head home, they should be fine."
+4	2	61	5	35	"In any case, YOU have met your objective, however bumpy the journey!"    
+4	2	61	6	2	"You mean this is the Land of the Green Isles?  Thank the heavens!  I had followed the stars, you see, and I thought I was close, but...."
+4	2	61	7	35	"The stars?  You must be quite a sailor!  But, what is the purpose of your visit?"
+4	2	61	8	2	"(EMBARRASSED) I come for...I mean I hoped to see...I met some time ago...."
+4	2	61	9	35	"Say no more!  You are smitten with a maiden, are you not?  What other than love could so confuse a man's tongue?"
+4	2	61	10	2	"I'm afraid so.  It is Princess Cassima."
+4	2	61	11	35	"By the desert sands!  When you fall in love, you do not mess around, do you?"
+4	2	61	12	2	"Is she here?"
+4	2	61	13	35	"This IS the Isle of the Crown, young man.  The Castle of the Crown stands on the hill.  If it is Cassima you seek, that is where to look."
+4	2	61	14	2	"The Castle of the Crown.  Thank you, merchant."
+4	2	61	15	35	"And good luck to you, lad.  You shall need it."
+4	2	13	1	2	"Excuse me, merchant, but the ferryman mentioned that you might have a magic map of the Land of the Green Isles."
+4	2	13	2	35	"Why, as a matter of fact, I do!  I keep it under the counter.  It has been gathering dust so long, I nearly forgot about it."
+4	2	13	3	35	"It was quite a few years ago, you see.  The estate of a wealthy wizard fell into my hands when he died.  It was useless magical junk mostly--which reminds me, I've still got some things of his in the back that I need to dump out."
+4	2	13	4	35	"Anyway, the magic map was the one true treasure in the lot.  The wizard was quite old and feeble and had enchanted the map to aid in traveling."
+4	2	13	5	35	"It is said that one need only desire to be on an island depicted on the map to find oneself there."
+4	2	13	6	35	"It is a very valuable map, as you can imagine.  Unfortunately, no one is interested in traveling these days.  It is far too dangerous with the current state of the kingdom."
+4	2	13	7	2	"What would you take for the map?"
+4	2	13	8	35	"I would normally want something magic in return, but since I am hardly overrun with prospective buyers, I would be willing to take anything of equal value in exchange."
+4	2	14	1	2	"What would you take in exchange for the magic map?"         
+4	2	14	2	35	"I would need something of great value in trade for this map."      
+4	2	11	1	2	"Good day, merchant.  What can you tell me about the Land of the Green Isles?" 
+4	2	11	2	35	"I can tell you she is in a dark time.  Without the ferry, communication between the islands has ground to a halt and so nearly has my business." 
+4	2	11	3	35	"Why the long ages of peace have ended, and why the Crown has not done something about it, is beyond me!"    
+4	2	11	4	35	"But then, I am a shopkeeper, not a politician, and can only hope for better days." 
+4	2	12	1	2	"How bide you, good merchant?"
+4	2	12	2	35	"Quite well, though a purchase would not hurt me any."
+4	2	47	1	2	"How fare you, good merchant?"  
+4	2	15	1	35	"I cannot complain.  I hope your travels are treating you well, Prince Alex." 
+4	2	37	1	35	"I could use more business, if the truth be known."  
+4	2	44	1	35	"A man my age can only thank the heavens for continued strength, young sire."  
+4	2	45	1	35	"Thankfully, I fare better than my business.  My shop is as silent as the moon these days <sigh>."  
+4	2	46	1	35	"I am as content as the sands on the ocean's shore, Prince Alex."      
+4	20	24	1	2	"Would you mind if I traded this in?"
+4	20	24	2	35	"Certainly not, stranger.  Please, choose an item in exchange from those on the counter."         
+4	20	24	3	99	Alexander looks closely at the items on the counter to make his selection.        
+4	20	25	1	35	"Of course, Prince Alex.  Please, choose something in exchange from the items on the counter." 
+4	34	0	1	99	Rotten Tomato wouldn't appreciate being traded in to a pawn shop!  
+4	24	0	1	99	The Oracle gave Alexander a precious gift!  He doesn't want to trade it in to the pawn shop. 
+4	37	24	1	97	!!!Do not print this.  Comment msg only.
+4	37	25	1	97	!!!Do not print this.  Comment msg only.
+31	0	0	1	97	!!!Do not print this.  Comment msg only.     
+31	5	0	1	99	Alexander already has a skeleton. 
+31	1	0	1	99	A tall skeleton lends an air of mystery to the shop. 
+31	2	0	1	99	He's speechless. 
+1	0	7	1	97	!!!Do not print this!  Comment MSG only.
+1	0	8	1	99	Alexander's heart lurches to life in his chest.
+1	0	8	2	35	"(AMAZED) Prince Alex!  But...but...you were....!" 
+1	0	8	3	2	"(APOLOGETIC) Sorry, friend.  I was doing a little acting, I'm afraid."
+1	0	8	4	35	"(ENLIGHTENED) Ah!  Of course!  The strange cloaked man!  You are quite clever--and a bit too exciting for an old man!"    
+1	0	4	1	99	
+1	0	3	1	34	"(ANGRY) Your candy dish is empty!"
+1	0	3	2	35	"(APOLOGETIC BUT FIRM) I am sorry, sir, but I have no more mints.  Somebody has eaten them all."   
+1	0	3	3	34	"(IMPATIENT) Well, get some more then!"
+1	0	3	4	35	"(FIRM) I fear that is impossible.  Without the ferry, I can no longer get imports from the other islands, and we do not grow mint extract on the Isle of the Crown."  
+1	0	3	5	34	"(TEMPER TANTRUM) OOOH!  I HATE not getting what I want!"
+1	0	2	1	99	"Good day, young sir."
+1	0	67	1	35	"Good day, Prince Alexander!"
+1	0	66	1	35	"Good day!"
+1	0	5	1	97	!!!Do not print this!  Comment MSG only.
+1	0	6	1	97	!!!Do not print this!  Comment MSG only.
+1	5	64	2	35	"As you wish.  Allow me to return your item for trade."     
+1	5	63	1	2	"I'm really not interested in anything on the counter at this time." 
+1	5	63	2	35	"As you wish.  Here is your coin back."  
+1	5	65	2	97	!!!Do not print this.  Comment msg only.  
+1	1	62	1	97	!!!Do not print this.  Comment msg only.
+10	5	38	1	2	"I'm interested in that tinder box on the counter."
+10	5	38	2	35	"What do you desire to give me in trade?  The items on the front counter are all of equally slight value--worth only a copper or two.  They are handy items, nonetheless."   
+10	5	16	1	2	"I believe I'll take the tinder box."  
+10	5	16	2	35	"Very well.  Your coin is well spent.  Remember, this is a pawn shop.  I am always willing to take back my own goods in trade."    
+10	5	16	3	2	"I'll remember.  Thank you."
+10	5	41	1	2	"Might I trade for that tinder box on the counter?"
+10	5	41	2	35	"Certainly.  What do you wish to offer me in trade?"    
+10	5	39	1	35	"Very good, sir.  Enjoy the tinder box.  Remember, I am always willing to take it back in trade."    
+10	5	39	2	2	"Thank you."    
+10	5	40	1	35	"Very good, Prince Alex.  Enjoy your tinder box, and bring it back anytime." 
+10	5	40	2	2	"Thank you."    
+10	1	42	1	35	"Have you an interest in tinder boxes?  This one is only slightly battered.  It holds a good supply of flint, a sturdy striking pad, and even a candle in case you find yourself with naught else to hold the flame."         
+10	1	43	1	99	A battered tinder box is displayed on the counter.  
+32	5	0	1	99	The door provides much more efficient access to the street. 
+32	1	0	1	99	Small windows allow in a bare amount of illumination, giving the light in the shop a diffused glow.        
+12	5	38	1	2	"I'm interested in that mechanical nightingale on the counter."
+12	5	16	1	2	"That mechanical nightingale looks intriguing.  I believe I'll take it."   
+12	5	41	1	2	"Might I trade for that mechanical nightingale on the counter?" 
+12	5	39	1	35	"Very good, sir.  Enjoy the mechanical nightingale.  Remember that I will take it back in trade at any time."    
+12	5	39	2	2	"Thank you."    
+12	5	40	1	35	"Very good, Prince Alex.  It is always a pleasure doing business with you.  Enjoy the mechanical nightingale, and feel free to bring it back any time."  
+12	5	40	2	2	"Thank you."    
+12	1	42	1	35	"I see you have noticed my mechanical nightingale.  She is made of plain tin, but she sings the sweetest song you can imagine--barely distinguishable from the real thing."    
+12	1	43	1	99	A mechanical nightingale made of tin is perched on the counter.  
+15	0	0	1	99	If Alexander wants to exchange one of his possessions for an item in the pawn shop, he'll have to arrange it with the pawn shop owner first by showing him the object for trade.
+15	5	0	1	99	If Alexander wants anything from the pawn shop, he'll have to first give the pawn shop owner something in trade.
+15	1	0	1	99	A worn leather wine skin is suspended from the ceiling. 
+21	0	0	1	97	!!!Do not print this.  Comment msg only.        
+21	5	0	1	99	Alexander prefers to keep his leather jerkins firmly on the ground.   
+21	1	0	1	99	A strange-looking winged device occupies one corner of the room.  It is frail with disuse.  Alexander finds it intriguing.  Perhaps, he thinks, it was once used in a local sporting event in which enthusiasts jumped from cliffs, glided on air currents, and then attempted to land, frequently crunching a bone or two in the process.
+21	1	0	2	99	Alexander shudders at the thought and decides to stick to dragon-slaying. 
+21	2	0	1	99	The wings have long been silent. 

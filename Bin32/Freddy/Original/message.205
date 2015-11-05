@@ -1,0 +1,71 @@
+0	0	0	1	2	"Hello.  I'm Prince Alexander of Daventry, and I'm the one you'll be leading around on this quest.  The success of my search for Cassima depends on you, so I thought I'd show you how to run things."
+0	0	0	2	2	"All my actions are controlled through ICONS.  The icons are available through the ICON BAR.  For mouse users, move your mouse cursor to the top of the screen.  For keyboard users, press the ESCAPE key or the Del key on your numeric pad.  For joystick, press the right or 'B' button.  The icon bar will then appear, like this:"
+0	0	0	3	2	"The icons on the icon bar are; the WALK icon..."
+0	0	0	4	2	"...the HAND icon..."
+0	0	0	5	2	"...the LOOK icon..."
+0	0	0	6	2	"...the TALK icon..."
+0	0	0	7	2	"...the CURRENT inventory icon window (when there is one)..."
+0	0	0	8	2	"...the INVENTORY button..."
+0	0	0	9	2	"...and the SYSTEMS button."
+0	0	0	10	2	"You can select an icon to use by 'clicking' on that icon on the icon bar.  You 'click' with your left mouse button, your keyboard ENTER key, or your joystick FIRE button."
+0	0	0	11	2	"You can also select icons by clicking your right mouse button.  This will cycle through all the action cursors; WALK, HAND, LOOK, TALK, and CURRENT inventory item icon.  Key 5 on your keyboard's numeric pad cycles icons the same way."
+0	0	0	12	2	"As a short cut, if you have a middle mouse button, click it to cycle only between your active icon and the WALK icon.  This is handy in a new area, for example, where you spend most of your time WALKing and LOOKing.  Key 0 (or Ins) on your keyboard's numeric pad does the same thing."
+0	0	0	13	2	"Once you've selected an icon, click that icon wherever you wish to execute that action.  Again, you can 'click' or execute the icon with the left mouse button, the ENTER key, or the FIRE button on your joystick."
+0	0	0	14	2	"Okay.  Got it?  Let's try a few."
+0	0	0	15	2	"WALK.  Use the WALK icon to move me from location to location in the game.  Select the WALK icon and press it where you would like me to move.  Like this:"
+0	0	0	16	2	"LOOK.  The LOOK icon triggers a printed message about objects and locations on the screen.  Very often, clues and information about puzzles are in LOOK messages, so always click the LOOK icon everywhere on a new screen.  To look at something, select the LOOK icon, and click it on whatever you want to look at."
+0	0	0	17	2	"For example, see that glinting object on the sand near the water?  Glinting objects are always a good idea to check out.  Let's LOOK at it and see what the game has to say about it:"
+0	0	0	18	99	Alexander's royal insignia ring lies abandoned on the sand.  It must have slipped from his finger during the shipwreck.  Fortunately, it was not lost in the sea.  
+0	0	0	19	2	"Hmmm.  My royal insignia ring, eh?  That might come in handy, don't you think?  I'll show you how to get it with the next icon."
+0	0	0	20	2	"HAND.  The HAND icon means 'manipulate object' and can be used to pick up things, open things, close things, move things, search things, and so on.  Select the HAND icon and click it on an object that you want to manipulate."
+0	0	0	21	2	"Let's pick up that ring on the sand now.  Select HAND and click it on the ring.  The ring is small, so be careful to click the tip of the finger on the HAND icon right on the ring, or the game will think you are trying to manipulate the sand."
+0	0	0	22	99	Alexander picks up his royal insignia ring from the beach.
+0	0	0	23	2	"The game also just told you what I did; I got the ring.  Messages help make my actions more clear in most cases."
+0	0	1	1	2	"The last button on your icon bar is the SYSTEMS button.  Clicking on the SYSTEMS button will bring up the game's control panel."
+0	0	1	2	2	"This is the control panel.  From here you may select game options.  You can SAVE, RESTORE, RESTART, QUIT, see game information under ABOUT, and PLAY.  There are also three sliders:  DETAIL, VOLUME, and SPEED.  You can also see your current score."
+0	0	1	3	2	"The SAVE button is for saving the current state of your game.  This lets you try something dangerous and have a way to get back to where you were before you tried it.  SAVE OFTEN, whenever you make progress in the game.  That way, if I should happen to...uh...get in trouble, you can avoid extra time by just restoring."
+0	0	1	4	2	"The RESTORE button is for restoring.  You may restore any one of the games that you saved.  If there was a sequence that you particularly enjoyed, you may view it again and again."
+0	0	1	5	2	"The RESTART button will take you all the way back to the beginning of the game so you can play a new game from scratch.  Remember that if you restart, the current state of the game is lost.  It would probably be a good idea to save before you restart."
+0	0	1	6	2	"The QUIT button is for leaving the game entirely and returning to your operating system."
+0	0	1	7	2	"The ABOUT button is an information and help button.  It will give you information about this game and the King's Quest series.  There's also a beginner's walk-thru and a tips section available through the ABOUT button.  Look at one or both if you're having problems figuring out what to do."
+0	0	1	8	2	"The PLAY button is to leave the control panel and return to the game."
+0	0	1	9	2	"The DETAIL slider is to adjust the amount of detail in the game.  If you feel that the game is running too slow, you may turn this down.  Superfluous animation will stop.  This is a help on slower machines."
+0	0	1	10	2	"The VOLUME slider is to adjust the volume in the game.  This is only applicable for certain sound cards.  This will not work on the PC internal speaker."
+0	0	1	11	2	"The SPEED slider will adjust my speed.  It will not affect any other animation in the game."
+0	0	4	1	2	"There's just two more important things about the interface that will help your gameplay.  First, when you have a close-up inset of something (such as a box) on the screen, click OUTSIDE the inset to exit or clear the inset."
+0	0	4	2	2	"Second, during long dialogues, clicking the right button will skip messages and speed through the scene.  BE CAREFUL with that right button, though!  You don't want to clear any messages you haven't yet read or you will most likely miss important clues!"
+0	0	4	3	2	"Well, that's the game interface.  If you have a hard time getting started, you might want to look at the 'Beginner's Walk-Thru,' available through the ABOUT button.  Also make sure you check out the 'Tips on playing King's Quest VI' section under the ABOUT button for strategy tips on mastering the game."
+0	0	4	4	2	"There is much to be done before you and I accomplish our mission.  Have fun and remember--take your time and really explore.  There are a lot of details in this game.  Take the time to look around and savor everything.  GOOD LUCK!"
+0	0	5	1	99	Do you want to leave the demo?
+0	0	5	2	99	No.  I'm fascinated.
+0	0	5	3	99	Yes.  I know all this stuff already.
+0	0	6	1	2	During this demo, press the ENTER key on your keyboard or your left mouse button to clear each message.  To exit this demo, press any key or click a mouse button when a text box is NOT on the screen.
+0	0	2	1	2	"Your INVENTORY is the group of objects--such as the ring--that you collect during the game.  Click on the INVENTORY button on your icon bar to bring up the INVENTORY WINDOW.  The inventory window shows you all the items you have.  Right now, all we have is a ring."
+0	0	2	2	2	"Look!  More icons!  These are really similar to the icons on the icon bar, except these icons operate on the items in your inventory window.  For example, the LOOK icon here is for looking at an inventory item.  Let's LOOK at the ring."
+0	0	2	3	99	Alexander's ring is made of the purest gold and has the insignia of the royal family of Daventry on its face.
+0	0	2	4	2	"The HAND icon is for manipulating an object in your inventory window.   Try this with everything new you get.  HAND does different things, depending on the item; it can let you read something, eat something, open something, and so on.  Sometimes there's even an item hidden INSIDE another item, and the only way to find it is with HAND."
+0	0	2	5	2	"Of course, sometimes HAND on an item just gets a little more descriptive detail or says that you can't DO anything with the item at all.  Let's try HAND on the ring."
+0	0	2	6	99	Alexander is already wearing his ring.
+0	0	2	7	2	"The TALK icon lets you try to talk to an inventory item.  Although most inventory items will have nothing to say, a few can get downright wordy!  Let's try TALKing to the ring."
+0	0	2	8	99	Reminiscing of home is fine, but the ring is not a very good listener.
+0	0	2	9	2	"The MORE button becomes useful later in the game, when you have many items in inventory.  If there is more than one page of inventory, clicking on the MORE button will work on either page to flip between the pages."
+0	0	2	10	2	"When there's not another page of inventory, you'll see this message:"
+0	0	2	11	99	This is the only page of inventory.
+0	0	2	12	2	"Finally, the ARROW icon lets you select an item to be your CURRENT inventory icon.  That item's icon will then appear on the icon bar in the CURRENT inventory icon window and be one of your active cursors when you cycle cursors.  Click on the ARROW, then on the item.  Your cursor will now become the selected item."
+0	0	2	13	2	"Once you have an item's cursor, you can also try to use that item on another inventory item in the inventory window.  For example, you might have a KEY and want to use that KEY on another inventory item such as a LOCKED BOX.  To do that, you would use the arrow to select the KEY, then click that KEY icon on the BOX in the inventory window."
+0	0	2	14	2	"We only have one item right now, but be sure to try this out once you've picked up a few objects in the game."
+0	0	2	15	2	"Once you've selected an icon to be current (or even if you haven't), you can just click on the OK button to erase the inventory window and return you to the game."
+0	0	2	16	2	"See?  The ring is now in the CURRENT inventory icon window and is also the cursor.  The RING icon or cursor looks like a ring.  Every inventory item in the game has its own icon that looks like that item."
+0	0	2	17	2	"Inventory objects are used to solve puzzles in the game.  To use an item, click the item's icon on an object on the screen.  That means; try to use the item on the object."
+0	0	2	18	2	"For example, we can try to throw the ring in the sea by clicking RING on the ocean on the screen."
+0	0	2	19	99	Alexander doesn't want to throw his royal ring in the sea!  It has great sentimental value to him!
+0	0	2	20	2	"It's a good idea to always try any inventory item you get on me, Alexander.  If I had a guitar, for example, you could click the GUITAR icon on me, and I would then play the guitar.  Let's try it with the ring."
+0	0	2	21	99	Alexander is already wearing his royal insignia ring.
+0	0	2	22	2	"Other examples of puzzles that might involve clicking an inventory item on an object on the screen include: using a KEY on a locked door on the screen, using MONEY on a greedy guard who might be bribed, or using a SHOVEL to dig in a garden."
+0	0	2	23	2	"Before we move on to SYSTEMS, here's something you'll find at times in the game; sometimes during certain scenes or while certain insets are up, you might notice that part or all of your icon bar is disabled."
+0	0	2	24	2	"Look at your icon bar.  If there is no color outline around a particular icon, it is disabled and you may not select that icon at the current point in the game.  For example, right now WALK and HAND are disabled.  Disabled icons will become available to you again after you finish with the current scene or inset."
+0	0	3	1	2	"TALK.  The TALK icon lets you talk to objects in the game.  You can try TALKing to anything, although only speaking creatures will generally talk back.  Select the TALK icon and click the icon on the object or person that you would like to talk to."
+0	0	3	2	2	"Um....  There's actually no one here right now, so let's try talking to the ocean."
+0	0	3	3	99	The currents continue to murmur, but they do not reply to Alexander.
+0	0	3	4	2	"You get the idea.  Just over that hill behind me, you'll meet some people you can talk to.  Try the TALK icon on them.  It's a good idea to use the TALK icon frequently.  The other characters in the game usually know more about what's going on than I do, and they can give you lots of important information."
+0	0	3	5	2	"The window next to TALK shows the CURRENT inventory icon.  Right now, the window is empty--but we'll fix that by going into inventory."

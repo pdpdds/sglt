@@ -1,0 +1,121 @@
+8	0	0	1	99	There's no reason to use that on the door to the basement.
+8	5	0	1	97	!!!Do not print this!  Comment MSG only.
+8	1	0	1	99	A stone door fits neatly into the wall and leads back into the basement.
+4	0	0	1	99	There's no reason to use that on the chink in the wall.
+4	5	0	1	97	!!!Do not print this!  Comment msg only.
+4	1	16	1	97	!!!Do not print this.  Comment msg only.
+4	1	19	1	97	!!!Do not print this.  Comment msg only.
+4	1	17	1	97	!!!Do not print this.  Comment msg only.
+4	1	18	1	97	!!!Do not print this.  Comment msg only.
+4	1	21	1	99	Alexander looks through the chinks in the wall to see if Cassima might have returned to her room.
+4	1	21	2	99	But alas, Cassima is still gone.
+4	1	20	1	99	Alexander looks through the chinks in the wall, anxious to see what the commotion was about.
+4	1	20	2	99	Cassima is gone!  Where could they have taken her?  How could he have LET them take her?
+4	1	20	3	2	"A fine rescuer I'M turning out to be!"
+4	2	0	1	99	Talking to the chink on the wall would do little good.
+5	0	0	1	99	Although Alexander would gladly offer Cassima all that he owns, that item would be of little help to her now.
+5	8	0	1	2	"Here, take this dagger.  It's not much, but it might come in handy."
+5	8	0	2	28	"Why, it's perfect!  This is just the sort of thing I've been looking for!  Thank you, Alexander.  I'll keep it close and use it if I must."
+5	61	28	1	99	Cassima has already been upset enough by that letter.
+5	61	23	1	2	"I found this letter in the vizier's bedroom.   I haven't looked at it yet, but I thought you might want to see it."
+5	61	22	1	2	"I found this letter in the vizier's bedroom.   I...I think you should know what it says."
+5	61	22	2	28	"(HORRIFIED)<Gasp!>  I can't believe it!  I had my suspicions, but this confirms everything!  Alexander, YOU must keep the letter.  You might have a chance to show it to someone who can help you stop Alhazred.  Just be careful, please."
+5	1	0	1	99	Alexander looks with longing at the fair Cassima.  She's even more beautiful than he remembered.
+5	32	0	1	99	Now is not the time for idle words of love.  The situation is much too grave.
+5	65	0	1	99	Cassima wrote that note for Alexander, and she doesn't need to read it again.
+5	33	0	1	99	Cassima sent that ribbon to Alexander.  It would be rude to return a token of a lady's affection.
+5	70	0	1	99	Now is not the time for such tokens!  The situation is much too grave!
+5	71	0	1	99	Now is not the time for such tokens!  The situation is much too grave!
+5	35	0	1	2	"I have this key.  It will work on any lock.  Perhaps you could use it to escape."
+5	35	0	2	28	"I'm afraid my door is locked from the outside.  A key wouldn't do me much good.
+6	0	0	1	99	There's no reason to use that on the chink in the wall.
+6	5	0	1	97	!!!Do not print this!  Comment msg only.
+6	1	24	1	99	Alexander peers through the chink in the wall.
+6	1	24	2	81	"Cap'n, I've been hearin' rumors from the guards who've been watchin' the princess.  They say lately she's been poundin' on her door and beggin' to be let out."
+6	1	24	3	81	"Ain't none of my business, sir, but news like that is upsettin' the other dogs.  Ain't no guard in the castle who would willingly keep the princess anywhere she don't want to be."
+6	1	24	4	13	"<Growl>.  Alhazred claims that a foreign intruder is here to assassinate her.  That's why she's got to be kept under lock and key, right up until the wedding."
+6	1	24	5	82	"Call me an old dog that can't learn new tricks, but I say the princess should be the one givin' orders!"
+6	1	24	6	13	"Alhazred has been in charge for months what with the king's death and Cassima's mourning.  Tonight the wedding will seal it, and there's nothing we can do about it."
+6	1	24	7	13	"Like him or not, he's our liege.  Need I remind you of your oath to the Crown?"
+6	1	24	8	82	"Aye, we've an oath.  For the sake of the princess we'll not be forgettin' it.  He'd just better treat her well!"
+6	1	24	9	81	"Speakin' of the vizier; What do ya reckon he's keepin' in that magical room of his?"
+6	1	24	10	82	"It's not a magic ROOM, it's just the door he's enchanted somehow.  I say he's still got the royal treasury in there--along with whatever else he's so eager to protect.  Not even the court treasurer is allowed in there, anymore."
+6	1	24	11	81	"I heard him in the hall the other day.  He was speakin' to that door--black magic, is what I say!  I heard him say 'Ali', but then Bay came up and started yapping at me."
+6	1	24	12	13	"Enough!  It is not our place to question the practices of our liege--no matter how strange.  The wedding will be starting soon.  Report to the throne room when you hear the music start."
+6	1	25	1	99	Alexander takes another look through the chink in the wall.
+6	1	25	2	99	Captain Saladin has left, and the other two guard dogs are talking too quietly for Alexander to hear them.
+6	2	0	1	99	Talking to the chink on the wall would do little good.
+9	0	0	1	99	There's no reason to use that on the hallway entrance.
+9	1	0	1	99	On the west wall is an exit to a hallway.
+9	3	0	1	97	!!!Do not print this!  Comment MSG only.
+3	0	0	1	99	Alexander doesn't see any use for that there.
+3	5	0	1	99	Alexander sees nothing of interest there.
+3	1	14	1	99	Alexander is standing in a secret passage of the Castle of the Crown.  The landing is dusty, and the walls are deteriorating.  To the south is the door to the basement.  A staircase to the north leads up to another floor.
+3	1	15	1	99	Alexander is standing in a secret passage of the Castle of the Crown.  The landing is dusty, and the walls are deteriorating.  To the west is an exit to a hallway.  A staircase to the north leads down to the basement landing.
+3	2	0	1	99	Having found the secret passage, Alexander has no desire to reveal his location behind the walls by talking aloud.
+1	0	7	1	99	Alexander peers through the chinks in the wall, trying to locate the source of the crying sounds.
+1	0	7	2	99	Alexander's palms begin to sweat and his heart to race.  It's Cassima!  He's found her!
+1	0	7	3	2	"(WHISPERING URGENTLY) Psst!  Princess Cassima!"
+1	0	7	4	28	"What?  Who's there?"
+1	0	7	5	2	"It is I, Alexander!  I'm here--behind this wall!"
+1	0	7	6	99	My, how suave THAT sounds!
+1	0	12	1	28	"But Abdul would tear the castle apart if I were to disappear from my room!  You shall have to do what you can to delay his plans from your end."
+1	0	12	2	2	"I can't just leave you here!"
+1	0	12	3	28	"Alexander, do not despair for me.  I have been safe in this room for nearly six months now.  Abdul can be in no hurry, whatever he plans.  After all, I'm to be his bride, am I not?"
+1	0	12	4	28	"I have been planning too, you see.  I believe I can escape if I only get a chance to lay my hands on a weapon.  There might be an opportunity in the hustle of the wedding."
+1	0	12	5	2	"But, I...."
+1	0	12	6	28	"Shhh.  Just a moment more, and then you MUST go.  Let us not waste this time with words.  Please, let me just look at you, dear Alexander."
+1	0	9	1	28	"(CONFUSED, UNBELIEVING) Alexander?  Of Daventry?  I...I don't believe you."
+1	0	9	2	2	"I assure you, it is I.  Forgive me if I intrude, my lady, but I have been so...concerned for your safety."
+1	0	9	3	28	"(DOUBTFUL, BUT WANTING TO BELIEVE) Why should I believe you?  Alexander of Daventry is somewhere around the world from this small land.  (BRAVELY ANGRY) It is a trick, and an unforgivable one.  You might tell your master I said so!"
+1	0	9	4	2	"(SHYLY) Princess, I am your most humble servant.  I could not offer you trickery though my life depended on it.  I know this is a bit odd, but I came from Daventry to see you.  I had to."
+1	0	9	5	28	 "(MELTING INTO BELIEF AND RELIEF, SOFTLY) It really IS you, Alexander."
+1	0	9	6	2	"It really is.  Are you glad I'm here?"
+1	0	9	7	28	"(EXCITED) With all my heart!  But I don't understand.  How did you get into the castle?  How did you get into the WALLS?"
+1	0	9	8	2	"(RELIEVED, MORE CONFIDENT) It would take too long to explain.  I've been on the islands for some time now, trying to find a way to get to you!  I had a feeling you needed help."
+1	0	9	9	28	"(HAPPY, THEN URGENT) Oh, I AM happy to see you, Alexander.  I'm afraid I shouldn't be, though!  You're endangering yourself terribly by being here!"
+1	0	11	1	2	"I don't care about the danger!  I would brave anything to learn...."
+1	0	11	2	28	"What is it?"
+1	0	11	3	2	"Alhazred.  Do you WANT to wed him, Cassima?"
+1	0	11	4	28	"Oh, please believe me when I say that I never agreed to marry that man!  Even when my father trusted Abdul absolutely, I never liked him.  But with Mother and Father gone, I'm afraid there's no stopping him."
+1	0	11	5	2	"If you do not wish to marry him, Cassima, you SHALL not.  I promise you.  Only come with me now, and we shall escape."
+1	0	11	6	28	"How?  I cannot fit through this wall.  Besides, do you think I could leave my kingdom, my PEOPLE, in Abdul's hands?"
+1	0	11	7	97	!!!!Removed line:  "The kingdom!  Tell me what's going on out there, Alexander!  I've been so afraid, not knowing what Alhazred plans!  Have the islands stopped fighting?"
+1	0	11	8	97	!!!Removed line:  "I'm afraid not.  The ferry has shut down, and I gather things are worse than ever.  While the villagers on this island have been kind, the other islands were not exactly...welcoming, in all truth."
+1	0	11	9	97	!!!Removed line:  "Ah!  How could things have gone so awry?"
+1	0	11	10	2	"We'll stay nearby if you want, only come away from Alhazred's power.  We'll find refuge on one of the islands.  They're all still true to you, you know."
+1	0	8	1	28	 "(EXCITED) Alexander?"
+1	0	8	2	28	 "(MELTING INTO BELIEF AND RELIEF, SOFTLY) It really IS you!  I knew you were close by, but how did you get inside the castle WALLS?"
+1	0	8	3	2	"It's a long story and not important now.  You did get my ring?"
+1	0	8	4	28	"Oh, yes!  It has brought me such comfort, Alexander, to know you were close by and had not forgotten...."
+1	0	8	5	28	"But you shouldn't be here!  You're only endangering yourself!"
+1	0	10	1	2	"I'm afraid I'm not the only one in danger.  Princess, be brave!  I have heard such vileness today!  Such evil!"
+1	0	10	2	28	"What is it?"
+1	0	10	3	2	"Alhazred...he is not what he appears."
+1	0	10	4	28	"I've known that for years, Alexander.  But with mother and father gone, I'm afraid there's no stopping him."
+1	0	10	5	28	"But tell me of what evil you speak.  I've been so afraid for my kingdom, not knowing what he plans!"
+1	0	10	6	2	"The kingdom IS in trouble, but the real threat at the moment is to YOUR safety, Princess.  Alhazred has such plans....  You don't WANT to wed Alhazred, do you?"
+1	0	10	7	28	"How can you ask?  Of course not!"
+1	0	10	8	2	"If you do not wish to marry him, Cassima, you SHALL not.  I promise you.  But we must get you out of here, NOW.  You are not safe."
+1	0	1	1	99	Alexander hears the sound of voices coming from nearby.
+1	0	2	1	97	!!!Do not print this!  Comment MSG only.
+1	0	5	1	97	!!!Do not print this!  Comment MSG only.
+1	0	6	1	99	Alexander hears the faint sound of a woman crying nearby.
+1	0	3	1	99	Phew!  That was a climb!
+1	0	4	1	97	!!!Do not print this!  Comment MSG only.
+1	0	13	1	28	"Oh, no!  Someone's coming!"
+1	0	13	2	99	The lock on Cassima's door rattles abruptly.
+1	0	13	3	28	"(WHISPERED,URGENT) Alexander, hurry!  Step away before they see you!"
+1	0	13	4	99	Alexander hears scuffling and a woman's brief cry from the other side of the wall, then silence.
+1	1	0	1	99	Alexander stands in the secret passage way--so close, yet so far, from his heart's desire.
+11	0	0	1	99	There's no reason to use that on the staircase.
+11	5	0	1	99	There's nothing of interest on the stairs, and Alexander doesn't have time to try his hand at carpentry.
+11	1	0	1	99	A rickety staircase leads down to the basement landing of the secret passage.
+11	3	0	1	97	!!!Do not print this!  Comment MSG only.
+10	0	0	1	99	There's no reason to use that on the staircase.
+10	5	0	1	97	!!!Do not print this!  Comment msg only.
+10	1	0	1	99	A rickety staircase leads up to another floor of the secret passage.
+10	3	0	1	97	!!!Do not print this!  Comment MSG only.
+7	0	0	1	99	There's no reason to use that on the wall.
+7	1	26	1	99	The old walls are dirty and show the neglect of a forgotten place.
+7	1	27	1	99	The wall has deteriorated significantly in this area, leaving a chink in the wall.

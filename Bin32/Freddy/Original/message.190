@@ -1,0 +1,66 @@
+6	1	0	1	99	Alexander browses the details of a spell that claims to be able to "Charm a Creature of the Night."
+6	2	10	1	97	!!!Do not print this.  Comment msg only.  
+6	2	11	1	99	This spell must be cast over a skull containing hot embers, a strand of hair, and brimstone (sulphur).
+6	2	2	1	99	The incantation would do little good without a "Creature of the Night" to charm!
+2	5	0	1	99	This is the first page.      
+4	1	0	1	99	Alexander carefully reads the instructions for a spell entitled "Magic Paint Spell."   
+4	2	5	1	99	Speaking the incantation would do little good unless there was a painted object nearby to enchant.    
+4	2	7	1	97	!!!Do not print this.  Comment msg only.
+5	1	0	1	99	Alexander reads with interest the specifications for the "Make Rain Spell." 
+5	2	11	1	99	This spell must be cast over a teapot containing salt water, sacred water, and falling water. 
+5	2	23	1	99	The hunter's lamp is already as "enchanted" as it's ever going to get.
+5	2	8	1	97	!!!Do not print this.  Comment msg only.
+1	5	0	1	99	This is the last page.     
+3	0	1	1	97	!!!Do not print this.  Comment msg only.
+3	0	22	1	99	INCANTATION
+3	0	12	1	99	* 1 Cup Swamp Ooze
+					* River Styx Water
+					* 1 Black Horse
+					    Feather
+					
+					Add Styx Water to Swamp Ooze in Cup.  Stir with Horse Feather.  Apply to blank surface with artist's brush.  Speak incantation over painting to materialize.
+3	0	13	1	99	Magic Paint, black
+					 as ink.
+					Bring to life, what
+					 I think.
+					Make it real, what
+					 I draw.
+					According to this
+					 spoken law.
+3	0	14	1	99	MAGIC PAINT SPELL
+3	0	16	1	99	* Few drops Salt
+					   Water not from
+					   the sea
+					* 1 vial Sacred
+					   Water
+					* Falling Water
+					
+					First mix Salt and Sacred Waters in a Teapot, then add Falling Water.  Speak incantation over Teapot to enchant. Heat to boiling to activate.
+3	0	17	1	99	Clouds of thunder,
+					 shafts of light.
+					Come and sup with
+					 me tonight.
+					Waters three have
+					 I for tea.
+					Brew a tempest now
+					 for me!
+3	0	20	1	99	MAKE RAIN SPELL
+3	0	18	1	99	* 1 Skull full of 
+					   hot Oak Embers
+					* A bit of sulphur
+					   (Brimstone)
+					* 1 Strand of a 
+					   pure-hearted
+					   maiden's Hair
+					
+					Add Hair and Brimstone to Skull of Embers. In presence of Creature, speak incantation over skull.
+3	0	19	1	99	Creature of Night,
+					 to me succumb!
+					Fire and Brimstone
+					 leave thee numb.
+					Purity bind thee
+					 like a chain.
+					To do what 'ere I
+					  now ordain!
+3	0	21	1	99	CHARMING A CREATURE OF THE NIGHT SPELL
+3	98	0	1	97	!!!Do not print this.  Comment msg only.

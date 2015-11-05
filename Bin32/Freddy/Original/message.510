@@ -1,0 +1,127 @@
+2	17	8	1	99	Alexander decides to pass through the gate--preparing the shield just in case.
+2	17	8	2	97	!!!Do not print this.  Comment msg only.
+2	17	8	3	99	The magic arrow completely shatters the shield!  Good thing the arrow didn't hit Alexander!
+5	0	0	1	99	There's no reason to use that on the brick.
+5	5	0	1	99	Alexander picks up the brick.
+5	1	0	1	99	A brick lies in the grass.  It must have come from the old brick wall.
+5	2	0	1	99	The brick has nothing constructive to say.
+16	0	0	1	99	Alexander doesn't need to do anything further with the rose hedge clippings.
+16	5	0	1	99	Those rose hedge clippings are a bit prickly to be sticking in one's pockets!
+16	1	0	1	99	Piles of hedge clippings, the last of their magic spent, lie piled on the ground near the gazebo.
+16	2	0	1	99	The clippings seem a little cut up and will not reply.
+14	0	14	1	99	Alexander can't do anything with the garden plot from this side of the wall.
+14	0	13	1	99	Alexander doesn't have time to mess around with that dirt patch.
+14	5	14	1	99	Alexander can't reach the small garden from this side of the wall.
+14	5	13	1	99	Alexander has enough trouble without digging around in the dirt for more!
+14	1	9	1	99	A small garden plot is situated just past the wall.
+14	1	8	1	99	With the gardener gone, Alexander can see that the garden plot is hardly more than a fresh patch of dirt.
+14	71	0	1	99	The dirt 'garden' could well use some life, but sticking the rose in the soil will not a garden make.
+13	0	0	1	99	There's no reason to use that on the gazebo.
+13	5	0	1	99	Alexander can't do anything with the gazebo.
+13	1	0	1	99	A delicate gazebo, made of white-painted pine and overgrown with rose vines, leads north into what appears, from here, to be a garden.
+7	0	0	1	2	"Perhaps you'd find this interesting...."
+7	0	0	2	55	"Hmmm?  Sure.  Bring it on over to this side of the wall where I can see it better."
+7	5	0	1	99	Alexander can't reach the gardener from this side of the wall.
+7	43	0	1	2	"I have this lamp...."
+7	43	0	2	55	"Hmmm?  Oh, that old thing.  Why should I be interested in that?"
+7	1	0	1	99	A pleasant-looking, middle-aged man is busy tending a small garden just past the wall.
+7	67	0	1	2	"I have some peppermint leaves.  Would you care for some?"
+7	67	0	2	55	"Where'd you find that?  I must know!"
+7	67	0	3	2	"Why...in a rather narrow place."
+7	67	0	4	55	"NEVER MIND!  I must have it NOW!"
+7	67	0	5	2	"Whoa!  You certainly have a unique way of moving around!"
+7	67	0	6	55	"PEPPERMINT!"
+7	67	0	7	2	"Well!  He need only have asked for some!"
+7	2	15	1	2	"I'm Alexander of Daventry.  Who are you?" 
+7	2	15	2	55	"What difference does it make?  Just come on over here.  I'll tell you my life history, if you still want to hear it <hee>."
+7	2	16	1	2	"Tell me...."
+7	2	16	2	55	"If it's conversation you want, just come on over here.  I'll talk your ears off if we can sit down and talk face-to-face."
+11	0	0	1	99	The statue with the spear doesn't seem to be interested in anything Alexander has.
+11	5	0	1	99	Alexander cannot reach the statue atop the wall.
+11	1	0	1	99	The statue to the left of the gate shows a man kneeling down with his spear, as though waiting for a target.
+11	17	0	1	99	It wouldn't do much good to protect Alexander from THAT statue!
+11	2	0	1	99	The stone statue doesn't respond.
+6	0	0	1	99	The path, like destiny, cannot be altered.
+6	5	0	1	99	To take the path, Alexander need only walk on it.
+6	1	0	1	99	The path passes through a gated wall here and, up ahead, meanders past rose hedges and a small gazebo.
+6	2	0	1	99	The path silently proceeds ahead, heedless of Alexander.
+3	1	0	1	99	The path through the woods runs through a gated wall here.  Two stone statues stand guard on the gate's lintels.  To the north, the path continues on through a hedge of roses and a dainty gazebo.
+3	1	9	1	99	A man tends to a small garden plot on the other side of the wall.
+15	0	0	1	99	That won't help Alexander get through the magical hedges.
+15	28	0	1	99	There are no spells in the spell book for magical hedges!
+15	39	0	1	99	The brick would only get stuck in the hedges.
+15	8	0	1	99	The dagger isn't strong enough to cut through the magical hedges.
+15	30	0	1	99	The hedges are most likely NOT ticklish.
+15	5	0	1	99	The hedge over the path is covered with thorns, and its vines are thick and strong.  Alexander cannot part the hedge with his hands.
+15	25	0	1	99	That's a hole-in-the-wall not a hole-in-the-hedge!
+15	1	0	1	99	The hedges have grown magically together to block the path north.
+15	12	0	1	99	It would be nice to teleport the hedges away, but the map doesn't work that way.
+15	94	0	1	99	What would the little creature be able to do with the magical hedges?
+15	70	0	1	2	"Look here, hedge!  I am Alexander of Daventry and I must pass!"
+15	70	0	2	99	The hedges are unmoved by Alexander's introduction.
+15	71	0	1	99	The magical hedges already have plenty of roses.
+15	16	0	1	99	Alexander wields the scythe, determined to get past the magical rose hedges.
+15	16	0	2	99	The leaves fly as Alexander tries to cut the branches faster than they can grow back together!
+15	16	0	3	99	He sees light.... 
+15	16	0	4	99	He's through!
+15	2	0	1	2	"Open, I say!"
+15	2	0	2	99	The roses seem impervious to Alexander's commands.
+15	20	0	1	99	Don't start forest fires!
+15	34	0	1	99	Those hedges are a bit thorny for the tomato.
+15	24	0	1	99	The sacred water might slack the hedges' thirst, but that's about it.
+9	0	14	1	99	Alexander can't do anything with the rose hedges from here.
+9	0	18	1	99	There's no reason to use that there.  That part of the hedge isn't blocking the path.
+9	0	19	1	97	!!!Do not print this!  Comment msg only.
+9	0	17	1	99	There's no reason to use that on the lovely rose hedges.
+9	5	14	1	99	Alexander can't reach the rose hedges from this side of the wall.
+9	5	13	1	99	Alexander takes a magnificent white rose from the rose hedges.
+9	5	20	1	99	Alexander already has a white rose.
+9	1	0	1	99	Flowering rose hedges grow on either side of the path winding north.
+9	71	0	1	99	The hedges already have plenty of roses.
+9	16	18	1	99	Hacking at the rose hedges there would not help.  That part of the hedge is not blocking the path.
+9	16	17	1	99	Why would Alexander want to use the scythe on the lovely rose hedges?
+9	2	0	1	99	The rose hedges do not appear to be interested in speaking to Alexander.
+1	0	7	1	97	!!!Do not print this. Comment msg only.
+1	0	7	2	97	!!!Do not print this.  Comment msg only.
+1	0	7	3	97	!!!Do not print this.  Comment msg only.
+1	0	7	4	99	The stone archer atop the gate released his arrow!  Alexander is pierced to the heart!
+1	0	6	1	97	!!!Do not print this.  Comment msg only.
+1	0	6	2	97	!!!Do not print this.  Comment msg only.
+1	0	6	3	97	!!!Do not print this.  Comment msg only.
+1	0	6	4	99	
+1	0	6	5	55	"Ha, ha, ha!  Got you this time!"
+1	0	2	1	99	As Alexander continues down the path, he gets the strange feeling that he's being watched.
+1	0	2	2	55	"Come on over and see what I'm doin' with these flowers.  Never mind that stone fella on top of the gate.  He won't hurt you any--he's just there to scare you."
+1	0	1	1	97	!!!Do not print this!  Comment MSG only.
+1	0	3	1	55	"(STILL FRIENDLY) Come on through, I say!  I can show you a path through the forest."
+1	0	4	1	55	"(GROWING IRRITATED) Look, there's no point in hanging out here all day!  I can show you the wondrous castle that lies in the middle of the island.  Don't be so timid!"
+1	0	5	1	55	"You aren't going to listen to me, are you?  Well, we'll just see about that!"
+1	0	5	2	99	That's odd.  The gardener just disappeared.
+1	0	10	1	97	!!!Do not print this!  Comment msg only.
+1	0	21	1	99	Alexander walks forward to step onto the gazebo....
+1	0	21	2	99	But the rose hedges on either side of the path, sensing an intruder's presence, reach out their vines and blend together!  The path is blocked!
+1	0	12	1	97	!!!Do not print this!  Comment msg only.
+1	0	22	1	97	!!!Do not print this!  Comment MSG only.
+10	0	14	1	99	The stone archer would undoubtedly shoot Alexander long before he managed to climb up the wall to try that!
+10	0	13	1	99	The stone archer has lost his arrow and has no more interest in Alexander.
+10	39	0	1	99	Throwing the brick at the stone archer might scratch his marble, but it won't stop the archer's vigilant watch over the path!
+10	5	14	1	99	Something about the archer makes Alexander reluctant to get too close to him.
+10	5	13	1	99	There is no reason to bother the stone archer now.  His arrow is gone.
+10	1	14	1	99	A stone archer sits atop the lintel of the gate like a silent guardian.
+10	1	14	2	99	His stone bow is tightly drawn and fitted with a single stone arrow.
+10	1	13	1	99	The archer's bow is empty--his lone arrow, spent.
+10	17	9	1	97	!!!Do not print this.  Comment msg only
+10	17	8	1	97	!!!Do not print this.  Comment msg only
+10	2	14	1	2	"Look here, archer.  Do you mind if I pass?"
+10	2	14	2	99	The archer retains his stony silence.
+10	2	13	1	2	"Sorry about that arrow, friend."
+10	2	13	2	99	The stone archer looks resigned and does not reply.
+12	0	0	1	99	Alexander doesn't want to do anything to alter the tree.
+12	5	0	1	99	The tall, narrow trees have sparse and relatively small branches on their lower trunks.  They don't lend themselves to easy climbing.
+12	1	0	1	99	Tall, narrow trees abound on each side of the path.
+12	2	0	1	99	The only response Alexander gets from the tree is the faint sound of wind in its upper branches.
+4	0	0	1	99	Using that on the wall would not help anything.
+4	5	0	1	99	Alexander closely examines the stone wall, but doesn't see anything other than gray bricks.
+4	1	0	1	99	A gray brick wall runs to the east and west on either side of the path.
+4	17	0	1	99	There's no reason to use the shield on the WALL!
+4	2	0	1	99	The wall seems to be fresh out of topics to converse on.

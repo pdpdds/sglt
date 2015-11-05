@@ -1,0 +1,90 @@
+4	0	0	1	99	There is no reason to use that on the ceiling, even if Alexander could reach it.
+4	5	0	1	99	Alexander cannot reach the ceiling.
+4	1	0	1	99	The ceilings in the castle are vaulted and formal, giving the halls a lofty elegance.
+5	0	0	1	99	There's no reason to use that on the door.
+5	5	3	1	99	Alexander decides to find out what's on the other side of that door.
+5	5	4	1	97	!!!DO NOT PRINT THIS.  COMMENT MSG ONLY.
+5	5	5	1	99	Alexander decides to evade the guard dog by ducking into another room.
+5	5	6	1	99	Alexander decides to evade the guard dogs by ducking into Jollo's room.
+5	5	7	1	99	The wedding music has begun!  Alexander doesn't want to get trapped in a bedroom now!
+5	1	8	1	99	There's a door on the east wall.
+5	1	9	1	99	On the east wall is the door to Jollo's bedroom.
+5	35	0	1	99	Alexander has not yet determined that the door is locked.  
+5	2	0	1	99	The door on the east wall does not respond.
+6	0	0	1	99	There's no reason to leave that on the floor.
+6	5	0	1	99	There's nothing of interest on the castle floor.
+6	1	0	1	99	
+6	2	0	1	99	The floor does not respond.
+7	0	0	1	99	There's no reason to use that on the door.
+7	5	0	1	97	!!!DO NOT PRINT THIS.  COMMENT MSG ONLY.
+7	1	10	1	99	Alexander peeks through the keyhole.
+7	1	10	2	99	There are two guard dogs talking in what appears to be a large hall.
+7	1	11	1	99	There's a door at the top of the stairs that must lead to an upper floor.
+7	1	11	2	99	The door has a doorknob and a keyhole.
+7	1	32	1	99	Alexander peeks through the keyhole.
+7	1	32	2	99	There is no one on the other side of the door.
+7	35	0	1	99	Alexander has not yet determined that the door is locked.  
+7	2	0	1	99	The door to the second level does not respond.
+1	0	0	1	99	The guard dog would probably be less interested in that than he would be in, for example, Alexander's uninvited presence in the castle.
+1	42	0	1	99	The guard dog is unlikely to sit still long enough to listen to the boring book.
+1	28	0	1	99	The spell book doesn't have anything in it that would take care of that guard dog.  A "Bone of Sleep" spell would be nice, for example, but it isn't in the book.
+1	7	0	1	99	The guard dog is an unlikely candidate for bribing.
+1	8	0	1	99	The small dagger would be of little assistance in overcoming that guard.
+1	14	0	1	99	The guard dog is unlikely to accept something to drink from Alexander.
+1	47	0	1	99	The flower of stench, while terribly stinky, is hardly strong enough to overpower that guard.
+1	18	0	1	99	The guard dog is unlikely to believe Alexander as to the origins of that strand of hair.
+1	5	0	1	99	The powerfully-built guard is well-armed and would, moreover, surely give alarm at first sight of Alexander.
+1	61	0	1	99	The guard dog does not have enough authority to do anything about the information in that letter.
+1	1	0	1	99	An armed guard dog passes through the basement hallway, his eyes and nose on keen alert.
+1	32	0	1	99	The guard dog looks too tough to be moved by Alexander's sentimentality.
+1	62	0	1	99	Those are guard DOGS, not guard CATS!  That milk is not going to get Alexander anywhere!
+1	65	0	1	99	Alexander doesn't want to share that note with anyone!
+1	33	0	1	99	It's doubtful that the guard dog would believe Alexander about that ribbon's origin.
+1	70	0	1	99	The guard dog is unlikely to be impressed by an intruder's credentials.
+1	71	0	1	99	
+1	16	0	1	99	Alexander may have used the scythe on the magical rose bushes, but he is much too polite to hack through the guard in the same manner!
+1	2	0	1	99	Alexander decides to take the direct approach with the guard dog.
+1	2	0	2	2	"Er, hello there.  Could you tell me how I might go about getting an audience with the vizier?"
+1	34	0	1	99	Neither the guard dog nor Rotten Tomato would appreciate that approach!
+1	37	0	1	99	Why would Alexander want to play the mechanical nightingale for the passing guard and alert his attention?
+8	1	0	1	99	Two guard dogs are talking in what appears to be a large hall.
+8	1	32	1	99	There is no one on the other side of the door.
+8	1	12	1	97	!!!Do not print this.  Comment msg only.
+9	1	0	1	99	The castle basement is cool after the heat of the day.  On the east wall is a door, and on the west wall a staircase leads upward.
+9	1	0	2	99	This is the east basement hallway.
+9	2	0	1	99	The hallway does not reply.
+10	0	13	1	97	!!!DO NOT PRINT THIS.  COMMENT MSG ONLY.
+10	0	15	1	99	Alexander hears the sound of a guard's footsteps coming from the north.
+10	0	15	2	99	Wait!  There are more footsteps approaching from the west!  Now what?
+10	0	33	1	97	!!!Do not print this.  Comment msg only.
+10	0	16	1	99	Uh, oh!  A guard dog!  Alexander's been seen!
+10	0	16	2	6	"Hey!  You!  You're not allowed down here!"
+10	0	16	3	2	"Er, I think I'm a little lost.  I was looking for the wedding and...."
+10	0	16	4	6	"<GRRR>  Be quiet!  The vizier told us to look out for a saboteur!  My nose tells me that's you!  GUARDS!"
+10	0	16	5	6	Alexander watches helplessly as the guards descend upon him!
+10	0	17	1	99	A guard enters the east hall.
+10	0	18	1	99	Alexander hears the guard enter the north hall.
+10	0	19	1	99	Alexander hears the guard enter the west hall.
+10	0	20	1	97	!!!Do not print this.  Comment msg only.
+10	0	21	1	99	Alexander hears the guard go into a room off the north hall, shutting the door behind him.
+10	0	22	1	99	The door at the top of the stairs opens.  A guard dog emerges and starts down the stairs.
+10	0	23	1	99	The guard dog opens the door at the top of the stairs and leaves the basement.
+10	0	24	1	99	Alexander hears a door off the north hall open, then the sound of guard dog footsteps.  The footsteps are headed west.
+10	0	25	1	99	Alexander hears a door off the north hall open, then the sound of guard dog footsteps.  The footsteps are headed this way!
+10	0	26	1	99	Alexander hears the sound of guard dog voices coming from behind the door at the top of the stairs.  One of them must be on his way down!
+10	0	27	1	97	!!!DO NOT PRINT THIS!  COMMENT MSG ONLY.
+10	0	28	1	99	Alexander hears the sound of music coming from the top of the stairs.  It sounds somewhat classical, but....
+10	0	28	2	99	Oh, no!  It's wedding music!
+10	0	29	1	99	Alexander hears the sound of wedding music coming from the top of the stairs.
+10	0	30	1	99	Alexander hears the sound of guard dog footsteps coming from the north.
+10	0	30	2	99	Wait!  It's coming from the west, too!  Now what?
+10	0	31	1	97	!!!Do not print this.  Comment msg only.
+11	0	0	1	99	There's no reason to use that on the stairs.
+11	5	0	1	99	There is nothing of interest on the stairs.
+11	1	0	1	99	A staircase leads up to a door and, presumably, another floor of the castle.
+11	2	0	1	99	The stairs do not reply.
+12	0	0	1	99	Alexander sees no reason to use that on the wall.
+12	5	0	1	99	Alexander sees nothing to do there on the wall.
+12	1	0	1	99	
+13	5	0	1	99	Alexander can't reach the stained glass windows.
+13	1	0	1	99	The colors of the stained glass windows glow with filtered light.

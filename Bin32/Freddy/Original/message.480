@@ -1,0 +1,201 @@
+9	0	16	1	2	"Would you babies be interested in this?"
+9	0	16	2	88	"WAAAAAAH!"
+9	0	16	3	99	The baby's tears apparently aren't interested in that because they continue to wail at the tops of their lungs.
+9	0	15	1	2	"Would you babies be interested in this?"
+9	0	15	2	99	The baby's tears only look up at Alexander with bewildered expressions.  They must be a bit young for that.
+9	14	0	1	99	Alexander shouldn't give that bottle of potion to the baby's tears!  Who knows WHAT the potion will do?
+9	5	17	1	99	What a grip!  The baby is not at all willing to let go of that milk bottle!
+9	5	18	1	99	As much as Alexander might wish to comfort the crying babies, he feels a little awkward about picking them up.  He's rather new at this.
+9	5	15	1	99	Alexander doesn't want to pick the baby's tears!  They may not be done growing!
+9	43	19	1	99	Alexander collects some of the baby's tears' tears in the old hunter's lamp.
+9	43	17	1	99	That baby has nothing to offer Alexander for that hunter's lamp. 
+9	43	20	1	99	Alexander has already collected some tears.  He doesn't need any more.
+9	43	13	1	99	The hunter's lamp is full to the brim with fountain water.  There's not even room enough for a few tears in there!
+9	43	21	1	99	Alexander has no reason to gather tears in that lamp.
+9	43	14	1	99	Alexander collects some of the tears in the old hunter's lamp containing the Oracle's sacred water. 
+9	43	15	1	99	The baby's tears don't have anything to offer Alexander for that hunter's lamp--at least, not at the moment. 
+9	57	17	1	99	
+9	57	21	1	99	
+9	57	22	1	99	The "Make Rain Spell" calls for a teapot.  That lamp has a handle, but neither a spout nor a lid.  It's nothing like a teapot.
+9	57	15	1	99	
+9	58	17	1	99	
+9	58	21	1	99	
+9	58	22	1	99	The "Make Rain Spell" calls for a teapot.  That lamp has a lid and handle, but its spout is plugged.  It's not quite enough like a teapot.
+9	58	15	1	99	
+9	59	17	1	99	
+9	59	21	1	99	
+9	59	22	1	99	The "Make Rain Spell" calls for a teapot.  That lamp has a handle, but no lid or spout.  It doesn't look anything like a teapot.
+9	59	15	1	99	
+9	60	17	1	99	
+9	60	21	1	99	
+9	60	22	1	99	The "Make Rain Spell" calls for a teapot.  That lamp may have two handles, but it has no spout or lid.  It's nothing like a teapot.
+9	60	15	1	99	
+9	96	17	1	99	
+9	96	21	1	99	
+9	96	22	1	99	
+9	96	15	1	99	
+9	56	17	1	99	That baby has nothing to offer Alexander for that lamp. 
+9	56	21	1	99	Alexander has no reason to gather tears in that lamp.
+9	56	22	1	99	The tears might be useful for the "Make Rain Spell," but the spell book calls for a teapot.  That lamp looks nothing like a teapot.
+9	56	15	1	99	The baby's tears currently have nothing to contribute to that lamp.
+9	1	16	1	99	One of the babies is sucking happily on a bottle of milk while the others are spilling copious tears over their lack of the same.
+9	1	15	1	99	Unless Alexander is mistaken, those plants must be...baby's tears!
+9	62	0	1	99	Alexander gives one of the baby's tears a bottle of milk.
+9	62	0	2	97	!!!Do sound effect.   "<whimper, whimper> wa!  WAAAAA!!"
+9	62	0	3	99	The other baby's tears seem to resent Alexander's gift, for some reason.
+9	2	16	1	99	Alexander can't make himself heard over the wailing of the baby's tears.
+9	2	15	1	2	"Hello!  Aren't you a bunch of fine-looking young plants?"
+9	2	15	2	71	"GOO GOO, GAA GAA!"
+9	2	15	3	99	Apparently, the baby's tears haven't learned to talk yet.
+9	44	17	1	99	That baby has nothing to offer Alexander for that teacup. 
+9	44	21	1	99	There's no reason to collect the baby's tears' tears in that teacup.
+9	44	22	1	99	Why would Alexander want to put tears in a teaCUP?
+9	44	15	1	99	The baby's tears currently have nothing to contribute to that teacup.
+9	24	16	1	99	The Oracle's vial is already full and won't hold anything more--not even a few baby's tears.
+9	24	15	1	99	The baby's tears don't want the Oracle's sacred water.
+17	0	0	1	99	Alexander doesn't need to do that to the chair.
+17	5	0	1	99	Alexander would love to sit a spell, but he's a tad busy at the moment.
+17	1	0	1	99	An elegant padded chair provides a cushy seat from which to enjoy the lively garden.
+17	2	0	1	99	Unlike the rest of the garden, the chair has nothing to say.
+17	44	0	1	99	Alexander doesn't want to return the teacup to the chair.  He might need it.
+13	0	0	1	2	"Would you have any interest in this?"
+13	0	0	2	73	"WE don't want THAT! <whine>"
+13	5	0	1	99	Alexander decides to examine the vines on the wall more closely.
+13	5	0	2	73	"(VERY WHINY VOICES)<whine> Come CLOSER!  We lIKe you!"
+13	5	0	3	97	!!!Removed msg
+13	5	0	4	97	!!!Removed msg
+13	5	0	5	2	"Uh...I appreciate <cough> your enthusiasm <choke>, but I'm really not interested...<gag>!"
+13	5	0	6	73	"Don't LEAve us!  We LIke you!"
+13	5	0	7	97	!!!removed msg
+13	5	0	8	97	!!!Do sound effect:  "GASP!"
+13	5	0	9	97	!!!Removed msg
+13	1	0	1	99	Clinging vines climb the garden wall.
+13	2	25	1	2	"What curious clinging vines are on this wall!"
+13	2	25	2	73	"(VERY WHINY) WE know we're fascinating!  <whine> But no one ever VIsits us!  WE'RE LOnely!"
+13	2	25	3	2	"That's too bad."
+13	2	25	4	73	"WE just want to be LIKed!  WE just want to be HUGged!"
+13	2	25	5	73	"WE've been clinging to this WAll!  But he's gotten boring!"
+13	2	25	6	2	"I see.  Perhaps you should find a new place."
+13	2	25	7	73	"Don't be STUpid!  We're clinging vines!  We're NOT particularly MObile!"
+13	2	25	8	2	"No, I don't suppose so.  Well, good luck."
+13	2	26	1	73	"We don't FEel like talking!  We just want a HUG!"
+13	3	0	1	99	Alexander gets a little too close to the vines on the wall.
+14	0	0	1	99	Alexander wouldn't want to leave that on the coffee table.
+14	5	0	1	99	Alexander is too far away from home to think about taking furniture back with him!
+14	1	0	1	99	To the right of the path is a little coffee table.
+14	2	0	1	99	Though it is a conversation piece, the coffee table doesn't talk.
+8	0	0	1	99	There's no point in using that on the bottle.
+8	5	0	1	99	Alexander picks up the bottle.
+8	1	0	1	99	There's a small bottle on the coffee table.  It bears a label that reads, "Drink Me."
+8	2	0	1	99	The bottle doesn't answer Alexander.
+15	0	0	1	99	Alexander doesn't need to use that on the spotted gate.
+15	5	0	1	97	!!!Do not print this!  Comment MSG only.
+15	1	0	1	99	A curiously speckled gate marks one end of the garden.
+15	2	0	1	2	"Gate, open!"
+15	2	0	2	99	Evidently, opening the gate requires a little more effort on Alexander's part.
+21	0	0	1	99	Why would Alexander want to use that on the hole in the garden wall?
+21	5	10	1	99	While the wallflowers dance, Alexander snatches the hole-in-the-wall! 
+21	5	8	1	99	Alexander decides to pick up the hole on the wall.  A hole-in-the-wall could be a very useful thing. 
+21	5	8	2	38	"EEK!" 
+21	5	8	3	99	Alexander's startled the poor thing!  It's run off to hide behind the wallflowers! 
+21	5	9	1	99	The wallflowers, overcome with shyness at Alexander's approach, cluster together and cover the hole-in-the-wall.  Alexander can't get it. 
+21	1	7	1	99	Alexander must have startled the hole-in-the-wall, because it's taken cover behind the wallflowers. 
+21	1	5	1	99	There appears to be a hole in the garden wall. 
+21	1	5	2	99	Through the hole in the wall, Alexander sees a land that resembles a giant chessboard!
+21	1	5	3	99	Wow!  It really IS a hole-in-the-wall. 
+21	1	6	1	99	Alexander looks through the cute little hole-in-the-wall again.
+21	1	6	2	99	And sees the wondrous chessboard land on the other side of the wall.
+21	2	7	1	2	"Don't be afraid.  I won't hurt you."
+21	2	7	2	99	The hole-in-the-wall does not respond to Alexander's soothing voice.  Perhaps it's going in one ear and out the other. 
+21	2	8	1	2	"What a curious little black spot!"
+21	2	8	2	99	The hole-in-the-wall does not reply.
+10	0	0	1	99	Why use that on the iceberg lettuce?
+10	5	0	1	99	Alexander picks a head of iceberg lettuce.
+10	5	0	2	2	"Ye gads, is that cold!"
+10	5	32	1	99	Alexander already has a frozen head of lettuce.
+10	5	31	1	99	Alexander replaces his watery lettuce with a freshly picked specimen.
+10	1	30	1	99	Is that lettuce growing in the garden?  It looks a little chilled.
+10	1	30	2	99	Why, it must be iceberg lettuce!
+10	1	29	1	99	A patch of iceberg lettuce grows in the garden.
+10	2	0	1	2	"Excuse me, lettuce...."
+10	2	0	2	99	The lettuce just gives Alexander the cold shoulder.
+18	0	0	1	99	There's no reason to use that on the stone path.
+18	5	0	1	99	To take the path, Alexander need only walk on it.
+18	1	0	1	99	A pretty stone path leads north to a colorful gate and south to the oozy swamp.
+18	2	0	1	99	The path continues on its way without comment.
+19	5	0	1	99	The stone pillars feel just like the wall.
+19	1	0	1	99	Two fat stone pillars surround the gate.  Above them float pieces of stone that seem to be in open rebellion against the laws of gravity.
+19	2	0	1	99	The pillars don't reply.
+3	1	0	1	99	Alexander is standing in a delectable garden.  Nestled in the bright green grass are colorful plants, growing in orderly clusters.  Some of their curious faces peer up at Alexander from the sides of the path.  The garden ends at a speckled gate.
+3	2	0	1	99	Alexander says to no one in particular....
+3	2	0	2	2	"What a pleasant garden this is."
+3	2	0	3	99	The inhabitants smile shyly, but do not reply.
+6	0	0	1	2	"Would you be interested in this, Mr. Tomato?"
+6	0	0	2	50	"I ain't got no use fer that!"
+6	5	0	1	50	"Hey!  Whaddaya think yer doin' there!  Get yer hands off me!  Hey!"
+6	5	0	2	99	Alexander picks up Rotten Tomato and puts him away.  One never knows when one will need a rotten tomato.
+6	1	12	1	99	Rotten Tomato is looking awfully grumpy and put out.  He doesn't seem to be very happy rotting in the nice, clean garden.
+6	1	11	1	99	Alexander takes a close look at the tomato on the ground.  It appears to be darker than those on the vines.
+6	1	11	2	50	"Whaddaya starin' at there, boy!  Go away, ya rootless thing, ya."
+6	1	11	3	99	Yup.  That tomato is definitely rotten!
+6	2	27	1	2	"How did you manage to fall off the vine, Mr. Tomato?" 
+6	2	27	2	50	"(CRANKY, GRUMPY) Whaddya think?  I'm old.  I'm rotten.  Leave me alone!" 
+6	2	27	3	2	"If you say so." 
+6	2	27	4	50	"After all, you're just gonna let me sit here and rot on this dry ground like everybody else, aren't ya?" 
+6	2	27	5	2	"Why, I don't know.  I suppose...." 
+6	2	27	6	50	"Ah, never mind!  Just go away!" 
+6	2	28	1	99	Rotten Tomato is rather put out with Alexander and won't pay attention to anything he says. 
+11	0	0	1	2	"Would you lovely flowers be interested in this?"
+11	0	0	2	99	Guess not!
+11	5	0	1	99	Alexander approaches the snapdragons.
+11	5	0	2	99	Those unfriendly snapdragons don't want Alexander anywhere near them.
+11	1	0	1	99	A colorful array of snapdragons stand guard to one side of the path.
+11	2	0	1	2	"Good day, Snapdragons."
+11	2	0	2	99	The snapdragons don't seem inclined to communicate with anyone.
+11	3	0	1	99	Those snapdragons don't like Alexander getting so close!
+12	0	0	1	2	"Would you be interested in this?"
+12	0	0	2	72	"Hmph!  We don't need ANY handouts!  Thank you!"
+12	5	0	1	99	Alexander gets closer to the sour grapes.
+12	5	0	2	72	"BACK OFF, BUCK-O!"
+12	5	0	3	2	"Oh!  Excuse me!"
+12	1	0	1	99	Those grapes look awfully sour!
+12	2	23	1	99	Alexander addresses the grapes....
+12	2	23	2	2	"Why are you so sour, if you don't mind my asking?"
+12	2	23	3	72	"Well!  We'll tell you...."
+12	2	23	4	72	"How would you like to have the possibility of being made into wine hanging over your head?"
+12	2	23	5	72	"And then there's our neighbors, the clinging vines?  All they do all day is whine about the ivy league social climbers that never call!"
+12	2	23	6	72	"It's really just no fun at all!"
+12	2	23	7	2	"Hmmm, that's too bad.  I hope things start looking up."
+12	2	23	8	72	"Yeah?  <Sniff> Thanks a lot!"
+12	2	24	1	99	The sour grapes seem to be snubbing Alexander now.
+1	0	1	1	97	!!!Do not print this!  Comment MSG only. 
+1	0	2	1	97	!!!Do not print this!  Comment MSG only. 
+1	0	3	1	97	!!!Do not print this!  Comment MSG only.
+1	0	4	1	97	!!!Do not print this!  Comment MSG only.
+22	0	0	1	99	Using that on the teacup would serve no purpose.
+22	5	0	1	99	Alexander takes the teacup.
+22	1	0	1	99	A delicate china teacup is occupying the chair at the moment.
+7	0	0	1	99	The tomato vines would have little use for that!
+7	5	0	1	99	Those tomatoes are not quite ripe yet, and Alexander shouldn't pull them off the vine.
+7	1	0	1	99	Vines of sweet, ripening tomatoes climb up little wooden posts.
+7	2	0	1	2	"Good day, Tomato Vines."
+7	2	0	2	51	"(SWEET AND SUNNY) GOOD MORNING!"
+5	0	0	1	2	"Would you ladies be at all interested in this?" 
+5	0	0	2	99	The wallflowers shyly decline.
+5	0	33	1	99	The wallflowers dance merrily.
+5	31	0	1	2	"May I have this dance?"
+5	31	0	2	39	"Oh, my!  Tee, hee!"
+5	31	0	3	99	Alexander stops playing the flute, but the wallflowers and snapdragons continue to dance, caught up in the music and oblivious to everything around them.
+5	5	0	1	99	Alexander reaches out to touch the wallflowers.
+5	5	0	2	99	Those snapdragons are awfully protective of the wallflowers!
+5	5	10	1	99	The dancing wallflowers are oblivious to Alexander.
+5	1	0	1	99	The wallflowers look terribly shy.
+5	2	0	1	2	"Greetings, ladies.  How charming you look today!"
+5	2	0	2	39	"Tee, hee, hee!"
+5	2	0	3	99	The wallflowers are too shy to talk to Alexander.
+5	3	0	1	99	Zounds!  Those wallflowers sure are shy, and the snapdragons are awfully protective of them!  Alexander can't even get close to the wallflowers without causing quite a stir!
+16	0	0	1	99	Alexander doesn't need to do anything to the garden wall.
+16	5	0	1	99	Alexander could climb the wall but, then again, there's a perfectly good gate.
+16	25	0	1	99	Alexander doesn't want to put the hole-in-the-wall back on THAT wall!  It was hard enough to get it the first time!
+16	1	0	1	99	A gray, brick wall marks the end of the garden.
+16	2	0	1	99	Alexander's voice just bounces off the wall.

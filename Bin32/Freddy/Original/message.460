@@ -1,0 +1,125 @@
+5	0	0	1	99	There's no reason to use that on a pile of books.
+5	5	3	1	43	"Hey!  Hands off the goods there, son."
+5	5	3	2	2	"Oh, sorry."
+5	5	4	1	43	"What do you think YOU'RE doing?"
+5	5	4	2	2	"I'm sorry.  I didn't realize these books had an owner.  I'm in need of a rare book."
+5	5	4	3	43	"Hmph!  No owner!  ALL books have owners, my good man.  And THIS book owner--Bookworm to you--wouldn't part with one of his books for anything!"
+5	5	4	4	2	"Isn't there something I can do for you to pay for the book?"
+5	5	4	5	43	"Hmm.  Let's see.  Do you have an itinerant clause?"
+5	5	4	6	2	"No.  No clauses at all, I'm afraid."
+5	5	4	7	44	"As an exception, you always should!"
+5	5	4	8	45	"(IN AWE) AAoooUU!"
+5	5	4	9	43	"Don't mind Oxymoron and Diphthong.  They're fairly limited grammatical principles, you know."
+5	5	4	10	43	"Hmm, let's see.  A marsh pig that does taxes?"
+5	5	4	11	2	"(BLUSHING) Uh, no.  I'm afraid not."
+5	5	4	12	43	"A dangling participle?"
+5	5	4	13	2	"I'm fresh out."
+5	5	4	14	43	"A purple fiddlewacker?"
+5	5	4	15	2	"No....  I don't think so.  Sorry."
+5	5	4	16	43	"An idiosyncrasy, perhaps?"
+5	5	4	17	2	"'Fraid not."
+5	5	4	18	43	"Hah!  Then what good are you?!"
+5	5	5	1	43	"Do you have anything interesting yet?"
+5	5	5	2	44	"A regular abnormality?"
+5	5	5	3	45	"(LIKE A QUESTION)  Weeeoouu?"
+5	5	5	4	2	"Uh...let me see what I have."
+5	5	17	1	43	"Do you have anything interesting yet?"
+5	5	17	2	97	!!!Print one of the POST_FIRST_RAND msgs as seq #2 in this case!!!  Cycle through them in order, restarting after msg #5.
+5	5	17	3	2	"Uh...let me see what I have."
+5	5	18	1	43	"A fleeting moment, perhaps?"
+5	5	18	2	43	"A subordinate clause, maybe?"
+5	5	18	3	43	"A split infinitive?"
+5	5	18	4	43	"A prepositional phrase, possibly?"
+5	5	18	5	43	"Falling arches, perhaps?"
+5	5	6	1	99	Alexander doesn't need anything more from Bookworm or his friends.
+5	5	19	1	99	Alexander has already gained Bookworm's attention, and Bookworm has not invited him to take a book.
+5	1	0	1	99	Piles of stacked books, looking ready to topple at any moment, have been arranged haphazardly on the sandy ground.
+5	94	0	1	2	"Hello, Bookworm?  I have something you might be interested in!" 
+5	94	0	2	43	"Well, what is it this time?" 
+5	2	7	1	99	Alexander should read the books if he wants to get information from them.
+5	2	8	1	2	"(CALLING OUT) Hello?  Is anyone there in the books?"
+5	2	8	2	43	"NO!  There's no one here!"
+5	2	5	1	2	"(CALLING OUT) Are you there, most venerable Bookworm?"
+5	2	6	1	99	
+11	0	0	1	99	Alexander offers the item to the black widow.
+11	0	0	2	46	"No, thank you, you SWEET man.  Like a good little wife, I have no interest in anything except my cozy little web--and YOU!"
+11	5	0	1	99	Alexander reaches out to touch the black widow.
+11	5	0	2	46	"That's right!  GO with your feelings!  GET closer to me!"
+11	5	0	3	99	Alexander feels the tiny pin prick of the spider's bite and the slow burning of her poison.
+11	5	0	4	46	"Thanks for the memories!"
+11	1	0	1	99	A black widow is sitting in her web.  She has long legs and an hourglass on her belly.  She gives Alexander a knowing look.
+11	2	0	1	46	"(SWEETLY) Have you changed your mind?  My offer of dead...er...wedlock is still open!"
+4	0	0	1	2	"Would you take this in exchange for a rare book?"
+4	0	0	2	43	"You want to trade THAT?  There are millions of THOSE lying about.  No, thank you!"
+4	5	0	1	99	Bookworm might not appreciate Alexander trying to grab him.
+4	25	0	1	2	"I have a hole-in-the-wall."
+4	25	0	2	43	"Do you see ANY walls around here, young man?"
+4	25	0	3	2	"Er...no."
+4	25	0	4	43	"Just think a little first, would you, please?"
+4	1	0	1	99	A very large caterpillar has wriggled his way up out of the book pile.  He looks scholarly and terribly self-important.
+4	12	0	1	2	"I have a magic map.  That's pretty unusual."
+4	12	0	2	43	"Hmph!  And I suppose I should just go poofing about with that map and leave my books unattended for you to do with as you please?  No, thank you!"
+4	94	0	1	2	"I found this little fellow lost on another island." 
+4	94	0	2	9	"Coming home, I am now TO!" 
+4	94	0	3	43	"(TO DANGLING PARTICIPLE) THERE you are, you naughty boy!  I TOLD you not to leave the island!" 
+4	94	0	4	9	"Glad I am, seeing you too!" 
+4	94	0	5	44	"A most solemn celebration!" 
+4	94	0	6	45	"(VERY EXCITED)  GooEEEoo!" 
+4	94	0	7	43	"(TO ALEXANDER) So, you found my dangling participle!  I suppose I'll have to give you something.  Let's see now, was it a rare book you wanted?" 
+4	94	0	8	2	"Yes, sir." 
+4	94	0	9	43	"Well, then none of THESE will do.  They've been sitting in the sun far too long and must be well-cooked by now." 
+4	94	0	10	43	"THIS one is far more rare.  A delicious little tidbit." 
+4	94	0	11	2	"Uh, thanks." 
+4	66	0	1	2	"I have a large pearl."
+4	66	0	2	43	"Please!  You think I'd take mere 'oyster stones' for my books?  Hah!"
+4	85	0	1	2	"I have a sentence.  Would that do?"
+4	85	0	2	43	"An incomplete one, I suppose <yawn>?"
+4	85	0	3	2	"Why...actually, it IS incomplete."
+4	85	0	4	43	"Just as I suspected.  Incomplete sentences are a dime a dozen.  Why you can literally find them just FLOATING about!  Complete sentences, now THERE'S something that's hard to come by these days!"
+4	85	0	5	2	"I see.  Sorry."
+4	2	0	1	2	"Are you sure there isn't something else I can trade you for a rare book?"
+4	2	0	2	43	"Nope.  Unless you have one of the items I asked about before, I just won't part with one of my books."
+4	34	0	1	2	"I have a rotten tomato."
+4	34	0	2	43	"I'm sure you do, son.  But there's nothing I can do about it."
+13	0	0	1	99	There's no reason for Alexander to use that on the loose thread.
+13	5	0	1	46	"(FURIOUS) HEY!  Don't touch that thread!"
+13	5	0	2	99	It looks like Alexander has reached the end of his thread.
+13	5	0	3	46	"SOME people like to ask for TROUBLE!"
+13	1	0	1	99	A thread is hanging from the otherwise tightly-woven web.
+12	0	0	1	99	There's no sense in using that on the parchment.
+12	5	12	1	99	Alexander snatches the scrap of parchment, curious to see what's written on it.
+12	5	12	2	99	The wind blows the scrap of paper from Alexander's hand.  But, he remembers what it said well enough.
+12	5	11	1	99	Alexander reaches out to grab the scrap of parchment.
+12	5	11	2	46	"After my goods, are you?  What a greedy little man you are!"
+12	5	11	3	99	Alexander feels the sharp prick of the black widow's teeth, then a strange, burning sensation.
+12	5	11	4	46	"That's what you get for preferring that old scrap of paper to me!"
+12	1	0	1	46	"That scrap of paper blew into my web from those books over there.  The wind just thinks it can deposit anything here!  Hmph!"
+3	1	0	1	99	The tail-end of this island is a riotous scramble of books, sand, and a spider's web. 
+14	5	0	1	99	The bees, although spelling, can sting and cause swelling!
+14	1	0	1	99	Little bees buzz around the books as though the pages were laden with the sweetest pollen.  Maybe they're spelling bees!
+14	2	0	1	99	"BUZZ.  B-U-Z-Z!"
+8	0	0	1	99	Alexander wouldn't want that to get caught in the spider web.
+8	5	0	1	99	Alexander investigates the intricate spider's web in the corner....
+8	5	0	2	99	The spider who lives there is NOT amused!
+8	5	0	3	99	Alexander feels the tiny pin prick of the spider's bite and the slow burning of her poison.
+8	1	9	1	46	"Wow!  Hiya, Gorgeous.  What a luscious-looking hunk of flesh you are!"
+8	1	9	2	2	"Uh...thank you.  I guess.  Who are you?"
+8	1	9	3	46	"How charming of you to pretend not to know!  I'm Black Widow, of course, the femme fatale of all femme fatales.  Know what I mean <wink wink>?"
+8	1	9	4	46	"You know, I was just thinking it was time I found my fiftieth...er...another husband.  It would be quite a horror...I mean an honor to have me as a bride."
+8	1	9	5	46	"Just look at my beautiful weaving!  It's so light, so delicate, you'll never want to leave my little nest."
+8	1	9	6	2	"Hmm.  It is a lovely web, but my heart is elsewhere, I'm afraid."
+8	1	9	7	46	"DRAT!  <ahem> I mean, the loss is yours.  I'm sure you'll change your mind once you consider the advantages."
+8	1	10	1	46	"So THERE you are, handsome!  What can I do for you now?"
+8	2	0	1	99	The web is as silent as silk.
+8	3	0	1	99	Oh, no!  A black widow spider's web!
+8	3	0	2	99	Alexander feels the tiny pin prick of the spider's bite and the slow burning of her poison.
+1	0	1	1	97	!!!Do not print this.  Comment msg only.
+1	0	2	1	43	"Well, I hardly expected you to have anything useful!  Good day!"
+10	0	0	1	97	!!!Do not print this.  Comment msg only.
+9	0	0	1	99	Alexander wouldn't want that to get caught in the spider web.
+9	5	0	1	99	Alexander reaches out to touch the silky web.
+9	5	0	2	46	"Ah!  How sweet the matrimony!  I knew you'd change your mind!"
+9	5	0	3	99	Alexander feels the sharp prick of the black widow's teeth, then a strange, burning sensation.
+9	5	0	4	46	"Ah!  A widow AGAIN!"
+9	1	0	1	99	An intricately detailed spider's web has been spun between a pile of books and a small tree.
+9	2	0	1	99	The web is as silent as silk.

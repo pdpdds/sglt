@@ -1,0 +1,71 @@
+12	0	0	1	2	"Here, birdie!  Do you want this?"
+12	0	0	2	99	The bird ignores Alexander.
+12	5	0	1	99	The bird is out of Alexander's reach.
+12	1	0	1	99	High up in a tree, a colorful bird sings a playful tune.
+12	2	0	1	2	"Hello, bird."
+12	2	0	2	99	The bird ignores the human below.
+3	0	4	1	99	Alexander has no reason to toss that in the cooling pond.
+3	0	3	1	99	That would have no effect on the boiling pond.
+3	28	0	1	99	There's nothing in that spell book that would be of use on that pond.
+3	5	4	1	99	The pond is no longer boiling, but it's still pretty hot.
+3	5	3	1	2	"OUCH!  That water is HOT!"
+3	25	0	1	99	That's a hole-in-the-wall, not a hole-in-the-pond!
+3	43	0	1	99	The disenchanted pond water is not something that Alexander needs to ever collect in that lamp.
+3	52	4	1	99	Alexander tosses another head of iceberg lettuce into the cooling pond.
+3	52	4	2	99	It doesn't seem to make much of a difference.
+3	52	3	1	99	Hoping to cool down the boiling pond, Alexander throws in a head of iceberg lettuce.
+3	52	3	2	99	The pond's water slowly stops boiling, cooled by the ice.  It still looks hot, but bearable.
+3	53	4	1	97	!!!Do not print this.  Comment msg only.
+3	53	3	1	97	!!!Do not print this!  Comment msg only.
+3	54	4	1	99	A puddle of green water would have little impact on that cooling pond.
+3	54	3	1	99	A puddle of green water would have little effect on that boiling pond.
+3	1	4	1	99	The enchanted pond has been cooled by the iceberg lettuce.  Though still hot, it is no longer boiling.
+3	1	3	1	99	A pond lies across the path.  The water boils as if over some magical flame.
+3	94	0	1	99	The little creature would hardly be interested in taking a bath in that pond!
+3	2	4	1	99	The pond gives Alexander the cold shoulder.
+3	2	3	1	2	"Listen here, pond!  I wish to pass!"
+3	2	3	2	99	The pond, rather hotheadedly, refuses to respond.
+3	44	0	1	99	Why would Alexander want to collect pond water in that teacup?
+3	34	0	1	50	"Whaddaya, nuts?  Don't put me in that soup bowl of a pond, ya crazy human!"
+3	3	3	1	99	Alexander decides to brave the boiling pond....
+3	3	3	2	99	And soon realizes a deep sympathy for soup vegetables as he learns the true meaning of "being in a stew."
+3	3	5	1	99	Alexander decides to brave the steaming pond.
+3	3	5	2	87	"OUCH! OW! OOH! OUCH!"
+3	3	5	3	99	The pond is no longer boiling, but it's hardly bath water.
+3	3	6	1	97	!!!Do not print this.  Comment msg only.
+13	0	0	1	99	Alexander doesn't want to do anything to disturb the local wildlife.
+13	5	0	1	99	Alexander would look pretty silly diving for that rabbit.  There's no way he could catch it with his hands.
+13	1	0	1	99	A rabbit hops about rather fearlessly.  It's probably never even seen a human.
+13	2	0	1	99	Alexander isn't quite lonely enough to talk to a rabbit.
+4	0	4	1	99	There's no reason to use that on the hunter's lamp.
+4	0	3	1	99	To do anything with the lamp, Alexander must first cross the pond.
+4	5	4	1	99	Alexander takes the old hunter's lamp from the tree.
+4	5	3	1	99	To get the lamp, Alexander must first cross the pond.
+4	1	0	1	99	An old, abandoned hunter's lamp is hanging on one of the trees.  Alexander wonders who might have hunted in these dense woods.
+8	0	0	1	99	There's no reason to do that to the mushrooms.
+8	5	0	1	99	Alexander, not being an expert on poisonous mushrooms, decides not to take a chance on tasting the local variety.
+8	1	0	1	99	The forest is dotted with clumps of wild mushrooms.
+8	2	0	1	99	The mushrooms are fungimentally unvocal.
+7	0	0	1	99	The path, like destiny, cannot be altered.
+7	5	0	1	99	To take the path, Alexander need only walk on it.
+7	1	0	1	99	Beyond the pond, the path continues into the forest.
+7	2	0	1	99	The path silently proceeds ahead, heedless of Alexander.
+6	0	0	1	99	
+6	5	0	1	99	
+6	1	0	1	99	The dirt path from the beach leads straight into a pond.
+6	2	0	1	99	
+10	0	0	1	99	Using that on the banks of the pond would serve no purpose.
+10	5	0	1	99	Alexander has no need to carry off sand from the banks of the pond.
+10	1	0	1	99	The banks of the pond, moistened by the steam, are slowly eroding away.
+10	2	0	1	99	The banks of the pond don't utter a word to Alexander.
+11	0	0	1	97	!!!Do not print this!  Comment msg only.
+5	0	0	1	99	Alexander doesn't want to alter the forest.
+5	5	0	1	99	The denseness of the forest makes it inadvisable to stray from the path.
+5	1	4	1	99	Alexander is traveling on a path through a dense forest.  Across the path lies a pond, still steaming from what remains of the magic which once made it boil.
+5	1	3	1	99	Alexander is traveling on a path through a dense forest.  The woods on either side of the path are teaming with wildlife.  Blocking his progress north is a pond that boils with a magical intensity.
+1	0	2	1	97	!!!Do not print this!  Comment msg only.
+1	0	1	1	97	!!!Do not print this!  Comment msg only.
+9	0	0	1	99	Alexander doesn't want to do anything to alter the tree.
+9	5	0	1	99	The tall, narrow trees have sparse and relatively small branches on their lower trunks.  They don't lend themselves to easy climbing.
+9	1	0	1	99	Tall, narrow trees abound on each side of the path.
+9	2	0	1	99	The only response Alexander gets from the tree is the faint sound of wind in its upper branches.

@@ -1,0 +1,28 @@
+3	0	0	1	99	Alexander doesn't see any use for that there.
+3	5	0	1	99	Alexander sees nothing of interest there.
+3	1	0	1	99	Alexander is standing in a secret passage of the Castle of the Crown.  The hallway is dusty, and the walls are deteriorating.
+3	2	0	1	99	Having found the secret passage, Alexander has no desire to reveal his location behind the walls by talking aloud.
+1	0	4	1	99	Alexander hears the sound of scratching coming from the other side of the wall.
+1	0	5	1	97	!!!Do not print this!  Comment MSG only.
+4	0	0	1	99	There's no reason to use that on the chink on the wall.
+4	5	0	1	97	!!!Do not print this!  Comment msg only!
+4	1	9	1	99	Alexander looks through the chink in the wall.
+4	1	9	2	24	"Dear Shadrack.  Salutations from the Society of the Black Cloak, etc., etc.  My long preparations are about to come to fruition."
+4	1	9	3	24	"In a matter of minutes, I will wed the lovely <hah-hah> Cassima."
+4	1	9	4	24	"Once I've established my power and my crown, I can stage another 'accident.'"
+4	1	9	5	24	"The princess has proven infuriatingly stubborn, as you know.  She's becoming quite a dangerous little thorn in my side."
+4	1	9	6	24	"In a way, it's a shame I have to kill her--she is lovely and would be amusing to keep around, but I can't risk her talking treason to one of the guards.  So far, I've managed to keep her locked away, but I can't continue that forever."
+4	1	9	7	24	"Well, on to it now.  I'd send her to you but, as you know, I had no luck in doing so with Mordack.  I close in triumph--KING Abdul Alhazred."
+4	1	9	8	24	"I think it's about time to see if Shamir has taken care of the wench as I asked.  It's almost time for the wedding."
+4	1	9	9	99	The vizier's words fill Alexander with blazing anger--and fear for Cassima's life.
+4	1	9	10	2	"That blackguard!  That murderous swine!  He'll not have his way if I have anything to say about it!"
+4	1	10	1	24	"And now to see to the final preparations.  It's almost time for the wedding.  Hee, hee!"
+4	1	8	1	99	Alexander looks through the chink in the wall.
+4	1	8	2	99	The vizier's study is now empty.
+4	2	0	1	99	Talking to the chink on the wall would do little good.
+6	0	0	1	99	Alexander doesn't have to use that on the door to get it open.
+6	5	13	1	99	Alexander sees...lots of black cloaks?
+6	5	14	1	97	!!!Do not print this!  Comment MSG only.
+6	1	0	1	99	There's a vague outline of what appears to be a door on the wall.
+5	1	12	1	99	The old walls are dirty and show the neglect of a forgotten place.
+5	1	11	1	99	The wall has deteriorated significantly in this area, leaving a chink in the wall.

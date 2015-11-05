@@ -1,0 +1,139 @@
+12	0	0	1	99	There's no reason to use that on the berries.
+12	5	21	1	2	"All right.  I'll try some of your berries."
+12	5	21	2	30	"(GLEEFUL) Oh, goody!  Eat quickly, dear boy, and I'll show you the way to the lord and lady of this isle!"    
+12	5	21	3	87	"Wha....?  <choke>"     
+12	5	21	4	30	"Hee, hee, hee!  Slightly BITTER, pretty one?"     
+12	5	27	1	99	Alexander decides to try some of the black berries on the plant.   
+12	5	27	2	99	A bitter taste fills his mouth.  His stomach convulses in pain.    
+12	5	27	3	87	"<gasp>"  
+12	5	27	4	99	As the poison takes effect, Alexander is left wondering if this is the kind of 'flying' the old lady meant.     
+12	1	0	1	99	Black berries grow only at the top of the bush, as though straining towards the sun.
+7	5	31	1	99	Alexander crawls through the small opening in the rock.
+7	5	21	1	99	It would be rather rude to crawl into that cave with the old woman standing right in front of it.
+7	5	32	1	97	!!!Do not print this. Comment msg only.
+7	1	0	1	99	There's a natural opening in the rock near the nightshade bush.
+7	2	0	1	99	Alexander would feel a bit foolish talking to the opening in the rock.
+6	5	0	1	99	The cliff steps cannot be moved any further backwards or forwards.
+6	1	0	1	99	The strange granite steps lead down the cliffs to the beach.
+6	3	0	1	97	!!!Do not print this!  Comment MSG only.
+8	0	0	1	2	"(FRIENDLY) Would you be interested in this?"
+8	0	0	2	30	"(ENTICINGLY) Oh, you don't need to offer me anything, you sweet boy!  My only interest is in seeing that you get what you deserve!"
+8	5	0	1	99	Grabbing at the old lady wouldn't solve anything.
+8	43	0	1	2	"I have this hunter's lamp...."
+8	43	0	2	30	"A lamp?  Oh, that old thing.  Why would I be interested in that?"
+8	1	0	1	99	The old woman has a pleasant, grandmotherly face, but something about her makes Alexander uneasy.
+8	63	0	1	2	"(ENTICINGLY) Would you care for a mint?"
+8	63	0	2	30	"(EXCITED) Mint?  Really?  OOOH!"
+8	63	0	3	30	"HMMM! <CRUNCH> <SMACK> <SLOBBER> YUM!"
+8	63	0	4	30	"Er...oops <hic>.  Heh-heh.  I'll just be <hic> going now."
+8	63	0	5	99	How odd.  That woman simply disappeared.
+8	2	25	1	2	"(CURIOUS, FRIENDLY) But...who are you, matron?"
+8	2	25	2	30	"(IMPATIENT) Who cares?  Er....  I mean, I am only a poor old woman who wishes you well, handsome stranger.  Think of me as your grandmama, if you like."
+8	2	26	1	2	"(CURIOUS, FRIENDLY) How can this plant give the power of flight?"
+8	2	26	2	30	"(IMPATIENT) Listen, son!  I'll be happy to answer any questions you like, but only if you at least taste these delicious berries."
+4	0	20	1	99	There's no reason to use that on the closed doors.
+4	0	23	1	99	Alexander doesn't need to do anything with the open doors of the catacombs.
+4	5	20	1	99	The huge doors are locked tight.
+4	5	20	2	99	Somebody obviously wants to keep something out--or something IN.
+4	5	23	1	99	Alexander has no wish to shut the newly-opened doors of the catacombs.
+4	1	20	1	99	Huge doors are set into the solid rock of the mountain.
+4	1	23	1	99	The doors to the catacombs have been flung open now that the minotaur is dead.
+4	2	0	1	99	The heavy doors give away nothing.
+5	0	20	1	99	Alexander sees no reason to use that on the rocks.
+5	0	23	1	99	The minotaur's secret exit lies open and requires no manipulation.
+5	5	20	1	99	Alexander sees nothing unusual about that boulder.
+5	5	23	1	99	The minotaur's secret entrance lies open now that the minotaur is dead.  There's no reason to move the boulder now.
+5	1	20	1	99	A group of boulders are piled, in a seemingly random way, against the face of the mountain.
+5	1	23	1	99	The boulder that hid the minotaur's secret entrance has been pushed aside now that the catacombs lie open.
+10	0	0	1	99	Night Mare merely eyes the object in Alexander's hand with suspicion, and goes back to eating the nightshade.
+10	13	0	1	99	Alexander holds Beast's mirror out towards Night Mare.
+10	13	0	2	97	!!!Do sound effect here:"WHREE!"
+10	13	0	3	99	Night Mare whinnies with fear at the sight of her own reflection.  She gathers her muscles and flies off!
+10	28	0	1	99	Any spell that Alexander might wish to cast must be spoken over prepared spell ingredients.  Night Mare is not spell ingredients!
+10	14	0	1	99	Alexander would never get the horse to drink a bottle of potion!
+10	30	0	1	99	Night Mare only eyes her own wing feather with a snort of unease and continues her feeding.
+10	47	0	1	99	Night Mare only shakes her head at the smell of the stinky flower.
+10	31	0	1	99	Determined to beguile the creature with his great musical skill, Alexander puts the flute to his lips.
+10	31	0	2	99	The winged horse seems unimpressed.
+10	5	0	1	99	Alexander decides to take the straight-forward approach and grab the black creature.
+10	5	0	2	97	!!!Do sound effect here:  "WHREEE! <snort>"
+10	5	0	3	99	Night Mare is not amused.
+10	1	0	1	99	A mighty winged horse the color of midnight is feeding from the nightshade bush.  The creature must be Night Mare, the one the Druids spoke about.
+10	32	0	1	99	Alexander would not be able to charm the creature with words of love!
+10	12	0	1	99	The horse can fly just fine without the map.
+10	65	0	1	99	The note may have struck Alexander to the heart, but the black creature appears unmoved.
+10	67	0	1	99	The creature seems content with the nightshade and ignores Alexander's peppermint.
+10	68	0	1	99	Night Mare eyes the rabbit's foot with disdain and continues eating.
+10	33	0	1	99	Night Mare eyes the slip of velvet with disinterest.
+10	70	0	1	99	Night Mare doesn't appear to be impressed with Alexander's credentials.
+10	16	0	1	99	Alexander wouldn't get very far with Night Mare that way!
+10	51	0	1	99	Alexander holds the skull out to Night Mare.
+10	51	0	2	99	Night Mare is unmoved by the skull, at least in its current state.
+10	19	0	1	99	Why would Alexander want to use the spoiled egg on Night Mare?
+10	2	0	1	2	"Calm down, girl."
+10	2	0	2	99	Night Mare ignores Alexander.
+10	44	0	1	99	Night Mare doesn't show the least bit of interest in that teacup.
+10	20	0	1	99	The tinder box does not impress Night Mare.
+10	37	0	1	99	Alexander winds the bird and plays it for the black creature....
+10	37	0	2	99	Night Mare just continues to eat.
+9	0	0	1	99	There's no reason to use that on the bush of nightshade.
+9	5	21	1	2	"Perhaps one of the leaves...?"   
+9	5	21	2	30	"Not the leaves, dearie, the BERRIES!  On top of the bush!"   
+9	5	27	1	99	Alexander isn't interested in the nightshade leaves, and there are no berries there.  
+9	1	0	1	99	A bush with dark, shiny leaves grows against the east cliff wall.  The old woman identified it as nightshade.
+9	1	0	2	99	A small cluster of black berries tops the bush. 
+9	2	0	1	99	The nightshade bush says nothing.
+14	5	0	1	99	Alexander can't reach the cave in the mountain without help.
+14	1	0	1	99	There's a jagged cave opening at the pinnacle of the mountain.
+15	1	0	1	99	A dirt path leads toward the towering mountain.
+13	5	0	1	99	Alexander can't reach the mountain without help.
+13	1	0	1	99	In the distance, Alexander can see the peak of a majestic mountain rising into the clouds.
+3	1	21	1	99	An old woman is standing nearby.  She peers at Alexander with friendly interest.
+3	1	20	1	99	Alexander is standing at the top of tall cliffs.  To the north is the peak of a mountain, rising to meet the clouds.  To the left is an ominous set of bolted doors.  
+3	1	23	1	99	Alexander is standing at the top of the Cliffs of Logic on the Isle of the Sacred Mountain.  To the north, the peak of the Sacred Mountain, scarred with the opening to the Oracle's cave, rises to the clouds.  To the left, the doors to the catacombs stand open.
+3	1	22	1	99	A winged horse is feeding from the nightshade bush.  Its coat is as black as midnight, and its eyes are as blue as rain.
+3	2	21	1	99	There's no one there to talk to.  Alexander might try addressing the old woman if he's in the mood for conversation.
+3	2	22	1	99	Alexander refrains from shouting to the wind for fear of startling the winged horse.
+3	2	24	1	99	There's no one to speak to here.
+3	3	19	1	99	The sound of Alexander's footsteps startle the black horse.
+3	3	19	2	97	!!!Do sound effect here:  "BREEEAA!"
+3	3	19	3	99	She flies off, leaving Alexander alone at the top of the cliffs.
+3	3	17	1	2	"Oops."
+3	3	17	2	99	Alexander has plenty of time to rethink his logic as he falls past the riddles of the logic cliffs.
+3	3	18	1	97	!!!Do not print this!  Comment MSG only.
+1	0	30	1	99	The skull does not respond to Alexander's incantation.  The embers have grown cold since Alexander gathered them, thus ruining the spell.    
+1	0	30	2	99	Night Mare regards Alexander with disdain and continues her meal.  
+1	0	4	1	99	Alexander solemnly speaks the incantation over the skull. 
+1	0	4	2	2	"Creature of Night, to me succumb!
+					Fire and Brimstone leave thee numb.
+					Purity bind thee like a chain.
+					To do what 'ere I now ordain!" 
+1	0	4	3	99	Night Mare flares her nostrils at the scent of the fire and brimstone. 
+1	0	4	4	2	"That's it!  Come on.  I need passage to your homeland, fiery one!"  
+1	0	4	5	99	Unable to resist the power of the enchanted smell, Night Mare approaches Alexander.  Her eyes appear glassy and sightless.  In her hypnotized state, she is unaware of the human so close to her flank or of anything at all except that marvelous smell!
+1	0	4	6	2	"Now ride!" 
+1	0	1	1	99	Alexander finds himself...finally...at the top of the cliffs.  Exhausted, he steps over the lip of the plateau and stands.
+1	0	1	2	30	"(SWEETLY) Why do you make such an effort to climb the cliffs, young man?  The Winged Ones who live on this island have the power of flight."   
+1	0	1	3	30	"You can have it too if only you would eat a berry from this magical flying nightshade bush!" 
+1	0	1	4	30	"(SWEETLY) See?  The sweet berries will make you float like a petal on the wind!  Try some!" 
+1	0	2	1	18	"So!  You have chosen to come back and face the catacombs when you could have escaped!  I admit, I am surprised.  You are either a complete idiot or vain enough to think yourself invincible."
+1	0	33	1	99	Alexander arrives at the top of the cliffs somewhat winded after his long but uneventful climb.
+1	0	11	1	99	The Winged Ones' guards, bored with the pointless waiting, are startled by the sound of rock moving against rock.
+1	0	11	2	18	"(TREMBLING) Lady Celeste, bide thee well?"
+1	0	11	3	4	"(DISDAINFUL, SLIGHTLY ANGRY) I'm QUITE well, thanks to the bravery of a mere HUMAN!  So much for your SUPERIOR intellects!"
+1	0	11	4	31	"(SHAMED) Yes, m'lady."
+1	0	11	5	4	"(ORDERING) Now, bring him along!  I'm going home!"   
+1	0	9	1	18	"Why did you tell Lord Azure you were ready and willing to face the catacombs?  No one is ever ready--and only a fool could be willing!"
+1	0	9	2	2	"And you are far wiser, I suppose, to leave a maiden to die--to not fight this plague on your own people?"
+1	0	9	3	31	"Bravery and suicide are two different things, human!  You will have a chance to renounce your choice soon enough--when you lay trembling under the minotaur's hooves!"
+1	0	9	4	2	"We shall see.  Thanks for the...escort."
+1	0	9	5	18	"We only escort you to your death!  May the Fates make it quick so that you do not have to scream long!"
+1	0	15	1	97	!!!Do not print this!  Comment MSG only.
+1	0	16	1	97	!!!Do not print this!  Comment MSG only.
+1	0	8	1	97	!!!Do not print this!  Comment MSG only.
+1	0	14	1	97	!!!Do not print this!  Comment MSG only.
+1	0	34	1	30	"You're just gonna walk away, aren't you?  Well, you'll be sorry about THAT!"
+1	0	5	1	30	"(LESS FRIENDLY) Come, stranger, trust me!  Think of what I'm offering you!"
+1	0	6	1	30	"(HARSHER, IMPATIENT) Young man, you offend me!  I try to help you, and you insist on being rude!"
+1	0	7	1	30	"(VERY ANGRY) ALL RIGHT THEN!  Stay tied to the ground like a load of lead!  See if I care, you...you...you human!"
+1	0	7	2	99	How odd!  The old woman just disappeared in a cloud of smoke.  Perhaps those berries are even more powerful than she led Alexander to believe!
