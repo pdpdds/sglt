@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCIUnpacker", "SCIUnpacker\SCIUnpacker.vcxproj", "{02E6EC9F-5C95-4460-8C9B-2D74ECCC3A6E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResExtractor", "ResExtractor\ResExtractor.vcxproj", "{5DB80B18-D8A3-430A-9C76-001942749776}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageTranslator", "Translator\Translator.vcxproj", "{029D20F6-807E-43A1-BD0C-3ADACB72C045}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextTranslator", "TextTranslator\TextTranslator.vcxproj", "{1AC63108-C32C-4924-BF7F-40B9100F87E6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontCreator", "FontCreator\SJISFontCreator.vcxproj", "{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResExtractor", "ResExtractor\ResExtractor.vcxproj", "{5DB80B18-D8A3-430A-9C76-001942749776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{02E6EC9F-5C95-4460-8C9B-2D74ECCC3A6E}.Debug|Win32.Build.0 = Debug|Win32
 		{02E6EC9F-5C95-4460-8C9B-2D74ECCC3A6E}.Release|Win32.ActiveCfg = Release|Win32
 		{02E6EC9F-5C95-4460-8C9B-2D74ECCC3A6E}.Release|Win32.Build.0 = Release|Win32
-		{5DB80B18-D8A3-430A-9C76-001942749776}.Debug|Win32.ActiveCfg = Debug|Win32
-		{5DB80B18-D8A3-430A-9C76-001942749776}.Debug|Win32.Build.0 = Debug|Win32
-		{5DB80B18-D8A3-430A-9C76-001942749776}.Release|Win32.ActiveCfg = Release|Win32
-		{5DB80B18-D8A3-430A-9C76-001942749776}.Release|Win32.Build.0 = Release|Win32
 		{029D20F6-807E-43A1-BD0C-3ADACB72C045}.Debug|Win32.ActiveCfg = Debug|Win32
 		{029D20F6-807E-43A1-BD0C-3ADACB72C045}.Debug|Win32.Build.0 = Debug|Win32
 		{029D20F6-807E-43A1-BD0C-3ADACB72C045}.Release|Win32.ActiveCfg = Release|Win32
@@ -39,6 +35,10 @@ Global
 		{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}.Debug|Win32.Build.0 = Debug|Win32
 		{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}.Release|Win32.ActiveCfg = Release|Win32
 		{D9238BF6-597B-41AE-85C7-0FCAAE7BD5B1}.Release|Win32.Build.0 = Release|Win32
+		{5DB80B18-D8A3-430A-9C76-001942749776}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DB80B18-D8A3-430A-9C76-001942749776}.Debug|Win32.Build.0 = Debug|Win32
+		{5DB80B18-D8A3-430A-9C76-001942749776}.Release|Win32.ActiveCfg = Release|Win32
+		{5DB80B18-D8A3-430A-9C76-001942749776}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

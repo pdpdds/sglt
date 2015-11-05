@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2dc0cf46-2446-4a6b-b0a8-528a3afb04f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="create_sjisfnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\abstract-fs.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\archive.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\config-file.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\config-manager.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\coroutines.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cosinetables.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dcl.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dct.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\debug.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\error.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\EventDispatcher.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\EventMapper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\EventRecorder.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fft.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\file.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fs.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gui_options.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\hashmap.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\huffman.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\iff_container.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\language.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\localization.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\macresman.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\md5.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\memorypool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mutex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\platform.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\quicktime.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\random.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rational.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rdft.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rendermode.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sinetables.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stdiostream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\str.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stream.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\system.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\textconsole.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tokenizer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\translation.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\unarj.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\unzip.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\windows-fs-factory.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\windows-fs.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\winexe.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\winexe_ne.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\winexe_pe.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\xmlparser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\zlib.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="create_sjisfnt.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\algorithm.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\archive.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\array.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bitstream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bufferedstream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\config-file.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\config-manager.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\coroutines.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cosinetables.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\dcl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\dct.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\debug-channels.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\endian.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\error.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\EventRecorder.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\events.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\fft.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\file.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\forbidden.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\frac.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\fs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\func.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\gui_options.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\hash-str.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\hashmap.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\huffman.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\iff_container.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\keyboard.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\language.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\list_intern.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\localization.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\macresman.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\md5.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memorypool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memstream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mutex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\noncopyable.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pack-end.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pack-start.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\platform.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ptr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\quicktime.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\random.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rational.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rdft.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rect.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rendermode.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\savefile.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\scummsys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\serializer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sinetables.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\singleton.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stack.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stdiostream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\str-array.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\str.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\substream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\system.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\taskbar.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\textconsole.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tokenizer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\translation.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\unarj.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\unzip.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\updates.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\windows-fs-factory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\windows-fs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\winexe.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\winexe_ne.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\winexe_pe.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xmlparser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\zlib.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="common\module.mk">
+      <Filter>common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
