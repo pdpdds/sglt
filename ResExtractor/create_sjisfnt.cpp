@@ -195,12 +195,15 @@ int main(int argc, char *argv[])
 	// Add the game path to the directory search list
 	SearchMan.addDirectory(dir.getPath(), dir, 0, 4);
 
-	Common::String str = "resource.map";
-
-	str = "MESSAGE.MAP";
+	Common::String str = "MESSAGE.MAP";
 	AnalyzeMap(str);
 
 	ExtractRes();
+
+	//스페이스 퀘스트나 에코퀘스트의 경우
+	//ExtractSpaceQuestRes() 사용
+		//_mapVersion = kResVersionSci11;
+	//Common::String str = "resource.map";
 
 
 

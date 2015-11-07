@@ -124,7 +124,7 @@ SCITextResource* MsgController::CreateTextResource(int index)
 	if(m_GameName == "gabriel")
 		return new ResourceGabriel(index);
 	if(m_GameName == "eco1")
-		return new ResourceEcho1(index);
+		return new ResourceGabriel(index);
 	if(m_GameName == "amonra")
 		return new ResourceAmonRa(index);
 	if(m_GameName == "qfg1")

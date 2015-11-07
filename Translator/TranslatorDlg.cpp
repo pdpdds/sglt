@@ -117,7 +117,7 @@ BOOL CTranslatorDlg::OnInitDialog()
 	// TODO: Add extra initialization here
 	m_MsgController = new MsgController(this);
 //20131222
-	m_MsgController->Load("freddy");
+	m_MsgController->Load("eco1");
 
 	m_MsgController->GetText(m_OriginalText, m_TranslatedText);
 	GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText); 
