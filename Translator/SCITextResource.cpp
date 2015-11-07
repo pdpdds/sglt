@@ -67,6 +67,12 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	{
 		int i = 1;
 	}
+
+	if (m_MessageCnt == 2352)
+	{
+		int i = 1;
+	}
+
 	return TRUE;
 }
 

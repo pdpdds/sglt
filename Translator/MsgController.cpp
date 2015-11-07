@@ -15,6 +15,7 @@
 #include "CWorksheets.h"
 #include "CRange.h"
 #include "CRanges.h"
+#include <locale.h>
 
 
 static const char *const s_resourceTypeNames[] = {
@@ -87,7 +88,7 @@ BOOL MsgController::Load(CString GameName)
 		TextResPair sTextResPair;
 		SCITextResource* pOriTextRes = CreateTextResource(i);
 
-		CString szOriginalPath = "./Original/";
+		CString szOriginalPath = "./Original/"; 
 		szOriginalPath += szFileName;
 		if(FALSE == pOriTextRes->Load(szOriginalPath))
 		{
@@ -118,6 +119,8 @@ BOOL MsgController::Load(CString GameName)
 
 SCITextResource* MsgController::CreateTextResource(int index)
 {
+	setlocale(LC_ALL, "Korean");
+
 	if(m_GameName == "gabriel")
 		return new ResourceGabriel(index);
 	if(m_GameName == "eco1")
