@@ -1,4 +1,4 @@
-
+﻿
 // TranslatorDlg.cpp : implementation file
 //
 

@@ -12,6 +12,8 @@ static const char *const s_resourceTypeNames[] = {
 	"tga", "zzz", "macibin", "macibis", "macpict"
 };
 
+int texFileMax = 2200;
+
 MsgController::MsgController(CTranslatorDlg* pOwner)
 : m_pOwner(pOwner)
 , m_TextResourceCnt(0)
@@ -44,7 +46,7 @@ BOOL MsgController::Finally()
 BOOL MsgController::Load()
 {
 	int TextResourceCnt = 0;
-	for(int i = 0; i < 2000; i++)
+	for (int i = 0; i < texFileMax; i++)
 	{
 		if(i == 900)
 		{
@@ -225,7 +227,7 @@ BOOL MsgController::CreateTextMap()
 ///////////////////////////////////////////////////////////////
 
 	CFile WriteFile;
-	if(!WriteFile.Open("text.map", CFile::modeWrite))
+	if (!WriteFile.Open("text.map", CFile::modeWrite | CFile::modeCreate))
 	{
 		return FALSE;
 	}
@@ -260,14 +262,14 @@ BOOL MsgController::PackText()
 	m_mapTextResInfo.clear();
 	CFile File;
 
-	if(!File.Open("Text.res", CFile::modeWrite))
+	if (!File.Open("Text.res", CFile::modeWrite | CFile::modeCreate))
 	{
 		return FALSE;
 	}
 
 	CArchive ar(&File, CArchive::store);
 
-	for(int i = 0; i < 2000; i++)
+	for (int i = 0; i < texFileMax; i++)
 	{
 		char szFileName[50];
 		sprintf(szFileName, "Translated/%s.%03d", s_resourceTypeNames[3], i);

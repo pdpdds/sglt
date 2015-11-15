@@ -71,7 +71,7 @@ BOOL SCITextResource::Load( const CString& szFileName )
 
 //20130125 뒤죽박죽 요정 이야기 10바이트 파일 처리...
 		if(TextLen == 0)
-			return FALSE;
+			return TRUE;//원래는 FALSE로 되어 있었다.. 안되면 수정 요망
 
 		if(BlankCount > 0)
 		{

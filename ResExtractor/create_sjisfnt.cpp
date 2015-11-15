@@ -182,8 +182,12 @@ int main(int argc, char *argv[])
 		return 0;
 
 	if(strcmp(argv[1], "lb1") == 0)
-		_mapVersion = kResVersionSci0Sci1Early;
-	else	
+		_mapVersion = kResVersionSci0Sci1Early;	
+	else if (strcmp(argv[1], "echo1") == 0 || strcmp(argv[1], "sq1") == 0)
+		_mapVersion = kResVersionSci11;
+	else  if(strcmp(argv[1], "kq5") == 0)
+		_mapVersion = kResVersionSci1Late;
+	else
 		_mapVersion = kResVersionSci2;
 
 
@@ -195,15 +199,26 @@ int main(int argc, char *argv[])
 	// Add the game path to the directory search list
 	SearchMan.addDirectory(dir.getPath(), dir, 0, 4);
 
-	Common::String str = "MESSAGE.MAP";
-	AnalyzeMap(str);
 
-	ExtractRes();
+	if (_mapVersion == kResVersionSci2)
+	{
+		Common::String str = "MESSAGE.MAP";
+		AnalyzeMap(str);
 
-	//스페이스 퀘스트나 에코퀘스트의 경우
-	//ExtractSpaceQuestRes() 사용
-		//_mapVersion = kResVersionSci11;
-	//Common::String str = "resource.map";
+		ExtractRes();
+	}
+	else
+	{
+		//스페이스 퀘스트나 에코퀘스트의 경우
+		//킹스퀘스트 5 - PC98
+
+		Common::String str = "resource.map";
+		AnalyzeMap(str);
+		ExtractSpaceQuestRes();
+	}
+	
+	
+	
 
 
 
@@ -391,7 +406,7 @@ int count = 0;
 		{
 			int i =1;
 		}
-		int error = decompress((ResVersion)kResVersionSci11, fileStream, outFile, Desc.number, Desc.type);
+		int error = decompress((ResVersion)_mapVersion, fileStream, outFile, Desc.number, Desc.type);
 
 		outFile->finalize();
 		outFile->close();
@@ -437,7 +452,7 @@ bool ExtractRes()
 		//outFile->write(_header, _headerSize);
 
 		fileStream->seek(Desc.fileoffset, SEEK_SET);
-		int error = decompress(kResVersionSci11, fileStream, outFile, Desc.number, Desc.type);
+		int error = decompress((ResVersion)_mapVersion, fileStream, outFile, Desc.number, Desc.type);
 
 		outFile->finalize();
 		outFile->close();
@@ -614,8 +629,7 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 
 ResourceType convertResType(byte type) {
 	type &= 0x7f;
-
-	int _mapVersion = kResVersionSci11;
+	
 	if (_mapVersion < kResVersionSci2) {
 		// SCI0 - SCI2
 		//if (type < ARRAYSIZE(s_resTypeMapSci0))

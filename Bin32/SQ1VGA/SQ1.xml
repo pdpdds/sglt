@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Shouter.xml type="Struct">
+<sq1.xml type="Struct">
   <SentenceList type="associative_array">
 		<item type="pair">
 			<key type="string" value="It's you, Roger Wilco, janitor sub-extraordinaire."/>
@@ -2586,4 +2586,4 @@
 			<value type="string" value="Enter input"/>
 		</item>
 	</SentenceList>
-</Shouter.xml>
+</sq1.xml>
