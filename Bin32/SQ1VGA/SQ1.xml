@@ -1,0 +1,2589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shouter.xml type="Struct">
+  <SentenceList type="associative_array">
+		<item type="pair">
+			<key type="string" value="It's you, Roger Wilco, janitor sub-extraordinaire."/>
+			<value type="string" value="약간 특출난 경비원인 로저 윌코입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is your brain take-out container."/>
+			<value type="string" value="This is your brain take-out container."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Let me out of here!&#xA;(Quit)"/>
+			<value type="string" value="여기서 내보내줘!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I don't know WHAT&#xA;I was thinking.&#xA;Let's Play!"/>
+			<value type="string" value="내가 '무슨'생각을&#xA;하는지도 모르겠다.&#xA;계속 하자!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Of course I'm sure!"/>
+			<value type="string" value="물론, 당연하지!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Changed My Mind.&#xA;Let's Play!"/>
+			<value type="string" value="마음이 변했다.&#xA;계속 하자!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Who cares"/>
+			<value type="string" value="누가 신경쓰나"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Select this Icon to close this window."/>
+			<value type="string" value="이 창을 닫으려면 이 아이콘을 선택하십시오."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Select this Icon then select an inventory item you'd like a description of."/>
+			<value type="string" value="인벤토리의 아이템에 대해 설명을 보려면 이 아이콘을 선택하십시오."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This allows you to do something to an item."/>
+			<value type="string" value="이를 통해 아이템을 조작할 수 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a cartridge from the Arcada's Data Archive."/>
+			<value type="string" value="아르카다의 데이터 보관소에서 나온 카트리지입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This keycard fits an electronic lock someplace on the Arcada."/>
+			<value type="string" value="아르카다의 어딘가에 있는 전자 자물쇠에 맞는 키카드입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is some sort of gadget. You're not sure what it does exactly, but it has a switch."/>
+			<value type="string" value="일종의 부속품입니다. 자세한 건 모르겠지만 스위치가 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's the cone shaped tip of a stalagmite."/>
+			<value type="string" value="석순의 끝 모양을 한 원뿔입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a Xenon Army knife"/>
+			<value type="string" value="제논군의 칼입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The can label says &quot;Pelvitron Dehydrated Water (H2) - All you add is air! Makes 10 gallons! Caution - Do not attempt to open or rupture container! Misuse could result in personal injury and/or flash flooding.&quot;"/>
+			<value type="string" value="겉봉에 쓰인 말 : &quot;펠비트론제 탈수처리된 식수 (H2) - 공기만 첨가하면 됩니다! 10갤런까지 가능! 컨테이너를 열거나 파괴하지 마십시오! 오용시 부상을 입거나 홍수가 일어날 수 있습니다.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's that highly reflective piece of broken cockpit glass."/>
+			<value type="string" value="반사가 매우 잘 되는 조종석의 유리 파편입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This cute little item is an Orat part - you're not sure what part though."/>
+			<value type="string" value="매우 작은 이 물건은 오랫의 일부입니다. 어느 부분인지는 모르겠지만요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This key operates the skimmer."/>
+			<value type="string" value="스키머를 작동시키는 열쇠입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Ummm! Keronian Ale!"/>
+			<value type="string" value="으음! 케로니언 맥주란!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a used jetpack. Real used."/>
+			<value type="string" value="중고 제트팩입니다. 진짜 중고품이로군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Pulseray Laser Pistol"/>
+			<value type="string" value="펄스 레이저 권총"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a pulseray laser pistol. Remember, this isn't a play toy!"/>
+			<value type="string" value="펄스 레이저 권총입니다. 명심하세요, 이건 장난감이 아닙니다!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You have a small innocuous looking grenade."/>
+			<value type="string" value="약간 무해한 수류탄을 얻었습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a small single function remote control."/>
+			<value type="string" value="단기능 무선조종 패널입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a genuine Widget. You're not sure what it does but it's heavy, it looks cool, and it might be magnetic. Please keep this away from the game disks!"/>
+			<value type="string" value="정품 위젯입니다. 뭔진 몰라도 무거우면서도 세련됐으며, 마그네틱인 것 같습니다. 게임 디스크 근처에 두지 마세요!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is simply a piece of sticky, stinking, rotting, plant"/>
+			<value type="string" value="그저 찐득찐득하고 구린내가 나며 썩은 식물의 일부입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Hey kids! This bar coupon is good for 5 bucakzoids and a free Keronian Ale!"/>
+			<value type="string" value="&quot;이봐, 이 술집 쿠폰으로 5버캐초이드를 아끼고 케로니언 맥주를 마실 수 있어!&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This coupon gives you a 20% discount at a Droids-B-Us near you! How helpful! Those suckers have the highest droid prices in this universe."/>
+			<value type="string" value="&quot;이 쿠폰으로 '로봇을 주세요'의 가격이 20% 할인됩니다! 얼마나 유용합니까! 그 자식들은 이 세계에서 로봇을 가장 비싸게 팔아치우는 녀석들입니다.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sarien ID Card"/>
+			<value type="string" value="새리언 신분증"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="In the pocket of this ugly outfit is a Sarien ID card. The name on the card is Butston Freem. You wonder if this is a common Sarien name (and if it is, you're glad you're not Sarien)."/>
+			<value type="string" value="이 꼴사나운 옷의 주머니 속에 새리언 신분증이 들어 있었습니다. 이름은 벗스턴 프림이군요. 이게 새리언의 일반적인 이름인지 궁금하시겠죠(만약 그렇다면, 당신은 새리언이 아니라서 기쁘겠군요)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="  Space Quest I - The Sarien Encounter"/>
+			<value type="string" value="스페이스 퀘스트 1 - 새리언과의 조우"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Enter drive &amp; directory for new response log..."/>
+			<value type="string" value="로그를 새로 불러들일 드라이브와 디렉토리를 쓰십시오…"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon is for walking."/>
+			<value type="string" value="이 아이콘은 '걷기'입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon is for looking."/>
+			<value type="string" value="이 아이콘은 '둘러보기'입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon is for doing."/>
+			<value type="string" value="이 아이콘은 '조작하기'입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon is for talking."/>
+			<value type="string" value="이 아이콘은 '대화하기'입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This window displays the current inventory item."/>
+			<value type="string" value="이 창은 현재 소유중인 물건을 나타냅니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon brings up the inventory window."/>
+			<value type="string" value="이 아이콘은 인벤토리 창을 띄웁니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon is for smelling."/>
+			<value type="string" value="이 아이콘은 '냄새맡기'입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon is for tasting."/>
+			<value type="string" value="이 아이콘은 '맛보기'입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon brings up the control panel."/>
+			<value type="string" value="이 아이콘은 환경설정입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This icon tells you about other icons."/>
+			<value type="string" value="이 아이콘은 아이콘들의 기능을 설명합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Raises and lowers the level of graphics detail."/>
+			<value type="string" value="그래픽 세밀화 단계를 조정합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Adjusts sound volume."/>
+			<value type="string" value="소리 크기를 조정합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Adjusts the speed of the your character's animation (within the limits of your computer's capability)."/>
+			<value type="string" value="(당신 컴퓨터의 최대 성능 내에서) 캐릭터가 움직이는 속도를 조정합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Saves your current game."/>
+			<value type="string" value="현재 게임을 저장합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Restores a previously saved game."/>
+			<value type="string" value="기존의 게임을 불러옵니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Restarts the Game."/>
+			<value type="string" value="게임을 재시작합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Information about the game."/>
+			<value type="string" value="게임에 대한 정보를 봅니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Exits this menu."/>
+			<value type="string" value="이 메뉴를 빠져나갑니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Would you like to skip&#xA;the introduction or&#xA;watch the whole thing?"/>
+			<value type="string" value="오프닝을 건너뛰시겠습니까,&#xA;아니면 전부 보시겠습니까?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Skip it"/>
+			<value type="string" value="건너뛰기"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Watch it"/>
+			<value type="string" value="감상하기"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Restore a Game"/>
+			<value type="string" value="불러오기"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="  1991 Sierra On-Line, Inc."/>
+			<value type="string" value="1991년, 시에라 온-라인"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Thank you for playing Space Quest I. As usual, you've been most entertaining."/>
+			<value type="string" value="스페이스 퀘스트 1편을 플레이 해주셔서 감사합니다. 여느 때처럼 재미있으셨겠죠."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Restore"/>
+			<value type="string" value="불러오기"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Restart"/>
+			<value type="string" value="재시작"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Quit"/>
+			<value type="string" value="나가기"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Animators:&#xA;&#xA;Douglas Herring&#xA;Vasken Nokhoudian&#xA;Nathan Larsen&#xA;Arturo Sinclair&#xA;Deena Krutak&#xA;Desie Hartman&#xA;Jerry Jessurun&#xA;Russell Truelove&#xA;Diana R. Wilson&#xA;"/>
+			<value type="string" value="Animators:&#xA;&#xA;Douglas Herring&#xA;Vasken Nokhoudian&#xA;Nathan Larsen&#xA;Arturo Sinclair&#xA;Deena Krutak&#xA;Desie Hartman&#xA;Jerry Jessurun&#xA;Russell Truelove&#xA;Diana R. Wilson&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Background Artists:&#xA;&#xA;Douglas Herring&#xA;Nathan Larsen&#xA;Arturo Sinclair&#xA;Eric Kasner&#xA;Willis Wong&#xA;Jay Allan Friedmann&#xA;Jennifer Shontz&#xA;Andy Hoyos&#xA;Jane Cardinal&#xA;Maurice F. Morgan&#xA;"/>
+			<value type="string" value="Background Artists:&#xA;&#xA;Douglas Herring&#xA;Nathan Larsen&#xA;Arturo Sinclair&#xA;Eric Kasner&#xA;Willis Wong&#xA;Jay Allan Friedmann&#xA;Jennifer Shontz&#xA;Andy Hoyos&#xA;Jane Cardinal&#xA;Maurice F. Morgan&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Programmers:&#xA;&#xA;Jerry Shaw&#xA;Randy MacNeill&#xA;Dave Jamriska&#xA;Hugh Diedrichs&#xA;Christopher Carr&#xA;"/>
+			<value type="string" value="Programmers:&#xA;&#xA;Jerry Shaw&#xA;Randy MacNeill&#xA;Dave Jamriska&#xA;Hugh Diedrichs&#xA;Christopher Carr&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Music Director:&#xA;&#xA;Mark Seibert&#xA;"/>
+			<value type="string" value="Music Director:&#xA;&#xA;Mark Seibert&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="System Development:&#xA;&#xA;Chris Smith&#xA;Jeff Stephenson&#xA;Robert E. Heitman&#xA;Pablo Ghenis&#xA;Dan Foy&#xA;Larry Scott&#xA;J. Mark Hood&#xA;Mark Wilden&#xA;Eric Hart&#xA;Chad Bye&#xA;"/>
+			<value type="string" value="System Development:&#xA;&#xA;Chris Smith&#xA;Jeff Stephenson&#xA;Robert E. Heitman&#xA;Pablo Ghenis&#xA;Dan Foy&#xA;Larry Scott&#xA;J. Mark Hood&#xA;Mark Wilden&#xA;Eric Hart&#xA;Chad Bye&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sound Effects:&#xA;&#xA;Ken Allen&#xA;Mark Seibert&#xA;Orpheus Hanley&#xA;"/>
+			<value type="string" value="Sound Effects:&#xA;&#xA;Ken Allen&#xA;Mark Seibert&#xA;Orpheus Hanley&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Additional Written Material:&#xA;&#xA;Bridget McKenna&#xA;Gano Haine&#xA;"/>
+			<value type="string" value="Additional Written Material:&#xA;&#xA;Bridget McKenna&#xA;Gano Haine&#xA;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Space Quest 1 Theme Based on the&#xA;Original Composition by Mark Crowe"/>
+			<value type="string" value="Space Quest 1 Theme Based on the&#xA;Original Composition by Mark Crowe"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Quality Assurance:&#xA;&#xA;Sharon Simmons "/>
+			<value type="string" value="Quality Assurance:&#xA;&#xA;Sharon Simmons "/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;The Star Generator is in danger! The Arcada is under attack! You'd better get off this scow if you value your life, Wilco.&quot;"/>
+			<value type="string" value="&quot;천체 발전기가 위험에 처했어! 아르카다가 공격받고 있다구! 자네 삶을 중요히 여기거든 이 배에서 도망치는 게 좋겠네, 윌코.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The old scientist doesn't appear healthy. In fact, his small intestine is about to unwind onto the floor."/>
+			<value type="string" value="늙은 과학자는 건강해 보이지 않습니다. 사실은, 그의 작은창자가 바닥으로 흘러내리려는 참입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a door. Perhaps it leads elsewhere."/>
+			<value type="string" value="문입니다. 다른 곳으로 이어지는 것 같군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's an automatic door."/>
+			<value type="string" value="자동문입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These panel lights are here just for decoration and don't actually have anything to do with the Data Archive Unit."/>
+			<value type="string" value="여기 있는 패널의 빛은 그냥 장식품이며, 이걸로 데이터 보관소의 로봇을 조작할 순 없습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These lights have something to do with the Data Archive Unit, though you don't really know what. They do seem to indicate that the unit is still operational."/>
+			<value type="string" value="이 빛들로 데이터 보관소의 로봇을 조작할 수 있는 것 같지만, 정확히는 모릅니다. 그나마 로봇이 아직 작동중이라는 건 알 수 있군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Data retreval console"/>
+			<value type="string" value="Data retreval console"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the operation console of the Data Archive Unit. There is a CRT and chair."/>
+			<value type="string" value="데이터 보관소 로봇을 조종하는 조작대입니다. 모니터와 의자가 있군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The data cartridges are stored in these secure storage modules."/>
+			<value type="string" value="데이터 카트리지들은 저 보안저장고에 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is where the sophisticated electronics for the complete Data Archive System are housed."/>
+			<value type="string" value="완벽한 데이터 보관소 시스템이 자리잡고 있는 고급 전자장비입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These things hanging from the ceiling, which look like blowfish-on-a-rope, are actually lighting fixtures for the operation console."/>
+			<value type="string" value="These things hanging from the ceiling, which look like blowfish-on-a-rope, are actually lighting fixtures for the operation console."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Through the metallic lattice you glimpse still another hallway below."/>
+			<value type="string" value="철제 격자 아래를 보다가 또 다른 복도가 있는 걸 깨달았습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's not possible. It's so dark that you couldn't find your own navel lint. Surely you MUST remember that this was the criteria by which you came to choose this location for your nap... er... work station."/>
+			<value type="string" value="That's not possible. It's so dark that you couldn't find your own navel lint. Surely you MUST remember that this was the criteria by which you came to choose this location for your nap... er... work station."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You aren't on that level."/>
+			<value type="string" value="해당 층에 있는 게 아닙니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A somewhat spastic research droid blows by in a tizz. Perhaps you could provide some relaxation therapy instruction to reduce its level of tension."/>
+			<value type="string" value="흥분하여 약간 바보가 된 조사용 로봇입니다. 긴장 상태를 늦추기 위해 이완치료법을 가르쳐 줘야 할 것 같군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is another hallway aboard the Arcada. There is an elevator door nearby."/>
+			<value type="string" value="아르카다 내부의 또 다른 복도입니다. 근처엔 엘리베이터 문이 있군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's all that remains of Jerry, one of the few technodudes aboard who sometimes tolerated your company. Your low clearance excluded you from visiting him during the performance of his duties in the elegant lower level airlock of the Arcada."/>
+			<value type="string" value="It's all that remains of Jerry, one of the few technodudes aboard who sometimes tolerated your company. Your low clearance excluded you from visiting him during the performance of his duties in the elegant lower level airlock of the Arcada."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Gee! The sign seems to be flashing. Could it be a warning of some kind? Who knows? You're always slower than normal after a nap."/>
+			<value type="string" value="Gee! The sign seems to be flashing. Could it be a warning of some kind? Who knows? You're always slower than normal after a nap."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These appear to be doors to an elevator."/>
+			<value type="string" value="엘리베이터로 가는 문으로 보입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="More hallway extends through the Arcada. There is an elevator door nearby."/>
+			<value type="string" value="아르카다 곳곳으로 이어지는 더 많은 복도입니다. 근처엔 엘리베이터 문이 있군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A cursory glance indicates that Dave, a lab technician, is dead. Normally you wouldn't be able to tell, except that his intestines are hanging out of the scorched opening where his abdominal wall used to be. You remember that he was forced to serve in the Xenon National Guard (but he wasn't bitter)."/>
+			<value type="string" value="A cursory glance indicates that Dave, a lab technician, is dead. Normally you wouldn't be able to tell, except that his intestines are hanging out of the scorched opening where his abdominal wall used to be. You remember that he was forced to serve in the Xenon National Guard (but he wasn't bitter)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is one of the head research scientists, Blanche. You wanted to get to know her a little better. However, seeing her ruptured chest wall reveals more about her than you were hoping to learn."/>
+			<value type="string" value="This is one of the head research scientists, Blanche. You wanted to get to know her a little better. However, seeing her ruptured chest wall reveals more about her than you were hoping to learn."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="deadMan2"/>
+			<value type="string" value="deadMan2"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="An arrow in the elevator light assembly points up."/>
+			<value type="string" value="엘리베이터 표시판의 화살이 위쪽을 가리키고 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="In case you're trying to play this as a text adventure, the sign says 'RED ALERT' and it's flashing."/>
+			<value type="string" value="In case you're trying to play this as a text adventure, the sign says 'RED ALERT' and it's flashing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator to one of the other levels of the Arcada."/>
+			<value type="string" value="아르카다의 다른 층으로 가는 엘리베이터입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A fairly spazzed-out droid is on the loose in your immediate proprioceptic area."/>
+			<value type="string" value="A fairly spazzed-out droid is on the loose in your immediate proprioceptic area."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the door to the top secret Star Generator Lab. It's been forcibly ventilated!"/>
+			<value type="string" value="This is the door to the top secret Star Generator Lab. It's been forcibly ventilated!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the Star Generator Development Laboratory. Due to your incredibly low security clearance, you have never had access to this room. What a mess! Wreckage clutters the middle of the floor. A pair of lab workers have been blasted from the roster of the living. You're glad somebody else has to clean this up!"/>
+			<value type="string" value="This is the Star Generator Development Laboratory. Due to your incredibly low security clearance, you have never had access to this room. What a mess! Wreckage clutters the middle of the floor. A pair of lab workers have been blasted from the roster of the living. You're glad somebody else has to clean this up!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The lifeless body of Randy, one of the lab technicians, lies sprawled at your feet. Those laser blasts are nasty. Why, you can't distinguish one exposed organ from another."/>
+			<value type="string" value="The lifeless body of Randy, one of the lab technicians, lies sprawled at your feet. Those laser blasts are nasty. Why, you can't distinguish one exposed organ from another."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Yet another crewman's motionless body reduces the shine of the floor wax. Hugh doesn't look too neat and clean with his lungs hanging out like that."/>
+			<value type="string" value="Yet another crewman's motionless body reduces the shine of the floor wax. Hugh doesn't look too neat and clean with his lungs hanging out like that."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You find a small but heavy device affixed to the base of the Star Generator platform. It appears to be magnetic. That must be how the aliens upset the force field protecting the unit!"/>
+			<value type="string" value="You find a small but heavy device affixed to the base of the Star Generator platform. It appears to be magnetic. That must be how the aliens upset the force field protecting the unit!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the upper support for the Star Generator when it is affixed to the pedestal."/>
+			<value type="string" value="This is the upper support for the Star Generator when it is affixed to the pedestal."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The base of the Star Generator research pedestal has apparently been trashed by the vandals who stole the Generator."/>
+			<value type="string" value="The base of the Star Generator research pedestal has apparently been trashed by the vandals who stole the Generator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Now you know why you didn't have clearance for this place. You don't understand what most of this crap does. This thing looks like a giant speaker for the cosmos."/>
+			<value type="string" value="Now you know why you didn't have clearance for this place. You don't understand what most of this crap does. This thing looks like a giant speaker for the cosmos."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This thing looks like it came off the front end of an old Studebaker (or maybe the Batmobile). Anyway, it appears non-functional at this time. It was probably damaged in the heist."/>
+			<value type="string" value="This thing looks like it came off the front end of an old Studebaker (or maybe the Batmobile). Anyway, it appears non-functional at this time. It was probably damaged in the heist."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The glass globe atop the console is inactive at this time. The mess of wiring inside reminds you of how your hair looks after a nap."/>
+			<value type="string" value="The glass globe atop the console is inactive at this time. The mess of wiring inside reminds you of how your hair looks after a nap."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are standing on the research platform where the Star Generator is... was mounted for testing."/>
+			<value type="string" value="You are standing on the research platform where the Star Generator is... was mounted for testing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a star chart. It was used for locating candidates to test the Star Generator on once the bulk of the development process was completed."/>
+			<value type="string" value="This is a star chart. It was used for locating candidates to test the Star Generator on once the bulk of the development process was completed."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a section of one of the lower levels of Arcada."/>
+			<value type="string" value="아르카다 하단부의 일부분입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This elevator must go up."/>
+			<value type="string" value="이 엘리베이터는 위로만 갈 수 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is one way to change your altitude."/>
+			<value type="string" value="현재 고도를 바꾸는 일방통행로입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This monitor gives a readout about the ship's status. Only the lab scientist really knows... er... knew exactly what it monitored."/>
+			<value type="string" value="이 모니터는 함선의 상태에 관한 정보를 나타냅니다. 연구소의 과학자들만이 해당 정보를 제대로 파악할 겁니다. 아니…파악했었죠."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A pair of viewing ports protrude from the materials testing device."/>
+			<value type="string" value="A pair of viewing ports protrude from the materials testing device."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Pipes whose purpose is known only to the architect wrap around the upper back of the room."/>
+			<value type="string" value="Pipes whose purpose is known only to the architect wrap around the upper back of the room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A designer conduit system runs through here. It carries the ventilation ducting as well as different type of wiring."/>
+			<value type="string" value="A designer conduit system runs through here. It carries the ventilation ducting as well as different type of wiring."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It appears to be some sort of wiring harness. You never cared much for electrical hardware."/>
+			<value type="string" value="It appears to be some sort of wiring harness. You never cared much for electrical hardware."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Who knows what this is."/>
+			<value type="string" value="이게 뭔지 누가 알겠습니까."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This interesting device was used to test materials early in the project."/>
+			<value type="string" value="This interesting device was used to test materials early in the project."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This place looks like a monument to Soviet computer hardware miniaturization. At one time, it served as a development facility for the Star Generator. But that was in the early phase of the project."/>
+			<value type="string" value="This place looks like a monument to Soviet computer hardware miniaturization. At one time, it served as a development facility for the Star Generator. But that was in the early phase of the project."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A relatively nearby star blazes."/>
+			<value type="string" value="A relatively nearby star blazes."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="On the screen is some green dude you've never seen the likes of. He seems to be talking, but the audio is out in this area of the ship."/>
+			<value type="string" value="On the screen is some green dude you've never seen the likes of. He seems to be talking, but the audio is out in this area of the ship."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These guys look scary. But then, don't most other beings packing weapons?"/>
+			<value type="string" value="These guys look scary. But then, don't most other beings packing weapons?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The architects must have been low on oxygen when they came up with the design scheme for this compartment. It's a giant tribute to an ancient, but still functional, control device."/>
+			<value type="string" value="The architects must have been low on oxygen when they came up with the design scheme for this compartment. It's a giant tribute to an ancient, but still functional, control device."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Here, we have a nice chunk of floor space dedicated to a cursor control device named after an annoying rodent. What were they thinking?"/>
+			<value type="string" value="Here, we have a nice chunk of floor space dedicated to a cursor control device named after an annoying rodent. What were they thinking?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The view screens offer a glimpse of the surroundings from outboard cameras. They came in handy during the testing phase of the Star Generator."/>
+			<value type="string" value="The view screens offer a glimpse of the surroundings from outboard cameras. They came in handy during the testing phase of the Star Generator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Big, phony wiring from the giant control devices attempts to complete the decorative effect."/>
+			<value type="string" value="Big, phony wiring from the giant control devices attempts to complete the decorative effect."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This keyboard was used in the development of the Star Generator. It has since been placed here to be out of the way. It has no function."/>
+			<value type="string" value="This keyboard was used in the development of the Star Generator. It has since been placed here to be out of the way. It has no function."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You're at the east end of one of the development labs. Another elevator is available here."/>
+			<value type="string" value="You're at the east end of one of the development labs. Another elevator is available here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is yet another in a long line of elevators in this game.. er.. ship."/>
+			<value type="string" value="This is yet another in a long line of elevators in this game.. er.. ship."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This light indicates that the elevator goes down and, when lit, its presence at this floor."/>
+			<value type="string" value="This light indicates that the elevator goes down and, when lit, its presence at this floor."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="open exposing the vast reaches of space"/>
+			<value type="string" value="open exposing the vast reaches of space"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the button pad for the bay doors below. The controls are located up here to minimize the chance of someone doing something stupid, such as pressing 'OPEN' while in the pod bay when wearing no pressure suit. YOU should be glad."/>
+			<value type="string" value="This is the button pad for the bay doors below. The controls are located up here to minimize the chance of someone doing something stupid, such as pressing 'OPEN' while in the pod bay when wearing no pressure suit. YOU should be glad."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The button is depressed. Aren't we all?"/>
+			<value type="string" value="The button is depressed. Aren't we all?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You always meant to ask one of the technicians what this thing is. However, you procrastinated a bit too long in this case. It's either an ocean-in-a-bottle or a model of your stomach as the deadline draws near."/>
+			<value type="string" value="You always meant to ask one of the technicians what this thing is. However, you procrastinated a bit too long in this case. It's either an ocean-in-a-bottle or a model of your stomach as the deadline draws near."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a keycard slot. Your bottom-of-the-foodchain-type clearance has always prevented you from attaining a keycard for this area, thus precluding your access to it without an escort. Good luck finding one now!"/>
+			<value type="string" value="This is a keycard slot. Your bottom-of-the-foodchain-type clearance has always prevented you from attaining a keycard for this area, thus precluding your access to it without an escort. Good luck finding one now!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button opens the bay doors below."/>
+			<value type="string" value="이 버튼은 아래에 있는 플랫폼 문을 엽니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button closes the bay doors below."/>
+			<value type="string" value="이 버튼은 아래에 있는 플랫폼 문을 닫습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a remote monitoring panel for some of the ship's systems. Attempts to understand their purpose always made your brain hurt, but you do know that glowing red isn't good. Especially since some of the stuff is connected to the reactor cooling system."/>
+			<value type="string" value="This is a remote monitoring panel for some of the ship's systems. Attempts to understand their purpose always made your brain hurt, but you do know that glowing red isn't good. Especially since some of the stuff is connected to the reactor cooling system."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These buttons are locked in position. It's probably just as well. You might live longer due to having no clue as to their purpose."/>
+			<value type="string" value="These buttons are locked in position. It's probably just as well. You might live longer due to having no clue as to their purpose."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This looks like something out of a Boris Karloid movie."/>
+			<value type="string" value="This looks like something out of a Boris Karloid movie."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the steel stand for the odd globe."/>
+			<value type="string" value="This is the steel stand for the odd globe."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="More pipes run around the upper perimeter of this area."/>
+			<value type="string" value="More pipes run around the upper perimeter of this area."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the airlock of the Arcada."/>
+			<value type="string" value="아르카다의 감압실입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A space suit hangs in the closet. It won't be used by anyone else on the ship anymore."/>
+			<value type="string" value="우주복이 옷장 안에 걸려 있습니다. 앞으로 이 배에 있는 사람들이 쓰지는 못하겠군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a fish bowl - no, it's a space suit helmet!."/>
+			<value type="string" value="금붕어 어항-아니, 우주복 헬멧이군요!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This elevator indicator points up."/>
+			<value type="string" value="엘리베이터 표시가 위를 향하고 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These large red doors serve as the airlock entrance which empties out to the pod bay."/>
+			<value type="string" value="These large red doors serve as the airlock entrance which empties out to the pod bay."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A small drawer is located just beneath a button."/>
+			<value type="string" value="버튼 바로 밑에 작은 서랍이 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The image on the closet door looks familiar, but you can't quite place it."/>
+			<value type="string" value="The image on the closet door looks familiar, but you can't quite place it."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Flashing lights adorn this strange yet familiar-looking console."/>
+			<value type="string" value="Flashing lights adorn this strange yet familiar-looking console."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It doesn't do anything but it sure looks cool."/>
+			<value type="string" value="It doesn't do anything but it sure looks cool."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is another elevator door. This one goes up."/>
+			<value type="string" value="또 다른 엘리베이터 문입니다. 이건 위로 가는군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The control panel has many confusing gauges on it. The only one you can read says CAUTION: LAUNCH BAY DECOMPRESSED!&quot;&quot;"/>
+			<value type="string" value="The control panel has many confusing gauges on it. The only one you can read says CAUTION: LAUNCH BAY DECOMPRESSED!&quot;&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a button above the rectangular object below."/>
+			<value type="string" value="There is a button above the rectangular object below."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button might have some function involving the adjacent doors."/>
+			<value type="string" value="This button might have some function involving the adjacent doors."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You notice a drawer and a button."/>
+			<value type="string" value="서랍과 버튼이 있는 걸 확인했습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the cavernous Vehicle Bay. An escape pod rests on launch rails at the end of the platform. Bay doors at the end of the rails allow access to the emptiness beyond."/>
+			<value type="string" value="This is the cavernous Vehicle Bay. An escape pod rests on launch rails at the end of the platform. Bay doors at the end of the rails allow access to the emptiness beyond."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The massive bay doors are tightly sealed."/>
+			<value type="string" value="The massive bay doors are tightly sealed."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="open wide leaving nothing but millions of kilometers of empty space between you and the very stars themselves"/>
+			<value type="string" value="open wide leaving nothing but millions of kilometers of empty space between you and the very stars themselves"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is one of the Arcada's escape pods. You vaguely remember receiving some orientation on these when you joined the crew. Unfortunately, you were deep into research on sleeping with your eyes open and, hence, don't remember much."/>
+			<value type="string" value="This is one of the Arcada's escape pods. You vaguely remember receiving some orientation on these when you joined the crew. Unfortunately, you were deep into research on sleeping with your eyes open and, hence, don't remember much."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These powerful Pyron Weezpump drives propel the pod."/>
+			<value type="string" value="These powerful Pyron Weezpump drives propel the pod."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Even though we all know that the empty atmosphere of space would not permit this twinkling effect, you have to admit it looks nice."/>
+			<value type="string" value="Even though we all know that the empty atmosphere of space would not permit this twinkling effect, you have to admit it looks nice."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Through the cabin window you can see an array of displays and controls inside the pod."/>
+			<value type="string" value="Through the cabin window you can see an array of displays and controls inside the pod."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Beyond the yawning doors lies the serenity of deep space."/>
+			<value type="string" value="Beyond the yawning doors lies the serenity of deep space."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There's that butt-ugly green guy again. Of all the systems destroyed thus far, you wish the teleview would have been one of them."/>
+			<value type="string" value="There's that butt-ugly green guy again. Of all the systems destroyed thus far, you wish the teleview would have been one of them."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A giant, silver, pill-shaped pod sits poised to fire, much like a bullet in the chamber of an ancient pistol."/>
+			<value type="string" value="A giant, silver, pill-shaped pod sits poised to fire, much like a bullet in the chamber of an ancient pistol."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The inside of the Arcada's escape pod is not exactly packed with luxurious appointments. However, when it comes to saving one's posterior, the pod's as good as a Rolls."/>
+			<value type="string" value="The inside of the Arcada's escape pod is not exactly packed with luxurious appointments. However, when it comes to saving one's posterior, the pod's as good as a Rolls."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This lever causes forward propulsion of the pod when powered-up."/>
+			<value type="string" value="This lever causes forward propulsion of the pod when powered-up."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There doesn't seem to be enough room."/>
+			<value type="string" value="There doesn't seem to be enough room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The seatbelt is dummy-tested, which ought to suit you just fine."/>
+			<value type="string" value="The seatbelt is dummy-tested, which ought to suit you just fine."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Dials galore populate the instrument console of the pod cabin."/>
+			<value type="string" value="Dials galore populate the instrument console of the pod cabin."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the pod's instrument console. Dials, gauges, and a couple of controls fill out the board."/>
+			<value type="string" value="This is the pod's instrument console. Dials, gauges, and a couple of controls fill out the board."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the lucky escapee's seat."/>
+			<value type="string" value="운 좋은 탈출자의 좌석입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The survival kit contains the basics for deep space survival."/>
+			<value type="string" value="우주에서의 완전생존을 위한 기본도구들이 포함된 생존도구함입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="don't need one."/>
+			<value type="string" value="필요 없는 물건입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Nice lights, huh?"/>
+			<value type="string" value="Nice lights, huh?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is radar for the Autonav system."/>
+			<value type="string" value="자동항로조종 시스템용 레이더입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is your arm."/>
+			<value type="string" value="당신의 팔입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is your head. This is your head in a fishbowl."/>
+			<value type="string" value="금붕어 어항에 들어간 당신 머리입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Stars glow from afar."/>
+			<value type="string" value="별들이 멀리서 빛을 내고 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's your former ship, the Arcada."/>
+			<value type="string" value="당신의 옛 함선인 아르카다입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the escape pod. It is currently occupied by you."/>
+			<value type="string" value="탈출용 우주선입니다. 지금은 당신이 쓰고 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the Autonav button. When operative it allows the pod to navigate to the closest habitable planet."/>
+			<value type="string" value="자동항로조정 버튼입니다. 이걸 작동시키면 탈출용 우주선이 거주할 수 있는 가장 가까운 행성으로 길을 안내합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Choose the appropriate button."/>
+			<value type="string" value="적합한 버튼을 눌러주세요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This lever causes forward propulsion of the pod when powered-up and in space."/>
+			<value type="string" value="발진 및 우주로 가기 위해 탈출용 우주선을 앞으로 추진시키는 레버입니다."/>
+		</item>
+		<item type="0">
+			<key type="string" value="There doesn't seem to be enough room."/>
+			<value type="string" value="공간이 충분해 보이지 않습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The seatbelt is dummy-tested, which ought to suit you just fine."/>
+			<value type="string" value="당신의 승차감을 편하게 하려고 충돌 테스트를 거친 안전벨트입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Dials galore populate the instrument console of the pod cabin. Too bad none of them work anymore."/>
+			<value type="string" value="Dials galore populate the instrument console of the pod cabin. Too bad none of them work anymore."/>
+		</item>
+		<item type="pair">
+			<key type="string" value=" Too bad none of them work anymore."/>
+			<value type="string" value="애석하게도, 아무도 더 이상 일하지 않고 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value=" It might have been dampened slightly by that landing."/>
+			<value type="string" value=" It might have been dampened slightly by that landing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="On this button pad are the AUTONAV, POWER, and DON'T TOUCH buttons."/>
+			<value type="string" value="계기판에 '자동항로조정', '전원', '누르지 마시오' 버튼이 있습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="should be hands-off"/>
+			<value type="string" value="should be hands-off"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Within the survival kit are the necessities for surviving a brief stay in a less-than-hospitable environment."/>
+			<value type="string" value="Within the survival kit are the necessities for surviving a brief stay in a less-than-hospitable environment."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Mountains generously dappled with spires of unknown formational origin loom at your visual terminus."/>
+			<value type="string" value="Mountains generously dappled with spires of unknown formational origin loom at your visual terminus."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is your arm."/>
+			<value type="string" value="당신의 팔입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is your head. This is your head in a fishbowl."/>
+			<value type="string" value="금붕어 어항에 들어간 당신 머리입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The spent drives of the pod vent fumes after the long escape from the Arcada."/>
+			<value type="string" value="The spent drives of the pod vent fumes after the long escape from the Arcada."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the escape pod's hatch."/>
+			<value type="string" value="탈출용 우주선의 해치입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the Autonav button. When operative it allows the pod to navigate to the closest habitable planet."/>
+			<value type="string" value="자동항로조정 버튼입니다. 이걸 작동시키면 탈출용 우주선이 거주할 수 있는 가장 가까운 행성으로 길을 안내합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value=" Its service life has expired as a result of the rugged touch-down."/>
+			<value type="string" value=" Its service life has expired as a result of the rugged touch-down."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Please press the desired button."/>
+			<value type="string" value="원하는 버튼을 누르십시오."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="In the distance stand the skeletal remains of of a massive beast of some type, the likes of which you never saw on Xenon. You hope it's a one of a kind relic."/>
+			<value type="string" value="In the distance stand the skeletal remains of of a massive beast of some type, the likes of which you never saw on Xenon. You hope it's a one of a kind relic."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are at the northwest boundary of a massive skeletal structure. Sand stretches out in all other directions."/>
+			<value type="string" value="You are at the northwest boundary of a massive skeletal structure. Sand stretches out in all other directions."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the north-central boundary of a massive skeletal structure surrounded by arid terra not-so-firma."/>
+			<value type="string" value="This is the north-central boundary of a massive skeletal structure surrounded by arid terra not-so-firma."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the northeast corner of the boneyard. Bones and sand dominate the scenery. At the east end of the vertebral path are two extremely pointed spurs of broken rib."/>
+			<value type="string" value="This is the northeast corner of the boneyard. Bones and sand dominate the scenery. At the east end of the vertebral path are two extremely pointed spurs of broken rib."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It looks interesting. Although hard to tell from where you are standing, it may be a sign. If you got closer, maybe you could read it."/>
+			<value type="string" value="It looks interesting. Although hard to tell from where you are standing, it may be a sign. If you got closer, maybe you could read it."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Were you a proctologist, you might know what these oddly shaped bones are called. To you, though, they're just bones."/>
+			<value type="string" value="Were you a proctologist, you might know what these oddly shaped bones are called. To you, though, they're just bones."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This appears to be the thoracic area of the spinal column of this meatless beast. Other than an obviously defective vertebra, you've got more sand and crud."/>
+			<value type="string" value="This appears to be the thoracic area of the spinal column of this meatless beast. Other than an obviously defective vertebra, you've got more sand and crud."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This genetically defective vertebra looks like it would be intolerant to much load bearing."/>
+			<value type="string" value="This genetically defective vertebra looks like it would be intolerant to much load bearing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="What started out at one time as mere hairline fractures are now clearly cracks in the imperfect vertebral module."/>
+			<value type="string" value="What started out at one time as mere hairline fractures are now clearly cracks in the imperfect vertebral module."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A section of vertebra, near where the head used to be attached, extends north and south. To the east is the ominous-looking skull."/>
+			<value type="string" value="A section of vertebra, near where the head used to be attached, extends north and south. To the east is the ominous-looking skull."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="No doubt about it. Those are some serious teeth. It could've used a little dental work - maybe some braces even. It's just a good thing you never had the opportunity to be on the business end of these things when it was still a living being."/>
+			<value type="string" value="No doubt about it. Those are some serious teeth. It could've used a little dental work - maybe some braces even. It's just a good thing you never had the opportunity to be on the business end of these things when it was still a living being."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This must be the skull previously attached to the rest of the mammoth bones partially assembled here."/>
+			<value type="string" value="This must be the skull previously attached to the rest of the mammoth bones partially assembled here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This looks like it might have been a minimally developed, manipulative appendage for the fallen and fossilized beast."/>
+			<value type="string" value="This looks like it might have been a minimally developed, manipulative appendage for the fallen and fossilized beast."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is just south of the gigundasaurus remains. Ligament jerky-deep in the joints is all that holds some of these incredibly huge skeletal components together."/>
+			<value type="string" value="This is just south of the gigundasaurus remains. Ligament jerky-deep in the joints is all that holds some of these incredibly huge skeletal components together."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The sand of Kerona has a reddish-orange color to it. Were you a geologist instead of a janitor, you might find this fact interesting."/>
+			<value type="string" value="The sand of Kerona has a reddish-orange color to it. Were you a geologist instead of a janitor, you might find this fact interesting."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The cervical portion of the spinal column takes a dive into the sand right about here."/>
+			<value type="string" value="The cervical portion of the spinal column takes a dive into the sand right about here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Cervical vertebrae taper off and appear to vanish gradually into the sand."/>
+			<value type="string" value="Cervical vertebrae taper off and appear to vanish gradually into the sand."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These foreclaws were once razor-sharp, but the forces of the elements have reduced them to over-sized blunt toe nails. It's a good thing you didn't come here in an earlier time. These things would have torn you a new one."/>
+			<value type="string" value="These foreclaws were once razor-sharp, but the forces of the elements have reduced them to over-sized blunt toe nails. It's a good thing you didn't come here in an earlier time. These things would have torn you a new one."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Orat is huge and ugly. Of course, your opinion may differ depending on what part of the universe you come from. You also get the impression that he might be quite mean."/>
+			<value type="string" value="Orat is huge and ugly. Of course, your opinion may differ depending on what part of the universe you come from. You also get the impression that he might be quite mean."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This gleaming chunk of Orat's anatomy is the only visible proof that Orat ever existed. After that explosion, it's amazing there's that much left."/>
+			<value type="string" value="This gleaming chunk of Orat's anatomy is the only visible proof that Orat ever existed. After that explosion, it's amazing there's that much left."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The orbs in this gigantic skull offer the only passageways for light into this gloomy place."/>
+			<value type="string" value="The orbs in this gigantic skull offer the only passageways for light into this gloomy place."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A pile of skulls lie here sucked clean by Orat, or was a result of them writing too many adventure games."/>
+			<value type="string" value="A pile of skulls lie here sucked clean by Orat, or was a result of them writing too many adventure games."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That rock is almost as big as you."/>
+			<value type="string" value="That rock is almost as big as you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That rock is too small to hide behind but too large to lift."/>
+			<value type="string" value="That rock is too small to hide behind but too large to lift."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The cave floor is littered with the usual stuff a cave would be littered with. Some sand, some rock, %s"/>
+			<value type="string" value="The cave floor is littered with the usual stuff a cave would be littered with. Some sand, some rock, %s"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="and that's about it. Oh, Yeah. There's also an Orat part."/>
+			<value type="string" value="and that's about it. Oh, Yeah. There's also an Orat part."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="none of it useful, though."/>
+			<value type="string" value="none of it useful, though."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is one end of what appears to be a large cavern. The only way to go is to the left."/>
+			<value type="string" value="This is one end of what appears to be a large cavern. The only way to go is to the left."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The stalagmite itself has no smell. However, something adhering to the stalagmite does seem to generate a maggot-gagging aroma."/>
+			<value type="string" value="The stalagmite itself has no smell. However, something adhering to the stalagmite does seem to generate a maggot-gagging aroma."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Hhhaaaachhhh!!! Now why did you have to go and lick the end of that thing! That was terrible! Didn't you get a clue from the nose message?"/>
+			<value type="string" value="Hhhaaaachhhh!!! Now why did you have to go and lick the end of that thing! That was terrible! Didn't you get a clue from the nose message?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Skillfully maneuvering your tongue along the stalagmite removes the surface-coating of grit and, in turn, transforms your tastebuds into the organic equivalent of double-aught sandpaper."/>
+			<value type="string" value="Skillfully maneuvering your tongue along the stalagmite removes the surface-coating of grit and, in turn, transforms your tastebuds into the organic equivalent of double-aught sandpaper."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It looks like your standard, run-of-the-mill pneumatic transport. This particular model only goes down, however. And it's not a pleasant ride."/>
+			<value type="string" value="It looks like your standard, run-of-the-mill pneumatic transport. This particular model only goes down, however. And it's not a pleasant ride."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It looks like your standard run-of-the-mill pneumatic transport. This particular model only descends, however. And it's not a pleasant ride."/>
+			<value type="string" value="It looks like your standard run-of-the-mill pneumatic transport. This particular model only descends, however. And it's not a pleasant ride."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is another large chamber in the underground complex. Paths run along the top and bottom ledges."/>
+			<value type="string" value="This is another large chamber in the underground complex. Paths run along the top and bottom ledges."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A piece of sticky plant is stuck to the floor."/>
+			<value type="string" value="A piece of sticky plant is stuck to the floor."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Hey, this puppy has some keen-looking tentacles."/>
+			<value type="string" value="Hey, this puppy has some keen-looking tentacles."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's got the cutest little grey eye you've ever seen."/>
+			<value type="string" value="It's got the cutest little grey eye you've ever seen."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You can't do that from here."/>
+			<value type="string" value="You can't do that from here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are in left-most room of this cavern. Standing sentinel at the juncture of the lower and upper pathways are two odd-looking units obviously placed there on purpose. %s."/>
+			<value type="string" value="You are in left-most room of this cavern. Standing sentinel at the juncture of the lower and upper pathways are two odd-looking units obviously placed there on purpose. %s."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="They are no longer in operation thanks to you."/>
+			<value type="string" value="They are no longer in operation thanks to you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Something is being emitted by the devices."/>
+			<value type="string" value="Something is being emitted by the devices."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There are two metal units here which %s emitting beams of energy."/>
+			<value type="string" value="There are two metal units here which %s emitting beams of energy."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This place is most interesting, indeed. A mixture of both old and new technologies makes you wonder about its origin. Or at least about its tech support. On one side of the chamber is a primitive steam generator. Its pistons, pounding rhythmically, turn steam into useful energy. On the other side is what appears to be a computer console."/>
+			<value type="string" value="This place is most interesting, indeed. A mixture of both old and new technologies makes you wonder about its origin. Or at least about its tech support. On one side of the chamber is a primitive steam generator. Its pistons, pounding rhythmically, turn steam into useful energy. On the other side is what appears to be a computer console."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There's an upper level, with a balcony and a dark doorway. You can't see much beyond that."/>
+			<value type="string" value="There's an upper level, with a balcony and a dark doorway. You can't see much beyond that."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A computer console, a bit archaic by the standards of the Arcada, occupies the upper right corner of the room. You notice that it has a cartridge reader, much like the one you remember seeing on the Arcada's computer (except that this one hasn't been blown to smithereens)."/>
+			<value type="string" value="A computer console, a bit archaic by the standards of the Arcada, occupies the upper right corner of the room. You notice that it has a cartridge reader, much like the one you remember seeing on the Arcada's computer (except that this one hasn't been blown to smithereens)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This must be the chair you sit in to operate the computer."/>
+			<value type="string" value="This must be the chair you sit in to operate the computer."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There seems to be a portal through which the skimmer may exit and enter. It must lead to the surface."/>
+			<value type="string" value="There seems to be a portal through which the skimmer may exit and enter. It must lead to the surface."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="From the looks of these pipes, even the computer is powered by steam!"/>
+			<value type="string" value="From the looks of these pipes, even the computer is powered by steam!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="What appear to be skylights made from gigantic oysters filter the intense Keronian sunlight down to these lower levels."/>
+			<value type="string" value="What appear to be skylights made from gigantic oysters filter the intense Keronian sunlight down to these lower levels."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The platform under the skimmer looks like it was put together from old steam generator parts."/>
+			<value type="string" value="The platform under the skimmer looks like it was put together from old steam generator parts."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The steam generator is a fascinating device in constant motion. It looks like it was assembled following a field trip to the junkyard, but everything appears to be in working order."/>
+			<value type="string" value="The steam generator is a fascinating device in constant motion. It looks like it was assembled following a field trip to the junkyard, but everything appears to be in working order."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Every few seconds, steam escapes from the vents to let off excess pressure."/>
+			<value type="string" value="Every few seconds, steam escapes from the vents to let off excess pressure."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Large metal cylinders form supports for the upper level."/>
+			<value type="string" value="Large metal cylinders form supports for the upper level."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These pipes are probably part of a larger network that carries steam to power various Keronian devices."/>
+			<value type="string" value="These pipes are probably part of a larger network that carries steam to power various Keronian devices."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These gauges appear to monitor the pressure in the pipes. You think about the thousands of pounds of boiling hot steam in the system, and hope the gauges work."/>
+			<value type="string" value="These gauges appear to monitor the pressure in the pipes. You think about the thousands of pounds of boiling hot steam in the system, and hope the gauges work."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The floor in this place is made of polished slate. It is impeccably clean. With all this steam, the Keronians undoubtedly use it to steam clean just about everything."/>
+			<value type="string" value="The floor in this place is made of polished slate. It is impeccably clean. With all this steam, the Keronians undoubtedly use it to steam clean just about everything."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="As described, it is a sand skimmer and it looks like it has skimmed quite a bit of sand in its time. On it is a panel which has a small readout, currently dark, and a keyhole with a key in it."/>
+			<value type="string" value="As described, it is a sand skimmer and it looks like it has skimmed quite a bit of sand in its time. On it is a panel which has a small readout, currently dark, and a keyhole with a key in it."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The ladder appears to have been put here to make it easier to board the skimmer."/>
+			<value type="string" value="The ladder appears to have been put here to make it easier to board the skimmer."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These glass tubes are really quite intriguing - you've never seen anything remotely like them. Must be some radical new technology."/>
+			<value type="string" value="These glass tubes are really quite intriguing - you've never seen anything remotely like them. Must be some radical new technology."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These people of Kerona sure are an odd-looking lot. You can't pin it down, but you are sure something is different about them."/>
+			<value type="string" value="These people of Kerona sure are an odd-looking lot. You can't pin it down, but you are sure something is different about them."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The Keronian is hovering a meter or so off the floor on what appears to be a Kamen Kruiser, something like the one you used to buzz the family dog with as a young child."/>
+			<value type="string" value="The Keronian is hovering a meter or so off the floor on what appears to be a Kamen Kruiser, something like the one you used to buzz the family dog with as a young child."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The shaft must be part of the steam generator."/>
+			<value type="string" value="The shaft must be part of the steam generator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The old Keronian guy looks friendly enough, but his color makes you wonder if he's getting enough oxygen."/>
+			<value type="string" value="The old Keronian guy looks friendly enough, but his color makes you wonder if he's getting enough oxygen."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Some steam is escaping from the generator. That explains why this place is so humid."/>
+			<value type="string" value="Some steam is escaping from the generator. That explains why this place is so humid."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="steam escaping from the pipes."/>
+			<value type="string" value="steam escaping from the pipes."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Please, don't be alarmed. We intend no harm. We are a peaceful race. We are cautious, however. Others don't share our way of life. Welcome to Kerona.&quot;"/>
+			<value type="string" value="&quot;Please, don't be alarmed. We intend no harm. We are a peaceful race. We are cautious, however. Others don't share our way of life. Welcome to Kerona.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;You are standing in the power generation facility of our underground settlement. All power here is produced by steam. That is unimportant to you, however. We have promised you transportation.&quot;"/>
+			<value type="string" value="&quot;You are standing in the power generation facility of our underground settlement. All power here is produced by steam. That is unimportant to you, however. We have promised you transportation.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;It is a Skimmer. It hovers approximately 1/2 meter above the traveling surface. This is very important because of Grell.&quot;"/>
+			<value type="string" value="&quot;It is a Skimmer. It hovers approximately 1/2 meter above the traveling surface. This is very important because of Grell.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Grell and his like dwell in caves below the sand. If you stand on the surface too long, you chance becoming a rare moist meal for him.&quot;"/>
+			<value type="string" value="&quot;Grell and his like dwell in caves below the sand. If you stand on the surface too long, you chance becoming a rare moist meal for him.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;The skimmer is programmed to take you to a settlement on the other side of Kerona called Ulence Flats. You can make further travel arrangements there.&quot;"/>
+			<value type="string" value="&quot;The skimmer is programmed to take you to a settlement on the other side of Kerona called Ulence Flats. You can make further travel arrangements there.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;I am sorry this is all we can offer. I hope your trip is a safe one. Board the skimmer when you are ready to depart. Good luck, strange one.&quot;"/>
+			<value type="string" value="&quot;I am sorry this is all we can offer. I hope your trip is a safe one. Board the skimmer when you are ready to depart. Good luck, strange one.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This gauge tells the amount of damage done to the skimmer."/>
+			<value type="string" value="This gauge tells the amount of damage done to the skimmer."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The spent drives of the pod vent fumes after the long escape from the Arcada."/>
+			<value type="string" value="The spent drives of the pod vent fumes after the long escape from the Arcada."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the door of the escape pod. Due to its special design, the door retained a reserve cache of power sufficient to open one more time. Now, however, it will no longer function."/>
+			<value type="string" value="This is the door of the escape pod. Due to its special design, the door retained a reserve cache of power sufficient to open one more time. Now, however, it will no longer function."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A chunk of the highly reflective windscreen rests on the sand at the front of the pod. It, along with your teeth, was jarred loose as a result of the the landing's impact."/>
+			<value type="string" value="A chunk of the highly reflective windscreen rests on the sand at the front of the pod. It, along with your teeth, was jarred loose as a result of the the landing's impact."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The rugged landing liberated the survival kit from its mounting fixture."/>
+			<value type="string" value="The rugged landing liberated the survival kit from its mounting fixture."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The hull of the pod has an exquisite sheen. Too bad it is destined to remain a monument to your visit."/>
+			<value type="string" value="The hull of the pod has an exquisite sheen. Too bad it is destined to remain a monument to your visit."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the entry way to the pod."/>
+			<value type="string" value="This is the entry way to the pod."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Your highly-honed preservation instincts tell you that going near the edge would be disasterous."/>
+			<value type="string" value="Your highly-honed preservation instincts tell you that going near the edge would be disasterous."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The engines seem to have performed their jobs well. They will now stand silent for eternity."/>
+			<value type="string" value="The engines seem to have performed their jobs well. They will now stand silent for eternity."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The rocks lying on the ground here are made of crumbling sandstone."/>
+			<value type="string" value="The rocks lying on the ground here are made of crumbling sandstone."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This ridge of sand helped stop the pod."/>
+			<value type="string" value="This ridge of sand helped stop the pod."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="In the distance rises a unique formation of mountains. They look to be hundreds of kilometers away."/>
+			<value type="string" value="In the distance rises a unique formation of mountains. They look to be hundreds of kilometers away."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Guess what? More sand! Do you have any idea where you're headed?"/>
+			<value type="string" value="Guess what? More sand! Do you have any idea where you're headed?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are on Tiny's Used Spaceship lot. There are only a few interesting ships to choose from."/>
+			<value type="string" value="You are on Tiny's Used Spaceship lot. There are only a few interesting ships to choose from."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="OK! Let's go take a look at those beauties!"/>
+			<value type="string" value="OK! Let's go take a look at those beauties!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a sign here which indicates that this is Tiny's Used Spaceship Lot."/>
+			<value type="string" value="There is a sign here which indicates that this is Tiny's Used Spaceship Lot."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You can't."/>
+			<value type="string" value="You can't."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a sign here which indicates that this is Tiny's Used Space Ship Lot."/>
+			<value type="string" value="There is a sign here which indicates that this is Tiny's Used Space Ship Lot."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a small, sturdy office here which unauthorized personnel are not allowed in."/>
+			<value type="string" value="There is a small, sturdy office here which unauthorized personnel are not allowed in."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There are some decorative banners which would seem to indicate that making a purchase at Tiny's can be a festive occasion."/>
+			<value type="string" value="There are some decorative banners which would seem to indicate that making a purchase at Tiny's can be a festive occasion."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Who would paint their space ship pink? Anyway, it looks as if Tiny's using this old beast as a source for parts. It definitely won't fly."/>
+			<value type="string" value="Who would paint their space ship pink? Anyway, it looks as if Tiny's using this old beast as a source for parts. It definitely won't fly."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This ship is a real classic - a WalWood WarpBlaster ZX with the original paint job. You've only seen these on old postcards. Too bad it belongs to one of the bar patrons and isn't for sale."/>
+			<value type="string" value="This ship is a real classic - a WalWood WarpBlaster ZX with the original paint job. You've only seen these on old postcards. Too bad it belongs to one of the bar patrons and isn't for sale."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You see two ships in the northern part of Tiny's used spacecraft lot."/>
+			<value type="string" value="You see two ships in the northern part of Tiny's used spacecraft lot."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+			<value type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Impossible to miss is the incredibly rotund owner, Tiny. The jaw jockey is most certainly an unusual-looking being. He looks very much like a fish who has swallowed its fishbowl."/>
+			<value type="string" value="Impossible to miss is the incredibly rotund owner, Tiny. The jaw jockey is most certainly an unusual-looking being. He looks very much like a fish who has swallowed its fishbowl."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;I've got a coupl'a other fine ships just to the north of here. Whad'ya say, sport. Shall we go give 'em a gander?&quot;"/>
+			<value type="string" value="&quot;I've got a coupl'a other fine ships just to the north of here. Whad'ya say, sport. Shall we go give 'em a gander?&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'd like to take your money, pal. But, even I wouldn't sell you the same ship twice."/>
+			<value type="string" value="I'd like to take your money, pal. But, even I wouldn't sell you the same ship twice."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;So, what are ya trying to pull? If you don't have the cash you can hit the road. Go on, get out of here. You're wasting my time!&quot;"/>
+			<value type="string" value="&quot;So, what are ya trying to pull? If you don't have the cash you can hit the road. Go on, get out of here. You're wasting my time!&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;I tell ya, I think you've made a wise decision. She's a beauty. The keys are in her. If you have any problems don't hesitate to come back and tell us about 'em.&quot;"/>
+			<value type="string" value="&quot;I tell ya, I think you've made a wise decision. She's a beauty. The keys are in her. If you have any problems don't hesitate to come back and tell us about 'em.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Thanks, pal. I don't know how long I've wanted one of these."/>
+			<value type="string" value="Thanks, pal. I don't know how long I've wanted one of these."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="All riiiight! Is this that new Leisure Suit Larry movie?"/>
+			<value type="string" value="All riiiight! Is this that new Leisure Suit Larry movie?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's real cute. Now can we discuss buying a spaceship? I'm only here to serve you. Talk to me."/>
+			<value type="string" value="That's real cute. Now can we discuss buying a spaceship? I'm only here to serve you. Talk to me."/>
+		</item>
+		<item type="pair">
+			<key type="string" value=" &quot;Yeah, I've heard about how your kind likes to skin my kind. If you only knew what WE do to monkeys on MY planet, you'd think twice about waving that little sticker in my direction. But, hey, I'd still like to sell you somethin'. What d'ya say?&quot;"/>
+			<value type="string" value=" &quot;Yeah, I've heard about how your kind likes to skin my kind. If you only knew what WE do to monkeys on MY planet, you'd think twice about waving that little sticker in my direction. But, hey, I'd still like to sell you somethin'. What d'ya say?&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Thanks a bunch, guy! This planet really dries me out. I feel like a you-know-what outa water."/>
+			<value type="string" value="Thanks a bunch, guy! This planet really dries me out. I feel like a you-know-what outa water."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Hey! I'm not responsible. That ship was in A-1 shape when I sold it to you!! I swear it!!! Hey, wait a minute. That's not from any of MY ships. What are you tryin' to pull here?"/>
+			<value type="string" value="Hey! I'm not responsible. That ship was in A-1 shape when I sold it to you!! I swear it!!! Hey, wait a minute. That's not from any of MY ships. What are you tryin' to pull here?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Right, guy. Like I need a stupid rock. Do I look like I was hatched just yesterday?"/>
+			<value type="string" value="Right, guy. Like I need a stupid rock. Do I look like I was hatched just yesterday?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, bud. I only deal in space ships, not sand skimmers."/>
+			<value type="string" value="Sorry, bud. I only deal in space ships, not sand skimmers."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, bud. I only deal in space ships, not itsy-bitsy jetpacks."/>
+			<value type="string" value="Sorry, bud. I only deal in space ships, not itsy-bitsy jetpacks."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Lovely gadget - lovely. So are we gonna make a deal here?. Talk to me."/>
+			<value type="string" value="Lovely gadget - lovely. So are we gonna make a deal here?. Talk to me."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, pal, but I only take cash."/>
+			<value type="string" value="Sorry, pal, but I only take cash."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a hole here. I'm sure you recall its origin. At the bottom is the fine craft you rode to glory in. There is no reason to explore the hole any further."/>
+			<value type="string" value="There is a hole here. I'm sure you recall its origin. At the bottom is the fine craft you rode to glory in. There is no reason to explore the hole any further."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are standing near one of Tiny's used spacecraft. Upon close inspection they appear to have quite a few kilolightyears on them."/>
+			<value type="string" value="You are standing near one of Tiny's used spacecraft. Upon close inspection they appear to have quite a few kilolightyears on them."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Sorry, you can only fly it when you buy it.  Oh, by the way, there are no refunds either.  Company Policy.&quot;"/>
+			<value type="string" value="&quot;Sorry, you can only fly it when you buy it.  Oh, by the way, there are no refunds either.  Company Policy.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's the lid that covers and protects you during flight (provided this thing does fly)."/>
+			<value type="string" value="That's the lid that covers and protects you during flight (provided this thing does fly)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This ship seems to have fins around its upper section. Quite a strange setup, but at least it's cheap."/>
+			<value type="string" value="This ship seems to have fins around its upper section. Quite a strange setup, but at least it's cheap."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's the ladder you used to climb aboard your mole ship."/>
+			<value type="string" value="It's the ladder you used to climb aboard your mole ship."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Ulence Flats is a typical example of some of the frontier settlements that sprang up in the early days of Outer Zone exploration. Unfortunately, this attracted many unsavory quick-buckazoid types. Caution is advised."/>
+			<value type="string" value="Ulence Flats is a typical example of some of the frontier settlements that sprang up in the early days of Outer Zone exploration. Unfortunately, this attracted many unsavory quick-buckazoid types. Caution is advised."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a deal!"/>
+			<value type="string" value="It's a deal!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Great!&quot;"/>
+			<value type="string" value="&quot;Great!&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This being is about the size of a humanoid but has some odd features. He seems to have a friendly-looking mug."/>
+			<value type="string" value="This being is about the size of a humanoid but has some odd features. He seems to have a friendly-looking mug."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel undesirables, such as the Grell, which thrive below the sands. It will allow only airborne vehicles in or out."/>
+			<value type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel undesirables, such as the Grell, which thrive below the sands. It will allow only airborne vehicles in or out."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This appears to be a long-range shuttle, perhaps from a large starship. It looks vaguely familiar somehow."/>
+			<value type="string" value="This appears to be a long-range shuttle, perhaps from a large starship. It looks vaguely familiar somehow."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This ship is a real classic - a WalWood WarpBlaster ZX with the original paint job. You've only seen these on old postcards."/>
+			<value type="string" value="This ship is a real classic - a WalWood WarpBlaster ZX with the original paint job. You've only seen these on old postcards."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This one's a genuine antique from the twenty-fourth-and-a-half century."/>
+			<value type="string" value="This one's a genuine antique from the twenty-fourth-and-a-half century."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a rounded structure here with a door on one side. It is typical of some of the prefab structures constructed in frontier areas years ago."/>
+			<value type="string" value="There is a rounded structure here with a door on one side. It is typical of some of the prefab structures constructed in frontier areas years ago."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the back of the bar at the southeast corner of Ulence Flats."/>
+			<value type="string" value="This is the back of the bar at the southeast corner of Ulence Flats."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Come on over here, pal. Wait'll ya see this!&quot;"/>
+			<value type="string" value="&quot;Come on over here, pal. Wait'll ya see this!&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Hold it right there, pal! This is a stick-up! I'll just relieve you of your cash, thank you very much.&quot;"/>
+			<value type="string" value="&quot;Hold it right there, pal! This is a stick-up! I'll just relieve you of your cash, thank you very much.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;C'mon, c'mon, I ain't got all day.&quot;"/>
+			<value type="string" value="&quot;C'mon, c'mon, I ain't got all day.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Well, you've got to be leaving now. Go straight back the way you came in. Deviate from that path and you're Grell kibble!&quot;"/>
+			<value type="string" value="&quot;Well, you've got to be leaving now. Go straight back the way you came in. Deviate from that path and you're Grell kibble!&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;And if ya try followin' me, you'll get a nasty taste of my blaster. Got it? Good.&quot;"/>
+			<value type="string" value="&quot;And if ya try followin' me, you'll get a nasty taste of my blaster. Got it? Good.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This waste disposal port looks as though it's used quite often."/>
+			<value type="string" value="This waste disposal port looks as though it's used quite often."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A robot arm reaches out to dump another load of dust into an already large pile. That must be one very dirty bar."/>
+			<value type="string" value="A robot arm reaches out to dump another load of dust into an already large pile. That must be one very dirty bar."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The force field's sensors detect any moving, ground-based animals to prevent them from entering - or leaving - Ulence Flats."/>
+			<value type="string" value="The force field's sensors detect any moving, ground-based animals to prevent them from entering - or leaving - Ulence Flats."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There is a strange pile of very fine white powder here. It has a strange, burnt smell to it."/>
+			<value type="string" value="There is a strange pile of very fine white powder here. It has a strange, burnt smell to it."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a Droids-B-Us store."/>
+			<value type="string" value="&quot;로봇을 주세요&quot; 가게입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's the way to the Droids-B-Us store."/>
+			<value type="string" value="&quot;로봇을 주세요&quot; 가게로 가는 길입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="In the distance you see the familiar shape of a Droids-B-Us store."/>
+			<value type="string" value="In the distance you see the familiar shape of a Droids-B-Us store."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You can't do that from here."/>
+			<value type="string" value="여기서 실행할 수 없는 명령입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The back of the bar looks about as dingy as the front did."/>
+			<value type="string" value="The back of the bar looks about as dingy as the front did."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It appears to be in Sarienese. Your Sarienese is a little rusty, but you decide it must say Xenon Bites!&quot;&quot;"/>
+			<value type="string" value="It appears to be in Sarienese. Your Sarienese is a little rusty, but you decide it must say Xenon Bites!&quot;&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A bearded band is cranking out some of the more popular tunes in the quadrant"/>
+			<value type="string" value="A bearded band is cranking out some of the more popular tunes in the quadrant"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These are a couple of nongalactic-looking humanoids cranking out some unfamiliar-sounding tunes. They seem interested solely in the music they are performing."/>
+			<value type="string" value="These are a couple of nongalactic-looking humanoids cranking out some unfamiliar-sounding tunes. They seem interested solely in the music they are performing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="On stage, a strangely attired woman performs her act (if that's what you want to call it). You haven't had a girlfriend for a long time (more like forever), but even that's not enough to make here attractive."/>
+			<value type="string" value="On stage, a strangely attired woman performs her act (if that's what you want to call it). You haven't had a girlfriend for a long time (more like forever), but even that's not enough to make here attractive."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;So, what's your beef, junior?&quot;"/>
+			<value type="string" value="&quot;So, what's your beef, junior?&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value=" Gimme anudder un, ya jerr-erk! "/>
+			<value type="string" value=" Gimme anudder un, ya jerr-erk! "/>
+		</item>
+		<item type="pair">
+			<key type="string" value=" Ok. "/>
+			<value type="string" value="좋습니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Here ya go.&quot;"/>
+			<value type="string" value="&quot;Here ya go.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;So stop botherin' me already.&quot;"/>
+			<value type="string" value="&quot;So stop botherin' me already.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's the widget you got from the Star Generator's pedestal. Don't you remember?"/>
+			<value type="string" value="It's the widget you got from the Star Generator's pedestal. Don't you remember?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This character kinda reminds you of a cute, fluffy little kitten you had when you were a kid - except that he weighs about 400 kilos and has foot-long, razor-sharp claws and a bad attitude."/>
+			<value type="string" value="This character kinda reminds you of a cute, fluffy little kitten you had when you were a kid - except that he weighs about 400 kilos and has foot-long, razor-sharp claws and a bad attitude."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This guy appears to have blown in from Santa Cruz."/>
+			<value type="string" value="This guy appears to have blown in from Santa Cruz."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You must be getting dizzy - you're seeing triple."/>
+			<value type="string" value="You must be getting dizzy - you're seeing triple."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This character looks like an economy-size version of your Uncle Buck's toupee."/>
+			<value type="string" value="This character looks like an economy-size version of your Uncle Buck's toupee."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A fine example of his species - whatever THAT is."/>
+			<value type="string" value="A fine example of his species - whatever THAT is."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Cute little purple guys, eh! They sure can put away the brew."/>
+			<value type="string" value="Cute little purple guys, eh! They sure can put away the brew."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The sweeper is a small motorized device which scans the floor for debris and removes it within moments of detection. There is nothing special about it, otherwise."/>
+			<value type="string" value="The sweeper is a small motorized device which scans the floor for debris and removes it within moments of detection. There is nothing special about it, otherwise."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The beer mug is in the shape of a rocket."/>
+			<value type="string" value="The beer mug is in the shape of a rocket."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The beer mug is just a normal beer mug."/>
+			<value type="string" value="The beer mug is just a normal beer mug."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This appears to be a 6 megawatt Kurtzman Kannon of the type used to signal the end of particularly bad acts on the old LaserGong show."/>
+			<value type="string" value="This appears to be a 6 megawatt Kurtzman Kannon of the type used to signal the end of particularly bad acts on the old LaserGong show."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the bar top."/>
+			<value type="string" value="술집의 지붕입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It appears to be an electronic slot machine."/>
+			<value type="string" value="전기로 가동되는 슬롯머신으로 보입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a &quot;Slots-O-Death&quot; slot machine. They play for keeps around here."/>
+			<value type="string" value="&quot;죽음의 슬롯&quot;이라는 슬롯머신입니다. 여기 계속 들르면서 하는 모양이군요."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These are the slot machine's pretty pictures. Put some money in the slot, push the button, and watch them go 'round and 'round."/>
+			<value type="string" value="These are the slot machine's pretty pictures. Put some money in the slot, push the button, and watch them go 'round and 'round."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is where you deposit buckazoids. You may deposit up to three buckazoids for each spin."/>
+			<value type="string" value="This is where you deposit buckazoids. You may deposit up to three buckazoids for each spin."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Push this button to start the wheels spinning."/>
+			<value type="string" value="Push this button to start the wheels spinning."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This little window tells you how to win, how much you can win, and other useful information."/>
+			<value type="string" value="This little window tells you how to win, how much you can win, and other useful information."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button takes you back to the bar."/>
+			<value type="string" value="This button takes you back to the bar."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are standing in the back part of Tiny's used space-craft lot."/>
+			<value type="string" value="You are standing in the back part of Tiny's used space-craft lot."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Talk to me, chief.&quot;"/>
+			<value type="string" value="&quot;Talk to me, chief.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Tiny is a large, green-scale-covered jaw jockey with the personality of a true salesman. Not a prime combination of traits, I must say."/>
+			<value type="string" value="Tiny is a large, green-scale-covered jaw jockey with the personality of a true salesman. Not a prime combination of traits, I must say."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'd like to take your money, pal. But, even I wouldn't sell you the same ship twice."/>
+			<value type="string" value="I'd like to take your money, pal. But, even I wouldn't sell you the same ship twice."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Lovely gadget - lovely. So are we gonna make a deal here? Talk to me."/>
+			<value type="string" value="Lovely gadget - lovely. So are we gonna make a deal here? Talk to me."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's a smell jet ack, all right, but for exploring space, you need a real ship. Can we talk business."/>
+			<value type="string" value="That's a smell jet ack, all right, but for exploring space, you need a real ship. Can we talk business."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, bud, but I only deal in space ships, not sand skimmers."/>
+			<value type="string" value="Sorry, bud, but I only deal in space ships, not sand skimmers."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, bud, but I only deal in space ships, not itsy-bitsy jetpacks."/>
+			<value type="string" value="Sorry, bud, but I only deal in space ships, not itsy-bitsy jetpacks."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, pal, but I only take cash."/>
+			<value type="string" value="Sorry, pal, but I only take cash."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="As you rise high above the sands of Ulence, you look down and see someone waving good-bye. This really is a friendly place after-all!"/>
+			<value type="string" value="As you rise high above the sands of Ulence, you look down and see someone waving good-bye. This really is a friendly place after-all!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's not possible from up here."/>
+			<value type="string" value="That's not possible from up here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's just a regular old ladder."/>
+			<value type="string" value="It's just a regular old ladder."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's awfully small, and also much older than you."/>
+			<value type="string" value="It's awfully small, and also much older than you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's the lid that covers and protects you during flight. Provided this thing does fly."/>
+			<value type="string" value="That's the lid that covers and protects you during flight. Provided this thing does fly."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+			<value type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the pickup area for Droids-B-Us."/>
+			<value type="string" value="This is the pickup area for Droids-B-Us."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Here's your incredibly complex robot, sir.  I sprained my thermodiodinal-tricycler carrying it out here for you.  I hope you're satisfied.&quot;"/>
+			<value type="string" value="&quot;Here's your incredibly complex robot, sir.  I sprained my thermodiodinal-tricycler carrying it out here for you.  I hope you're satisfied.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;And I hope you're smarter than you look, or you'll never be able to put it together.  How depressing.&quot;"/>
+			<value type="string" value="&quot;And I hope you're smarter than you look, or you'll never be able to put it together.  How depressing.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Guess this was a bit beyond your capabilities. Speaking of bits, that's about all that remains of you. Hope you can regroup those molecules and get back to the game."/>
+			<value type="string" value="Guess this was a bit beyond your capabilities. Speaking of bits, that's about all that remains of you. Hope you can regroup those molecules and get back to the game."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Oh my. Another shredded customer. I suppose someone will be upset about this. Why do I bother.&quot;"/>
+			<value type="string" value="&quot;Oh my. Another shredded customer. I suppose someone will be upset about this. Why do I bother.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You seem to have had trouble maintaining your composure (not to mention your molecular structure). Get yourself together. Unfortunately, you're the universe's only hope."/>
+			<value type="string" value="You seem to have had trouble maintaining your composure (not to mention your molecular structure). Get yourself together. Unfortunately, you're the universe's only hope."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Hello, sir.  Your new robot will be here in a moment.&quot;"/>
+			<value type="string" value="&quot;Hello, sir.  Your new robot will be here in a moment.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Well, there he is, sir, programmed to follow you around like a wimpering little puppy dog. How humiliating.&quot;"/>
+			<value type="string" value="&quot;Well, there he is, sir, programmed to follow you around like a wimpering little puppy dog. How humiliating.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+			<value type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This robot is a very old model.  Somehow, he looks tired and depressed."/>
+			<value type="string" value="This robot is a very old model.  Somehow, he looks tired and depressed."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's easy for you to be chearful, isn't it? YOU don't have deteriorating flaberthrusters."/>
+			<value type="string" value="It's easy for you to be chearful, isn't it? YOU don't have deteriorating flaberthrusters."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="What do you want now? I was just about finished with my internal diagnostics check. Now I'm going to have to recalibrate my photo-electric scanner membranes and begin all over again."/>
+			<value type="string" value="What do you want now? I was just about finished with my internal diagnostics check. Now I'm going to have to recalibrate my photo-electric scanner membranes and begin all over again."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Carbon-based life-forms can be sooo trying sometimes. If you haven't purchased a robot, I have nothing for you. Now, go away!"/>
+			<value type="string" value="Carbon-based life-forms can be sooo trying sometimes. If you haven't purchased a robot, I have nothing for you. Now, go away!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="(Sigh!) How depressing. Let's begin again from the start and proceed veeerrrryyyy sssslllooowwwllly. I do NOT want to be disturbed. You ARE disturbing me. GO AWAY! Thank you so much."/>
+			<value type="string" value="(Sigh!) How depressing. Let's begin again from the start and proceed veeerrrryyyy sssslllooowwwllly. I do NOT want to be disturbed. You ARE disturbing me. GO AWAY! Thank you so much."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'm STILL ignoring you!"/>
+			<value type="string" value="I'm STILL ignoring you!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'm ignoring you."/>
+			<value type="string" value="I'm ignoring you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Do NOT touch me! Carbon-based life-forms are notoriously filthy creatures. Everyone knows that they veritably ooze with metal-tarnishing agents."/>
+			<value type="string" value="Do NOT touch me! Carbon-based life-forms are notoriously filthy creatures. Everyone knows that they veritably ooze with metal-tarnishing agents."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I am programmed to defend myself against all attacks. Even against such a laughable attempt at destruction as this. It would be a shame to expend the energy required to kill you, don't you agree? Yes, I thought you would."/>
+			<value type="string" value="I am programmed to defend myself against all attacks. Even against such a laughable attempt at destruction as this. It would be a shame to expend the energy required to kill you, don't you agree? Yes, I thought you would."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Although I am amused at your feeble attempt to modify my magnetic field, I must warn you that I can, and most definitely will, defend myself if need be. Now, please put that thing away. Thank you so much."/>
+			<value type="string" value="Although I am amused at your feeble attempt to modify my magnetic field, I must warn you that I can, and most definitely will, defend myself if need be. Now, please put that thing away. Thank you so much."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, sir. I'm not allowed to accept tips."/>
+			<value type="string" value="Sorry, sir. I'm not allowed to accept tips."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It appears to be some sort of data cartridge, sir, but I'm afraid I'm not equipped with the necessary port to access the information it contains."/>
+			<value type="string" value="It appears to be some sort of data cartridge, sir, but I'm afraid I'm not equipped with the necessary port to access the information it contains."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You won't need your translation device, sir. I'm fluent in more than three million modes of spoken communication."/>
+			<value type="string" value="You won't need your translation device, sir. I'm fluent in more than three million modes of spoken communication."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="No thank you, sir - I never touch the stuff."/>
+			<value type="string" value="No thank you, sir - I never touch the stuff."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I've seen a jet pack much like this one reduced to slag after one brief flight. It wasn't a pretty sight."/>
+			<value type="string" value="I've seen a jet pack much like this one reduced to slag after one brief flight. It wasn't a pretty sight."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Many of our local businesses issue these coupons for discounts through the Ulence Flats Chamber of Commerce. It's done wonders for business around here."/>
+			<value type="string" value="Many of our local businesses issue these coupons for discounts through the Ulence Flats Chamber of Commerce. It's done wonders for business around here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Many of our local businesses issue thses coupons for discounts through the Ulence Flats Chamber of Commerce. It's done wonders for business around here."/>
+			<value type="string" value="Many of our local businesses issue thses coupons for discounts through the Ulence Flats Chamber of Commerce. It's done wonders for business around here."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="What a fine robot you've purchased!"/>
+			<value type="string" value="What a fine robot you've purchased!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Great. Three boxes of robot parts, sporting large signs which read: &quot;Caution: This product contains explosive parts. Not intended for children under three.&quot;"/>
+			<value type="string" value="Great. Three boxes of robot parts, sporting large signs which read: &quot;Caution: This product contains explosive parts. Not intended for children under three.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This portion of the building is the warehouse where customers come to pick up their purchases."/>
+			<value type="string" value="This portion of the building is the warehouse where customers come to pick up their purchases."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's the Droids-B-Us storefront. Droids-B-Us is known throughout this end of the galaxy for the best deals on new and used psionic and cybernetic systems for home, school, office, and spaceship."/>
+			<value type="string" value="That's the Droids-B-Us storefront. Droids-B-Us is known throughout this end of the galaxy for the best deals on new and used psionic and cybernetic systems for home, school, office, and spaceship."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The badly weathered sign says &quot;Droids-B-Us Pickup&quot;."/>
+			<value type="string" value="The badly weathered sign says &quot;Droids-B-Us Pickup&quot;."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This cheerful fellow is Gerry Giraffazoid, logo, spokesbeing, and C.E.O. of Droids-B-Us, Inc."/>
+			<value type="string" value="This cheerful fellow is Gerry Giraffazoid, logo, spokesbeing, and C.E.O. of Droids-B-Us, Inc."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are outside the Droids-B-Us store."/>
+			<value type="string" value="You are outside the Droids-B-Us store."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel undesirables, such as the grell, which thrive below the sands. It will allow only airborne vehicles in or out."/>
+			<value type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel undesirables, such as the grell, which thrive below the sands. It will allow only airborne vehicles in or out."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This robot is a security droid. He can scan an area in infra-red, ultra-violet, and infra-ultra-chartreuse."/>
+			<value type="string" value="This robot is a security droid. He can scan an area in infra-red, ultra-violet, and infra-ultra-chartreuse."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a robot that seems to be saying, &quot;Buy me. Take me home.&quot;"/>
+			<value type="string" value="It's a robot that seems to be saying, &quot;Buy me. Take me home.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The neon hand waves &quot;Hello&quot; to you."/>
+			<value type="string" value="The neon hand waves &quot;Hello&quot; to you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's just part of the animated sign."/>
+			<value type="string" value="It's just part of the animated sign."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That is the Droids-B-Us warehouse and pickup area."/>
+			<value type="string" value="That is the Droids-B-Us warehouse and pickup area."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the Droids-B-Us storefront.  They sell droids for all purposes."/>
+			<value type="string" value="This is the Droids-B-Us storefront.  They sell droids for all purposes."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The big sign over the door says &quot;Droids-B-Us&quot;."/>
+			<value type="string" value="The big sign over the door says &quot;Droids-B-Us&quot;."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The sign says &quot;ALL SALES FINAL!&quot; in 1,438 languages."/>
+			<value type="string" value="The sign says &quot;ALL SALES FINAL!&quot; in 1,438 languages."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You can see only bits and pieces of droids through the small window.  But it looks safe enough in there."/>
+			<value type="string" value="You can see only bits and pieces of droids through the small window.  But it looks safe enough in there."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Please observe our robot preview screen. If you have any questions, don't hesitate to ask."/>
+			<value type="string" value="Please observe our robot preview screen. If you have any questions, don't hesitate to ask."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Oh, we're back, are we? Well, perhaps we can manage to take home a droid this time, eh?"/>
+			<value type="string" value="Oh, we're back, are we? Well, perhaps we can manage to take home a droid this time, eh?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="However, I can see that we would be more... ah... interested in our line of economy-priced, used robots, wouldn't we?"/>
+			<value type="string" value="However, I can see that we would be more... ah... interested in our line of economy-priced, used robots, wouldn't we?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="We have a wide variety of work-saving, life- enhancing, shiny-new, factory-fresh, technological wonders of modern engineering wizardry!"/>
+			<value type="string" value="We have a wide variety of work-saving, life- enhancing, shiny-new, factory-fresh, technological wonders of modern engineering wizardry!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Greetings, sir! Allow me to show you our fine line of robots, otherwise known as droids&quot;.&quot;"/>
+			<value type="string" value="Greetings, sir! Allow me to show you our fine line of robots, otherwise known as droids&quot;.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Thank you, sir."/>
+			<value type="string" value="Thank you, sir."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You may pick up your purchase at our convenient Droids-B-Us pickup area, located just out the door and to your right."/>
+			<value type="string" value="You may pick up your purchase at our convenient Droids-B-Us pickup area, located just out the door and to your right."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You could fill out one of our credit applications, although I seriously doubt that you would qualify."/>
+			<value type="string" value="You could fill out one of our credit applications, although I seriously doubt that you would qualify."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I believe that the FloorMart store on Petulence is having a sale on pencil sharpeners that you might just be able to afford!"/>
+			<value type="string" value="I believe that the FloorMart store on Petulence is having a sale on pencil sharpeners that you might just be able to afford!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Why can't I ever get a customer with more money than brains? Well... in your case, you might just qualify at that."/>
+			<value type="string" value="Why can't I ever get a customer with more money than brains? Well... in your case, you might just qualify at that."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Look, why don't you go break your piggy bank open and come back with a little more cash? Now, if you'll excuse me, you really must be going."/>
+			<value type="string" value="Look, why don't you go break your piggy bank open and come back with a little more cash? Now, if you'll excuse me, you really must be going."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Pardon me for saying so, sir, but we don't appear to have enough money for our purchase, now, do we?"/>
+			<value type="string" value="Pardon me for saying so, sir, but we don't appear to have enough money for our purchase, now, do we?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The salesbug appears to be a Chdnarian, a race renowned for their predatory sales techniques. You decide to count your fingers once you've completed your transaction."/>
+			<value type="string" value="The salesbug appears to be a Chdnarian, a race renowned for their predatory sales techniques. You decide to count your fingers once you've completed your transaction."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="If you were to insist, I could let you have it for a mere 512 buckazoids (407 with a coupon)."/>
+			<value type="string" value="If you were to insist, I could let you have it for a mere 512 buckazoids (407 with a coupon)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="However, I have only one left, and I put it to work in the warehouse."/>
+			<value type="string" value="However, I have only one left, and I put it to work in the warehouse."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an all-purpose household model. It cooks, sews, does windows and brews a little moonshine on the side."/>
+			<value type="string" value="This is an all-purpose household model. It cooks, sews, does windows and brews a little moonshine on the side."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Don't bother haggling. This one's worth 55 buckazoids for the parts alone. That would be 46 buckazoids with a coupon."/>
+			<value type="string" value="Don't bother haggling. This one's worth 55 buckazoids for the parts alone. That would be 46 buckazoids with a coupon."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That race killed themselves off, however, and spare parts are nearly impossible to find."/>
+			<value type="string" value="That race killed themselves off, however, and spare parts are nearly impossible to find."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It was produced exclusively for Droids-B-Us by a small planet who used these mechanical warriors to fight their battles."/>
+			<value type="string" value="It was produced exclusively for Droids-B-Us by a small planet who used these mechanical warriors to fight their battles."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Ah! This model is one of my personal favorites."/>
+			<value type="string" value="Ah! This model is one of my personal favorites."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="And, if you've got kids, you'll appreciate its low, low price of 698 buckazoids (559 with a coupon)."/>
+			<value type="string" value="And, if you've got kids, you'll appreciate its low, low price of 698 buckazoids (559 with a coupon)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="If you can live with the paranoia, though, it makes a great baby-sitter."/>
+			<value type="string" value="If you can live with the paranoia, though, it makes a great baby-sitter."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Whenever it gets excited, it waves its arms around wildly and yells &quot;DANGER! DANGER!&quot;"/>
+			<value type="string" value="Whenever it gets excited, it waves its arms around wildly and yells &quot;DANGER! DANGER!&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="However, the manufacturer had to discontinue it due to a psychological disorder."/>
+			<value type="string" value="However, the manufacturer had to discontinue it due to a psychological disorder."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This model was originally designed as a family companion on those long space vacations."/>
+			<value type="string" value="This model was originally designed as a family companion on those long space vacations."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'd love to sell you one, but every last one I had was snapped up by a movie director from New Japan IV - sorry."/>
+			<value type="string" value="I'd love to sell you one, but every last one I had was snapped up by a movie director from New Japan IV - sorry."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Although a handsome machine, this robot has a habit of killing people without any real reason."/>
+			<value type="string" value="Although a handsome machine, this robot has a habit of killing people without any real reason."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Ah, yes, a truly beautiful piece of machinery. This design rates five stars."/>
+			<value type="string" value="Ah, yes, a truly beautiful piece of machinery. This design rates five stars."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Yes, this dandy, compact unit goes for a mere 29 buckazoids (23 with coupon). You can't go wrong when it's SUX!"/>
+			<value type="string" value="Yes, this dandy, compact unit goes for a mere 29 buckazoids (23 with coupon). You can't go wrong when it's SUX!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="...but of course you wouldn't want to hear about that."/>
+			<value type="string" value="...but of course you wouldn't want to hear about that."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I just happen to have one of these in stock. It's been completely re-conditioned since its regrettable accident that took the lives of..."/>
+			<value type="string" value="I just happen to have one of these in stock. It's been completely re-conditioned since its regrettable accident that took the lives of..."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The brand name says it all. SUX is a major manufacturer of refrigerators, dishwashers, and, some day, even time machines!"/>
+			<value type="string" value="The brand name says it all. SUX is a major manufacturer of refrigerators, dishwashers, and, some day, even time machines!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="We've got a set of three, and you can have them all for just 999 buckazoids (799 with a coupon)."/>
+			<value type="string" value="We've got a set of three, and you can have them all for just 999 buckazoids (799 with a coupon)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Yessir, they may look like kleenex boxes, but they're built to run a loooong time. And quiet? You bet!"/>
+			<value type="string" value="Yessir, they may look like kleenex boxes, but they're built to run a loooong time. And quiet? You bet!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These little robots are perfect for gardening chores. And they don't mind at all if they're away on space missions for centuries."/>
+			<value type="string" value="These little robots are perfect for gardening chores. And they don't mind at all if they're away on space missions for centuries."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="However, we're fresh out of them right now. Nobody seems to survive long enough to trade them in."/>
+			<value type="string" value="However, we're fresh out of them right now. Nobody seems to survive long enough to trade them in."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="They're just a wee bit too ambitious is all. And who of us isn't? It's quite an endearing quality, actually."/>
+			<value type="string" value="They're just a wee bit too ambitious is all. And who of us isn't? It's quite an endearing quality, actually."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Um... This model has had a bad rep, unearned if you ask me."/>
+			<value type="string" value="Um... This model has had a bad rep, unearned if you ask me."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I could let you have him for just 875 buckazoids (700 with a coupon)."/>
+			<value type="string" value="I could let you have him for just 875 buckazoids (700 with a coupon)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Of course, they're all in hibernation this time of the century."/>
+			<value type="string" value="Of course, they're all in hibernation this time of the century."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These are really some of the most useful all-purpose robots around, and extremely good with children."/>
+			<value type="string" value="These are really some of the most useful all-purpose robots around, and extremely good with children."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="His memory isn't the best, so I'll let you have him for just 512 buckazoids (410 with a coupon)."/>
+			<value type="string" value="His memory isn't the best, so I'll let you have him for just 512 buckazoids (410 with a coupon)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="If it had one fault, it was probably a tendency to be over- zealous. It's no longer available except for demolition purposes."/>
+			<value type="string" value="If it had one fault, it was probably a tendency to be over- zealous. It's no longer available except for demolition purposes."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This was one of my better bodyguard models, and it also doubled as a radial-arm saw."/>
+			<value type="string" value="This was one of my better bodyguard models, and it also doubled as a radial-arm saw."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Uh, well, maybe you shouldn't consider buying this particular model."/>
+			<value type="string" value="Uh, well, maybe you shouldn't consider buying this particular model."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These robots have a bad attitude. You've got to keep them in line, or they'll walk all over you."/>
+			<value type="string" value="These robots have a bad attitude. You've got to keep them in line, or they'll walk all over you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I got it from some gambling type who was required to pay-up or perish."/>
+			<value type="string" value="I got it from some gambling type who was required to pay-up or perish."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I ask only 45 buckazoids for it (36 with coupon)."/>
+			<value type="string" value="I ask only 45 buckazoids for it (36 with coupon)."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It will pilot any modern fighter or cruiser. And, it is one of the most experienced droids we carry."/>
+			<value type="string" value="It will pilot any modern fighter or cruiser. And, it is one of the most experienced droids we carry."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That model is ideal for flight systems operations."/>
+			<value type="string" value="That model is ideal for flight systems operations."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'm afraid I can't take data cartridges in lieu of currency. Is sir a bit short of cash, hmmmm?"/>
+			<value type="string" value="I'm afraid I can't take data cartridges in lieu of currency. Is sir a bit short of cash, hmmmm?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'm afraid I can't accept your translator in exchange for a droid. Buckazoids work nicely to grease the wheels of commerce, however."/>
+			<value type="string" value="I'm afraid I can't accept your translator in exchange for a droid. Buckazoids work nicely to grease the wheels of commerce, however."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Please, sir! Violence is never the answer. Money, on the other hand, is almost always the answer."/>
+			<value type="string" value="Please, sir! Violence is never the answer. Money, on the other hand, is almost always the answer."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="If he drinks from this, you won't. You decide not to offer him any."/>
+			<value type="string" value="If he drinks from this, you won't. You decide not to offer him any."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Very good, sir. This coupon entitles you to a reduction of twenty percent in the price of any of our fine, previously- owned droids."/>
+			<value type="string" value="Very good, sir. This coupon entitles you to a reduction of twenty percent in the price of any of our fine, previously- owned droids."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, sir, but I've sold my last one of those."/>
+			<value type="string" value="Sorry, sir, but I've sold my last one of those."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Sorry, sir, but we have none of those in stock."/>
+			<value type="string" value="Sorry, sir, but we have none of those in stock."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'm sorry, sir, but my conscience just won't let me sell him to you. Besides, your next of kin might sue."/>
+			<value type="string" value="I'm sorry, sir, but my conscience just won't let me sell him to you. Besides, your next of kin might sue."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I'm afraid that item can not be exchanged for enough money to purchase one of our quality products. Is sir financially embarassed, or might there be cash in one of those pockets?"/>
+			<value type="string" value="I'm afraid that item can not be exchanged for enough money to purchase one of our quality products. Is sir financially embarassed, or might there be cash in one of those pockets?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The plaque says: &quot;Salesbug of the year&quot;! You'd better watch your money around this guy."/>
+			<value type="string" value="The plaque says: &quot;Salesbug of the year&quot;! You'd better watch your money around this guy."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Yikes! It's an Ultron-17, the only robot bad enough to go head-to-head with an Arnoid-1000 Exterminator. You note with relief that he appears to be out of commission, at least temporarily."/>
+			<value type="string" value="Yikes! It's an Ultron-17, the only robot bad enough to go head-to-head with an Arnoid-1000 Exterminator. You note with relief that he appears to be out of commission, at least temporarily."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That's an upgrade option for the Arnoid series. It's capable of crushing a person's skull. Very useful if you're in that line of work."/>
+			<value type="string" value="That's an upgrade option for the Arnoid series. It's capable of crushing a person's skull. Very useful if you're in that line of work."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Click on this to leave Droids-B-Us."/>
+			<value type="string" value="Click on this to leave Droids-B-Us."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The plastoid letters on the wall spell out: &quot;Droids-B-Us&quot;"/>
+			<value type="string" value="The plastoid letters on the wall spell out: &quot;Droids-B-Us&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The viewscreen shows pictures of droids currently available in your rather limited price range."/>
+			<value type="string" value="The viewscreen shows pictures of droids currently available in your rather limited price range."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It looks like some sort of gigantic... diaphragm?"/>
+			<value type="string" value="It looks like some sort of gigantic... diaphragm?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These tubes on the wall are power conduits."/>
+			<value type="string" value="These tubes on the wall are power conduits."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There are many robotic parts scattered about the work table."/>
+			<value type="string" value="There are many robotic parts scattered about the work table."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Many parts, bits, and pieces of robotic paraphanalia adorn the walls of this small store."/>
+			<value type="string" value="Many parts, bits, and pieces of robotic paraphanalia adorn the walls of this small store."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You're next to a large hatch in the side of this ship."/>
+			<value type="string" value="You're next to a large hatch in the side of this ship."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It appears to be a standard airlock. there is a handle in the center."/>
+			<value type="string" value="It appears to be a standard airlock. there is a handle in the center."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You have fallen into an airlock aboard the Sarien ship Deltaur."/>
+			<value type="string" value="You have fallen into an airlock aboard the Sarien ship Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A large vent shaft protrudes from the left wall of the storage room."/>
+			<value type="string" value="A large vent shaft protrudes from the left wall of the storage room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Various pipes, ducts and other innocuous pieces of equipment form pronounced shadows throughout the room."/>
+			<value type="string" value="Various pipes, ducts and other innocuous pieces of equipment form pronounced shadows throughout the room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="That is the way back to the airlock, which is completely sealed and inaccessable to you."/>
+			<value type="string" value="That is the way back to the airlock, which is completely sealed and inaccessable to you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Two enormous storage vaults take up one whole wall of the room."/>
+			<value type="string" value="Two enormous storage vaults take up one whole wall of the room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="No ship would be complete without official ship rats."/>
+			<value type="string" value="No ship would be complete without official ship rats."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The ladder seems to provide access to vent shafts above and below this one."/>
+			<value type="string" value="The ladder seems to provide access to vent shafts above and below this one."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This room is similar to the storage room, with a large machine installed in one bulkhead."/>
+			<value type="string" value="This room is similar to the storage room, with a large machine installed in one bulkhead."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="On the floor sits the trunk you rode here in."/>
+			<value type="string" value="On the floor sits the trunk you rode here in."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the protruding terminus of the vent shaft by which you entered."/>
+			<value type="string" value="This is the protruding terminus of the vent shaft by which you entered."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Behind the glass door of the machine, you can see a helmet that has been carelessly left inside after the dry cycle."/>
+			<value type="string" value="Behind the glass door of the machine, you can see a helmet that has been carelessly left inside after the dry cycle."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A large vent shaft protrudes from the left wall of the laundry room."/>
+			<value type="string" value="A large vent shaft protrudes from the left wall of the laundry room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Various pipes, ducts and other innocuous pieces of equipment form pronounced shadows throughout the room."/>
+			<value type="string" value="Various pipes, ducts and other innocuous pieces of equipment form pronounced shadows throughout the room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is almost certainly a cheap Sarien knock-off of the genuine Cleanse-O-Matic Rinse 'n Dip used to launder the crew uniforms aboard the Arcada."/>
+			<value type="string" value="This is almost certainly a cheap Sarien knock-off of the genuine Cleanse-O-Matic Rinse 'n Dip used to launder the crew uniforms aboard the Arcada."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Rows of weapons on the wall tell you that you are in the Deltaur's Weapons Dispensary. There is a service droid behind the weapons counter."/>
+			<value type="string" value="Rows of weapons on the wall tell you that you are in the Deltaur's Weapons Dispensary. There is a service droid behind the weapons counter."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A robot serves behins the counter. Its appearance is that of a plain and unintelligent droid. But then, looks can be deceiving as in your case."/>
+			<value type="string" value="A robot serves behins the counter. Its appearance is that of a plain and unintelligent droid. But then, looks can be deceiving as in your case."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a long S-shaped counter top that runs from one end of the armory to the other. At one end there is an opening, probably used to allow access to the other side of counter."/>
+			<value type="string" value="This is a long S-shaped counter top that runs from one end of the armory to the other. At one end there is an opening, probably used to allow access to the other side of counter."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an opening in the counter used to gain access behind the counter."/>
+			<value type="string" value="This is an opening in the counter used to gain access behind the counter."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Various pipes, ducts and other innocuous pieces of equipment form pronounced shadows throughout the room."/>
+			<value type="string" value="Various pipes, ducts and other innocuous pieces of equipment form pronounced shadows throughout the room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You're in a hallway on the upper level of the Deltaur."/>
+			<value type="string" value="You're in a hallway on the upper level of the Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator to one of the lower levels."/>
+			<value type="string" value="This is an elevator to one of the lower levels."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator to one of the upper levels."/>
+			<value type="string" value="This is an elevator to one of the upper levels."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A panel of flashing lights."/>
+			<value type="string" value="A panel of flashing lights."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's an expensive-looking machine that goes `ping.'"/>
+			<value type="string" value="It's an expensive-looking machine that goes `ping.'"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It does sort of look like a speaker, doesn't it. But it isn't."/>
+			<value type="string" value="It does sort of look like a speaker, doesn't it. But it isn't."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It seems obvious to you that Wally Wood did some time designing Sarien hardware."/>
+			<value type="string" value="It seems obvious to you that Wally Wood did some time designing Sarien hardware."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's either a mega-frequency wide band spectrofonic analyzer module or one of those really old table model radios."/>
+			<value type="string" value="It's either a mega-frequency wide band spectrofonic analyzer module or one of those really old table model radios."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Printed near the bottom in tiny precise letters are the words: Oda Generator - model EC-54 - Deltaur backup unit #1."/>
+			<value type="string" value="Printed near the bottom in tiny precise letters are the words: Oda Generator - model EC-54 - Deltaur backup unit #1."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This bank of lights looks extremely important, or it would if you were a Sarien."/>
+			<value type="string" value="This bank of lights looks extremely important, or it would if you were a Sarien."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an interesting place. Strange devices decorate almost every area."/>
+			<value type="string" value="This is an interesting place. Strange devices decorate almost every area."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator."/>
+			<value type="string" value="This is an elevator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This utilitarian-looking door probably leads to the trash disposal facility."/>
+			<value type="string" value="This utilitarian-looking door probably leads to the trash disposal facility."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Vast amounts of energy."/>
+			<value type="string" value="Vast amounts of energy."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="An intense beam of energy."/>
+			<value type="string" value="An intense beam of energy."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="From the looks of them, these globes contain high-power Wally coils, each one capable of discharging jillions of volts of deadly electricity."/>
+			<value type="string" value="From the looks of them, these globes contain high-power Wally coils, each one capable of discharging jillions of volts of deadly electricity."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The egg-shaped globe pulses with blue-white light. It appears to be some exotic form of bottled energy, or maybe a 60,000 watt light bulb."/>
+			<value type="string" value="The egg-shaped globe pulses with blue-white light. It appears to be some exotic form of bottled energy, or maybe a 60,000 watt light bulb."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Looks like a great place to curl up and take a nap. Too bad you're in such a hurry."/>
+			<value type="string" value="Looks like a great place to curl up and take a nap. Too bad you're in such a hurry."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's an expensive-looking machine that goes `ping.'"/>
+			<value type="string" value="It's an expensive-looking machine that goes `ping.'"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It does sort of look like a speaker, doesn't it. But it isn't."/>
+			<value type="string" value="It does sort of look like a speaker, doesn't it. But it isn't."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Your engineering expertise informs you that this is a carelessly discarded Williamson coil."/>
+			<value type="string" value="Your engineering expertise informs you that this is a carelessly discarded Williamson coil."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Broom at the ready, the cleaning droid waits for something useful to do."/>
+			<value type="string" value="Broom at the ready, the cleaning droid waits for something useful to do."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are standing in the upper level of one of the Deltaur's hallways. You can't help but be impressed with the subtle decorating and color sense shown by the Sariens in their ship design."/>
+			<value type="string" value="You are standing in the upper level of one of the Deltaur's hallways. You can't help but be impressed with the subtle decorating and color sense shown by the Sariens in their ship design."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The globes crackle with many colors of light and, you suspect, even less healthful manifestations of the electromagnetic spectrum."/>
+			<value type="string" value="The globes crackle with many colors of light and, you suspect, even less healthful manifestations of the electromagnetic spectrum."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It looks like some kind of cartridge reader. Maybe the cartridge you have will work in it."/>
+			<value type="string" value="It looks like some kind of cartridge reader. Maybe the cartridge you have will work in it."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A tiny little sign tacked on the front reads: Witzend Coil. Disconnect from power supply before servicing."/>
+			<value type="string" value="A tiny little sign tacked on the front reads: Witzend Coil. Disconnect from power supply before servicing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="I give up. YOU tell ME what it is."/>
+			<value type="string" value="I give up. YOU tell ME what it is."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It looks like some type of experimental orifice."/>
+			<value type="string" value="It looks like some type of experimental orifice."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This seems to be just another visually confusing hallway between someplace and someplace else aboard the Deltaur."/>
+			<value type="string" value="This seems to be just another visually confusing hallway between someplace and someplace else aboard the Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These egg-shaped lights - if that's what they are - are just another example of the rather whimsical designs you've observed on this ship. For ugly, smelly, green, planet- destroying murderers, the Sariens appear to have a great sense of aesthetics."/>
+			<value type="string" value="These egg-shaped lights - if that's what they are - are just another example of the rather whimsical designs you've observed on this ship. For ugly, smelly, green, planet- destroying murderers, the Sariens appear to have a great sense of aesthetics."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a port of some kind. You've seen more empty space than you care to ever again."/>
+			<value type="string" value="It's a port of some kind. You've seen more empty space than you care to ever again."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Those are some weird globes. They aren't operating at this time."/>
+			<value type="string" value="Those are some weird globes. They aren't operating at this time."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You don't really like the way the red floor and green walls clash but, all in all, its a pretty nice looking room."/>
+			<value type="string" value="You don't really like the way the red floor and green walls clash but, all in all, its a pretty nice looking room."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A panel of flashing lights."/>
+			<value type="string" value="A panel of flashing lights."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Fantastic technology... isn't it?"/>
+			<value type="string" value="Fantastic technology... isn't it?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's a panel of lights."/>
+			<value type="string" value="It's a panel of lights."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Since your X-ray Vision Specs have not yet arrived in the mail, you don't even know this room is over here, so quit messing around and do something useful."/>
+			<value type="string" value="Since your X-ray Vision Specs have not yet arrived in the mail, you don't even know this room is over here, so quit messing around and do something useful."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You're uncertain whether this is a Walwoodian cryobaric hypersleep chamber or the transmission out of a late model Buick Skylark."/>
+			<value type="string" value="You're uncertain whether this is a Walwoodian cryobaric hypersleep chamber or the transmission out of a late model Buick Skylark."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It appears to be a standard driver-side rear view mirror, probably standard on all ships of this class."/>
+			<value type="string" value="It appears to be a standard driver-side rear view mirror, probably standard on all ships of this class."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Two zapping, crackling globes spew forth gargantuan amounts of sizzling raw energy. Kinda neat, huh?"/>
+			<value type="string" value="Two zapping, crackling globes spew forth gargantuan amounts of sizzling raw energy. Kinda neat, huh?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You surmise this is a Sarien enlisted being."/>
+			<value type="string" value="You surmise this is a Sarien enlisted being."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="One of those gruesome red-suited Sariens is patrolling the hallways, looking for intruders to toast."/>
+			<value type="string" value="One of those gruesome red-suited Sariens is patrolling the hallways, looking for intruders to toast."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is where the Sariens placed the Star Generator after lifting it from the Arcada."/>
+			<value type="string" value="This is where the Sariens placed the Star Generator after lifting it from the Arcada."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The left hand force field emitter, much like the right, radiates an unknown form of energy that keeps you from approaching the Star Generator."/>
+			<value type="string" value="The left hand force field emitter, much like the right, radiates an unknown form of energy that keeps you from approaching the Star Generator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The right hand force field emitter, in a fashion altogether similar to the left hand one, beams an inexplicable power into the vicinity of the Star Generator that makes it impossible to get near."/>
+			<value type="string" value="The right hand force field emitter, in a fashion altogether similar to the left hand one, beams an inexplicable power into the vicinity of the Star Generator that makes it impossible to get near."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Cowabunga, Wilco - this is IT! It's the unimaginably powerful Star Generator, which must not, at any cost, be allowed to remain in the hands of the evil Sariens! (but you knew that, right?)"/>
+			<value type="string" value="Cowabunga, Wilco - this is IT! It's the unimaginably powerful Star Generator, which must not, at any cost, be allowed to remain in the hands of the evil Sariens! (but you knew that, right?)"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The pulsing energy surging from the Star Generator tells you that it has been activated and you had better quit hanging around staring at the pretty colors."/>
+			<value type="string" value="The pulsing energy surging from the Star Generator tells you that it has been activated and you had better quit hanging around staring at the pretty colors."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A receptor for somekind of remote control signal."/>
+			<value type="string" value="A receptor for somekind of remote control signal."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's the used gas grenade."/>
+			<value type="string" value="It's the used gas grenade."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's the walkway above the Star Generator."/>
+			<value type="string" value="It's the walkway above the Star Generator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is one of the force field's emitters."/>
+			<value type="string" value="This is one of the force field's emitters."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The Wally Tubes look strangely empty without Thunder Agents in them."/>
+			<value type="string" value="The Wally Tubes look strangely empty without Thunder Agents in them."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Looking into the vast reaches of space gives you the curious illusion of being tiny, unimportant, insignificant, negligible, and totally irrelevant in the scheme of things. Then you realize it's not an illusion."/>
+			<value type="string" value="Looking into the vast reaches of space gives you the curious illusion of being tiny, unimportant, insignificant, negligible, and totally irrelevant in the scheme of things. Then you realize it's not an illusion."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the control keypad, which is used to input instructions to the Star Generator."/>
+			<value type="string" value="This is the control keypad, which is used to input instructions to the Star Generator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You're in a brightly-colored hallway aboard the Deltaur. Two elevators dominate the upper level."/>
+			<value type="string" value="You're in a brightly-colored hallway aboard the Deltaur. Two elevators dominate the upper level."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's an elevator, much like the ones you used to waste time in aboard the Arcada."/>
+			<value type="string" value="It's an elevator, much like the ones you used to waste time in aboard the Arcada."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The right elevator is identical to the left except for the ugly green guy standing in front of it."/>
+			<value type="string" value="The right elevator is identical to the left except for the ugly green guy standing in front of it."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator."/>
+			<value type="string" value="엘리베이터입니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Roger Wilco, we, the people of Xenon, extend our limitless appreciation and eternal gratitude for your acts of heroism.&quot;"/>
+			<value type="string" value="&quot;Roger Wilco, we, the people of Xenon, extend our limitless appreciation and eternal gratitude for your acts of heroism.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Because of your bravery, the planet Xenon, and indeed the entire galaxy, has been saved from domination by the evil (not to mention ugly) Sariens.&quot;"/>
+			<value type="string" value="&quot;Because of your bravery, the planet Xenon, and indeed the entire galaxy, has been saved from domination by the evil (not to mention ugly) Sariens.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Now, if you'd only been smart enough to bring along the data cartridge containing the construction specifications, we'd be able build a new Star Generator, thereby saving Xenon from the horrors of a rapidly cooling planet. Oh, well. You are just a janitor.&quot;"/>
+			<value type="string" value="&quot;Now, if you'd only been smart enough to bring along the data cartridge containing the construction specifications, we'd be able build a new Star Generator, thereby saving Xenon from the horrors of a rapidly cooling planet. Oh, well. You are just a janitor.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;It is my honor to present you with the coveted Golden Mop, a symbol of pride and accomplishment to members of your esteemed profession.&quot;"/>
+			<value type="string" value="&quot;It is my honor to present you with the coveted Golden Mop, a symbol of pride and accomplishment to members of your esteemed profession.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="&quot;Henceforth and for all time you will be known as Hero of Xenon.&quot;"/>
+			<value type="string" value="&quot;Henceforth and for all time you will be known as Hero of Xenon.&quot;"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is your head. (Didn't you learn this stuff a real long time ago?)"/>
+			<value type="string" value="This is your head. (Didn't you learn this stuff a real long time ago?)"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button allows you to exit this screen."/>
+			<value type="string" value="This button allows you to exit this screen."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You see a data cartridge clasped in the droid's manipulator."/>
+			<value type="string" value="You see a data cartridge clasped in the droid's manipulator."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the Data Retrieval console."/>
+			<value type="string" value="This is the Data Retrieval console."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is the control panel for the Data Retrieval console."/>
+			<value type="string" value="This is the control panel for the Data Retrieval console."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These are some highly decorative illumination devices for the console."/>
+			<value type="string" value="These are some highly decorative illumination devices for the console."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's you and you're darned handsome if you do say so yourself."/>
+			<value type="string" value="It's you and you're darned handsome if you do say so yourself."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Buttons reside here. You hate buttons. They confuse you so."/>
+			<value type="string" value="Buttons reside here. You hate buttons. They confuse you so."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Enter a Code Sequence to retrieve Data cartridges."/>
+			<value type="string" value="Enter a Code Sequence to retrieve Data cartridges."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These buttons allow you to enter a code into the computer."/>
+			<value type="string" value="These buttons allow you to enter a code into the computer."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button confirms entry of the code you keyed-in and begins the search for the corresponding cartridge."/>
+			<value type="string" value="This button confirms entry of the code you keyed-in and begins the search for the corresponding cartridge."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Press this button if you want to turn the keypad off."/>
+			<value type="string" value="Press this button if you want to turn the keypad off."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Whoa! Those big guys pack a powerful appetite. Did you feel the way that thing just chomped right through your skeletal system? That had to hurt! The grell burps in solitary satisfaction. He doesn't often get nice, warm meals like you."/>
+			<value type="string" value="Whoa! Those big guys pack a powerful appetite. Did you feel the way that thing just chomped right through your skeletal system? That had to hurt! The grell burps in solitary satisfaction. He doesn't often get nice, warm meals like you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Whoa! Those big guys pack a powerful appetite. Did you feel the way that thing just chomped right through your skeletal system? That had to hurt! The grell burps in solitary satisfaction. He doesn't often get nice, warm meals like you."/>
+			<value type="string" value="Whoa! Those big guys pack a powerful appetite. Did you feel the way that thing just chomped right through your skeletal system? That had to hurt! The grell burps in solitary satisfaction. He doesn't often get nice, warm meals like you."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="There are a couple of non-galactic looking humanoids cranking out some unfamiliar sounding tunes. They seem interested solely in the music they are performing."/>
+			<value type="string" value="There are a couple of non-galactic looking humanoids cranking out some unfamiliar sounding tunes. They seem interested solely in the music they are performing."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="On stage, a strangely attired woman performs her act (if that's what you want to call it). You haven't had a girlfriend for a long time (more like forever), but even that's not enough to make her attractive."/>
+			<value type="string" value="On stage, a strangely attired woman performs her act (if that's what you want to call it). You haven't had a girlfriend for a long time (more like forever), but even that's not enough to make her attractive."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="On stage are two heavily-bearded gents and a relatively clean-shaven drummer. They're one of the hottest bands in the quadrant."/>
+			<value type="string" value="On stage are two heavily-bearded gents and a relatively clean-shaven drummer. They're one of the hottest bands in the quadrant."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Some strange, blue dude currently monopolizes the Slots-O-Death machine."/>
+			<value type="string" value="Some strange, blue dude currently monopolizes the Slots-O-Death machine."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The escape pod is destined to remain a monument to your visit."/>
+			<value type="string" value="The escape pod is destined to remain a monument to your visit."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These buttons allow you to enter a code into the computer."/>
+			<value type="string" value="These buttons allow you to enter a code into the computer."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Please enter a Navigational Code Sequence to allow course plotting."/>
+			<value type="string" value="Please enter a Navigational Code Sequence to allow course plotting."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This button confirms entry of the code you keyed-in and begins the search for the corresponding cartridge."/>
+			<value type="string" value="This button confirms entry of the code you keyed-in and begins the search for the corresponding cartridge."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Press this button if you want to turn the keypad off."/>
+			<value type="string" value="Press this button if you want to turn the keypad off."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="These guys look scary. But then, don't most other beings packing weapons?"/>
+			<value type="string" value="These guys look scary. But then, don't most other beings packing weapons?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator shaft. Elevators are known to have traveled these parts, mostly up and down."/>
+			<value type="string" value="This is an elevator shaft. Elevators are known to have traveled these parts, mostly up and down."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is an elevator shaft."/>
+			<value type="string" value="This is an elevator shaft."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="In the distance is the galaxy-famous Skihairy mountain range. Nestled in its southernmost slopes is the renowned YoMammy National Park, usually hip-deep in tourists this time of year. Oh, well - maybe next trip."/>
+			<value type="string" value="In the distance is the galaxy-famous Skihairy mountain range. Nestled in its southernmost slopes is the renowned YoMammy National Park, usually hip-deep in tourists this time of year. Oh, well - maybe next trip."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="What a sky this planet has! You've never seen its like outside a toxic waste dump."/>
+			<value type="string" value="What a sky this planet has! You've never seen its like outside a toxic waste dump."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Kerona has two moons. This one's the bigger of two."/>
+			<value type="string" value="Kerona has two moons. This one's the bigger of two."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Kerona has two moons. This one's the smaller of two."/>
+			<value type="string" value="Kerona has two moons. This one's the smaller of two."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+			<value type="string" value="The settlement of Ulence Flats is surrounded by these force field generators. They repel such undesirables such as the grell which thrive below the sands. It will allow only airborne vehicles in or out."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Kerona's relatively flat desert stretches out into the distance."/>
+			<value type="string" value="Kerona's relatively flat desert stretches out into the distance."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Your new pilot droid appears to be a bit dinged up, but functional. You hope that he knows more about piloting a spaceship than you do."/>
+			<value type="string" value="Your new pilot droid appears to be a bit dinged up, but functional. You hope that he knows more about piloting a spaceship than you do."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You're in another area of the Deltaur."/>
+			<value type="string" value="You're in another area of the Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's one of the Sarien gaurds."/>
+			<value type="string" value="It's one of the Sarien gaurds."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="It's the amount of time remaining before you're pushin' up daisies, Roger!!!!"/>
+			<value type="string" value="It's the amount of time remaining before you're pushin' up daisies, Roger!!!!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Like everything around here, the pipes are extremely colorful. It makes you wonder if the Sariens got a good deal on paint."/>
+			<value type="string" value="Like everything around here, the pipes are extremely colorful. It makes you wonder if the Sariens got a good deal on paint."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Yep. More pipes."/>
+			<value type="string" value="Yep. More pipes."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="An elevator shaft runs up through the ceiling and down through the floor."/>
+			<value type="string" value="An elevator shaft runs up through the ceiling and down through the floor."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This is a hallway access tube leading to another part of the Deltaur."/>
+			<value type="string" value="This is a hallway access tube leading to another part of the Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are on the upper level of one of the hallways on the Deltaur."/>
+			<value type="string" value="You are on the upper level of one of the hallways on the Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="You are on the lower level of one of the hallways on the Deltaur."/>
+			<value type="string" value="You are on the lower level of one of the hallways on the Deltaur."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Mountains generously dappled with spires of unknown formational origin loom at your visual terminus."/>
+			<value type="string" value="Mountains generously dappled with spires of unknown formational origin loom at your visual terminus."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The lovely crisp green of the Keronian atmosphere reminds you that you'll need to do some laundry when (or if) you get back home."/>
+			<value type="string" value="The lovely crisp green of the Keronian atmosphere reminds you that you'll need to do some laundry when (or if) you get back home."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Loitering about the horizon is the second and closest moon of Kerona. It is much less hospitable than the sphere you presently roam."/>
+			<value type="string" value="Loitering about the horizon is the second and closest moon of Kerona. It is much less hospitable than the sphere you presently roam."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Spread before you is a seemingly endless expanse of sand."/>
+			<value type="string" value="Spread before you is a seemingly endless expanse of sand."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The sand of Kerona has a reddish-orange color. Were you a geologist instead of a janitor, you might find this fact interesting."/>
+			<value type="string" value="The sand of Kerona has a reddish-orange color. Were you a geologist instead of a janitor, you might find this fact interesting."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Nomads of the desert, dunes are spread about in nearly every direction."/>
+			<value type="string" value="Nomads of the desert, dunes are spread about in nearly every direction."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="A wide selection of skeletal accessories awaits your perusal. Vertebrae, ribs, and who knows what else rest upon the Keronian soil. The average height of this structure looks to be at least 7 meters. Good thing you didn't meet this thing in its heyday."/>
+			<value type="string" value="A wide selection of skeletal accessories awaits your perusal. Vertebrae, ribs, and who knows what else rest upon the Keronian soil. The average height of this structure looks to be at least 7 meters. Good thing you didn't meet this thing in its heyday."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Upon a very narrow width of Keronian soil, able to resist erosion through the eons, rests the skeletal remains of this mammoth has-been."/>
+			<value type="string" value="Upon a very narrow width of Keronian soil, able to resist erosion through the eons, rests the skeletal remains of this mammoth has-been."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Oddly enough, a plant grows in isolated spots in this inhospitable environment."/>
+			<value type="string" value="Oddly enough, a plant grows in isolated spots in this inhospitable environment."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Oddly enough, a rather bright plant grows in this otherwise flora-free area."/>
+			<value type="string" value="Oddly enough, a rather bright plant grows in this otherwise flora-free area."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="The spider is quite relentless in its pursuit of organic beings. Your quandry is that, to the best of your knowledge, you are the only one in the area fitting that description."/>
+			<value type="string" value="The spider is quite relentless in its pursuit of organic beings. Your quandry is that, to the best of your knowledge, you are the only one in the area fitting that description."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Although you've always had an appreciation for the gases of the universe, this one proved a bit overwhelming. It really was a great idea, though. However, you should have chosen a victim not so close to yourself. Better choice next time."/>
+			<value type="string" value="Although you've always had an appreciation for the gases of the universe, this one proved a bit overwhelming. It really was a great idea, though. However, you should have chosen a victim not so close to yourself. Better choice next time."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="BLAMMO! Those pulseray pistols sure are effective little weapons. Even after it kills you, your meat continues to cook to nice golden brown. Try not to get shot in the future. Even if your life isn't worth much, think about the rest of the universe."/>
+			<value type="string" value="BLAMMO! Those pulseray pistols sure are effective little weapons. Even after it kills you, your meat continues to cook to nice golden brown. Try not to get shot in the future. Even if your life isn't worth much, think about the rest of the universe."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Select the game that you would like to restore."/>
+			<value type="string" value="불러오고 싶은 데이터를 선택하십시오."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Type the description of this saved game."/>
+			<value type="string" value="세이브 데이터의 설명을 쓰십시오."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk."/>
+			<value type="string" value="더 이상 저장할 수 없습니다. 기존의 데이터에 덮어쓰거나 다른 곳에 저장해야 합니다."/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Are you sure you want to&#xA;delete this saved game?"/>
+			<value type="string" value="이 세이브 데이터를&#xA;정말 삭제하시겠습니까?"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Change&#xA;Directory"/>
+			<value type="string" value="디렉토리 변경"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Free Heap: %u Bytes&#xA;Largest ptr: %u Bytes&#xA;FreeHunk: %u KBytes&#xA;Largest hunk: %u Bytes"/>
+			<value type="string" value="Free Heap: %u Bytes&#xA;Largest ptr: %u Bytes&#xA;FreeHunk: %u KBytes&#xA;Largest hunk: %u Bytes"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Roger is carrying:"/>
+			<value type="string" value="로저가 나르는 물건 :"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="nothing!"/>
+			<value type="string" value="없음!"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Score: %d out of %d"/>
+			<value type="string" value="점수 : %d / %d"/>
+		</item>
+		<item type="pair">
+			<key type="string" value="Enter input"/>
+			<value type="string" value="Enter input"/>
+		</item>
+	</SentenceList>
+</Shouter.xml>
