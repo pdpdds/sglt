@@ -1,6 +1,7 @@
 #pragma once
 #include <list>
 #include <map>
+#include <vector>
 
 class CTranslatorDlg;
 class SCITextResource;
@@ -28,6 +29,9 @@ struct resource_index_t {
 
 typedef std::list<TextResPair> listTextResPair; 
 typedef std::map<int, int> mapTextResInfo;
+
+typedef std::map<int, TextResPair> mapTextResPair;
+typedef std::vector<TextResInfo> vecTextResInfo;
 
 class MsgController
 {
@@ -65,7 +69,11 @@ private:
 	int m_TextResourceCnt;
 
 	int m_TextResNum;
-	int m_TextNum;
-	listTextResPair::iterator m_iter;
+	int m_TextNum;	
 	mapTextResInfo m_mapTextResInfo;
+
+
+	mapTextResPair m_mapTextResPair;
+	mapTextResPair::iterator m_iter;
+	vecTextResInfo m_vecTextResInfo;
 };
