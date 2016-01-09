@@ -194,7 +194,7 @@ BOOL MsgController::SaveText( CString& szStr )
 	TextResPair Pair = *m_iter;
 	SCITextResource* pRes = Pair.pTranslatedTextRes;
 	pRes->SetChangeFlag(TRUE);
-	pRes->SetSaveText(m_TextNum, szStr);
+	pRes->SetText(m_TextNum, szStr);
 	
 
 	return TRUE;

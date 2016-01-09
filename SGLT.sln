@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontCreator", "FontCreator\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResExtractor", "ResExtractor\ResExtractor.vcxproj", "{5DB80B18-D8A3-430A-9C76-001942749776}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextTranslator2", "TextTranslator2\TextTranslator2.vcxproj", "{D07E0B99-EDDB-4F9D-B910-86D34779B2DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{5DB80B18-D8A3-430A-9C76-001942749776}.Debug|Win32.Build.0 = Debug|Win32
 		{5DB80B18-D8A3-430A-9C76-001942749776}.Release|Win32.ActiveCfg = Release|Win32
 		{5DB80B18-D8A3-430A-9C76-001942749776}.Release|Win32.Build.0 = Release|Win32
+		{D07E0B99-EDDB-4F9D-B910-86D34779B2DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D07E0B99-EDDB-4F9D-B910-86D34779B2DD}.Debug|Win32.Build.0 = Debug|Win32
+		{D07E0B99-EDDB-4F9D-B910-86D34779B2DD}.Release|Win32.ActiveCfg = Release|Win32
+		{D07E0B99-EDDB-4F9D-B910-86D34779B2DD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

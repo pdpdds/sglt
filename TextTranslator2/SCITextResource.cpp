@@ -8,7 +8,6 @@ SCITextResource::SCITextResource(int Num)
 , m_MessageCnt(0)
 , m_bChanged(FALSE)
 , m_Num(Num)
-
 {
 }
 
@@ -20,9 +19,15 @@ SCITextResource::~SCITextResource(void)
 
 BOOL SCITextResource::Load( const CString& szFileName )
 {
-	CFile File;
 	
-	m_mapBlankList.clear();
+	Init();
+	//const UINT _headerSize = 8;
+	//const UINT _recordSize = 10;
+
+	//const UINT _headerSize = 6;
+	//const UINT _recordSize = 4;
+
+	CFile File;
 
 	if(!File.Open(szFileName, CFile::modeRead))
 	{
@@ -50,44 +55,23 @@ BOOL SCITextResource::Load( const CString& szFileName )
 
 	ar.Read(m_pStart, m_Size - 9);
 
+//	ar.Read(m_pStart, m_Size);
+
 	File.Close();
 
-	int TextLen = m_Size - 9;
-	char* seeker = (char *) m_pStart;
-
-	int Count = 0;
-
-	while (TextLen != 0)
-	{
-	
-		int BlankCount = 0;
-
-		while((TextLen) && (*seeker) == 0)
-		{
-			BlankCount++;
-			TextLen--;
-			seeker++;
-		}
-
-//20130125 뒤죽박죽 요정 이야기 10바이트 파일 처리...
-		if(TextLen == 0)
-			return TRUE;//원래는 FALSE로 되어 있었다.. 안되면 수정 요망
-
-		if(BlankCount > 0)
-		{
-			m_mapBlankList.insert(std::make_pair(Count, BlankCount));
-		}
-
-		while ((TextLen--) && (*seeker++));
-
-		Count++;
-	}
-			
-	m_MessageCnt = Count;
-	
-
-	m_pData = m_pStart;
+	m_MessageCnt = *(USHORT*)(m_pStart + _headerSize - 2);
+	m_pData = m_pStart + _headerSize;
 	m_FileName = szFileName;
+
+	if(m_MessageCnt == 0x1d)
+	{
+		int i = 1;
+	}
+
+	if (m_MessageCnt == 2352)
+	{
+		int i = 1;
+	}
 
 	return TRUE;
 }
@@ -111,8 +95,15 @@ BOOL SCITextResource::Save()
 	if(m_MessageCnt <= 0)
 		return TRUE;
 
+	BYTE* pHeader = new BYTE[_headerSize + m_MessageCnt * _recordSize];
+	memcpy(pHeader, m_pStart, _headerSize + m_MessageCnt * _recordSize);
+	BYTE* pTextEntry = pHeader + _headerSize;
+
+	
+	BYTE* pTextData = m_pStart + _headerSize + m_MessageCnt * _recordSize;
+	USHORT offset = 0;
 	BYTE* DataChunkPtr = DataChunk;
-	int offset = 0;
+
 	for(int i = 0; i < m_MessageCnt; i++)
 	{
 		CString str;
@@ -128,40 +119,36 @@ BOOL SCITextResource::Save()
 			ReadOriginalText(i, str);
 		}
 
-		mapBlankList::iterator iter2 = m_mapBlankList.find(i);
-
-		if(iter2 != m_mapBlankList.end())
-		{
-			if(iter2->second > 0)
-			{
-				DataChunkPtr = DataChunkPtr + iter2->second;
-			}
-		}
-
 		int t = str.GetLength();
 			
 		memcpy(DataChunkPtr, str.GetString(), str.GetLength());
-		
-//안녕 난 마더 구스야. 네가 와서 정말 기쁘구나! 내 동요가 모두 뒤죽박죽이 되었어. 내가 그걸 바로 잡아줄 수 있겠니?
-		offset = str.GetLength() + 1;
+		(*((USHORT*)(pTextEntry + _textOffset))) = _headerSize + m_MessageCnt * _recordSize + offset;
 
-		DataChunkPtr = DataChunkPtr + offset;
+		offset += str.GetLength() + 1;
+
+		DataChunkPtr = DataChunk + offset;
+		pTextEntry += _recordSize;
 	}
 
-	USHORT szPacked = DataChunkPtr - DataChunk;
-	szPacked += 4;
-	USHORT szUnpacked = szPacked;
+	SaveHeader(ar, DataChunkPtr);
+
+	/*UINT32 szPacked = 8 + _headerSize + m_MessageCnt * _recordSize + DataChunkPtr - DataChunk;
+	UINT32 szUnpacked = szPacked;
 	USHORT wCompression = 0;//kCompNone;
 
-	BYTE Type = 3;
+	BYTE Type = 15;
+	BYTE HeaderSize = 0;
 
 	BYTE Type2 = Type | 0x80;
+	//ar << Type2;
+	//ar << HeaderSize;
 	ar << Type;
 	ar << m_Num;
 	ar << szPacked;
 	ar << szUnpacked;
-	ar << wCompression;
+	ar << wCompression;*/
 
+	ar.Write(pHeader, _headerSize + m_MessageCnt * _recordSize);
 	ar.Write(DataChunk, DataChunkPtr - DataChunk);
 
 	return TRUE;
@@ -205,54 +192,38 @@ void SCITextResource::SetText( int TextNum, CString& szStr )
 
 BOOL SCITextResource::ReadOriginalText(int MessageIndex, CString& szText )
 {
-	int textlen = m_Size - 9;
-	char* seeker = (char *) m_pData;
+	BYTE* szMessageRecord = m_pData + MessageIndex * _recordSize;
 
+	szText = GetTextFromMessageRecord(szMessageRecord);
 
-	while((textlen) && (*seeker) == 0)
-	{
-		textlen--;
-		seeker++;
-	}
+	//szText = (const char *)m_pStart + (*((USHORT*)(szTextHeader + 5)));
 
-
-	while (MessageIndex--)
-	{
-		while ((textlen--) && (*seeker++))
-			;
-
-		while((textlen) && (*seeker) == 0)
-		{
-			textlen--;
-			seeker++;
-		}
-	}
-
-	
-	if (textlen)
-	{
-		szText =  seeker;
-		return TRUE;
-	}
-	
-
-	return FALSE;
+	return TRUE;
 }
+
+
 
 int SCITextResource::FindText( CString& SearchText )
 {
 	for(int MessageIndex = 0; MessageIndex < m_MessageCnt; MessageIndex++)
 	{
-		
 		CString szText;
-		if(FALSE == ReadOriginalText(MessageIndex, szText))
-		{
-			return -1;
-		}
-		CString sContentsLower = szText.MakeLower();
-		if (-1 != sContentsLower.Find(SearchText.MakeLower())) 
+		BYTE* szMessageRecord = m_pData + MessageIndex * _recordSize;
 
-			//if(szText == SearchText)
+		szText = GetTextFromMessageRecord(szMessageRecord);
+
+		if(szText[0] == NULL)
+			continue;
+
+		CString sTemp = szText;
+
+		if(sTemp.IsEmpty())
+			continue;
+
+		//CString sContentsLower = sTemp.MakeLower();
+		if (-1 != sTemp.Find(SearchText)) 
+
+		//if(szText == SearchText)
 		{
 			return MessageIndex;
 		}
