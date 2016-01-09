@@ -27,11 +27,10 @@ struct resource_index_t {
 
 #pragma pack(pop)
 
-typedef std::list<TextResPair> listTextResPair; 
+//typedef std::list<TextResPair> listTextResPair; 
 typedef std::map<int, int> mapTextResInfo;
 
 typedef std::map<int, TextResPair> mapTextResPair;
-typedef std::vector<TextResInfo> vecTextResInfo;
 
 class MsgController
 {
@@ -59,21 +58,21 @@ public:
 	BOOL GenerateOutput();
 	BOOL FindText(CString& SearcgText);
 
+	BOOL ImportExcel(CString& FilePath, CString& FileName);
+
 protected:
 	BOOL CreateTextMap();
-	BOOL PackText();
+	BOOL PackText();	
 
 private:
-	CTranslatorDlg* m_pOwner;
-	listTextResPair m_listTextResPair;
+	CTranslatorDlg* m_pOwner;	
 	int m_TextResourceCnt;
 
 	int m_TextResNum;
 	int m_TextNum;	
 	mapTextResInfo m_mapTextResInfo;
 
-
-	mapTextResPair m_mapTextResPair;
 	mapTextResPair::iterator m_iter;
-	vecTextResInfo m_vecTextResInfo;
+	mapTextResPair m_mapTextResPair;
+	
 };

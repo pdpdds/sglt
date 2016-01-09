@@ -80,6 +80,7 @@ BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON7, &CTranslatorDlg::OnBnClickedGenOutput)
 	ON_EN_CHANGE(IDC_EDIT3, &CTranslatorDlg::OnEnChangeEdit3)
 	ON_BN_CLICKED(IDC_BUTTON8, &CTranslatorDlg::OnBnClickedSearchText)
+	ON_BN_CLICKED(IDC_BUTTON9, &CTranslatorDlg::OnImport)
 END_MESSAGE_MAP()
 
 // CTranslatorDlg message handlers
@@ -268,7 +269,7 @@ void CTranslatorDlg::OnBnClickedButton3()
 	// TODO: Add your control notification handler code here
 
 	UpdateData();
-	m_MsgController->SaveText(m_TranslatedText);
+	//m_MsgController->SaveText(m_TranslatedText);
 
 	m_MsgController->Save();
 }
@@ -355,5 +356,24 @@ void CTranslatorDlg::OnBnClickedSearchText()
 
 		GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName());
 
+	}
+}
+
+
+void CTranslatorDlg::OnImport()
+{
+	// TODO: Add your control notification handler code here
+	TCHAR szFilters[] = _T("xls Files (*.xls)|*.All Files (*.*)|*.*||");
+	CFileDialog fileDlg(TRUE, _T(""), _T("*.xls"), OFN_FILEMUSTEXIST | OFN_HIDEREADONLY, szFilters);
+	CString FilePath;
+	CString FileName;
+
+	if (fileDlg.DoModal() == IDOK)
+	{
+
+		FileName = fileDlg.GetFileName();
+		FilePath = fileDlg.GetPathName();
+
+		m_MsgController->ImportExcel(FilePath, FileName);
 	}
 }

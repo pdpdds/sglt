@@ -21,6 +21,7 @@ SCITextResource::~SCITextResource(void)
 BOOL SCITextResource::Load( const CString& szFileName )
 {
 	CFile File;
+	static int aa = 0;
 	
 	m_mapBlankList.clear();
 
@@ -71,7 +72,7 @@ BOOL SCITextResource::Load( const CString& szFileName )
 
 //20130125 뒤죽박죽 요정 이야기 10바이트 파일 처리...
 		if(TextLen == 0)
-			return TRUE;//원래는 FALSE로 되어 있었다.. 안되면 수정 요망
+			break;//원래는 FALSE로 되어 있었다.. 안되면 수정 요망
 
 		if(BlankCount > 0)
 		{
@@ -84,6 +85,13 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	}
 			
 	m_MessageCnt = Count;
+	aa++;
+
+	if (aa == 140)
+		int j = 1;
+
+	if (m_MessageCnt == 0)
+		int j = 1;
 	
 
 	m_pData = m_pStart;

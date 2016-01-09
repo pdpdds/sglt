@@ -50,4 +50,5 @@ public:
 	afx_msg void OnBnClickedGenOutput();
 	afx_msg void OnEnChangeEdit3();
 	afx_msg void OnBnClickedSearchText();
+	afx_msg void OnImport();
 };
