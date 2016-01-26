@@ -109,9 +109,14 @@ BOOL SCITextResource::Save()
 
 	CFile File;
 
-	if(!File.Open(m_FileName, CFile::modeWrite))
+	if (!File.Open(m_FileName, CFile::modeCreate | CFile::modeWrite))
 	{
 		return FALSE;
+	}
+
+	if (m_FileName.Compare("./Translated/text.057") == 0)
+	{
+		int i = 1;
 	}
 
 	CArchive ar(&File, CArchive::store);
