@@ -170,6 +170,7 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 					 uint32 &szPacked, uint32 &szunPacked, ResourceCompression &compression);
 ResourceType convertResType(byte type) ;
 int AnalyzeMap(Common::String& str);
+int AnalyzeMapSC1Early(Common::String& str);
 int ExtractText(char* filename);
 bool ExtractSpaceQuestRes();
 
@@ -183,10 +184,10 @@ int main(int argc, char *argv[])
 
 	if(strcmp(argv[1], "lb1") == 0)
 		_mapVersion = kResVersionSci0Sci1Early;	
-	else if (strcmp(argv[1], "echo1") == 0 || strcmp(argv[1], "sq1") == 0)
+	else if (strcmp(argv[1], "eco1") == 0 || strcmp(argv[1], "sq1") == 0)
 		_mapVersion = kResVersionSci11;
 	else  if(strcmp(argv[1], "kq5") == 0)
-		_mapVersion = kResVersionSci1Late;
+		_mapVersion = kResVersionSci0Sci1Early;
 	else
 		_mapVersion = kResVersionSci2;
 
@@ -213,7 +214,14 @@ int main(int argc, char *argv[])
 		//Å·½ºÄù½ºÆ® 5 - PC98
 
 		Common::String str = "resource.map";
-		AnalyzeMap(str);
+
+		if (kResVersionSci0Sci1Early == _mapVersion)
+		{
+			AnalyzeMapSC1Early(str);
+		}
+		else		
+			AnalyzeMap(str);
+
 		ExtractSpaceQuestRes();
 	}
 	
@@ -338,6 +346,7 @@ int AnalyzeMap(Common::String& str)
 				if (_mapVersion < kResVersionSci11) {
 					volume_nr = fileOffset >> 28; // most significant 4 bits
 					fileOffset &= 0x0FFFFFFF;     // least significant 28 bits
+					int i = 1;
 				} else {
 					// in SCI32 it's a plain offset
 				}
@@ -407,6 +416,16 @@ int count = 0;
 			int i =1;
 		}
 		int error = decompress((ResVersion)_mapVersion, fileStream, outFile, Desc.number, Desc.type);
+
+		if(Desc.volnumber != 0)
+		{
+			int i = 1;
+		}
+
+		if (error != 0)
+		{
+			int i = 1;
+		}
 
 		outFile->finalize();
 		outFile->close();
@@ -536,7 +555,8 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 						 uint32 wCompression;//, szUnpacked;
 						 ResourceType type;
 
-						 if (file->size() == 0)
+						 int fileSize = file->size();
+						 if (fileSize == 0)
 							 return SCI_ERROR_EMPTY_RESOURCE;
 
 						 switch (volVersion) {
@@ -588,7 +608,8 @@ int readResourceInfo(ResVersion volVersion, Common::SeekableReadStream *file,
 						 }
 
 						 // check if there were errors while reading
-						 if ((file->eos() || file->err()))
+						 int err = file->err();
+						 if ((file->eos() || err))
 							 return SCI_ERROR_IO_ERROR;
 
 
@@ -652,4 +673,80 @@ ResourceType convertResType(byte type) {
 	}
 
 	return kResourceTypeInvalid;
+}
+
+
+int AnalyzeMapSC1Early(Common::String& str)
+{
+	Common::SeekableReadStream *fileStream = 0;
+
+	if (!Common::File::exists(str))
+		return -1;
+
+	Common::File *file = new Common::File();
+	if (!file->open(str))
+		return -1;
+	fileStream = file;
+
+	int count = 0;
+
+	fileStream->seek(0, SEEK_SET);
+	ResourceType type = kResourceTypeInvalid;	// to silence a false positive in MSVC
+	uint16 number, id;
+	uint32 offset;
+	byte bMask = (_mapVersion >= kResVersionSci1Middle) ? 0xF0 : 0xFC;
+	byte bShift = (_mapVersion >= kResVersionSci1Middle) ? 28 : 26;
+	
+	do
+	{
+		// King's Quest 5 FM-Towns uses a 7 byte version of the SCI1 Middle map,
+		// splitting the type from the id.
+		if (_mapVersion == kResVersionKQ5FMT)
+			type = convertResType(fileStream->readByte());
+
+		id = fileStream->readUint16LE();
+		offset = fileStream->readUint32LE();
+
+		if (fileStream->eos() || fileStream->err()) {
+			delete fileStream;
+			return SCI_ERROR_RESMAP_NOT_FOUND;
+		}
+
+		if (offset == 0xFFFFFFFF)
+			break;
+
+		if (_mapVersion == kResVersionKQ5FMT) {
+			number = id;
+		}
+		else {
+			type = convertResType(id >> 11);
+			number = id & 0x7FF;
+		}
+
+		int volume_nr = offset >> bShift;
+
+		if (volume_nr == 8)
+		{
+			int i = 1;
+		}
+
+
+		ResDesc Desc;
+		Desc.type = type;
+		Desc.number = number;
+		Desc.volnumber = volume_nr;
+		Desc.fileoffset = offset & (((~bMask) << 24) | 0xFFFFFF);
+
+		if (offset > 10000000)
+		{
+			int i = 1;
+		}
+
+		g_listResDesc.push_back(Desc);
+		count++;
+
+	} while (!fileStream->eos());
+
+	delete fileStream;
+	return 0;
 }
