@@ -188,6 +188,8 @@ int main(int argc, char *argv[])
 		_mapVersion = kResVersionSci11;
 	else  if(strcmp(argv[1], "kq5") == 0)
 		_mapVersion = kResVersionSci0Sci1Early;
+	else  if (strcmp(argv[1], "freddy") == 0)
+		_mapVersion = kResVersionSci11;
 	else
 		_mapVersion = kResVersionSci2;
 
@@ -201,7 +203,7 @@ int main(int argc, char *argv[])
 	SearchMan.addDirectory(dir.getPath(), dir, 0, 4);
 
 
-	if (_mapVersion == kResVersionSci2)
+	if (_mapVersion == kResVersionSci2 || strcmp(argv[1], "freddy") == 0)
 	{
 		Common::String str = "MESSAGE.MAP";
 		AnalyzeMap(str);
