@@ -1115,7 +1115,7 @@
 		</item>
 		<item type="pair">
 			<key type="string" value="This is the entry way to the pod."/>
-			<value type="string" value="This is the entry way to the pod."/>
+			<value type="string" value="탈출용 우주선의 입구입니다."/>
 		</item>
 		<item type="pair">
 			<key type="string" value="Your highly-honed preservation instincts tell you that going near the edge would be disasterous."/>

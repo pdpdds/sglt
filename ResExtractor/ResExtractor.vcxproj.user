@@ -3,6 +3,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerWorkingDirectory>../bin32</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>freddy</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>castle</LocalDebuggerCommandArguments>
   </PropertyGroup>
 </Project>

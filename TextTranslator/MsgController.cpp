@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+ï»¿#include "StdAfx.h"
 #include "MsgController.h"
 #include "SCITextResource.h"
 
@@ -243,11 +243,11 @@ BOOL MsgController::CreateTextMap()
 	}
 
 	CArchive ar(&WriteFile, CArchive::store);
-	BYTE ResType = 3; //ÅØ½ºÆ®, ¸Ş¼¼ÁöÀÇ ±¸º°µÈ´Ù.
+	BYTE ResType = 3; //í…ìŠ¤íŠ¸, ë©”ì„¸ì§€ì˜ êµ¬ë³„ëœë‹¤.
 	USHORT Offset = 6;
 	ar << ResType;
 	ar << Offset;
-	BYTE ResFin = 0xFF;;//¸®¼Ò½º ¿£µå ¸¶Å©
+	BYTE ResFin = 0xFF;;//ë¦¬ì†ŒìŠ¤ ì—”ë“œ ë§ˆí¬
 	ar << ResFin;
 
 	Offset = m_mapTextResInfo.size() * 6;
@@ -445,7 +445,8 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			SCITextResource* pTranslateResource = iter->second.pTranslatedTextRes;
 
 			CString str;
-			str.Format("G%d", pResource->GetMessageCnt());
+			str.Format("G%d", pResource->GetMessageCnt());			
+
 			lpDisp = sheet.get_Range(COleVariant("A1"), COleVariant(str));
 			ASSERT(lpDisp);
 			range.AttachDispatch(lpDisp);
@@ -487,7 +488,9 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 					return FALSE;
 				}
 
-
+//2017
+//King's Quest 5 PC98, Castle of Dr, Brain = 2
+//Else 3
 				index[0] = j + 1;
 				index[1] = 2;
 				saRet.GetElement(index, vData);

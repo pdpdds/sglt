@@ -1,4 +1,4 @@
-/* ScummVM - Graphic Adventure Engine
+ï»¿/* ScummVM - Graphic Adventure Engine
  *
  * ScummVM is the legal property of its developers, whose names
  * are too numerous to list here. Please refer to the COPYRIGHT
@@ -188,6 +188,8 @@ int main(int argc, char *argv[])
 		_mapVersion = kResVersionSci11;
 	else  if(strcmp(argv[1], "kq5") == 0)
 		_mapVersion = kResVersionSci0Sci1Early;
+	else  if (strcmp(argv[1], "castle") == 0)
+		_mapVersion = kResVersionSci1Late;
 	else  if (strcmp(argv[1], "freddy") == 0)
 		_mapVersion = kResVersionSci11;
 	else
@@ -212,8 +214,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		//½ºÆäÀÌ½º Äù½ºÆ®³ª ¿¡ÄÚÄù½ºÆ®ÀÇ °æ¿ì
-		//Å·½ºÄù½ºÆ® 5 - PC98
+		//ìŠ¤íŽ˜ì´ìŠ¤ í€˜ìŠ¤íŠ¸ë‚˜ ì—ì½”í€˜ìŠ¤íŠ¸ì˜ ê²½ìš°
+		//í‚¹ìŠ¤í€˜ìŠ¤íŠ¸ 5 - PC98
 
 		Common::String str = "resource.map";
 
@@ -386,6 +388,10 @@ int count = 0;
 		count++;
 
 		char outFileName[50];
+
+		if (Desc.type != kResourceTypeText)
+			continue;
+
 		sprintf(outFileName, "%s.%03d", s_resourceTypeNames[Desc.type], Desc.number);
 		Common::DumpFile *outFile = new Common::DumpFile();
 		outFile->open(outFileName);

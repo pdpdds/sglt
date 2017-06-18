@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+ï»¿#include "StdAfx.h"
 #include "SCITextResource.h"
 
 BYTE SCITextResource::DataChunk[65536] = {0,};
@@ -70,9 +70,9 @@ BOOL SCITextResource::Load( const CString& szFileName )
 			seeker++;
 		}
 
-//20130125 µÚÁ×¹ÚÁ× ¿äÁ¤ ÀÌ¾ß±â 10¹ÙÀÌÆ® ÆÄÀÏ Ã³¸®...
+//20130125 ë’¤ì£½ë°•ì£½ ìš”ì • ì´ì•¼ê¸° 10ë°”ì´íŠ¸ íŒŒì¼ ì²˜ë¦¬...
 		if(TextLen == 0)
-			break;//¿ø·¡´Â FALSE·Î µÇ¾î ÀÖ¾ú´Ù.. ¾ÈµÇ¸é ¼öÁ¤ ¿ä¸Á
+			break;//ì›ëž˜ëŠ” FALSEë¡œ ë˜ì–´ ìžˆì—ˆë‹¤.. ì•ˆë˜ë©´ ìˆ˜ì • ìš”ë§
 
 		if(BlankCount > 0)
 		{
@@ -121,8 +121,9 @@ BOOL SCITextResource::Save()
 
 	CArchive ar(&File, CArchive::store);
 
-	if(m_MessageCnt <= 0)
-		return TRUE;
+//20170519 ë¬¸ì œê°€ ìžˆìœ¼ë©´ ì£¼ì„ í•´ì œí•  ê²ƒ
+	//if(m_MessageCnt <= 0)
+		//return TRUE;
 
 	BYTE* DataChunkPtr = DataChunk;
 	int offset = 0;
@@ -155,7 +156,7 @@ BOOL SCITextResource::Save()
 			
 		memcpy(DataChunkPtr, str.GetString(), str.GetLength());
 		
-//¾È³ç ³­ ¸¶´õ ±¸½º¾ß. ³×°¡ ¿Í¼­ Á¤¸» ±â»Ú±¸³ª! ³» µ¿¿ä°¡ ¸ðµÎ µÚÁ×¹ÚÁ×ÀÌ µÇ¾ú¾î. ³»°¡ ±×°É ¹Ù·Î Àâ¾ÆÁÙ ¼ö ÀÖ°Ú´Ï?
+//ì•ˆë…• ë‚œ ë§ˆë” êµ¬ìŠ¤ì•¼. ë„¤ê°€ ì™€ì„œ ì •ë§ ê¸°ì˜êµ¬ë‚˜! ë‚´ ë™ìš”ê°€ ëª¨ë‘ ë’¤ì£½ë°•ì£½ì´ ë˜ì—ˆì–´. ë‚´ê°€ ê·¸ê±¸ ë°”ë¡œ ìž¡ì•„ì¤„ ìˆ˜ ìžˆê² ë‹ˆ?
 		offset = str.GetLength() + 1;
 
 		DataChunkPtr = DataChunkPtr + offset;
