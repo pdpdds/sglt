@@ -13,7 +13,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontCreator", "FontCreator\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResExtractor", "ResExtractor\ResExtractor.vcxproj", "{5DB80B18-D8A3-430A-9C76-001942749776}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GK1Remake", "GK1Remake\GK1Remake.vcxproj", "{71E073C9-9D9B-458A-A51C-3DE5B9231BB0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GK1RemakeOldDataImport", "GK1RemakeOldDataImport\GK1Remake.vcxproj", "{71E073C9-9D9B-458A-A51C-3DE5B9231BB0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicsGameExtractor", "DynamicsGameExtractor\DynamicsGameExtractor.vcxproj", "{42067B34-6874-40C3-9234-AF368C406C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{71E073C9-9D9B-458A-A51C-3DE5B9231BB0}.Debug|Win32.Build.0 = Debug|Win32
 		{71E073C9-9D9B-458A-A51C-3DE5B9231BB0}.Release|Win32.ActiveCfg = Release|Win32
 		{71E073C9-9D9B-458A-A51C-3DE5B9231BB0}.Release|Win32.Build.0 = Release|Win32
+		{42067B34-6874-40C3-9234-AF368C406C95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42067B34-6874-40C3-9234-AF368C406C95}.Debug|Win32.Build.0 = Debug|Win32
+		{42067B34-6874-40C3-9234-AF368C406C95}.Release|Win32.ActiveCfg = Release|Win32
+		{42067B34-6874-40C3-9234-AF368C406C95}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

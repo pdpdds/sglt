@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{42067B34-6874-40C3-9234-AF368C406C95}</ProjectGuid>
+    <RootNamespace>DynamicsGameExtractor</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../ResExtractor;./dgds/resources;./dgds;./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ResExtractor\common\abstract-fs.h" />
+    <ClInclude Include="..\ResExtractor\common\algorithm.h" />
+    <ClInclude Include="..\ResExtractor\common\archive.h" />
+    <ClInclude Include="..\ResExtractor\common\array.h" />
+    <ClInclude Include="..\ResExtractor\common\bitstream.h" />
+    <ClInclude Include="..\ResExtractor\common\bufferedstream.h" />
+    <ClInclude Include="..\ResExtractor\common\config-file.h" />
+    <ClInclude Include="..\ResExtractor\common\config-manager.h" />
+    <ClInclude Include="..\ResExtractor\common\coroutines.h" />
+    <ClInclude Include="..\ResExtractor\common\cosinetables.h" />
+    <ClInclude Include="..\ResExtractor\common\dcl.h" />
+    <ClInclude Include="..\ResExtractor\common\dct.h" />
+    <ClInclude Include="..\ResExtractor\common\debug-channels.h" />
+    <ClInclude Include="..\ResExtractor\common\debug.h" />
+    <ClInclude Include="..\ResExtractor\common\endian.h" />
+    <ClInclude Include="..\ResExtractor\common\error.h" />
+    <ClInclude Include="..\ResExtractor\common\EventRecorder.h" />
+    <ClInclude Include="..\ResExtractor\common\events.h" />
+    <ClInclude Include="..\ResExtractor\common\fft.h" />
+    <ClInclude Include="..\ResExtractor\common\file.h" />
+    <ClInclude Include="..\ResExtractor\common\forbidden.h" />
+    <ClInclude Include="..\ResExtractor\common\frac.h" />
+    <ClInclude Include="..\ResExtractor\common\fs-factory.h" />
+    <ClInclude Include="..\ResExtractor\common\fs.h" />
+    <ClInclude Include="..\ResExtractor\common\func.h" />
+    <ClInclude Include="..\ResExtractor\common\gui_options.h" />
+    <ClInclude Include="..\ResExtractor\common\hash-str.h" />
+    <ClInclude Include="..\ResExtractor\common\hashmap.h" />
+    <ClInclude Include="..\ResExtractor\common\huffman.h" />
+    <ClInclude Include="..\ResExtractor\common\iff_container.h" />
+    <ClInclude Include="..\ResExtractor\common\keyboard.h" />
+    <ClInclude Include="..\ResExtractor\common\language.h" />
+    <ClInclude Include="..\ResExtractor\common\list.h" />
+    <ClInclude Include="..\ResExtractor\common\list_intern.h" />
+    <ClInclude Include="..\ResExtractor\common\localization.h" />
+    <ClInclude Include="..\ResExtractor\common\macresman.h" />
+    <ClInclude Include="..\ResExtractor\common\math.h" />
+    <ClInclude Include="..\ResExtractor\common\md5.h" />
+    <ClInclude Include="..\ResExtractor\common\memory.h" />
+    <ClInclude Include="..\ResExtractor\common\memorypool.h" />
+    <ClInclude Include="..\ResExtractor\common\memstream.h" />
+    <ClInclude Include="..\ResExtractor\common\mutex.h" />
+    <ClInclude Include="..\ResExtractor\common\noncopyable.h" />
+    <ClInclude Include="..\ResExtractor\common\pack-end.h" />
+    <ClInclude Include="..\ResExtractor\common\pack-start.h" />
+    <ClInclude Include="..\ResExtractor\common\platform.h" />
+    <ClInclude Include="..\ResExtractor\common\ptr.h" />
+    <ClInclude Include="..\ResExtractor\common\queue.h" />
+    <ClInclude Include="..\ResExtractor\common\quicktime.h" />
+    <ClInclude Include="..\ResExtractor\common\random.h" />
+    <ClInclude Include="..\ResExtractor\common\rational.h" />
+    <ClInclude Include="..\ResExtractor\common\rdft.h" />
+    <ClInclude Include="..\ResExtractor\common\rect.h" />
+    <ClInclude Include="..\ResExtractor\common\rendermode.h" />
+    <ClInclude Include="..\ResExtractor\common\savefile.h" />
+    <ClInclude Include="..\ResExtractor\common\scummsys.h" />
+    <ClInclude Include="..\ResExtractor\common\serializer.h" />
+    <ClInclude Include="..\ResExtractor\common\sinetables.h" />
+    <ClInclude Include="..\ResExtractor\common\singleton.h" />
+    <ClInclude Include="..\ResExtractor\common\stack.h" />
+    <ClInclude Include="..\ResExtractor\common\stdiostream.h" />
+    <ClInclude Include="..\ResExtractor\common\str-array.h" />
+    <ClInclude Include="..\ResExtractor\common\str.h" />
+    <ClInclude Include="..\ResExtractor\common\stream.h" />
+    <ClInclude Include="..\ResExtractor\common\substream.h" />
+    <ClInclude Include="..\ResExtractor\common\system.h" />
+    <ClInclude Include="..\ResExtractor\common\taskbar.h" />
+    <ClInclude Include="..\ResExtractor\common\textconsole.h" />
+    <ClInclude Include="..\ResExtractor\common\timer.h" />
+    <ClInclude Include="..\ResExtractor\common\tokenizer.h" />
+    <ClInclude Include="..\ResExtractor\common\translation.h" />
+    <ClInclude Include="..\ResExtractor\common\types.h" />
+    <ClInclude Include="..\ResExtractor\common\unarj.h" />
+    <ClInclude Include="..\ResExtractor\common\unzip.h" />
+    <ClInclude Include="..\ResExtractor\common\updates.h" />
+    <ClInclude Include="..\ResExtractor\common\util.h" />
+    <ClInclude Include="..\ResExtractor\common\windows-fs-factory.h" />
+    <ClInclude Include="..\ResExtractor\common\windows-fs.h" />
+    <ClInclude Include="..\ResExtractor\common\winexe.h" />
+    <ClInclude Include="..\ResExtractor\common\winexe_ne.h" />
+    <ClInclude Include="..\ResExtractor\common\winexe_pe.h" />
+    <ClInclude Include="..\ResExtractor\common\xmlparser.h" />
+    <ClInclude Include="..\ResExtractor\common\zlib.h" />
+    <ClInclude Include="dgdsconstant.h" />
+    <ClInclude Include="dgds\compression.h" />
+    <ClInclude Include="dgds\game.h" />
+    <ClInclude Include="dgds\resourcemanager.h" />
+    <ClInclude Include="dgds\resources\animation.h" />
+    <ClInclude Include="dgds\resources\bmp.h" />
+    <ClInclude Include="dgds\resources\resource.h" />
+    <ClInclude Include="dgds\resources\soundresource.h" />
+    <ClInclude Include="dgds\resources\taggedresource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ResExtractor\common\abstract-fs.cpp" />
+    <ClCompile Include="..\ResExtractor\common\archive.cpp" />
+    <ClCompile Include="..\ResExtractor\common\config-file.cpp" />
+    <ClCompile Include="..\ResExtractor\common\config-manager.cpp" />
+    <ClCompile Include="..\ResExtractor\common\coroutines.cpp" />
+    <ClCompile Include="..\ResExtractor\common\cosinetables.cpp" />
+    <ClCompile Include="..\ResExtractor\common\dcl.cpp" />
+    <ClCompile Include="..\ResExtractor\common\dct.cpp" />
+    <ClCompile Include="..\ResExtractor\common\debug.cpp" />
+    <ClCompile Include="..\ResExtractor\common\error.cpp" />
+    <ClCompile Include="..\ResExtractor\common\EventDispatcher.cpp" />
+    <ClCompile Include="..\ResExtractor\common\EventMapper.cpp" />
+    <ClCompile Include="..\ResExtractor\common\EventRecorder.cpp" />
+    <ClCompile Include="..\ResExtractor\common\fft.cpp" />
+    <ClCompile Include="..\ResExtractor\common\file.cpp" />
+    <ClCompile Include="..\ResExtractor\common\fs.cpp" />
+    <ClCompile Include="..\ResExtractor\common\gui_options.cpp" />
+    <ClCompile Include="..\ResExtractor\common\hashmap.cpp" />
+    <ClCompile Include="..\ResExtractor\common\huffman.cpp" />
+    <ClCompile Include="..\ResExtractor\common\iff_container.cpp" />
+    <ClCompile Include="..\ResExtractor\common\language.cpp" />
+    <ClCompile Include="..\ResExtractor\common\localization.cpp" />
+    <ClCompile Include="..\ResExtractor\common\macresman.cpp" />
+    <ClCompile Include="..\ResExtractor\common\md5.cpp" />
+    <ClCompile Include="..\ResExtractor\common\memorypool.cpp" />
+    <ClCompile Include="..\ResExtractor\common\mutex.cpp" />
+    <ClCompile Include="..\ResExtractor\common\platform.cpp" />
+    <ClCompile Include="..\ResExtractor\common\quicktime.cpp" />
+    <ClCompile Include="..\ResExtractor\common\random.cpp" />
+    <ClCompile Include="..\ResExtractor\common\rational.cpp" />
+    <ClCompile Include="..\ResExtractor\common\rdft.cpp" />
+    <ClCompile Include="..\ResExtractor\common\rendermode.cpp" />
+    <ClCompile Include="..\ResExtractor\common\sinetables.cpp" />
+    <ClCompile Include="..\ResExtractor\common\stdiostream.cpp" />
+    <ClCompile Include="..\ResExtractor\common\str.cpp" />
+    <ClCompile Include="..\ResExtractor\common\stream.cpp" />
+    <ClCompile Include="..\ResExtractor\common\system.cpp" />
+    <ClCompile Include="..\ResExtractor\common\textconsole.cpp" />
+    <ClCompile Include="..\ResExtractor\common\tokenizer.cpp" />
+    <ClCompile Include="..\ResExtractor\common\translation.cpp" />
+    <ClCompile Include="..\ResExtractor\common\unarj.cpp" />
+    <ClCompile Include="..\ResExtractor\common\unzip.cpp" />
+    <ClCompile Include="..\ResExtractor\common\util.cpp" />
+    <ClCompile Include="..\ResExtractor\common\windows-fs-factory.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\ResExtractor\common\windows-fs.cpp" />
+    <ClCompile Include="..\ResExtractor\common\winexe.cpp" />
+    <ClCompile Include="..\ResExtractor\common\winexe_ne.cpp" />
+    <ClCompile Include="..\ResExtractor\common\winexe_pe.cpp" />
+    <ClCompile Include="..\ResExtractor\common\xmlparser.cpp" />
+    <ClCompile Include="..\ResExtractor\common\zlib.cpp" />
+    <ClCompile Include="dgds\compression.cpp" />
+    <ClCompile Include="dgds\game.cpp" />
+    <ClCompile Include="dgds\resourcemanager.cpp" />
+    <ClCompile Include="dgds\resources\animation.cpp" />
+    <ClCompile Include="dgds\resources\bmp.cpp" />
+    <ClCompile Include="dgds\resources\resource.cpp" />
+    <ClCompile Include="dgds\resources\soundresource.cpp" />
+    <ClCompile Include="dgds\resources\taggedresource.cpp" />
+    <ClCompile Include="DynamicsGameExtractor.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ResExtractor\common\module.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
