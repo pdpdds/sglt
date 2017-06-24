@@ -33,6 +33,7 @@ namespace Dgds {
 
 ResourceManager::ResourceManager(Common::String indexFilename) {
 	Common::File indexFile;
+	int totalFileCount = 0;
 
 	if (!Common::File::exists(indexFilename))
 		return;
@@ -60,7 +61,9 @@ ResourceManager::ResourceManager(Common::String indexFilename) {
 
 		// Open the volume file
 		Common::File volumeFile;
-		volumeFile.open(volumeFilename);
+		volumeFile.open(volumeFilename);		
+
+		totalFileCount += nFiles;
 
 		for (int i = 1; i <= nFiles; i++) {
 			ResourceFileInfo resourceFileInfo;
@@ -92,11 +95,11 @@ ResourceManager::ResourceManager(Common::String indexFilename) {
 			// Adjust the beginning of the contents to skip the previous read information
 			resourceFileInfo.offset += FILENAME_LEN + 4;
 
-			/*
+			
 			printf("%s/%s: hash(%x) offset(%x) size(%x)\n",
 				resourceFileInfo.fileName.c_str(), filename.c_str(),
 				resourceFileInfo.hash, resourceFileInfo.offset, resourceFileInfo.size);
-			*/
+		
 
 			// See if there's a tag
 			volumeFile.read(tmp, 4);

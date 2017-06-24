@@ -62,7 +62,7 @@ bool SoundResource::init(Resource *res) {
 		Common::String tagval = tag->to_s(false);
 
 		Resource *entryData = 0;
-		for (int32 j = 0; j < dat.size(); j++) {
+		for (int32 j = 0; j < (int32)dat.size(); j++) {
 			uint16 entryId = dat[j]->readUint16LE();
 			if (entryId == tagid) {
 				entryData = dat.remove_at(j);

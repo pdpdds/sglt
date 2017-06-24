@@ -308,7 +308,7 @@ void EventRecorder::registerRandomSource(RandomSource &rnd, const String &name) 
 }
 
 void EventRecorder::processMillis(uint32 &millis) {
-	uint32 d;
+
 	if (_recordMode == kPassthrough) {
 		return;
 	}

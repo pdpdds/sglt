@@ -65,6 +65,7 @@ bool Bmp::init(Resource *res) {
 		warning("The resource doesn't contain a bitmap");
 	}
 	delete res;
+	res = nullptr;
 
 	return ret;
 }

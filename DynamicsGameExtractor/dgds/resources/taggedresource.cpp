@@ -47,6 +47,7 @@ bool TaggedResource::load(ResourceManager *resman, Common::String name) {
 	if (res) {
 		debugC(kDebugResources, "Loading [%s]", name.c_str());
 		ret = init(res);
+
 		delete res;
 	} else
 		warning ("Couldn't find [%s]", name.c_str());
