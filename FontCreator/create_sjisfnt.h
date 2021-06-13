@@ -75,7 +75,7 @@ public:
 	~TrueTypeFont();
 
 	bool load(const char *filename);
-	bool setSize(int height);
+	bool setSize(int width, int height);
 
 	void renderASCIIGlyphs(GlyphList &glyphs, int &count);
 	void renderKANJIGlyphs(GlyphList &glyphs, int &count);

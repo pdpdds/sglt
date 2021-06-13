@@ -429,7 +429,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			mapTextResPair::iterator iter = m_mapTextResPair.find(MessageIndex);
 
 
-			if (i == 70)
+			if (i == 103)
 			{
 				int  A = 1;
 			}
@@ -445,7 +445,12 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			SCITextResource* pTranslateResource = iter->second.pTranslatedTextRes;
 
 			CString str;
-			str.Format("G%d", pResource->GetMessageCnt());			
+			int msgCount = pResource->GetMessageCnt();
+
+			if (msgCount == 0)
+				continue;
+
+			str.Format("G%d", msgCount);
 
 			lpDisp = sheet.get_Range(COleVariant("A1"), COleVariant(str));
 			ASSERT(lpDisp);
@@ -458,8 +463,8 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			saRet.GetUBound(1, &iRows);
 			saRet.GetUBound(2, &iCols);
 
-
-			for (int j = 0; j < pResource->GetMessageCnt(); j++)
+			int count = pResource->GetMessageCnt();
+			for (int j = 0; j < count; j++)
 			{
 				CString szText;
 				if (FALSE == pResource->ReadText(j, szText))
@@ -492,7 +497,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 //King's Quest 5 PC98, Castle of Dr, Brain = 2
 //Else 3
 				index[0] = j + 1;
-				index[1] = 2;
+				index[1] = 3;
 				saRet.GetElement(index, vData);
 				CString szTranslatedText(vData);
 

@@ -31,9 +31,6 @@
 #include <assert.h>
 #include <errno.h>
 
-#define  ASCII_SIZE 16
-#define  UNICODE_SIZE 32
-
 int main(int argc, char *argv[]) {
 	if (argc < 2 || argc > 3) {
 		printf("Usage:\n\t%s <input ttf font> [outfile]\n", argv[0]);
@@ -61,58 +58,30 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 
-	if (!ttf->setSize(ASCII_SIZE )) {
+	if (!ttf->setSize(8, 12)) {
 		delete ttf;
 		error("Could not setup font '%s' to size 16", font);
 		return -1;
 	}
 
 	GlyphList glyphs;
-	int chars8x16 = 0;
+	int chars8x8 = 0;
 	int chars16x16 = 0;
 
-	ttf->renderASCIIGlyphs(glyphs, chars8x16);
+	ttf->renderASCIIGlyphs(glyphs, chars8x8);
 	
-	if (!ttf->setSize(UNICODE_SIZE / 2)) {
+	if (!ttf->setSize(16, 16)) {
 		delete ttf;
 		error("Could not setup font '%s' to size 12", font);
 		return -1;
 	}
 
-	//ttf->renderKANJIGlyphs(glyphs, chars16x16);
 	ttf->renderHangulGlyphs(glyphs, chars16x16);
-
-	GlyphList glyphs2;
-	int chars8x8_uni = 0;
-	ttf->renderHangulGlyphs(glyphs2, chars8x8_uni);
 
 	delete ttf;
 	ttf = 0;
 
 	fixYOffset(glyphs);
-	fixYOffset(glyphs2);
-
-	int deletedcount = 0;
-
-	// Check whether we have a character which does not fit within the boundaries
-	/*for (GlyphList::const_iterator i = glyphs.begin(); i != glyphs.end();) {
-		if (i->pitch == 0)
-		{
-			i++;
-			continue;
-		}
-		if ((isASCII(i->fB) && !i->checkSize(8, 16)) ||
-			(!isASCII(i->fB) && !i->checkSize(16, 16))) {
-				
-				deletedcount++;
-				i = glyphs.erase(i);
-				continue;
-			error("Could not fit glyph for %.2X %.2X top: %d bottom: %d, left: %d right: %d, xOffset: %d, yOffset: %d, width: %d, height: %d",
-				   i->fB, i->sB, i->yOffset, i->yOffset + i->height, i->xOffset, i->xOffset + i->width,
-				   i->xOffset, i->yOffset, i->width, i->height);
-		}
-		i++;
-	}*/
 
 	for (GlyphList::const_iterator i = glyphs.begin(); i != glyphs.end();i++) {
 		if (i->pitch == 0)
@@ -120,9 +89,8 @@ int main(int argc, char *argv[]) {
 			
 			continue;
 		}
-		if ((isASCII(i->fB) && !i->checkSize(8, 16)) ||
+		if ((isASCII(i->fB) && !i->checkSize(8, 8)) ||
 			(!isASCII(i->fB) && !i->checkSize(16, 16))) {
-				
 				continue;
 			error("Could not fit glyph for %.2X %.2X top: %d bottom: %d, left: %d right: %d, xOffset: %d, yOffset: %d, width: %d, height: %d",
 				   i->fB, i->sB, i->yOffset, i->yOffset + i->height, i->xOffset, i->xOffset + i->width,
@@ -130,45 +98,22 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	for (GlyphList::const_iterator i = glyphs2.begin(); i != glyphs2.end();i++) {
-		if (i->pitch == 0)
-		{
-
-			continue;
-		}
-		if (!isASCII(i->fB) && !i->checkSize(16, 16)) {
-
-				continue;
-				error("Could not fit glyph for %.2X %.2X top: %d bottom: %d, left: %d right: %d, xOffset: %d, yOffset: %d, width: %d, height: %d",
-					i->fB, i->sB, i->yOffset, i->yOffset + i->height, i->xOffset, i->xOffset + i->width,
-					i->xOffset, i->yOffset, i->width, i->height);
-		}
-	}
-
-	const int sjis8x16DataSize = chars8x16 * UNICODE_SIZE;
-	uint8 *sjis8x16FontData = new uint8[sjis8x16DataSize];
-
-	if (!sjis8x16FontData)
-		error("Out of memory");
-
-	const int sjis16x16DataSize = chars16x16 * UNICODE_SIZE;
+	const int sjis16x16DataSize = chars16x16 * 32;
 	uint8 *sjis16x16FontData = new uint8[sjis16x16DataSize];
 
 	if (!sjis16x16FontData) {
-		delete[] sjis8x16FontData;
+		delete[] sjis16x16FontData;
 		error("Out of memory");
 	}
 
-	const int sjis8x8DataSize = chars8x8_uni * 8;
+	const int sjis8x8DataSize = chars8x8 * 32;
 	uint8 *sjis8x8FontData = new uint8[sjis8x8DataSize];
 
 	if (!sjis8x8FontData) {
-		delete[] sjis8x8FontData;
+		//delete[] sjis8x8FontData;
 		error("Out of memory");
 	}
 
-
-	memset(sjis8x16FontData, 0, sjis8x16DataSize);
 	memset(sjis16x16FontData, 0, sjis16x16DataSize);
 	memset(sjis8x8FontData, 0, sjis8x8DataSize);
 
@@ -177,57 +122,51 @@ int main(int argc, char *argv[]) {
 			int chunk = mapASCIItoChunk(i->fB);
 
 			if (chunk != -1)
-				i->convertChar16x16(sjis8x16FontData + chunk * UNICODE_SIZE);
+			{
+				//if(chunk >= 0x40 && chunk <= 0x5A)
+					i->convertChar16x16(sjis8x8FontData + chunk * 32);
+			//	else
+				//	i->convertChar8x16(sjis8x8FontData + chunk * 16);
+			}
+			else
+			{
+
+				int j = 1;
+			}
 		} else {
 			int chunk = mapunicodetoChunk(i->doublebyte);
 
 			if (chunk != -1)
-				i->convertChar16x16(sjis16x16FontData + chunk * UNICODE_SIZE);
+				i->convertChar16x16(sjis16x16FontData + chunk * 32);
 		}
 	}
 
 
-	for (GlyphList::const_iterator i = glyphs2.begin(); i != glyphs2.end(); ++i) {
-		//if (isASCII(i->fB)) {
-		//	int chunk = mapASCIItoChunk(i->fB);
-//
-		//	if (chunk != -1)
-		//		i->convertChar8x16(sjis8x16FontData + chunk * 16);
-		//} else {
-			int chunk = mapunicodetoChunk(i->doublebyte);
-
-			if (chunk != -1)
-				i->convertChar8x8(sjis8x8FontData + chunk * 8);
-		//}
-	}
-
-	Common::File sjisFont(out, "wb");
-	if (sjisFont.isOpen()) {
+	Common::File sKorFont(out, "wb");
+	if (sKorFont.isOpen()) {
 		// Write our magic bytes
-		sjisFont.writeUint32BE(MKID_BE('SCVM'));
-		sjisFont.writeUint32BE(MKID_BE('SJIS'));
+		sKorFont.writeUint32BE(MKID_BE('SCVM'));
+		sKorFont.writeUint32BE(MKID_BE('SKOR'));
 
 		// Write version
-		sjisFont.writeUint32BE(0x00000003);
+		sKorFont.writeUint32BE(20210305);
 
 		// Write character count
-		sjisFont.writeUint16BE(chars16x16);
-		sjisFont.writeUint16BE(chars8x16);
-		sjisFont.writeUint16BE(chars8x8_uni);
+		sKorFont.writeUint16BE(chars16x16);
+		sKorFont.writeUint16BE(chars8x8);
+		sKorFont.writeUint16BE(0);
 
-		sjisFont.write(sjis16x16FontData, sjis16x16DataSize);
-		sjisFont.write(sjis8x16FontData, sjis8x16DataSize);
-		sjisFont.write(sjis8x8FontData, sjis8x8DataSize);
-		//jisFont.write(sjis12x12FontData, sjis12x12DataSize);
+		sKorFont.write(sjis16x16FontData, sjis16x16DataSize);
+		sKorFont.write(sjis8x8FontData, sjis8x8DataSize);
 
-		delete[] sjis8x16FontData;
 		delete[] sjis16x16FontData;
+		delete[] sjis8x8FontData;
 	
-		if (sjisFont.err())
+		if (sKorFont.err())
 			error("Error while writing to font file: '%s'", out);
 	} else {
-		delete[] sjis8x16FontData;
 		delete[] sjis16x16FontData;
+		delete[] sjis8x8FontData;
 		error("Could not open file '%s' for writing", out);
 	}
 
@@ -377,7 +316,7 @@ bool TrueTypeFont::load(const char *font) {
 	return true;
 }
 
-bool TrueTypeFont::setSize(int height) {
+bool TrueTypeFont::setSize(int width, int height) {
 	if (FT_Set_Char_Size(_sjisFont, 0, height * 64, 0, 0)) {
 		warning("Could not initialize font for height %d", height);
 		return false;
@@ -459,8 +398,10 @@ bool TrueTypeFont::renderGlyph(uint8 fB, uint8 sB, Glyph &glyph) {
 		return false;
 	}
 
-	glyph.fB = fB;
-	glyph.sB = sB;
+	
+		glyph.fB = fB;
+		glyph.sB = sB;
+
 	if (!renderGlyph(utf32, glyph)) {
 		warning("Could not render glyph: %.2X %.2X", fB, sB);
 		return false;
@@ -588,7 +529,7 @@ void Glyph::convertChar8x16(uint8 *dst) const {
 			mask >>= 1;
 		}
 
-		*dst++ = line;
+		*dst++ = (line << 1);
 		src += pitch;
 	}
 }

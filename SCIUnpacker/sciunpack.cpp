@@ -32,7 +32,7 @@
 #include <sciresource.h>
 #include <engine.h>
 #include <console.h>
-
+#include <fcntl.h>
 /* #define DRAW_GRAPHICS */
 
 #undef HAVE_OBSTACK_H
@@ -158,7 +158,7 @@ int main(int argc, char** argv) {
 
 		switch (c) {
 		case 256:
-			printf("sciunpack ("PACKAGE") "VERSION"\n");
+			//printf("sciunpack ("PACKAGE") "VERSION"\n");
 			printf("This program is copyright (C) 1999, 2000, 2001 Christoph Reichenbach,\n"
 			       " Lars Skovlund, Magnus Reftel\n"
 			       "It comes WITHOUT WARRANTY of any kind.\n"

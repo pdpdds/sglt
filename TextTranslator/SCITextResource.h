@@ -55,6 +55,7 @@ private:
 	UINT m_Size;
 	CString m_FileName;
 	USHORT m_Num;
+	int m_fileHeader;
 
 	BYTE* m_pData;
 	BOOL m_bChanged;

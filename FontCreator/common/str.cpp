@@ -475,8 +475,6 @@ String String::printf(const char *fmt, ...) {
 }
 
 
-#pragma mark -
-
 bool String::operator ==(const String &x) const {
 	return equals(x);
 }
@@ -511,7 +509,7 @@ bool String::operator >= (const String &x) const {
 	return compareTo(x) >= 0;
 }
 
-#pragma mark -
+
 
 bool operator == (const char* y, const String &x) {
 	return (x == y);
@@ -520,8 +518,6 @@ bool operator == (const char* y, const String &x) {
 bool operator != (const char* y, const String &x) {
 	return x != y;
 }
-
-#pragma mark -
 
 bool String::equals(const String &x) const {
 	return (0 == compareTo(x));
@@ -558,8 +554,6 @@ int String::compareToIgnoreCase(const char *x) const {
 	assert(x != 0);
 	return scumm_stricmp(c_str(), x);
 }
-
-#pragma mark -
 
 String operator +(const String &x, const String &y) {
 	String temp(x);

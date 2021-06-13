@@ -51,34 +51,7 @@
 		#include <stdio.h>
 		#include <stdarg.h>
 
-		// MSVC's vsnprintf is either non-existant (2003) or bugged since it
-		// does not always include a terminating NULL (2005+). To work around
-		// that we fix up the _vsnprintf included. Note that the return value
-		// will still not match C99's specs!
-		inline int vsnprintf_msvc(char *str, size_t size, const char *format, va_list args) {
-			// We do not pass size - 1 here, to ensure we would get the same
-			// return value as when we would use _vsnprintf directly, since
-			// for example Common::String::format relies on this.
-			int retValue = _vsnprintf(str, size, format, args);
-			str[size - 1] = 0;
-			return retValue;
-		}
-
-		#define vsnprintf vsnprintf_msvc
-
-		// Visual Studio does not include snprintf in its standard C library.
-		// Instead it includes a function called _snprintf with somewhat
-		// similar semantics. The minor difference is that the return value in
-		// case the formatted string exceeds the buffer size is different.
-		// A much more dangerous one is that _snprintf does not always include
-		// a terminating null (Whoops!). Instead we map to our fixed vsnprintf.
-		inline int snprintf(char *str, size_t size, const char *format, ...) {
-			va_list args;
-			va_start(args, format);
-			int len = vsnprintf(str, size, format, args);
-			va_end(args);
-			return len;
-		}
+		
 		#endif
 
 		#if !defined(_WIN32_WCE)

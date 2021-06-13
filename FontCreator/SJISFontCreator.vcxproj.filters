@@ -24,9 +24,6 @@
     <ClCompile Include="win_iconv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="create_sjisfnt.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="common\hashmap.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
@@ -41,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="common\util.cpp">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="create_sjisfnt.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

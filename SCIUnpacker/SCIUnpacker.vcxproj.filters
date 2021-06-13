@@ -15,20 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sciunpack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sci\decompressor.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sci\resource.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="sciunpack.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sci\sci.cpp">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sci\resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sci\decompressor.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

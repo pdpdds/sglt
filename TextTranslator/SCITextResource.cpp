@@ -25,6 +25,8 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	
 	m_mapBlankList.clear();
 
+	char buffer[256];
+	GetCurrentDirectory(256, buffer);
 	if(!File.Open(szFileName, CFile::modeRead))
 	{
 		return FALSE;
@@ -43,17 +45,24 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	USHORT szUnpacked;
 	USHORT wCompression;
 
+//Space Quest 1 VGA
+#if 1
+	m_fileHeader = 9;
 	ar >> Type;
 	ar >> m_Num;
 	ar >> szPacked;
 	ar >> szUnpacked;
 	ar >> wCompression;
+#else //Laura Bow 1
+	m_fileHeader = 2;
+	ar >> wCompression;
+#endif
 
-	ar.Read(m_pStart, m_Size - 9);
+	ar.Read(m_pStart, m_Size - m_fileHeader);
 
 	File.Close();
 
-	int TextLen = m_Size - 9;
+	int TextLen = m_Size - m_fileHeader;
 	char* seeker = (char *) m_pStart;
 
 	int Count = 0;
@@ -63,7 +72,7 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	
 		int BlankCount = 0;
 
-		while((TextLen) && (*seeker) == 0)
+		while((TextLen > 0) && (*seeker) == 0)
 		{
 			BlankCount++;
 			TextLen--;
@@ -71,7 +80,7 @@ BOOL SCITextResource::Load( const CString& szFileName )
 		}
 
 //20130125 뒤죽박죽 요정 이야기 10바이트 파일 처리...
-		if(TextLen == 0)
+		if(TextLen <= 0)
 			break;//원래는 FALSE로 되어 있었다.. 안되면 수정 요망
 
 		if(BlankCount > 0)
@@ -219,7 +228,7 @@ void SCITextResource::SetText( int TextNum, CString& szStr )
 
 BOOL SCITextResource::ReadOriginalText(int MessageIndex, CString& szText )
 {
-	int textlen = m_Size - 9;
+	int textlen = m_Size - m_fileHeader;
 	char* seeker = (char *) m_pData;
 
 
