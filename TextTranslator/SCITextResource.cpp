@@ -123,7 +123,7 @@ BOOL SCITextResource::Save()
 		return FALSE;
 	}
 
-	if (m_FileName.Compare("./Translated/text.057") == 0)
+	if (m_FileName.Compare("./Translated/text.213") == 0)
 	{
 		int i = 1;
 	}

@@ -1,0 +1,555 @@
+The elevator provides access to the other floors of the police station.
+You may skip this sequence if you have already seen it.
+
+The Officer Morales' black eyes challenge you. She impresses you as being both arrogant and stubborn.
+That must be Officer Morales' patrol car.
+The woman looks furious and on the verge of tears. She's VERY pregnant.
+There's one woman in the car. She looks upset but not dangerous.
+The plate reads - 83756
+
+The convertible has only one occupant. There's nothing unusual looking about him.
+
+A mean looking dude ain't he.
+It's a lowered 58 Ford Fairlane. Nice flame job!
+The plate reads - 22776
+
+The suspect's car.
+The plate reads - 01923
+He looks to be having a little trouble walking.
+
+The trunk contains items you may need in the field.
+The briefcase contains tools and supplies for evidence collection.
+The toothpicks are useful for removing evidence from small places.
+The envelopes are used for protecting and storing collected evidence.
+The camera is used to visually record a crime scene or a piece of evidence.
+The scraping tool is used to scrape dried evidence such as blood or paint off of other surfaces.
+There's a metal briefcase in the trunk.
+
+. The keys are still in the ignition.
+It's the punk who tried to blow you away at the Nugget. He fits the bag lady's description to a tee. You regret that you didn't get your hands on him before he died.
+The cocaine is packaged in five heavy-duty plastic bags. Apparently, murder wasn't this guy's only pastime.
+The passenger car door.
+Your partner, Pat Morales.
+The ambulance will remove any injured accident victims.
+The ambulance attendant is used to this kind of scene.
+That's Leon, the county coroner. You see him all too frequently at accident scenes.
+It's a patrolman.
+The traffic on this road has been rerouted until the accident can be cleaned up.
+The guardrail was smashed when the vehicle collided with it.
+The car is overturned, smashed up, and generally mutilated. A body slumps from the driver's side. So much for questioning the suspect.
+
+It's Carla Reed.
+There's a brown bag sitting on the desk. It's probably someone's lunch.
+
+This chair is for the prosecution.
+That chair for the prosecution.
+The judge's bench holds the place of honor in the courtroom.
+The witness box is located next to the judge's bench.
+The U.S. flag serves to remind everyone that the courts are a branch of the local, state, and U.S. governments.
+This is the spectator area. It is usually open for the public to observe the court's proceedings.
+The three foot wall divides the council from the spectator area of the courtroom.
+That table is for the prosecuting attorney and the complaintent or prosecution witness.
+Theater chairs line the spectator area.
+An aisle runs down the middle of the spectator area to the council area.
+That door must lead to the judge's chambers.
+
+There's a good article in here about the newspaper helping another department find a witness to a shooting.
+Officer Hanks is soft-featured but hardly soft-spoken.
+
+"LPD recently received this top-secret list of the names and occupations of the members of an alleged electronic terrorist group. The gang leader, one Jim "Pretty Boy" Walls, has been known to threaten to "shape Lytton's future like so much silly putty". It is not known at this time if the gang's intentions are for good or evil - or if they should even be taken seriously. Nevertheless, be on the lookout for the following gang members.
+They're wanted for questioning."
+
+
+
+"A representative of the SPCA was present at all times during the coding of the animal sequences. No animals were in any actual danger."
+"Thank you for playing Police Quest III. We hope it's been as entertaining as you have."
+
+The judge's bench holds the place of honor in the courtroom.
+The U.S. flag serves to remind everyone that the courts are a branch of the local, state, and U.S. governments.
+This is the spectator area. It's usually open for the public to observe the court's proceedings.
+The three foot wall divides the council area from the spectator area of the courtroom.
+That table is for the prosecuting attorney and the complaintent or prosecution witness.
+Theater chairs line the spectator area.
+An aisle runs down the middle of the spectator area to the council area.
+
+Wow!  A glove box.  How unusual.
+It's a speedometer calibration chart - a service record for this car's speedometer.  Departmental policy requires that all speedometers be calibrated every 90 days.
+It's a traffic citation.
+ It's a traffic citation.
+This button activates the tracker.
+The small light indicates that the tracker is activated.
+This button controls the emergency lights and siren.
+It's a computer.  Lytton sure is going high-tech.
+Pat's purse rests between the seats.
+It's a tracking screen.  This device allows you to track a person, vehicle, or any other moving object that a tracking device has been attached to.
+It's a police radio.
+
+Would you like to skip the introduction or watch the whole thing?
+Skip it
+Watch it
+Restore a Game
+intro
+
+What day Bub?
+YES
+NO
+
+The stairs lead back up to the living room
+The shelves have various supplies.
+The table is covered with varies tools to make drugs.
+The barrels contain chemicals to make drugs.
+The basement is a seedy looking place, with all the aroma of a drug lab.
+
+A large fireplace dominates the room.
+You don't have time for that now!
+A second suspect is surrendering. It takes you a moment to realize it's... it's Michael Bains!
+Spike looks agitated. He seems to have found something.
+A scuffed up cushion sits on the couch.
+Part of the fireplace has moved away to reveal a hidden staircase.
+The ruined steel door lies useless on the floor.
+Newspapers are scattered around the floor.
+She's from December, if you remember correctly.
+The walls are cracked and peeling.
+here are bars on the windows.
+The old couch has a few cushions on it.
+You're in the alleged crack house.
+
+Your back-up's patrol car is parked next to yours in the yard.
+Your back-up officer is in position.
+Officer Parks is with the K9 unit.
+The ram is a fortified military vehicle that's been converted for police work and fitted with a steel hydraulic boom. It can get through just about anything.
+Looks like a happy little mutt.
+The windows have been partially boarded over. Underneath the boards you can see thick metal bars.
+Your partner, Pat Morales.
+That's the passenger car door.
+You look fondly at your car.
+A rickety flight of stairs lead to the second floor.
+The front lawn is unkempt and neglected. Obviously, the people that live here aren't gardeners.
+The house looks like a shack but, judging by the barred windows and heavy front door, it's well fortified.
+The old car reminds you of the car you had while you were in college - except this one is in better condition.
+A rickety flight of stairs leads to the second floor.
+Discarded junk in the yard adds to the house's air of neglect.
+The porch looks like it's about ready to collapse.
+There's an electric meter on the side of the house.
+
+It's a computer printer.
+This looks like the kind of man you want to take seriously.
+The desk has a military neatness.
+Just looking at all those posters makes you feel patriotic.
+Those computers are everywhere, aren't they?
+The filing cabinets probably hold countless forms in triplicate.
+The counters are polished and bare.
+
+This back room looks to have been used as a gathering place for some kind of ritual. The large red pentagram looks all to familiar.
+The room's wooden floor seems to have escaped the fire.
+Large white candles mark the points of a large pentagram painted on the floor.
+
+PHEEW! It's still a little on the toasty side in here. The stench of burnt carpet and upholstry coils the hairs in your nose.
+A sofa cushion is on the floor.
+Just something else that was melted by the intense heat of the fire.
+A hallway leads off from what's left of the living room.
+
+The fire engine's lights are on.
+The hose is squirting water.
+The lawn is green and closely clipped.
+The sidewalk is wet with water from the firemen's hoses.
+The windows have been blown to pieces by the heat of the fire.
+You see a fire hydrant.
+It's The trunk of your car.
+
+This place always gives you the creeps. Just the thought of all those dead bodies. Leon keeps it so damn cold in here.
+The tiled floor is freshly cleaned and waxed.
+The office lamps give off bright, clinical-looking light."
+The air vent circulates the air in the office. Nevertheless, it always smells like formaldehyde in here.
+
+the Coroner's office is conveniently located just down the street from the courthouse.
+There's a fire hydrant on the sidewalk.
+The tree looks lonely amid all that brick and concrete.
+This building houses the County Coroner's office.
+Like all county buildings,The sidewalks are kept clean and tidy.
+The asphalt looks hot and dry.
+
+The place has a lot of atmosphere... "cough, cough."
+The bartender is a tough-looking woman. She's sporting a " Peterbilt" T-shirt and a "don't mess with me" grimace. She looks as though she's perfectly capable of keeping her customers in line.
+Just a skinny lil' guy minding his own business.
+This guy looks like he sprouted out of that bar stool. Must be a regular here.
+Hmm... sure matches the description.
+Hmm.. might be an interesting program if it would stop flipping like that.
+"Whoa! Nice set of balls!"
+There's a pool table at one end of the bar room - a staple of American neighborhood juice joints.
+The lamp over the pool table gives off a sickly glare.
+The bartender's arsenal of poisons is neatly arranged behind her.
+The bar's worn and waxed wooden surface has obviously seen a lot of action.
+Empty tables and chairs sit silently about, waiting for a crowd to arrive.
+You see various scores of past games.
+Those cues look pretty beat up, probably get a sliver from it.
+Looks like someone used the screen for a spitting contest target.
+The barstool's leather tops have been worn smooth by countless rear ends.
+Seventies-style glass candle-holders attempt to soften the atmosphere.
+As in most bars, ashtrays are everywhere. You try to ignore their contents.
+
+You're standing outside the infamous Nugget saloon.
+The light attracts the bugs.
+This place looks pretty rugged.  Better be on your toes.
+You look fondly at your car.
+You can still smell the rubber left in those tire marks.
+This part of town has numerous parking garages and small lots.
+The windows are tinted.  You can't see inside from here.
+An alley runs alongside the Old Nugget.
+Billboards are not uncommon in this part of town.  They make streets even uglier than they already are.
+This is the infamous Old Nugget saloon.
+Based on Paul Bunyan's mug there, I'd say it's a safe bet that they serve beer here.
+The sign says 'Old Nugget'. It's neon glow attracts insects (including those of the human variety).
+
+You examine the body. By its skin color and state of rigor mortis, you'd guess that the victim's been dead for at least a few hours.
+His face looks anything but peaceful.
+What an awful smelly place to die.
+
+Your normal, everyday scum-filled alley.
+The rusty dumpster contains the corpse of a murdered man. You pray to God that when YOUR time comes you end up someplace more dignified than the trash.
+The windshield is marked with the Vehicle Identification Number. It's 127633
+It's the abandoned white car. The dent contains gold paint.
+The alley is a dead end - appropriate in this case.
+The back alley asphalt is cracked and filthy. Weeds have struggled through in several places.
+This part of town is full of typical American brick tenements.
+An alley is a lousy place to die.
+It's a street lamp.
+The garage door is closed and locked.
+The yellow tape marks off the crime scene and prevents curiosity-seekers from getting too close.
+You look fondly at your car.
+It's the trunk of your car.
+
+Judge Simpson looks like a woman who likes to get right down to business.
+The bookcase is filled with legal tomes.
+The judge's desk is neat and orderly.
+The small table holds a lamp and nothing else of interest.
+A lamp is of no interest.
+The window looks over the park next door.
+The judge's chambers has nice oak paneling.
+The judge's chambers has nice, thick, blue carpeting.
+
+Ruiz refuses to meet your eyes.
+The judge looks serious and competent.
+The bailiff doesn't look like the sort to tolerate any nonsense in his courtroom.
+The defense attorney is an aggressive lawyer. He would clearly like to make you look bad.
+The Deputy District Attorney looks as though he's seen it all during his career. He doesn't miss a trick.
+The court reporter makes a record of all court proceedings.
+That door must lead to the judge's chambers.
+The judge's court calendar is on her desk.
+Don't even think of messing with the Judge's gavel.
+The witness box is located next to the judge's bench.
+
+You look fondly at your car.
+Lytton city courthouse... You hope Judge Simpson got up on the right side of the bed this morning
+The front entrance to the courthouse.
+This site boasts typical Lytton city landscape.
+A nice, wide sidewalk runs in front of the courthouse.
+The asphalt looks hot and dry.
+
+This is the loading docks of a warehouse.
+There's a company truck parked here.
+There's a large, sturdy water pipe here.
+The loading docks is littered with trash.
+It's a large trash bin for the warehouse.
+There's a lamp on the loading docks, probably to discourage break-ins.
+
+
+It's your bed. It looks empty without Marie.
+You glance at the phone and hope that nobody bothers you at home for once.
+Outside the Lytton suburbs look peaceful.
+Marie used to curl up in that chair for hours. This was her favorite little reading area.
+Marie was so excited about buying this house. She loved decorating this room and hand-picking each accessory.
+The music box plays Marie's favorite song. She liked to listen to it while you were on duty because it reminded her of you.
+
+It's Officer Pat Morales, your partner.
+The florist is a chipper sort, eager to make a sale.
+The receptionist looks friendly enough.
+It looks like an elevator.
+That's the door you came in from.
+You notice a flower shop off the lobby.
+It's a computer.
+It's the front desk.
+The hospital floor is kept spotless.
+The hospital floor is waxed and gleaming.
+The hospital's architecture is stark and modern - a far cry from the dank corridors of the old hospital.
+
+The doctor looks tired but sympathetic.
+The nurse looks competent and sturdy.
+That's where the doctor hangs the patient's chart.
+It's Marie's hospital chart.
+The window overlooks the hospital parking lot.
+The rolling metal stand provides a moving table for the nurses or your wife - if she were conscious to use it.
+The cabinet contains general hospital issue plastics and a few personal items belonging to your wife.
+That chair is provided for the patient's visitors.
+The curtains are there to provide privacy for Marie during examinations and medical procedures.
+The walls in here are depressingly bare.
+The linoleum is shiny and clean.
+The light casts a clinical glare over Marie's face.
+It's a call button.
+The rose is still fresh and beautiful.
+Marie's music box lies next to her on the bed.
+It's Marie's lovely locket.
+
+It's one of the paramedics.
+Marie has no color in her face and is breathing very shallow.
+
+That's the shop of "Zak" the keymaker.
+That's the Army Recruiter's office.
+It's Zak the keymaker.
+It's a public telephone.
+It's a very LARGE streetlamp.
+Marie's car was parked here during her attack.
+The parking lot blacktop.
+Some of the mall's stores are undergoing renovation.
+Sidewalks connect the store fronts.
+You look fondly at your car.
+You spot an object laying on the ground.
+
+Uh-oh. It looks like one of those ambulance-chasing reporters.
+One of the uniformed officers is busy searching the scene of the crime.
+ It's a Lytton P.D. patrol car.
+Some of the mall's stores are undergoing renovation.
+
+The passenger car door.
+Your car is parked where you left it.
+Highway 41 runs all the way through Lytton.
+Guardrails protect out-of-control vehicles from plunging off the road.
+The shoulder of the road is for emergency stops only.
+
+A pile of clothes, probably belonging to the half-naked perpetrator, is sitting by the rocks unattended."
+The man's clearly in a deranged state of mind - though whether because of drug use or some mental instability is unclear.
+The river's considerable undertow churns the waters into a muddy green.
+The graceful willow trees make Aspen Falls the prettiest park for miles around.
+The azure summer sky is accented by wispy clouds.
+The grass stays lush and green on the banks of the river.
+A few large rocks mark a favorite spot for wading.
+
+The woman seems close to hysteria over something.
+You look at your car fondly.
+This guy is definitely unstable.
+Something has disturbed the picnickers.
+The river's considerable undertow churns the waters into a muddy green.
+You've been picnicking at Aspen Falls many times before. One of those tables probably still has your initials on it.
+The graceful willow trees make Aspen Falls the prettiest park for miles around.
+The azure summer sky is accented by wispy clouds.
+The grass stays lush and green on the banks of the river.
+The bare area disrupts the grasses.
+
+Mike Downs is the head technician. He runs the computer facilities.
+Behind their glass wall, dispatch is busy monitoring the police band.
+The dispatch center is equipped with the latest audio, visual equipment.
+Law enforcement has certainly gone high tech hasn't it?
+The size of the department's main computer banks always astounds you.
+The table holds various computer magazines - none of which interest you.
+The glass wall divides dispatch from the computer facilities.
+The elevated floor consists of individual movable tiles. All the computer cables run underneath the tiles.
+That is Mike's In\Out basket.
+The third floor is home to the computer facilities and dispatch.
+
+Dr. Aimes is one of those intellectual types. Not a bad guy, but a little patronizing.
+It's one of those mindless excutive toys.
+It's one of those mindless executive toys.
+Dr. Aimes' chair is made of soft Corinthian leather.
+That's Doctor Aimes' desk. There's a file on the desk.
+It is a personnel file.
+The proverbial 'confessing couch'.
+A window overlooks the parking lot. The blinds are drawn.
+It's a theory receptacle.
+Dr. Aimes provides a chair for those who feel silly lying down.
+The filing cabinets have a lot of dirt on a lot of people.
+Just looking at the titles of Dr. Aimes' books puts you to sleep.
+A bit of green is always nice. This guy probably talks to his plants.
+This is the office of the department's criminal psychologist, Dr. Sidney Aimes.
+
+That's Officer Kevin Miller. He's one of the old-school cops.
+That's Officer Carl Law. Carl's a real cut-up.
+That's Officer Joseph Banks. Young, smart, and takes his job very seriously.
+The clipboard contains the notes for today's briefing.
+The female officer is Pat Morales. You hear she's a tough cookie.
+The chairs are for the officers attending the briefing.
+The door leads back to the hall.
+The chalkboard has nothing important on it at this time.
+The podium is used for giving briefings.
+The message board is where the daily briefing notes are posted after the briefing.
+The tables are for the officers attending the briefing.
+This is the briefing room. The junior officers meet here for news, reminders, and the occasional reprimands.
+
+The door leads back into the hallway.
+Your partner, Pat Morales, is an attractive, but tough-looking woman.
+Captain Tate runs the Homicide division for L.P.D.
+The homicide room.
+A guest chair.
+It's a computer.
+That's the power switch.
+That's the computer monitor.
+That's the computer access card slot.
+Captain Tate's desk is well organized - as usual.
+The window looks out into the hallway.
+The graph on the wall charts homicides for the past three years. Like inflation, the crime-rate rises steadily.
+The bookcase has old paperbacks and phone books in it. Nothing interests you.
+The file cabinet belongs to the captain. He always keeps it locked.
+
+In/Out basket.
+a Computer.
+Your computer occupies the center of your desk. In this business, the computer is an indispensible tool.
+This is the Sergeant's office.
+Your desk is neat and orderly - probably because you don't spend a lot of time here.
+Your phone sits silently on your desk.
+That desk belongs to the Lieutenant.
+That's the Lieutenant's stuff.
+It's a garbage can.
+The bulletin board in here has information so old, there's a missing person bulletin about Jimmy Hoffa.
+Those are file drawers.
+Ah, some of the fine art displayed here at the Lytton County Police Department!
+It's your good ole, well-worn chair.
+That chair's for your visitors.
+That chair belongs to the Lieutenant.
+The bookcase contains law reference materials.
+It's a computer.
+That's the power switch.
+That's the computer monitor.
+That's the computer access card slot.
+
+That's the door to the Briefing Room."
+That's the door to the Criminal Psychologist's office.
+That's the door to Vice.
+The window overlooks scenic downtown Lytton.
+The window is in the Vice Office.
+The window is in the Psychologist's Office. The blinds are shut.
+It's a smoke detector! A small label on the side reads: "For best results, hold directly over flame".
+Hmm, 'policeman blue'.
+You're in the hallway of the second level of the Lytton Police Station. Several office doors line the hallway.
+
+That's the door to the Homicide office.
+The station's public address system.
+The window overlooks scenic downtown Lytton.
+That's Homicide's hall window.
+The bulletin board is where people post articles of interest, personal ads, and chinese restaurant business cards.
+Hmm, 'policeman blue'.
+You're in the hallway of the second level of the Lytton Police Station. Several office doors line the hallway.
+You are standing in the elevator.
+
+That's Pat Morales' locker.
+If you've seen one stall, you've seen them all.
+Unbelievable! It looks like Morales has been stealing packets of cocaine.
+This is the women's locker room. Hence, the lockers.
+The benches provide a place to sit while getting dressed.
+The toilet stalls lend a pleasant ambiance to the locker room.
+
+Just your regular ol' run-of-the-mill john.
+The toilet stalls lend a pleasant ambiance to the locker room.
+You store some of your equipment in this locker.
+This is your PR\24 (nightstick).
+This is your notebook.
+This is your flashlight.
+ Looks as if the janitor is having trouble with your handy work. That should keep him busy for quite a while.
+This is the men's locker room. Hence, the lockers.
+The benches provide a place to sit while you're getting dressed.
+You're standing in the men's locker room.
+
+That's the door to the storage closet.
+The closet is cluttered with boxes.
+There's a box of road flares in the closet.
+There's an open box of batteries in the closet.
+Mr. Stumps, the janitor, is good-natured and hard-working.
+That's Mr. Stumps' janitorial cart.
+It's a fire extinguisher.
+The smoke detectors help protect the building from fire.
+The sign reads 'Men'.
+The sign reads 'Women'.
+That's the entrance to the men's locker room.
+That's the entrance to the women's locker room.
+The window overlooks scenic downtown Lytton.
+The floor's color is policeman blue.
+That's a light switch.
+You're standing in the first floor hallway of the Lytton County Police Department.
+
+Officer Martha Gibbs has been the Evidence Officer for two years.
+That stuff belongs to Officer Gibbs' and is of no concern to you.
+This is Evidence Lockup. Physical evidence is deposited here for analysis and safekeeping.
+This slot is where you put items you wish to check into Evidence.
+
+Behind the protective glass is Officer Smith, the booking officer.
+You idly wonder if this guy will even make it through one night in the jail, or whether they'll ship him right out to the mental institute.
+You'll be glad when this prisoner's through booking and in a cell where he can sleep it off.
+You pass a prisoner's personal items in through the drop drawer.
+That door leads to the transfer holding cell. Once you walk through that door you're officially a prisoner of Lytton county until a judge decides otherwise.
+The "Gas Chromatograph." This machine measures the blood alcohol content of breath samples.
+A counter and storage cabinets line one wall of the booking room.
+The booking room is clean and sparsely furnished.
+A pay phone provides a means for outside calls.
+There's a towel dispenser for cleanups. It's not uncommon for prisoners to leave bodily fluids of one kind or another on the floor.
+
+He has a wild look in his eye.
+He is still wobbling.
+The automatic doors lead to Prisoner Booking and the Jail.
+That door leads to Evidence Lockup and Lab Analysis.
+The lockers are for storing your weapons before entering the jail.
+The sign reads 'Lytton County Police Department'.
+You're in the underground garage at the Lytton County Police Department's new building.
+The marked patrol car is used by uniformed officers on duty.
+The unmarked department car is used by non-uniformed officers on duty.
+Pat Morales, your partner.
+It's the light switch for the garage.
+
+wSelect this Icon to close this window.
+Select this Icon then select an inventory item you'd like a description of.
+Allows you to select an item.
+A Computer ID request form.
+Your Baretta nine millimeter handgun.
+Your handcuffs are made of stainless steel.
+Pat's keys and the duplicate key.
+Rocklin's keys and the duplicate key.
+the duplicate key.
+Rocklin's keys.
+Your regulation flashlight.
+Music box.
+Camera.
+Search warrant.
+judicial order.
+Calibration chart.
+A manila envelope.
+Toilet paper.
+Gun locker key.
+Flashlight batteries.
+Highway flares.
+PR24 night stick.
+A knife.
+It's the complaint form that was filed against Officer Morales.
+Ticket book.
+Computer access card.
+Electronic tracking device.
+A ticket.
+Cult book.
+Michael Bains' military record.
+Murder file.
+Note Book.
+A broken chain.
+Sample envelope with a white paint sample in it.
+Sample envelope with a gold paint sample in it.
+Sample envelope with skin & hair samples in it.
+Sample envelope with blood & hair samples in it.
+Empty sample envelopes.
+On the back of the bronze star is a number:       09987.
+News article about you.  A pentagram has been drawn over your face
+The reporter's business card. His phone number is 555-0707.
+Scraper for evidence gathering.
+Toothpicks for evidence gathering.
+This icon is for walking.
+This icon is for looking.
+This icon is for doing.
+This icon is for talking.
+This icon shows the currently selected inventory item.
+This icon displays the inventory window.
+This icon displays your current score.
+This icon displays the control panel.
+This icon tells you about other icons.
+The graphics detail level.
+Overall sound volume.
+The speed at which Sonny moves.
+Allows you to save your game.
+Allows you to restore a previously saved game.
+Allows you to restart the game.
+Allows you to quit the game.
+Information about the game.
+Returns you to the game.

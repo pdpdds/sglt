@@ -4,6 +4,6 @@
     <LocalDebuggerCommandArguments>
     </LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerWorkingDirectory>$(ProjectDir)../Bin32/sq1vga</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)../Bin32/pq3</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 </Project>
