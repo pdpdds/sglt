@@ -1,4 +1,4 @@
-# Sierra Game Localization Tool
+# Sierra Game Localization Tool(SGLT)
 시에라 게임 번역 툴입니다.
 
 ## 지원 게임 리스트
