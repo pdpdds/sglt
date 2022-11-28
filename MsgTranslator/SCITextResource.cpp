@@ -21,11 +21,6 @@ BOOL SCITextResource::Load( const CString& szFileName )
 {
 	
 	Init();
-	//const UINT _headerSize = 8;
-	//const UINT _recordSize = 10;
-
-	//const UINT _headerSize = 6;
-	//const UINT _recordSize = 4;
 
 	CFile File;
 
@@ -62,16 +57,6 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	m_MessageCnt = *(USHORT*)(m_pStart + _headerSize - 2);
 	m_pData = m_pStart + _headerSize;
 	m_FileName = szFileName;
-
-	if(m_MessageCnt == 0x1d)
-	{
-		int i = 1;
-	}
-
-	if (m_MessageCnt == 2352)
-	{
-		int i = 1;
-	}
 
 	return TRUE;
 }
