@@ -59,8 +59,8 @@ CTranslatorDlg::CTranslatorDlg(CWnd* pParent /*=NULL*/)
 void CTranslatorDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialog::DoDataExchange(pDX);
-	DDX_Text(pDX, IDC_EDIT1, m_OriginalText);
-	DDX_Text(pDX, IDC_EDIT2, m_TranslatedText);
+	DDX_Text(pDX, IDC_ORIGINAL_TEXT, m_OriginalText);
+	DDX_Text(pDX, IDC_TRANSLATED_TEXT, m_TranslatedText);
 }
 
 BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
@@ -72,7 +72,7 @@ BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON5, &CTranslatorDlg::OnBnClickedButton5)
 	ON_BN_CLICKED(IDC_BUTTON2, &CTranslatorDlg::OnBnClickedButton2)
 	ON_BN_CLICKED(IDC_BUTTON6, &CTranslatorDlg::OnBnClickedButton6)
-	ON_EN_CHANGE(IDC_EDIT2, &CTranslatorDlg::OnEnChangeEdit2)
+	ON_EN_CHANGE(IDC_TRANSLATED_TEXT, &CTranslatorDlg::OnEnChangeEdit2)
 	ON_BN_CLICKED(IDC_BUTTON3, &CTranslatorDlg::OnBnClickedButton3)
 	ON_BN_CLICKED(IDC_BUTTON4, &CTranslatorDlg::OnBnClickedButton4)
 	ON_WM_KEYDOWN()
@@ -81,6 +81,7 @@ BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
 	ON_EN_CHANGE(IDC_EDIT3, &CTranslatorDlg::OnEnChangeEdit3)
 	ON_BN_CLICKED(IDC_BUTTON8, &CTranslatorDlg::OnBnClickedSearchText)
 	ON_BN_CLICKED(IDC_BUTTON9, &CTranslatorDlg::OnImport)
+	ON_BN_CLICKED(IDC_SINGLE_TRANSLATE, &CTranslatorDlg::OnClickedSingleTranslate)
 END_MESSAGE_MAP()
 
 // CTranslatorDlg message handlers
@@ -119,8 +120,8 @@ BOOL CTranslatorDlg::OnInitDialog()
 	m_MsgController->Load();
 
 	m_MsgController->GetText(m_OriginalText, m_TranslatedText);
-	GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText); 
-	GetDlgItem(IDC_EDIT2)->SetWindowText(m_TranslatedText); 
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 
 	char buffer[65];
 	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
@@ -191,8 +192,8 @@ void CTranslatorDlg::OnBnClickedButton1()
 	CheckTextChange();
 
 	m_MsgController->GetNextText(m_OriginalText, m_TranslatedText);
-	GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText); 
-	GetDlgItem(IDC_EDIT2)->SetWindowText(m_TranslatedText); 
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 	char buffer[65];
 	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
@@ -208,8 +209,8 @@ void CTranslatorDlg::OnBnClickedButton5()
 	if(FALSE == m_MsgController->GetPrevText(m_OriginalText, m_TranslatedText))
 		return;
 
-	GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText);
-	GetDlgItem(IDC_EDIT2)->SetWindowText(m_TranslatedText); 
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 	char buffer[65];
 	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
@@ -224,8 +225,8 @@ void CTranslatorDlg::OnBnClickedButton2()
 	CheckTextChange();
 
 	m_MsgController->GetNextTextRes(m_OriginalText, m_TranslatedText);
-	GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText); 
-	GetDlgItem(IDC_EDIT2)->SetWindowText(m_TranslatedText); 
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 	char buffer[65];
 	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
@@ -239,8 +240,8 @@ void CTranslatorDlg::OnBnClickedButton6()
 	CheckTextChange();
 
 	m_MsgController->GetPrevTextRes(m_OriginalText, m_TranslatedText);
-	GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText); 
-	GetDlgItem(IDC_EDIT2)->SetWindowText(m_TranslatedText); 
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 	char buffer[65];
 	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
@@ -261,7 +262,7 @@ void CTranslatorDlg::OnEnChangeEdit2()
 	//CString str, TranStr;
 	//m_MsgController->GetText(str, TranStr);
 
-	//GetDlgItemText(IDC_EDIT2, m_TranslatedText);
+	//GetDlgItemText(IDC_TRANSLATED_TEXT, m_TranslatedText);
 }
 
 void CTranslatorDlg::OnBnClickedButton3()
@@ -348,8 +349,8 @@ void CTranslatorDlg::OnBnClickedSearchText()
 	if(m_MsgController->FindText(SearchText))
 	{
 		m_MsgController->GetText(m_OriginalText, m_TranslatedText);
-		GetDlgItem(IDC_EDIT1)->SetWindowText(m_OriginalText); 
-		GetDlgItem(IDC_EDIT2)->SetWindowText(m_TranslatedText); 
+		GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+		GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 		char buffer[65];
 		_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
 		GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
@@ -376,4 +377,105 @@ void CTranslatorDlg::OnImport()
 
 		m_MsgController->ImportExcel(FilePath, FileName);
 	}
+}
+
+#include "ggtrans-api-client.h"
+
+#define ERR_CANTGGTRANSLATE "Cannot translate a cloned sentence. Please translate the original sentence or unclone it first."
+#define ERR_TITLE "Error"  
+#define WARNING_GGTRANSEXISTS "This sentence already has a translation defined, do you want to overwrite it?"
+#define WARN_ATTENTION "Attention!"  
+
+void CTranslatorDlg::SingleTranslate()
+{
+
+	/*long i = msgObj->currentString();
+
+	//check if string is not a clone string...
+	if (msgObj->isClone(i))
+	{
+		//message error
+		AfxMessageBox(ERR_CANTGGTRANSLATE, MB_ICONINFORMATION | MB_OK); //
+
+		return;
+	}*/
+
+	//check if string is not being translated
+	//if (msgObj->getTranslation(i) != 0) 
+	char textdata[10240];
+	HWND hwnd = GetDlgItem(IDC_ORIGINAL_TEXT)->GetSafeHwnd();
+	::GetWindowText(hwnd, textdata, 10240);
+	if (textdata[0] != 0)
+	{
+		//replacement confirmation messagebox
+		int btn = AfxMessageBox(WARNING_GGTRANSEXISTS,
+			MB_APPLMODAL | MB_ICONQUESTION | MB_OKCANCEL);
+		if (btn == IDCANCEL)
+		{
+			return;
+		}
+	}
+
+
+	ggtrans_init_client();
+
+	char* trans_text = ggtrans_translate_multiline_text((char*)textdata, "en", "ko");  //"en", "it");
+
+	int nBufferSize = strlen(trans_text) * 2 + 10;
+	WCHAR* tBuffer = (WCHAR*)malloc(nBufferSize);
+
+
+	MultiByteToWideChar(
+		CP_UTF8,
+		0,
+		trans_text,
+		-1,
+		tBuffer,
+		nBufferSize
+	);
+
+	WideCharToMultiByte(
+		CP_ACP,
+		0,
+		tBuffer,
+		-1,
+		trans_text,
+		strlen(trans_text) + 1,
+		"?UNK?",
+		0
+	);
+
+	free(tBuffer);
+
+
+	//as this is the selected item, let's first update the Edit field
+	//msgObj->setTranslation(i, trans_text);
+
+	HWND translatedEdit = GetDlgItem(IDC_TRANSLATED_TEXT)->GetSafeHwnd();
+	::SetWindowText(translatedEdit, trans_text);
+
+	//now let's replace the list item
+	/*LV_ITEM lvi;
+	lvi.pszText = trans_text;
+	lvi.cchTextMax = 10240;
+	lvi.mask = LVIF_TEXT;
+	lvi.iItem = i;
+	lvi.iSubItem = 7;
+	ListView_SetItem(hwndListV, &lvi);*/
+
+	//msgObj->setTranslation(i, trans_text);
+
+	//datasaved = false;
+	//EnableMenuItem(menu, IDM_FILESAVE, MF_ENABLED);
+
+	free(trans_text);
+
+	ggtrans_cleanup_client();
+
+}
+
+
+void CTranslatorDlg::OnClickedSingleTranslate()
+{
+	SingleTranslate();
 }

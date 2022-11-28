@@ -33,6 +33,9 @@
     <ClCompile Include="TranslatorDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ggtrans-api-client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MsgController.h">
@@ -55,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="TranslatorDlg.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ggtrans-api-client.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

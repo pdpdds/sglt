@@ -37,6 +37,8 @@ public:
 	CString m_OriginalText;
 	CString m_TranslatedText;
 
+	void SingleTranslate();
+
 	afx_msg void OnBnClickedButton1();
 	afx_msg void OnBnClickedButton5();
 	afx_msg void OnBnClickedButton2();
@@ -51,4 +53,5 @@ public:
 	afx_msg void OnEnChangeEdit3();
 	afx_msg void OnBnClickedSearchText();
 	afx_msg void OnImport();
+	afx_msg void OnClickedSingleTranslate();
 };

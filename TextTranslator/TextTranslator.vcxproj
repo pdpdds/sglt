@@ -65,7 +65,7 @@
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <DisableSpecificWarnings>4018</DisableSpecificWarnings>
@@ -112,6 +112,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ggtrans-api-client.cpp" />
     <ClCompile Include="MsgController.cpp" />
     <ClCompile Include="SCITextResource.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -122,6 +123,7 @@
     <ClCompile Include="TranslatorDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ggtrans-api-client.h" />
     <ClInclude Include="MsgController.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SCITextResource.h" />

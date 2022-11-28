@@ -6,4 +6,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)../Bin32/pq2pc98</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
+  <PropertyGroup>
+    <RESOURCE_FILE>Translator.rc</RESOURCE_FILE>
+  </PropertyGroup>
 </Project>
