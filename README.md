@@ -10,5 +10,3 @@
 * 킹스 퀘스트 5 PC98
 * 스페이스 퀘스트 1 VGA
 * 브레인 박사의 성 PC98
-
-Sierra Game Localization Tool
