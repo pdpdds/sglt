@@ -25,7 +25,7 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	
 	m_mapBlankList.clear();
 
-	char buffer[256];
+	TCHAR buffer[256];
 	GetCurrentDirectory(256, buffer);
 	if(!File.Open(szFileName, CFile::modeRead))
 	{
@@ -121,12 +121,7 @@ BOOL SCITextResource::Save()
 	if (!File.Open(m_FileName, CFile::modeCreate | CFile::modeWrite))
 	{
 		return FALSE;
-	}
-
-	if (m_FileName.Compare("./Translated/text.213") == 0)
-	{
-		int i = 1;
-	}
+	}	
 
 	CArchive ar(&File, CArchive::store);
 

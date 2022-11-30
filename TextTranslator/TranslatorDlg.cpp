@@ -86,9 +86,17 @@ END_MESSAGE_MAP()
 
 // CTranslatorDlg message handlers
 
+#include <locale.h>
 BOOL CTranslatorDlg::OnInitDialog()
 {
+	const int iFontSize = 25;
+	const CString sFont = "Meiryo";
+
+	
+
 	CDialog::OnInitDialog();
+
+	
 
 	// Add "About..." menu item to system menu.
 
@@ -115,16 +123,23 @@ BOOL CTranslatorDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// Set big icon
 	SetIcon(m_hIcon, FALSE);		// Set small icon
 
+
 	// TODO: Add extra initialization here
 	m_MsgController = new MsgController(this);
 	m_MsgController->Load();
+
+#if defined(PC98)
+	HFONT hFont = CreateFont(iFontSize, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE, SHIFTJIS_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH, sFont);
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(hFont), TRUE);
+	//GetDlgItem(IDC_TRANSLATED_TEXT)->SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(hFont), TRUE);
+#endif
 
 	m_MsgController->GetText(m_OriginalText, m_TranslatedText);
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 
-	char buffer[65];
-	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
+	TCHAR buffer[65];
+	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
 
 	GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName()); 
@@ -186,12 +201,43 @@ CTranslatorDlg::~CTranslatorDlg()
 {
 	delete m_MsgController;
 }
+/*#include <string>
+using namespace std;
+string sjis2utf8(const string& sjis) {
+	string utf8_string;
+
+	//一旦SJISからutf-16へ変換
+	LPCCH pSJIS = (LPCCH)sjis.c_str();
+	int utf16size = ::MultiByteToWideChar(CP_ACP, MB_ERR_INVALID_CHARS, pSJIS, -1, 0, 0);
+	if (utf16size != 0) {
+		LPWSTR pUTF16 = new WCHAR[utf16size];
+		if (::MultiByteToWideChar(CP_ACP, 0, (LPCCH)pSJIS, -1, pUTF16, utf16size) != 0) {
+			//次にutf-16からutf-8へ変換
+			int utf8size = ::WideCharToMultiByte(CP_UTF8, 0, pUTF16, -1, 0, 0, 0, 0);
+			if (utf8size != 0) {
+				LPTSTR pUTF8 = new TCHAR[utf8size + 16];
+				ZeroMemory(pUTF8, utf8size + 16);
+				if (::WideCharToMultiByte(CP_UTF8, 0, pUTF16, -1, pUTF8, utf8size, 0, 0) != 0) {
+					utf8_string = string(pUTF8);
+				}
+				delete pUTF8;
+			}
+		}
+		delete pUTF16;
+	}
+	return utf8_string;
+}*/
+
 
 void CTranslatorDlg::OnBnClickedButton1()
 {
 	CheckTextChange();
 
 	m_MsgController->GetNextText(m_OriginalText, m_TranslatedText);
+
+	//string str = m_OriginalText;
+	//sjis2utf8(str);
+	//m_OriginalText = str.c_str();
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 	char buffer[65];
@@ -419,7 +465,11 @@ void CTranslatorDlg::SingleTranslate()
 
 	ggtrans_init_client();
 
+//#if defined(PC98)
+	//char* trans_text = ggtrans_translate_multiline_text((char*)textdata, "ja", "en");  //"en", "it");
+//#else
 	char* trans_text = ggtrans_translate_multiline_text((char*)textdata, "en", "ko");  //"en", "it");
+//#endif
 
 	int nBufferSize = strlen(trans_text) * 2 + 10;
 	WCHAR* tBuffer = (WCHAR*)malloc(nBufferSize);
