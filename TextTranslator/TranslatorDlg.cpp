@@ -6,6 +6,12 @@
 #include "Translator.h"
 #include "TranslatorDlg.h"
 #include "MsgController.h"
+#include "ggtrans-api-client.h"
+
+#define ERR_CANTGGTRANSLATE "Cannot translate a cloned sentence. Please translate the original sentence or unclone it first."
+#define ERR_TITLE "Error"  
+#define WARNING_GGTRANSEXISTS "This sentence already has a translation defined, do you want to overwrite it?"
+#define WARN_ATTENTION "Attention!"  
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -425,12 +431,7 @@ void CTranslatorDlg::OnImport()
 	}
 }
 
-#include "ggtrans-api-client.h"
 
-#define ERR_CANTGGTRANSLATE "Cannot translate a cloned sentence. Please translate the original sentence or unclone it first."
-#define ERR_TITLE "Error"  
-#define WARNING_GGTRANSEXISTS "This sentence already has a translation defined, do you want to overwrite it?"
-#define WARN_ATTENTION "Attention!"  
 
 void CTranslatorDlg::SingleTranslate()
 {
