@@ -28,7 +28,7 @@ struct resource_index_t {
 #pragma pack(pop)
 
 //typedef std::list<TextResPair> listTextResPair; 
-typedef std::map<int, int> mapTextResInfo;
+typedef std::map<USHORT, UINT> mapTextResInfo;
 
 typedef std::map<int, TextResPair> mapTextResPair;
 
@@ -74,5 +74,8 @@ private:
 
 	mapTextResPair::iterator m_iter;
 	mapTextResPair m_mapTextResPair;
+
+	BOOL LoadTextMap();
+	BOOL LoadResourceFile();
 	
 };

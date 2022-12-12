@@ -52,49 +52,113 @@ BOOL MsgController::Finally()
 	return TRUE;
 }
 
-BOOL MsgController::Load()
-{
-	int TextResourceCnt = 0;
-	for (int i = 0; i < texFileMax; i++)
+BOOL MsgController::LoadTextMap() {
+
+	CFile File;
+	TCHAR buffer[256];
+	GetCurrentDirectory(256, buffer);
+	if (!File.Open("text.map", CFile::modeRead))
 	{
-		if(i == 900)
-		{
-			int j = 1;
-		}
-
-		char szFileName[50];
-		sprintf(szFileName, "%s.%03d", s_resourceTypeNames[3], i);
-
-		
-		TextResPair sTextResPair;
-		SCITextResource* pOriTextRes = new SCITextResource(i);
-
-		CString szOriginalPath = "./Original/";
-		szOriginalPath += szFileName;
-		if(FALSE == pOriTextRes->Load(szOriginalPath))
-
-		{
-			delete pOriTextRes;
-			continue;
-		}
-
-		SCITextResource* pTranslateTextRes = new SCITextResource(i);
-		CString szTranslatePath = "./Translated/";
-		szTranslatePath += szFileName;
-		if(FALSE == pTranslateTextRes->Load(szTranslatePath))
-			ASSERT(0);
-
-		sTextResPair.pOriginalTextRes = pOriTextRes;
-		sTextResPair.pTranslatedTextRes = pTranslateTextRes;
-
-		//m_mapTextResPair.push_back(sTextResPair);
-		m_mapTextResPair.insert(std::make_pair(i, sTextResPair));
-
-		TextResourceCnt++;
+		return FALSE;
 	}
 
-	m_TextResourceCnt = TextResourceCnt;
+	CArchive ar(&File, CArchive::load);
+	BYTE ResType = 0; //텍스트, 메세지의 구별된다.
+	USHORT element_size = 0;
+	USHORT size = 0;
+
+	ar >> ResType;
+	ar >> element_size;
+	BYTE ResFin = 0;//리소스 엔드 마크
+	ar >> ResFin;
+
+	ar >> size;
+
+	USHORT number = 0;
+	UINT msg_offset = 0;
+	UINT byteRead = 0;
+	UINT textCount = 0;
+	while (1) {
+
+		byteRead = ar.Read(&number, sizeof(USHORT));
+
+		if (byteRead == 0)
+			break;
+
+		byteRead = ar.Read(&msg_offset, sizeof(UINT));
+
+		if (byteRead == 0)
+			break;
+		
+		m_mapTextResInfo.insert(std::make_pair(number, msg_offset));
+
+		textCount++;
+	}
+
+	m_TextResourceCnt = size / element_size;
+
+	ASSERT(m_TextResourceCnt == textCount);
+
+
+	return TRUE;
+}
+
+BOOL MsgController::LoadResourceFile() {
+
+	CFile File;
+	TCHAR buffer[256];
+	GetCurrentDirectory(256, buffer);
+	if (!File.Open("text.res", CFile::modeRead))
+	{
+		return FALSE;
+	}
+
+	mapTextResInfo::iterator iter = m_mapTextResInfo.begin();
+	mapTextResInfo::iterator iter2 = iter;
+	
+	CArchive ar(&File, CArchive::load);
+
+	for (; iter != m_mapTextResInfo.end(); iter++)
+	{
+		TextResPair sTextResPair;
+		SCITextResource* pOriTextRes = new SCITextResource(iter->first);
+		
+		iter2++;
+
+		if (iter2 != m_mapTextResInfo.end())
+		{
+			if (FALSE == pOriTextRes->Load(ar, iter->first, iter2->second - iter->second))
+			{
+				delete pOriTextRes;
+				continue;
+			}
+
+			SCITextResource* pTranslateTextRes = new SCITextResource(iter->first);
+
+			//	if (FALSE == pTranslateTextRes->Load(ar, iter->second))
+				//	ASSERT(0);
+
+			sTextResPair.pOriginalTextRes = pOriTextRes;
+			sTextResPair.pTranslatedTextRes = pTranslateTextRes;
+
+			m_mapTextResPair.insert(std::make_pair(iter->first, sTextResPair));
+		}
+
+		
+
+
+	}
+
 	m_iter = m_mapTextResPair.begin();
+
+	return TRUE;
+}
+
+BOOL MsgController::Load()
+{
+	if (!LoadTextMap() || !LoadResourceFile())
+		return FALSE;
+	
 	return TRUE;
 }
 

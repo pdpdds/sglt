@@ -30,7 +30,7 @@ public:
 	SCITextResource(int Num);
 	virtual ~SCITextResource(void);
 
-	BOOL Load(const CString&  szFileName);
+	BOOL Load(CArchive& ar, USHORT num, UINT size);
 	BOOL Save();
 
 	BOOL ReadText(int MessageIndex, CString& szText );
@@ -57,10 +57,7 @@ private:
 	USHORT m_Num;
 	int m_fileHeader;
 
-	BYTE* m_pData;
 	BOOL m_bChanged;
-	int m_FirstBlankCount;
 
 	mapNewText m_mapNewText;
-	mapBlankList m_mapBlankList;
 };

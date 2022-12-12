@@ -18,26 +18,20 @@ SCITextResource::~SCITextResource(void)
 		delete m_pStart;
 }
 
-BOOL SCITextResource::Load( const CString& szFileName )
+bool isDoubleByte(USHORT chr) {
+	USHORT ch = chr & 0xFF;
+	if ((ch >= 0xA1) && (ch <= 0xFE))
+		return true;
+
+	if (((chr >= 0x81) && (chr <= 0x9F)) || ((chr >= 0xE0) && (chr <= 0xEF)))
+		return true;
+
+	return false;
+}
+
+BOOL SCITextResource::Load(CArchive& ar, USHORT num, UINT size)
 {
-	CFile File;
-	static int aa = 0;
-	
-	m_mapBlankList.clear();
 
-	TCHAR buffer[256];
-	GetCurrentDirectory(256, buffer);
-	if(!File.Open(szFileName, CFile::modeRead))
-	{
-		return FALSE;
-	}
-
-	m_Size = File.GetLength();
-
-	m_pStart = new BYTE[m_Size];
-	memset(m_pStart, 0, sizeof(BYTE) * m_Size);
-
-	CArchive ar(&File, CArchive::load);
 
 	BYTE Type;
 	USHORT Num;
@@ -45,66 +39,55 @@ BOOL SCITextResource::Load( const CString& szFileName )
 	USHORT szUnpacked;
 	USHORT wCompression;
 
-//Space Quest 1 VGA
-#if 1
 	m_fileHeader = 9;
 	ar >> Type;
 	ar >> m_Num;
 	ar >> szPacked;
 	ar >> szUnpacked;
 	ar >> wCompression;
-#else //Laura Bow 1
-	m_fileHeader = 2;
-	ar >> wCompression;
-#endif
 
-	ar.Read(m_pStart, m_Size - m_fileHeader);
-
-	File.Close();
-
-	int TextLen = m_Size - m_fileHeader;
-	char* seeker = (char *) m_pStart;
-
+	m_Size = size - m_fileHeader;
+	
 	int Count = 0;
 
-	while (TextLen != 0)
-	{
-	
-		int BlankCount = 0;
+	if (m_Size != 0) {
 
-		while((TextLen > 0) && (*seeker) == 0)
-		{
-			BlankCount++;
+		m_pStart = new BYTE[m_Size];
+		memset(m_pStart, 0, sizeof(BYTE) * m_Size);
+
+		ar.Read(m_pStart, m_Size);
+
+		int TextLen = m_Size;
+		char* seeker = (char*)m_pStart;
+		USHORT curChar;
+		while (TextLen > 0)
+		{	
+			curChar = (*(const byte*)seeker++);
 			TextLen--;
-			seeker++;
+
+
+			if (isDoubleByte(curChar)) {
+				seeker++;
+				TextLen--;
+			}
+
+			if ((*seeker) == 0) {
+				
+				Count++;
+				TextLen--;
+
+				if(TextLen > 0)
+					seeker++;
+
+			
+			}
 		}
-
-//20130125 뒤죽박죽 요정 이야기 10바이트 파일 처리...
-		if(TextLen <= 0)
-			break;//원래는 FALSE로 되어 있었다.. 안되면 수정 요망
-
-		if(BlankCount > 0)
-		{
-			m_mapBlankList.insert(std::make_pair(Count, BlankCount));
-		}
-
-		while ((TextLen--) && (*seeker++));
-
-		Count++;
 	}
+	
+	
 			
 	m_MessageCnt = Count;
-	aa++;
 
-	if (aa == 140)
-		int j = 1;
-
-	if (m_MessageCnt == 0)
-		int j = 1;
-	
-
-	m_pData = m_pStart;
-	m_FileName = szFileName;
 
 	return TRUE;
 }
@@ -146,7 +129,7 @@ BOOL SCITextResource::Save()
 			ReadOriginalText(i, str);
 		}
 
-		mapBlankList::iterator iter2 = m_mapBlankList.find(i);
+		/*mapBlankList::iterator iter2 = m_mapBlankList.find(i);
 
 		if(iter2 != m_mapBlankList.end())
 		{
@@ -154,7 +137,7 @@ BOOL SCITextResource::Save()
 			{
 				DataChunkPtr = DataChunkPtr + iter2->second;
 			}
-		}
+		}*/
 
 		int t = str.GetLength();
 			
@@ -224,7 +207,7 @@ void SCITextResource::SetText( int TextNum, CString& szStr )
 BOOL SCITextResource::ReadOriginalText(int MessageIndex, CString& szText )
 {
 	int textlen = m_Size - m_fileHeader;
-	char* seeker = (char *) m_pData;
+	char* seeker = (char *)m_pStart;
 
 
 	while((textlen) && (*seeker) == 0)
