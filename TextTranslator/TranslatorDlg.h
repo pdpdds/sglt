@@ -3,6 +3,7 @@
 //
 
 #pragma once
+//#include "GridCtrl.h"
 
 class MsgController;
 
@@ -13,6 +14,8 @@ class CTranslatorDlg : public CDialog
 public:
 	CTranslatorDlg(CWnd* pParent = NULL);	// standard constructor
 	~CTranslatorDlg();
+
+	//void InitGridControl();
 
 // Dialog Data
 	enum { IDD = IDD_TRANSLATOR_DIALOG };
@@ -54,4 +57,14 @@ public:
 	afx_msg void OnBnClickedSearchText();
 	afx_msg void OnImport();
 	afx_msg void OnClickedSingleTranslate();
+	
+
+	CTreeCtrl m_list;
+	int m_selectedRes;
+	//CGridCtrl m_Grid;
+
+
+	afx_msg void OnTvnSelchangedTree2(NMHDR* pNMHDR, LRESULT* pResult);
+	CListCtrl m_listCtrl;
+	afx_msg void OnLvnItemchangedList1(NMHDR* pNMHDR, LRESULT* pResult);
 };

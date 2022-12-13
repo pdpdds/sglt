@@ -8,6 +8,7 @@
 #include "MsgController.h"
 #include "ggtrans-api-client.h"
 
+
 #define ERR_CANTGGTRANSLATE "Cannot translate a cloned sentence. Please translate the original sentence or unclone it first."
 #define ERR_TITLE "Error"  
 #define WARNING_GGTRANSEXISTS "This sentence already has a translation defined, do you want to overwrite it?"
@@ -67,6 +68,9 @@ void CTranslatorDlg::DoDataExchange(CDataExchange* pDX)
 	CDialog::DoDataExchange(pDX);
 	DDX_Text(pDX, IDC_ORIGINAL_TEXT, m_OriginalText);
 	DDX_Text(pDX, IDC_TRANSLATED_TEXT, m_TranslatedText);
+	//DDX_GridControl(pDX, IDC_GRID, m_Grid); //<-----
+	DDX_Control(pDX, IDC_TREE2, m_list);
+	DDX_Control(pDX, IDC_LIST1, m_listCtrl);
 }
 
 BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
@@ -88,6 +92,8 @@ BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON8, &CTranslatorDlg::OnBnClickedSearchText)
 	ON_BN_CLICKED(IDC_BUTTON9, &CTranslatorDlg::OnImport)
 	ON_BN_CLICKED(IDC_SINGLE_TRANSLATE, &CTranslatorDlg::OnClickedSingleTranslate)
+	ON_NOTIFY(TVN_SELCHANGED, IDC_TREE2, &CTranslatorDlg::OnTvnSelchangedTree2)
+	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LIST1, &CTranslatorDlg::OnLvnItemchangedList1)
 END_MESSAGE_MAP()
 
 // CTranslatorDlg message handlers
@@ -140,19 +146,92 @@ BOOL CTranslatorDlg::OnInitDialog()
 	//GetDlgItem(IDC_TRANSLATED_TEXT)->SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(hFont), TRUE);
 #endif
 
-	m_MsgController->GetText(m_OriginalText, m_TranslatedText);
+	m_MsgController->GetText(0, 0, m_OriginalText, m_TranslatedText);
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 
 	TCHAR buffer[65];
 	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
-	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
+	//GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
 
-	GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName()); 
+	//GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName()); 
 
+	//InitGridControl();
+
+	//List Control
+	CRect rt;
+	m_listCtrl.GetWindowRect(&rt);
+	m_listCtrl.SetExtendedStyle(LVS_EX_GRIDLINES | LVS_EX_FULLROWSELECT);
+	m_listCtrl.InsertColumn(0, TEXT("Id"), LVCFMT_CENTER, rt.Width() * 0.04);
+	m_listCtrl.InsertColumn(1, TEXT("Original"), LVCFMT_LEFT, rt.Width() * 0.48);
+	m_listCtrl.InsertColumn(2, TEXT("Translated"), LVCFMT_LEFT, rt.Width() * 0.48);
+
+	m_selectedRes = 0;
+	m_MsgController->Load2ListControl(m_selectedRes);
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
+
+/*void CTranslatorDlg::InitGridControl() {
+
+	BOOL m_bEditable = TRUE;
+	BOOL m_bListMode = TRUE;
+	int m_nRows = 20;
+	int m_nCols = 8;
+	int m_nFixRows = 1;
+	int m_nFixCols = 1;
+
+	m_Grid.SetEditable(m_bEditable);
+	m_Grid.SetListMode(m_bListMode);
+	m_Grid.EnableDragAndDrop(TRUE);
+	m_Grid.SetTextBkColor(RGB(0xFF, 0xFF, 0xE0));
+
+	m_Grid.SetRowCount(m_nRows);
+	m_Grid.SetColumnCount(m_nCols);
+	m_Grid.SetFixedRowCount(m_nFixRows);
+	m_Grid.SetFixedColumnCount(m_nFixCols);
+
+	DWORD dwTextStyle = DT_RIGHT | DT_VCENTER | DT_SINGLELINE;
+
+	// fill rows/cols with text
+	for (int row = 0; row < m_Grid.GetRowCount(); row++) {
+		for (int col = 0; col < m_Grid.GetColumnCount(); col++) {
+			GV_ITEM Item;
+			Item.mask = GVIF_TEXT | GVIF_FORMAT;
+			Item.row = row;
+			Item.col = col;
+
+			if (row < m_nFixRows) {
+				Item.nFormat = DT_LEFT | DT_WORDBREAK;
+				Item.strText.Format(_T("Column %d"), col);
+
+			}
+			else if (col < m_nFixCols) {
+				Item.nFormat = dwTextStyle;
+				Item.strText.Format(_T("Row %d"), row);
+
+			}
+			else {
+				Item.nFormat = dwTextStyle;
+				Item.strText.Format(_T("%d"), row * col);
+			}
+			m_Grid.SetItem(&Item);
+
+			if (rand() % 10 == 1) {
+				COLORREF clr = RGB(rand() % 128 + 128,
+					rand() % 128 + 128,
+					rand() % 128 + 128);
+				m_Grid.SetItemBkColour(row, col, clr);
+				m_Grid.SetItemFgColour(row, col, RGB(255, 0, 0));
+			}
+		}
+	}
+	// Make cell 1,1 read-only
+	m_Grid.SetItemState(1, 1, m_Grid.GetItemState(1, 1) | GVIS_READONLY);
+
+	m_Grid.AutoSize();
+	m_Grid.SetRowHeight(0, 3 * m_Grid.GetRowHeight(0) / 2);
+}*/
 
 void CTranslatorDlg::OnSysCommand(UINT nID, LPARAM lParam)
 {
@@ -359,13 +438,13 @@ BOOL CTranslatorDlg::CheckTextChange()
 {
 	UpdateData();
 
-	CString str, TransText;
+	/*CString str, TransText;
 	m_MsgController->GetText(str, TransText);
 
 	if(m_TranslatedText != TransText)
 	{
 		m_MsgController->SaveText(m_TranslatedText);
-	}
+	}*/
 
 
 	return TRUE;
@@ -400,7 +479,7 @@ void CTranslatorDlg::OnBnClickedSearchText()
 
 	if(m_MsgController->FindText(SearchText))
 	{
-		m_MsgController->GetText(m_OriginalText, m_TranslatedText);
+		m_MsgController->GetText(0, 0, m_OriginalText, m_TranslatedText);
 		GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 		GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 		char buffer[65];
@@ -529,4 +608,35 @@ void CTranslatorDlg::SingleTranslate()
 void CTranslatorDlg::OnClickedSingleTranslate()
 {
 	SingleTranslate();
+}
+
+
+void CTranslatorDlg::OnTvnSelchangedTree2(NMHDR* pNMHDR, LRESULT* pResult)
+{
+	LPNMTREEVIEW pNMTreeView = reinterpret_cast<LPNMTREEVIEW>(pNMHDR);
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+
+	TVITEM tvi = pNMTreeView->itemNew;
+	
+	CString str = m_list.GetItemText(tvi.hItem);
+
+	int resIndex = _ttoi(str);
+
+	m_selectedRes = resIndex;
+	m_MsgController->Load2ListControl(resIndex);
+	*pResult = 0;
+}
+
+
+void CTranslatorDlg::OnLvnItemchangedList1(NMHDR* pNMHDR, LRESULT* pResult)
+{
+	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	int selectedIndex = pNMLV->iItem;
+	
+	m_MsgController->GetText(m_selectedRes, selectedIndex, m_OriginalText, m_TranslatedText);
+	
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
+	*pResult = 0;
 }

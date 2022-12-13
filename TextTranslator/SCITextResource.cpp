@@ -31,8 +31,6 @@ bool isDoubleByte(USHORT chr) {
 
 BOOL SCITextResource::Load(CArchive& ar, USHORT num, UINT size)
 {
-
-
 	BYTE Type;
 	USHORT Num;
 	USHORT szPacked;
@@ -59,32 +57,43 @@ BOOL SCITextResource::Load(CArchive& ar, USHORT num, UINT size)
 
 		int TextLen = m_Size;
 		char* seeker = (char*)m_pStart;
+		char* textPointer = (char*)m_pStart;
 		USHORT curChar;
+		int strLen = 0;
 		while (TextLen > 0)
 		{	
 			curChar = (*(const byte*)seeker++);
 			TextLen--;
-
+			strLen++;
 
 			if (isDoubleByte(curChar)) {
 				seeker++;
 				TextLen--;
+				strLen++;
 			}
 
 			if ((*seeker) == 0) {
 				
+				CString str;
+				NewText text;
+				text.Str.Append(textPointer, strLen);
+				strLen = 0;
+
+				m_mapNewText.insert(std::make_pair(Count, text));
 				Count++;
+	
 				TextLen--;
 
-				if(TextLen > 0)
+				if (TextLen > 0) {
 					seeker++;
+					textPointer = seeker;
+				}
 
-			
+					
+	
 			}
 		}
 	}
-	
-	
 			
 	m_MessageCnt = Count;
 

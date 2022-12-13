@@ -42,11 +42,12 @@ public:
 	CTranslatorDlg* GetOwner(){return m_pOwner;}
 
 	BOOL Load();
+	void Load2ListControl(USHORT index);
 	BOOL Save();
 
 	BOOL SaveText(CString& szStr);
 
-	BOOL GetText(CString& str, CString& TranStr);
+	BOOL GetText(int selectedRes, int SelectedIndex, CString& str, CString& TranStr);
 	BOOL GetNextText(CString& str, CString& TranStr);
 	BOOL GetPrevText(CString& str, CString& TranStr);
 

@@ -1,6 +1,7 @@
 ﻿#include "StdAfx.h"
 #include "MsgController.h"
 #include "SCITextResource.h"
+#include "resource.h"
 
 #include "CApplication.h"
 #include "CWorkbook.h"
@@ -10,6 +11,7 @@
 #include "CRange.h"
 #include "CRanges.h"
 #include <locale.h>
+#include "TranslatorDlg.h"
 
 static const char *const s_resourceTypeNames[] = {
 	"view", "pic", "script", "text", "sound",
@@ -122,30 +124,37 @@ BOOL MsgController::LoadResourceFile() {
 	{
 		TextResPair sTextResPair;
 		SCITextResource* pOriTextRes = new SCITextResource(iter->first);
-		
+
+		CString str;
+		str.Format(_T("%d"), iter->first);
+
+		GetOwner()->m_list.InsertItem(str.GetString(), 0/* nImage */, 1/* nSelectedImage */, TVI_ROOT, TVI_LAST);
+	
 		iter2++;
+		UINT resSize = 0;
 
 		if (iter2 != m_mapTextResInfo.end())
+			resSize = iter2->second - iter->second;
+		else
+			resSize = File.GetLength() - iter->second;
+
+		if (FALSE == pOriTextRes->Load(ar, iter->first, resSize))
 		{
-			if (FALSE == pOriTextRes->Load(ar, iter->first, iter2->second - iter->second))
-			{
-				delete pOriTextRes;
-				continue;
-			}
-
-			SCITextResource* pTranslateTextRes = new SCITextResource(iter->first);
-
-			//	if (FALSE == pTranslateTextRes->Load(ar, iter->second))
-				//	ASSERT(0);
-
-			sTextResPair.pOriginalTextRes = pOriTextRes;
-			sTextResPair.pTranslatedTextRes = pTranslateTextRes;
-
-			m_mapTextResPair.insert(std::make_pair(iter->first, sTextResPair));
+			delete pOriTextRes;
+			continue;
 		}
 
-		
+		SCITextResource* pTranslateTextRes = new SCITextResource(iter->first);
 
+
+		//	if (FALSE == pTranslateTextRes->Load(ar, iter->second))
+			//	ASSERT(0);
+
+		sTextResPair.pOriginalTextRes = pOriTextRes;
+		sTextResPair.pTranslatedTextRes = pTranslateTextRes;
+
+		m_mapTextResPair.insert(std::make_pair(iter->first, sTextResPair));
+	
 
 	}
 
@@ -160,6 +169,38 @@ BOOL MsgController::Load()
 		return FALSE;
 	
 	return TRUE;
+}
+
+void MsgController::Load2ListControl(USHORT index) {
+
+	GetOwner()->m_listCtrl.DeleteAllItems();
+
+	mapTextResPair::iterator iter = m_mapTextResPair.find(index);
+
+	if (iter != m_mapTextResPair.end()) {
+		SCITextResource* pOriginal = iter->second.pOriginalTextRes;
+		SCITextResource* pTranslated = iter->second.pTranslatedTextRes;
+
+		int count = pOriginal->GetMessageCnt();
+		for (int j = 0; j < count; j++)
+		{
+			CString szText;
+			if (FALSE == pOriginal->ReadText(j, szText))
+			{
+				ASSERT(0);
+				return;
+			}
+
+			CString str;
+			str.Format(_T("%d"), j);
+			GetOwner()->m_listCtrl.InsertItem(j, str);
+
+			GetOwner()->m_listCtrl.SetItem(j, 1, LVIF_TEXT, szText, NULL, NULL, NULL, NULL);
+			GetOwner()->m_listCtrl.SetItem(j, 2, LVIF_TEXT, szText, NULL, NULL, NULL, NULL);
+		}
+
+	}
+	
 }
 
 BOOL MsgController::Save()
@@ -177,10 +218,15 @@ BOOL MsgController::Save()
 	return TRUE;
 }
 
-BOOL MsgController::GetText(CString& str, CString& TranStr)
+BOOL MsgController::GetText(int selectedRes, int SelectedIndex, CString& str, CString& TranStr)
 {
-	TextResPair Pair = m_iter->second;
-	return Pair.pOriginalTextRes->ReadText(m_TextNum, str) && Pair.pTranslatedTextRes->ReadText(m_TextNum, TranStr);
+	mapTextResPair::iterator iter = m_mapTextResPair.find(selectedRes);
+
+	if (iter == m_mapTextResPair.end())
+		return FALSE;
+
+	TextResPair Pair = iter->second;
+	return Pair.pOriginalTextRes->ReadText(SelectedIndex, str) && Pair.pTranslatedTextRes->ReadText(SelectedIndex, TranStr);
 }
 
 BOOL MsgController::GetNextText(CString& str, CString& TranStr)

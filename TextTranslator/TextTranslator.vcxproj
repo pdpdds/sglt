@@ -68,8 +68,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4018;4244;4267</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>../thirdparty/excel</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4244;4267;4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>../thirdparty/excel;../thirdparty/gridcontrol;./;</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -99,7 +99,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>../thirdparty/excel</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4018;4244;4267</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4018;4244;4267;4996</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -115,6 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\thirdParty\GridControl\GridCell.cpp" />
+    <ClCompile Include="..\thirdParty\GridControl\GridCellBase.cpp" />
+    <ClCompile Include="..\thirdParty\GridControl\GridCtrl.cpp" />
+    <ClCompile Include="..\thirdParty\GridControl\GridDropTarget.cpp" />
+    <ClCompile Include="..\thirdParty\GridControl\InPlaceEdit.cpp" />
+    <ClCompile Include="..\thirdParty\GridControl\TitleTip.cpp" />
     <ClCompile Include="ggtrans-api-client.cpp" />
     <ClCompile Include="MsgController.cpp" />
     <ClCompile Include="SCITextResource.cpp" />
@@ -126,6 +132,14 @@
     <ClCompile Include="TranslatorDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\thirdParty\GridControl\CellRange.h" />
+    <ClInclude Include="..\thirdParty\GridControl\GridCell.h" />
+    <ClInclude Include="..\thirdParty\GridControl\GridCellBase.h" />
+    <ClInclude Include="..\thirdParty\GridControl\GridCtrl.h" />
+    <ClInclude Include="..\thirdParty\GridControl\GridDropTarget.h" />
+    <ClInclude Include="..\thirdParty\GridControl\InPlaceEdit.h" />
+    <ClInclude Include="..\thirdParty\GridControl\MemDC.h" />
+    <ClInclude Include="..\thirdParty\GridControl\TitleTip.h" />
     <ClInclude Include="ggtrans-api-client.h" />
     <ClInclude Include="MsgController.h" />
     <ClInclude Include="Resource.h" />

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Source Files\Grid">
+      <UniqueIdentifier>{0a592c0d-19fd-4f0c-a621-b100af45cf2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MsgController.cpp">
@@ -32,6 +35,24 @@
     </ClCompile>
     <ClCompile Include="ggtrans-api-client.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdParty\GridControl\GridCell.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdParty\GridControl\GridCellBase.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdParty\GridControl\GridCtrl.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdParty\GridControl\GridDropTarget.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdParty\GridControl\InPlaceEdit.cpp">
+      <Filter>Source Files\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdParty\GridControl\TitleTip.cpp">
+      <Filter>Source Files\Grid</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +79,30 @@
     </ClInclude>
     <ClInclude Include="ggtrans-api-client.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\CellRange.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\GridCell.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\GridCellBase.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\GridCtrl.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\GridDropTarget.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\InPlaceEdit.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\MemDC.h">
+      <Filter>Source Files\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdParty\GridControl\TitleTip.h">
+      <Filter>Source Files\Grid</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
