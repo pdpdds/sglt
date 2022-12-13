@@ -249,7 +249,7 @@ BOOL SCITextResource::ReadOriginalText(int MessageIndex, CString& szText )
 	return FALSE;
 }
 
-int SCITextResource::FindText( CString& SearchText )
+int SCITextResource::FindSentence( CString& SearchText )
 {
 	for(int MessageIndex = 0; MessageIndex < m_MessageCnt; MessageIndex++)
 	{

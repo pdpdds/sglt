@@ -11,7 +11,7 @@
 
 #define ERR_CANTGGTRANSLATE "Cannot translate a cloned sentence. Please translate the original sentence or unclone it first."
 #define ERR_TITLE "Error"  
-#define WARNING_GGTRANSEXISTS "This sentence already has a translation defined, do you want to overwrite it?"
+#define WARNING_GGTRANSEXISTS TEXT("This sentence already has a translation defined, do you want to overwrite it?")
 #define WARN_ATTENTION "Attention!"  
 
 #ifdef _DEBUG
@@ -94,6 +94,7 @@ BEGIN_MESSAGE_MAP(CTranslatorDlg, CDialog)
 	ON_BN_CLICKED(IDC_SINGLE_TRANSLATE, &CTranslatorDlg::OnClickedSingleTranslate)
 	ON_NOTIFY(TVN_SELCHANGED, IDC_TREE2, &CTranslatorDlg::OnTvnSelchangedTree2)
 	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LIST1, &CTranslatorDlg::OnLvnItemchangedList1)
+	ON_COMMAND(ID_FILE_OPEN32771, &CTranslatorDlg::OnFileOpen)
 END_MESSAGE_MAP()
 
 // CTranslatorDlg message handlers
@@ -101,8 +102,8 @@ END_MESSAGE_MAP()
 #include <locale.h>
 BOOL CTranslatorDlg::OnInitDialog()
 {
-	const int iFontSize = 25;
-	const CString sFont = "Meiryo";
+	const int iFontSize = 12;
+	const CString sFont = _TEXT("Meiryo");
 
 	
 
@@ -138,23 +139,15 @@ BOOL CTranslatorDlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
 	m_MsgController = new MsgController(this);
-	m_MsgController->Load();
+	
 
 #if defined(PC98)
-	HFONT hFont = CreateFont(iFontSize, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE, SHIFTJIS_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH, sFont);
-	GetDlgItem(IDC_ORIGINAL_TEXT)->SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(hFont), TRUE);
+	m_hJapaneseFont = CreateFont(iFontSize, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE, SHIFTJIS_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH, sFont);
+	GetDlgItem(IDC_ORIGINAL_TEXT)->SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(m_hJapaneseFont), TRUE);
+	m_listCtrl.SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(m_hJapaneseFont), TRUE);
+	
 	//GetDlgItem(IDC_TRANSLATED_TEXT)->SendMessage(WM_SETFONT, reinterpret_cast<WPARAM>(hFont), TRUE);
 #endif
-
-	m_MsgController->GetText(0, 0, m_OriginalText, m_TranslatedText);
-	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
-	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
-
-	TCHAR buffer[65];
-	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
-	//GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
-
-	//GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName()); 
 
 	//InitGridControl();
 
@@ -165,9 +158,6 @@ BOOL CTranslatorDlg::OnInitDialog()
 	m_listCtrl.InsertColumn(0, TEXT("Id"), LVCFMT_CENTER, rt.Width() * 0.04);
 	m_listCtrl.InsertColumn(1, TEXT("Original"), LVCFMT_LEFT, rt.Width() * 0.48);
 	m_listCtrl.InsertColumn(2, TEXT("Translated"), LVCFMT_LEFT, rt.Width() * 0.48);
-
-	m_selectedRes = 0;
-	m_MsgController->Load2ListControl(m_selectedRes);
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
@@ -325,8 +315,8 @@ void CTranslatorDlg::OnBnClickedButton1()
 	//m_OriginalText = str.c_str();
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
-	char buffer[65];
-	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
+	TCHAR buffer[65];
+	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
 
 	GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName());
@@ -342,8 +332,8 @@ void CTranslatorDlg::OnBnClickedButton5()
 
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
-	char buffer[65];
-	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
+	TCHAR buffer[65];
+	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
 
 	GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName());
@@ -358,8 +348,8 @@ void CTranslatorDlg::OnBnClickedButton2()
 	m_MsgController->GetNextTextRes(m_OriginalText, m_TranslatedText);
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
-	char buffer[65];
-	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
+	TCHAR buffer[65];
+	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
 
 	GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName()); 
@@ -373,8 +363,8 @@ void CTranslatorDlg::OnBnClickedButton6()
 	m_MsgController->GetPrevTextRes(m_OriginalText, m_TranslatedText);
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
-	char buffer[65];
-	_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
+	TCHAR buffer[65];
+	_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
 	GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
 
 	GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName());
@@ -466,6 +456,30 @@ void CTranslatorDlg::OnEnChangeEdit3()
 
 }
 
+HTREEITEM CTranslatorDlg::GetTreeItem(CTreeCtrl* pTree, USHORT resIndex, HTREEITEM hItem, BOOL Recurse)
+{	
+	CString strIndex;
+	strIndex.Format(TEXT("%d"), resIndex);
+
+	//if (hItem == NULL)
+		//hItem = pTree->GetSelectedItem();
+	if (pTree->ItemHasChildren(hItem))
+	{
+		hItem = pTree->GetNextItem(hItem, TVGN_CHILD);
+		while (hItem)
+		{			
+			hItem = pTree->GetNextItem(hItem, TVGN_NEXT);
+
+			CString str = pTree->GetItemText(hItem);
+
+			if (str.Compare(strIndex) == 0)
+				return hItem;
+
+		}
+	}
+	return NULL;
+}
+
 void CTranslatorDlg::OnBnClickedSearchText()
 {
 	// TODO: Add your control notification handler code here
@@ -476,17 +490,30 @@ void CTranslatorDlg::OnBnClickedSearchText()
 		return;
 
 	CheckTextChange();
-
-	if(m_MsgController->FindText(SearchText))
+	int messageindex = m_MsgController->FindSentence(SearchText);
+	if(messageindex >= 0)
 	{
-		m_MsgController->GetText(0, 0, m_OriginalText, m_TranslatedText);
+		HTREEITEM item = GetTreeItem(&m_list, m_selectedRes);
+
+		if (item == NULL)
+			return;
+
+		m_list.SelectItem(item);
+		//m_list.SetItemState(item, LVIS_SELECTED, LVIS_SELECTED);
+		//m_list.SetFocus();
+
+		m_MsgController->Load2ListControl(m_selectedRes);
+		m_listCtrl.SetItemState(messageindex, LVIS_SELECTED, LVIS_SELECTED);
+		m_listCtrl.SetFocus();
+
+		m_MsgController->GetText(m_selectedRes, messageindex, m_OriginalText, m_TranslatedText);
 		GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 		GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
-		char buffer[65];
-		_itoa_s(m_MsgController->GetMessageIndex(), buffer, 10);
+		/*TCHAR buffer[65];
+		_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
 		GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer);  
 
-		GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName());
+		GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName());*/
 
 	}
 }
@@ -528,10 +555,13 @@ void CTranslatorDlg::SingleTranslate()
 
 	//check if string is not being translated
 	//if (msgObj->getTranslation(i) != 0) 
-	char textdata[10240];
+	TCHAR textdata[10240];
 	HWND hwnd = GetDlgItem(IDC_ORIGINAL_TEXT)->GetSafeHwnd();
 	::GetWindowText(hwnd, textdata, 10240);
-	if (textdata[0] != 0)
+
+	if (textdata[0] == 0)
+		return;
+	/*if (textdata[0] != 0)
 	{
 		//replacement confirmation messagebox
 		int btn = AfxMessageBox(WARNING_GGTRANSEXISTS,
@@ -540,7 +570,7 @@ void CTranslatorDlg::SingleTranslate()
 		{
 			return;
 		}
-	}
+	}*/
 
 
 	ggtrans_init_client();
@@ -582,7 +612,7 @@ void CTranslatorDlg::SingleTranslate()
 	//msgObj->setTranslation(i, trans_text);
 
 	HWND translatedEdit = GetDlgItem(IDC_TRANSLATED_TEXT)->GetSafeHwnd();
-	::SetWindowText(translatedEdit, trans_text);
+	::SetWindowTextA(translatedEdit, trans_text);
 
 	//now let's replace the list item
 	/*LV_ITEM lvi;
@@ -639,4 +669,39 @@ void CTranslatorDlg::OnLvnItemchangedList1(NMHDR* pNMHDR, LRESULT* pResult)
 	GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
 	GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
 	*pResult = 0;
+}
+
+
+void CTranslatorDlg::OnFileOpen()
+{
+	TCHAR szFilters[] = _T("map Files (*.map)||");
+	CFileDialog dlg(TRUE, _T(""), _T("*.map"), OFN_FILEMUSTEXIST | OFN_HIDEREADONLY, szFilters);
+	if (IDOK == dlg.DoModal())
+	{
+
+		CString strPathName = dlg.GetPathName();
+		CString strFileName = dlg.GetFileName();
+		CString strFolderPath = dlg.GetFolderPath();
+		CString strRes = strFolderPath + TEXT("\\text.res");
+
+		if (m_MsgController->Load(strPathName, strRes)) {
+
+			m_MsgController->GetText(0, 0, m_OriginalText, m_TranslatedText);
+			GetDlgItem(IDC_ORIGINAL_TEXT)->SetWindowText(m_OriginalText);
+			GetDlgItem(IDC_TRANSLATED_TEXT)->SetWindowText(m_TranslatedText);
+
+			TCHAR buffer[65];
+			_itot_s(m_MsgController->GetMessageIndex(), buffer, 10);
+			//GetDlgItem(IDC_STATIC_MESSAGEINDEX)->SetWindowText(buffer); 
+
+			//GetDlgItem(IDC_STATIC_FILENAME)->SetWindowText(m_MsgController->GetCurFileName()); 
+
+			m_selectedRes = 0;
+			m_MsgController->Load2ListControl(m_selectedRes);
+		}		
+	}
+
+	
+
+
 }

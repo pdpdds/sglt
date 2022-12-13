@@ -13,14 +13,14 @@
 #include <locale.h>
 #include "TranslatorDlg.h"
 
-static const char *const s_resourceTypeNames[] = {
-	"view", "pic", "script", "text", "sound",
-	"memory", "vocab", "font", "cursor",
-	"patch", "bitmap", "palette", "cdaudio",
-	"audio", "sync", "message", "map", "heap",
-	"audio36", "sync36", "xlate", "robot", "vmd",
-	"chunk", "animation", "etc", "duck", "clut",
-	"tga", "zzz", "macibin", "macibis", "macpict"
+static const TCHAR *const s_resourceTypeNames[] = {
+	TEXT("view"), TEXT("pic"), TEXT("script"), TEXT("text"), TEXT("sound"),
+	TEXT("memory"), TEXT("vocab"), TEXT("font"), TEXT("cursor"),
+	TEXT("patch"), TEXT("bitmap"), TEXT("palette"), TEXT("cdaudio"),
+	TEXT("audio"), TEXT("sync"), TEXT("message"), TEXT("map"), TEXT("heap"),
+	TEXT("audio36"), TEXT("sync36"), TEXT("xlate"), TEXT("robot"), TEXT("vmd"),
+	TEXT("chunk"), TEXT("animation"), TEXT("etc"), TEXT("duck"), TEXT("clut"),
+	TEXT("tga"), TEXT("zzz"), TEXT("macibin"), TEXT("macibis"), TEXT("macpict")
 };
 
 int texFileMax = 2200;
@@ -54,12 +54,12 @@ BOOL MsgController::Finally()
 	return TRUE;
 }
 
-BOOL MsgController::LoadTextMap() {
+BOOL MsgController::LoadTextMap(CString& mapName) {
 
 	CFile File;
 	TCHAR buffer[256];
 	GetCurrentDirectory(256, buffer);
-	if (!File.Open("text.map", CFile::modeRead))
+	if (!File.Open(mapName, CFile::modeRead))
 	{
 		return FALSE;
 	}
@@ -105,12 +105,12 @@ BOOL MsgController::LoadTextMap() {
 	return TRUE;
 }
 
-BOOL MsgController::LoadResourceFile() {
+BOOL MsgController::LoadResourceFile(CString& resName) {
 
 	CFile File;
 	TCHAR buffer[256];
 	GetCurrentDirectory(256, buffer);
-	if (!File.Open("text.res", CFile::modeRead))
+	if (!File.Open(resName, CFile::modeRead))
 	{
 		return FALSE;
 	}
@@ -126,7 +126,7 @@ BOOL MsgController::LoadResourceFile() {
 		SCITextResource* pOriTextRes = new SCITextResource(iter->first);
 
 		CString str;
-		str.Format(_T("%d"), iter->first);
+		str.Format(TEXT("%d"), iter->first);
 
 		GetOwner()->m_list.InsertItem(str.GetString(), 0/* nImage */, 1/* nSelectedImage */, TVI_ROOT, TVI_LAST);
 	
@@ -163,9 +163,9 @@ BOOL MsgController::LoadResourceFile() {
 	return TRUE;
 }
 
-BOOL MsgController::Load()
+BOOL MsgController::Load(CString& mapName, CString& resName)
 {
-	if (!LoadTextMap() || !LoadResourceFile())
+	if (!LoadTextMap(mapName) || !LoadResourceFile(resName))
 		return FALSE;
 	
 	return TRUE;
@@ -213,7 +213,7 @@ BOOL MsgController::Save()
 		pRes->Save();
 	}
 
-	AfxMessageBox("Save Complete");
+	AfxMessageBox(TEXT("Save Complete"));
 	
 	return TRUE;
 }
@@ -334,7 +334,7 @@ BOOL MsgController::GenerateOutput()
 		return FALSE;
 	}
 
-	AfxMessageBox("Output Complete");
+	AfxMessageBox(TEXT("Output Complete"));
 
 	return TRUE;
 }
@@ -347,7 +347,7 @@ BOOL MsgController::CreateTextMap()
 ///////////////////////////////////////////////////////////////
 
 	CFile WriteFile;
-	if (!WriteFile.Open("text.map", CFile::modeWrite | CFile::modeCreate))
+	if (!WriteFile.Open(TEXT("text.map"), CFile::modeWrite | CFile::modeCreate))
 	{
 		return FALSE;
 	}
@@ -382,7 +382,7 @@ BOOL MsgController::PackText()
 	m_mapTextResInfo.clear();
 	CFile File;
 
-	if (!File.Open("Text.res", CFile::modeWrite | CFile::modeCreate))
+	if (!File.Open(TEXT("Text.res"), CFile::modeWrite | CFile::modeCreate))
 	{
 		return FALSE;
 	}
@@ -391,8 +391,8 @@ BOOL MsgController::PackText()
 
 	for (int i = 0; i < texFileMax; i++)
 	{
-		char szFileName[50];
-		sprintf(szFileName, "Translated/%s.%03d", s_resourceTypeNames[3], i);
+		TCHAR szFileName[50];
+		_stprintf(szFileName, TEXT("Translated/%s.%03d"), s_resourceTypeNames[3], i);
 
 		CFile MsgFile;
 
@@ -421,7 +421,7 @@ BOOL MsgController::PackText()
 	return TRUE;
 }
 
-BOOL MsgController::FindText( CString& SearchText )
+int MsgController::FindSentence( CString& SearchText )
 {
 	mapTextResPair::iterator iter = m_mapTextResPair.begin();
 	BOOL bFind = FALSE;
@@ -430,17 +430,18 @@ BOOL MsgController::FindText( CString& SearchText )
 	for (; iter != m_mapTextResPair.end(); iter++)
 	{
 		TextResPair Pair = iter->second;
-		messageindex = Pair.pOriginalTextRes->FindText(SearchText);
+		messageindex = Pair.pOriginalTextRes->FindSentence(SearchText);
 		if(messageindex >= 0)
 		{
 			m_iter = iter;
 			m_TextNum = messageindex;
+			GetOwner()->m_selectedRes = iter->first;
 			bFind = TRUE;
 			break;
 		}
 	}
 
-	return bFind;
+	return messageindex;
 }
 
 BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
@@ -470,19 +471,19 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 
 		// Start Microsoft Excel, get _Application object,
 		// and attach to app object.
-		if (!app.CreateDispatch("Excel.Application"))
+		if (!app.CreateDispatch(TEXT("Excel.Application")))
 		{
-			AfxMessageBox("Couldn't CreateDispatch() for Excel");
+			AfxMessageBox(TEXT("Couldn't CreateDispatch() for Excel"));
 			return FALSE;
 		}
 
 		// Register the Analysis ToolPak.
 		CString sAppPath;
 
-		sAppPath.Format("%s\\Analysis\\Analys32.xll", app.get_LibraryPath());
+		sAppPath.Format(TEXT("%s\\Analysis\\Analys32.xll"), app.get_LibraryPath());
 
 		if (!app.RegisterXLL(sAppPath))
-			AfxMessageBox("Didn't register the Analys32.xll");
+			AfxMessageBox(TEXT("Didn't register the Analys32.xll"));
 
 		// Get the Workbooks collection.
 		lpDisp = app.get_Workbooks();     // Get an IDispatch pointer.
@@ -534,7 +535,7 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			sheet.AttachDispatch(lpDisp);
 			CString Name = sheet.get_Name();
 
-			int MessageIndex = atoi(Name.GetString());
+			int MessageIndex = _tstoi(Name.GetString());
 
 			mapTextResPair::iterator iter = m_mapTextResPair.find(MessageIndex);
 
@@ -560,9 +561,9 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 			if (msgCount == 0)
 				continue;
 
-			str.Format("G%d", msgCount);
+			str.Format(TEXT("G%d"), msgCount);
 
-			lpDisp = sheet.get_Range(COleVariant("A1"), COleVariant(str));
+			lpDisp = sheet.get_Range(COleVariant(TEXT("A1")), COleVariant(str));
 			ASSERT(lpDisp);
 			range.AttachDispatch(lpDisp);
 
@@ -595,9 +596,9 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 				if (szFirstText.IsEmpty() == TRUE)
 				{
 					CString szTextDataInfo;
-					szTextDataInfo.Format("ErrorPoint. SheetNum : %d, RowCount : %d", i, j);
+					szTextDataInfo.Format(TEXT("ErrorPoint. SheetNum : %d, RowCount : %d"), i, j);
 
-					::MessageBox(NULL, szTextDataInfo.GetBuffer(), "Error!!", MB_SETFOREGROUND | MB_OK);
+					::MessageBox(NULL, szTextDataInfo.GetBuffer(), TEXT("Error!!"), MB_SETFOREGROUND | MB_OK);
 					//ASSERT(0);
 					app.Quit();
 					return FALSE;
@@ -632,16 +633,16 @@ BOOL MsgController::ImportExcel(CString& FilePath, CString& FileName)
 		// app.DetachDispatch();
 
 		CString szTextDataInfo;
-		szTextDataInfo.Format("TotalMessage Count : %d, TranstlatedMessagCount : %d", TotalTextCount, TranslateTextCount);
+		szTextDataInfo.Format(TEXT("TotalMessage Count : %d, TranstlatedMessagCount : %d"), TotalTextCount, TranslateTextCount);
 
-		::MessageBox(NULL, szTextDataInfo.GetBuffer(), "Success!!", MB_SETFOREGROUND | MB_OK);
+		::MessageBox(NULL, szTextDataInfo.GetBuffer(), TEXT("Success!!"), MB_SETFOREGROUND | MB_OK);
 
 		app.Quit();
 
 	}
 	catch (...)
 	{
-		::MessageBox(NULL, "General Exception caught.", "Catch-All",
+		::MessageBoxA(NULL, "General Exception caught.", "Catch-All",
 			MB_SETFOREGROUND | MB_OK);
 
 	}

@@ -43,7 +43,7 @@ public:
 
 	void SetText(int TextNum, CString& szStr);
 
-	int FindText(CString& SearchText);
+	int FindSentence(CString& SearchText);
 
 protected:
 	static BYTE DataChunk[65536];

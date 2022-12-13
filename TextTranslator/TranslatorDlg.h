@@ -16,6 +16,7 @@ public:
 	~CTranslatorDlg();
 
 	//void InitGridControl();
+	HTREEITEM GetTreeItem(CTreeCtrl* pTree, USHORT resIndex, HTREEITEM hItem = NULL, BOOL Recurse = TRUE);
 
 // Dialog Data
 	enum { IDD = IDD_TRANSLATOR_DIALOG };
@@ -39,7 +40,7 @@ protected:
 public:
 	CString m_OriginalText;
 	CString m_TranslatedText;
-
+	HFONT m_hJapaneseFont;
 	void SingleTranslate();
 
 	afx_msg void OnBnClickedButton1();
@@ -67,4 +68,5 @@ public:
 	afx_msg void OnTvnSelchangedTree2(NMHDR* pNMHDR, LRESULT* pResult);
 	CListCtrl m_listCtrl;
 	afx_msg void OnLvnItemchangedList1(NMHDR* pNMHDR, LRESULT* pResult);
+	afx_msg void OnFileOpen();
 };

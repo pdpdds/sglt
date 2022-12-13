@@ -4,7 +4,7 @@
     <LocalDebuggerCommandArguments>
     </LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerWorkingDirectory>$(ProjectDir)../Bin32/pq2pc98</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)../Bin32/sq1vga</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <RESOURCE_FILE>Translator.rc</RESOURCE_FILE>

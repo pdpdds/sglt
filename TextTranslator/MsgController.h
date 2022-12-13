@@ -41,7 +41,7 @@ public:
 
 	CTranslatorDlg* GetOwner(){return m_pOwner;}
 
-	BOOL Load();
+	BOOL Load(CString& mapName, CString& resName);
 	void Load2ListControl(USHORT index);
 	BOOL Save();
 
@@ -57,7 +57,7 @@ public:
 	BOOL GetPrevTextRes(CString& str, CString& TranStr);
 
 	BOOL GenerateOutput();
-	BOOL FindText(CString& SearcgText);
+	int FindSentence(CString& SearcgText);
 
 	BOOL ImportExcel(CString& FilePath, CString& FileName);
 
@@ -76,7 +76,7 @@ private:
 	mapTextResPair::iterator m_iter;
 	mapTextResPair m_mapTextResPair;
 
-	BOOL LoadTextMap();
-	BOOL LoadResourceFile();
+	BOOL LoadTextMap(CString& mapName);
+	BOOL LoadResourceFile(CString& resName);
 	
 };

@@ -70,6 +70,20 @@ END
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\Translator.ico"
 
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        ID_FILE_OPEN32771
+    END
+END
+
 #endif    // 한국어(대한민국) resources
 /////////////////////////////////////////////////////////////////////////////
 
@@ -100,10 +114,11 @@ END
 IDD_TRANSLATOR_DIALOG DIALOGEX 0, 0, 649, 386
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Text Translator"
+MENU IDR_MENU1
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    EDITTEXT        IDC_ORIGINAL_TEXT,18,251,624,49,ES_AUTOHSCROLL | ES_READONLY
-    EDITTEXT        IDC_TRANSLATED_TEXT,18,318,624,41,ES_MULTILINE
+    EDITTEXT        IDC_ORIGINAL_TEXT,18,251,624,49,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY
+    EDITTEXT        IDC_TRANSLATED_TEXT,18,318,624,41,ES_MULTILINE | ES_AUTOVSCROLL
     LTEXT           "Original Text",IDC_STATIC,25,241,42,8
     LTEXT           "Translated Text",IDC_STATIC,25,306,52,8
     PUSHBUTTON      "Save Text",IDC_BUTTON3,478,362,50,14
