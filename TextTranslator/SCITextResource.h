@@ -52,10 +52,15 @@ private:
 	UINT m_MessageCnt;
 	listTextDesc m_listTextDesc;
 	BYTE* m_pStart;
-	UINT m_Size;
 	CString m_FileName;
-	USHORT m_Num;
+	
 	int m_fileHeader;
+	USHORT m_Num;
+	BYTE m_Type;
+	USHORT m_szPacked;
+	USHORT m_szUnpacked;
+	USHORT m_wCompression;
+	UINT m_Size;
 
 	BOOL m_bChanged;
 

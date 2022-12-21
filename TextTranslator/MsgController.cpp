@@ -322,17 +322,17 @@ BOOL MsgController::SaveText( CString& szStr )
 
 BOOL MsgController::GenerateOutput()
 {
-	if (PackText() == FALSE)
-	{
-		ASSERT(0);
-		return FALSE;
-	}
-
 	if (CreateTextMap() == FALSE)
 	{
 		ASSERT(0);
 		return FALSE;
 	}
+
+	if (PackText() == FALSE)
+	{
+		ASSERT(0);
+		return FALSE;
+	}	
 
 	AfxMessageBox(TEXT("Output Complete"));
 
@@ -347,13 +347,13 @@ BOOL MsgController::CreateTextMap()
 ///////////////////////////////////////////////////////////////
 
 	CFile WriteFile;
-	if (!WriteFile.Open(TEXT("text.map"), CFile::modeWrite | CFile::modeCreate))
+	if (!WriteFile.Open(TEXT("text2.map"), CFile::modeWrite | CFile::modeCreate))
 	{
 		return FALSE;
 	}
 
 	CArchive ar(&WriteFile, CArchive::store);
-	BYTE ResType = 3; //텍스트, 메세지의 구별된다.
+	BYTE ResType = 3;
 	USHORT Offset = 6;
 	ar << ResType;
 	ar << Offset;
@@ -366,10 +366,23 @@ BOOL MsgController::CreateTextMap()
 	mapTextResInfo::iterator iter = m_mapTextResInfo.begin();
 
 	UINT newfileoffset = 0;
+	mapTextResPair::iterator textRes;
 	for(;iter != m_mapTextResInfo.end(); iter++)
 	{
 		USHORT number = iter->first;
 		ar << number;
+		
+
+		/*textRes = m_mapTextResPair.find(number);
+
+		ASSERT(textRes != m_mapTextResPair.end());
+
+		SCITextResource* pResource = textRes->second.pOriginalTextRes;
+		SCITextResource* pTranslateResource = textRes->second.pTranslatedTextRes;
+
+		
+		newfileoffset = GetTotalLength();*/
+
 		ar << newfileoffset;
 		newfileoffset += iter->second;
 	}
@@ -382,7 +395,7 @@ BOOL MsgController::PackText()
 	m_mapTextResInfo.clear();
 	CFile File;
 
-	if (!File.Open(TEXT("Text.res"), CFile::modeWrite | CFile::modeCreate))
+	if (!File.Open(TEXT("Text2.res"), CFile::modeWrite | CFile::modeCreate))
 	{
 		return FALSE;
 	}

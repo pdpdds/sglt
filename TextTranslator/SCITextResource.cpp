@@ -30,25 +30,20 @@ bool isDoubleByte(USHORT chr) {
 }
 
 BOOL SCITextResource::Load(CArchive& ar, USHORT num, UINT size)
-{
-	BYTE Type;
-	USHORT Num;
-	USHORT szPacked;
-	USHORT szUnpacked;
-	USHORT wCompression;
+{	
 
 	m_fileHeader = 9;
-	ar >> Type;
+	ar >> m_Type;
 	ar >> m_Num;
-	ar >> szPacked;
-	ar >> szUnpacked;
-	ar >> wCompression;
+	ar >> m_szPacked;
+	ar >> m_szUnpacked;
+	ar >> m_wCompression;
 
 	m_Size = size - m_fileHeader;
 	
 	int Count = 0;
 
-	if (m_Size != 0) {
+	if (m_Size > 0) {
 
 		m_pStart = new BYTE[m_Size];
 		memset(m_pStart, 0, sizeof(BYTE) * m_Size);
